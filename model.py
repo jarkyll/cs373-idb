@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, String
 from afsiodfajf.database import Base # afsafsf is going to be our database name
 
 #db.Model is the base class for all of our models
+#whatever
 class Character(db.Model):
     __tablename__ = "Characters"
     id = db.Column(Integer, primary_key=True)
