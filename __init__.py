@@ -1,12 +1,15 @@
-from flask import Flask
+from flask import Flask, render_template
+from flask_sqlalchemy import SQLAlchemy
+
+db = SQLAlchemy()
+
 
 app = Flask(__name__)
-
+db.init_app(app)
 
 @app.route("/")
 def homepage():
-	return "Hi there, this is where you return the html"
-
+	return render_template("index.html")
 
 
 @app.route("/about")
