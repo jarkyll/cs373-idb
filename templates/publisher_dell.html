@@ -1,98 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Komixx</title>
-
-		<meta charset="utf-8">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-		<!-- Latest compiled JavaScript -->
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-		<link rel="stylesheet" type="text/css" href="../css/styles.css">
-	</head>
-	<body>
-		<!-- Navigation -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand" href="#">Komixx</a>
-			</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="characters">Characters</a>
-						</li>
-						<li>
-							<a href="teams">Teams</a>
-						</li>
-						<li>
-							<a href="volumes">Volumes</a>
-						</li>
-						<li>
-							<a href="publishers">Publishers</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<br /><br /><br /><br />
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<img src="http://static2.comicvine.com/uploads/scale_medium/6/69951/1387447-logo.gif" class="img-responsive img-thumbnail" alt="Dell">
-				</div>
-
-				<div class="col-md-8">
-					<h2 class="">Dell</h2><!-- https://raw.githubusercontent.com/jarkyll/cs373-idb/back-end/dark_horse_comics.json -->
-					<p>Also Known as Dell Comics Group and Dell Super Comics Group was an American publisher of books and comic books, founded in 1921. They would partner with Western Publishing from 1938 to 1962. Dell was bought by Random House and is now part of the "Bantam Dell Publishing Group".</p>
-					<table class="table">
-						<tbody>
-							<tr>
-								<th>Address</th>
-								<td>1745 Broadway</td>
-							</tr>
-							<tr>
-								<th>City</th>
-								<td>New York</td>
-							</tr>
-							<tr>
-								<th>State</th>
-								<td>New York</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-
-			<br /><br />
-
-			<div class="row">
-				<div class="col-md-4"><!-- each image will be 300x300 pixels -->
-					<a href="URL_TO_CHARACTERS_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Characters"></a>
-				</div>
-				<div class="col-md-4">
-					<a href="URL_TO_TEAM_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Teams"></a>
-				</div>
-				<div class="col-md-4">
-					<a href="URL_TO_VOLUMES_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Volumes"></a>
-				</div>
-			</div>
-
-		</div>
-	</body>
+   <head>
+      <title>Komixx</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Latest compiled JavaScript -->
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="../css/styles.css">
+　　  <!-- Navigation -->
+      <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="#">Komixx</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav navbar-right">
+                  <li>
+                     <a href="characters">Characters</a>
+                  </li>
+                  <li>
+                     <a href="teams">Teams</a>
+                  </li>
+                  <li>
+                     <a href="volumes">Volumes</a>
+                  </li>
+                  <li>
+                     <a href="publishers">Publishers</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </head>
+　　</head>
+   <body>
+      <br /><br /><br /><br />
+      <div id="cotent" class="container">
+         <div class="row">
+            <div class="col-md-4">
+               <img src="http://static2.comicvine.com/uploads/scale_medium/6/69951/1387447-logo.gif" class="img-responsive img-thumbnail" alt="Dell">
+            </div>
+            <div class="col-md-8">
+               <h2 class="">Dell</h2>
+               <!-- https://raw.githubusercontent.com/jarkyll/cs373-idb/back-end/dark_horse_comics.json -->
+               <p>Also Known as Dell Comics Group and Dell Super Comics Group was an American publisher of books and comic books, founded in 1921. They would partner with Western Publishing from 1938 to 1962. Dell was bought by Random House and is now part of the "Bantam Dell Publishing Group".</p>
+               <table class="table">
+                  <tbody>
+                     <tr>
+                        <th>Address</th>
+                        <td>1745 Broadway</td>
+                     </tr>
+                     <tr>
+                        <th>City</th>
+                        <td>New York</td>
+                     </tr>
+                     <tr>
+                        <th>State</th>
+                        <td>New York</td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </div>
+         <br /><br />
+         <div class="row">
+            <div class="col-md-4">
+               <!-- each image will be 300x300 pixels -->
+               <a href="URL_TO_CHARACTERS_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Characters"></a>
+            </div>
+            <div class="col-md-4">
+               <a href="URL_TO_TEAM_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Teams"></a>
+            </div>
+            <div class="col-md-4">
+               <a href="URL_TO_VOLUMES_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Volumes"></a>
+            </div>
+         </div>
+      </div>
+   </body>
 </html>
