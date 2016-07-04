@@ -25,6 +25,7 @@ for data in glob.glob("*.json"):
     extracted['characters'] = test['results']['characters']
     extracted['volumes'] = test['results']['volumes']
     extracted['teams'] = test['results']['teams']
+    extracted['image'] = test['results']['image']
     result[id] = extracted
     f.close()
     id += 1
