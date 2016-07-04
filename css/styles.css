@@ -16,3 +16,15 @@
     padding-right: 0;
     padding-left: 0;
 }
+
+/*
+ * Characters
+*/
+
+.character-image {
+	/*max-width: 400px;*/
+}
+
+.character-header {
+	margin-top: 0;
+}
