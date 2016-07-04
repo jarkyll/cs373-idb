@@ -6,6 +6,10 @@
 /*
  * Navigation
 */
+#navbar
+{
+    height:50px;
+}
 
 
 /*
@@ -30,10 +34,7 @@ html,body{
   height:100%;
 }
 
-#navbar
-{
-    height:50px;
-}
+
 #content{
     position:absolute;
     top: 50px;
