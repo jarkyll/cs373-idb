@@ -1,0 +1,351 @@
+{
+    "0": {
+        "characters": [
+            {
+                "name": "Jerry",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-39850/",
+                "id": 39850,
+                "site_detail_url": "http://comicvine.gamespot.com/jerry/4005-39850/"
+            },
+            {
+                "name": "Tuffy",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-39632/",
+                "id": 39632,
+                "site_detail_url": "http://comicvine.gamespot.com/tuffy/4005-39632/"
+            }
+        ],
+        "description": null,
+        "allies": [],
+        "aliases": null,
+        "publisher": {
+            "name": "Dell",
+            "api_detail_url": "http://comicvine.gamespot.com/api/publisher/4010-4/",
+            "id": 4
+        },
+        "name": "Mouse Musketeers",
+        "enemies": [
+            {
+                "name": "Tom",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-39849/",
+                "id": 39849,
+                "site_detail_url": "http://comicvine.gamespot.com/tom/4005-39849/"
+            }
+        ],
+        "image": {
+            "icon_url": "http://static1.comicvine.com/uploads/square_avatar/0/3125/1044725-mm.jpg",
+            "medium_url": "http://static2.comicvine.com/uploads/scale_medium/0/3125/1044725-mm.jpg",
+            "thumb_url": "http://static6.comicvine.com/uploads/scale_avatar/0/3125/1044725-mm.jpg",
+            "tiny_url": "http://static7.comicvine.com/uploads/square_mini/0/3125/1044725-mm.jpg",
+            "super_url": "http://static5.comicvine.com/uploads/scale_large/0/3125/1044725-mm.jpg",
+            "screen_url": "http://static3.comicvine.com/uploads/screen_medium/0/3125/1044725-mm.jpg",
+            "small_url": "http://static4.comicvine.com/uploads/scale_small/0/3125/1044725-mm.jpg"
+        }
+    },
+    "1": {
+        "characters": [],
+        "description": null,
+        "allies": [],
+        "aliases": null,
+        "publisher": {
+            "name": "Dell",
+            "api_detail_url": "http://comicvine.gamespot.com/api/publisher/4010-4/",
+            "id": 4
+        },
+        "name": "Buzzards",
+        "enemies": [],
+        "image": null
+    },
+    "2": {
+        "characters": [
+            {
+                "name": "Dan-El",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-18121/",
+                "id": 18121,
+                "site_detail_url": "http://comicvine.gamespot.com/dan-el/4005-18121/"
+            },
+            {
+                "name": "Natongo",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-18122/",
+                "id": 18122,
+                "site_detail_url": "http://comicvine.gamespot.com/natongo/4005-18122/"
+            }
+        ],
+        "description": "<span> <p>Dan-El and Natongo, who took an oath of brotherhood at the very beginning, were both kings by right, whose thrones had been usurped. Restoring Dan-El in the kingdom of Aba-Zulu and Natongo in Tungelu occupied the first couple of years of the series. By the time it was done, both were married, Dan-El to the beautiful Tavane and Natongo to the equally beautiful Zulena. But neither affairs of state nor family duties had any effect on their love of adventure, and they had many more, one running smoothly into the next, over a period of years. </p> <p>Dan-El and Natongo were both kings of nearby, but unrelated kingdoms of Aba-Zulu, and Natongo who had their thrones seized by villains and/or court intrigue.</p> <p>Meeting in the wild lands of the alternate world Africa that separated their kingdoms the two swore an oath of brotherhood to help each other regain their rightful places. </p> <p>Becoming known as the Brothers of the Spear the pair eventually drove out the usurpers and went back to leading their respective kingdoms.</p> <p>This however was not the end of their partnership because when menaces from the Wild threatened, be it other invading kingdoms, evil wizards or giant green apes, each knew that the other was always ready to come to the aid of the other. </p> <p>Eventually Dan-El married Tavane, while Natongo married Zulena of his kingdom. </p></span>",
+        "allies": [],
+        "aliases": null,
+        "publisher": {
+            "name": "Dell",
+            "api_detail_url": "http://comicvine.gamespot.com/api/publisher/4010-4/",
+            "id": 4
+        },
+        "name": "Brothers of the Spear",
+        "enemies": [],
+        "image": {
+            "icon_url": "http://static1.comicvine.com/uploads/square_avatar/2/27783/728849-broothespear.jpg",
+            "medium_url": "http://static2.comicvine.com/uploads/scale_medium/2/27783/728849-broothespear.jpg",
+            "thumb_url": "http://static6.comicvine.com/uploads/scale_avatar/2/27783/728849-broothespear.jpg",
+            "tiny_url": "http://static7.comicvine.com/uploads/square_mini/2/27783/728849-broothespear.jpg",
+            "super_url": "http://static5.comicvine.com/uploads/scale_large/2/27783/728849-broothespear.jpg",
+            "screen_url": "http://static3.comicvine.com/uploads/screen_medium/2/27783/728849-broothespear.jpg",
+            "small_url": "http://static4.comicvine.com/uploads/scale_small/2/27783/728849-broothespear.jpg"
+        }
+    },
+    "3": {
+        "characters": [
+            {
+                "name": "Julie Barnes",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-63301/",
+                "id": 63301,
+                "site_detail_url": "http://comicvine.gamespot.com/julie-barnes/4005-63301/"
+            },
+            {
+                "name": "Linc Hayes",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-63302/",
+                "id": 63302,
+                "site_detail_url": "http://comicvine.gamespot.com/linc-hayes/4005-63302/"
+            },
+            {
+                "name": "Pete Cochran",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-63300/",
+                "id": 63300,
+                "site_detail_url": "http://comicvine.gamespot.com/pete-cochran/4005-63300/"
+            }
+        ],
+        "description": null,
+        "allies": [],
+        "aliases": null,
+        "publisher": {
+            "name": "Dell",
+            "api_detail_url": "http://comicvine.gamespot.com/api/publisher/4010-4/",
+            "id": 4
+        },
+        "name": "Mod Squad",
+        "enemies": [],
+        "image": {
+            "icon_url": "http://static1.comicvine.com/uploads/square_avatar/2/27783/1594158-modsquad.jpg",
+            "medium_url": "http://static2.comicvine.com/uploads/scale_medium/2/27783/1594158-modsquad.jpg",
+            "thumb_url": "http://static6.comicvine.com/uploads/scale_avatar/2/27783/1594158-modsquad.jpg",
+            "tiny_url": "http://static7.comicvine.com/uploads/square_mini/2/27783/1594158-modsquad.jpg",
+            "super_url": "http://static5.comicvine.com/uploads/scale_large/2/27783/1594158-modsquad.jpg",
+            "screen_url": "http://static3.comicvine.com/uploads/screen_medium/2/27783/1594158-modsquad.jpg",
+            "small_url": "http://static4.comicvine.com/uploads/scale_small/2/27783/1594158-modsquad.jpg"
+        }
+    },
+    "4": {
+        "characters": [
+            {
+                "name": "Bobby Brady",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-64209/",
+                "id": 64209,
+                "site_detail_url": "http://comicvine.gamespot.com/bobby-brady/4005-64209/"
+            },
+            {
+                "name": "Cindy Brady",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-64210/",
+                "id": 64210,
+                "site_detail_url": "http://comicvine.gamespot.com/cindy-brady/4005-64210/"
+            },
+            {
+                "name": "Greg Brady",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-64205/",
+                "id": 64205,
+                "site_detail_url": "http://comicvine.gamespot.com/greg-brady/4005-64205/"
+            },
+            {
+                "name": "Jan Brady",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-64208/",
+                "id": 64208,
+                "site_detail_url": "http://comicvine.gamespot.com/jan-brady/4005-64208/"
+            },
+            {
+                "name": "Marcia Brady",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-64206/",
+                "id": 64206,
+                "site_detail_url": "http://comicvine.gamespot.com/marcia-brady/4005-64206/"
+            },
+            {
+                "name": "Mr. Brady",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-63733/",
+                "id": 63733,
+                "site_detail_url": "http://comicvine.gamespot.com/mr-brady/4005-63733/"
+            },
+            {
+                "name": "Mrs. Brady",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-64103/",
+                "id": 64103,
+                "site_detail_url": "http://comicvine.gamespot.com/mrs-brady/4005-64103/"
+            },
+            {
+                "name": "Peter Brady",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-64207/",
+                "id": 64207,
+                "site_detail_url": "http://comicvine.gamespot.com/peter-brady/4005-64207/"
+            }
+        ],
+        "description": "<p>The Brady Bunch are a fictional family introduced in a hit television show of the late 1960s and early 1970s. They have since received various depictions in sequels, spin-offs and remakes. The original concept was fairly simple. Mike Brady is a widowed architect and father of three young sons. He meets and falls in love with Carol Martin, a mother of three young girls. It was left ambiguous if she was widowed or divorced. When the new couple marry, all four Martins receive the Brady family name. The eight of them have to cope with adjusting to a new family life and getting acquainted with each other.</p><p> </p><p>Later seasons shifted the focus to the childrens' sibling rivalries, dating lives and ideological differences. The original series lasted five seasons from 1969 to 1974. A total of 117 episodes were released. In syndication it reached a wider audience and has remained popular since. While the live-action series was still ongoing, an animated spin-off was released by <a href=\"/filmation/4010-1879\" data-ref-id=\"4010-1879\">Filmation</a>. \"<em>The Brady Kids</em>\" featured all six siblings having adventures with Marlon, a magical mynah bird. They had crossovers with other characters licensed by Filmation at the time, notably the Lone Ranger, Superman and Wonder Woman. This series lasted 22 episodes from 1972 to 1974.</p><p> </p><p>The Bradys returned in \"<em>The Brady Bunch Variety Hour</em>\". The family were supposedly trying to make it as a musical group and had moved to <a href=\"/california/4020-55716\" data-ref-id=\"4020-55716\">California</a>. The episodes mostly consisted of singing and dancing numbers. While not a critical success at the time, nor well-regarded by latter Brady fans, this had little to do with the early cancellation of this version. The main problem was its broadcasting schedule. As originally planned, a new episode would be broadcast five weeks following its predecessor. Instead episodes were released at seemingly random times and the confused audience soon lost interest. The series lasted 9 episodes from 1976 to 1977.</p><p> </p><p>In 1981, the Brady family received a two-hour reunion film: \"<a href=\"/the-brady-girls-get-married/4025-560\" data-ref-id=\"4025-560\"><em>The Brady Girls Get Married</em></a>\". The film featured the family reuniting to prepare for the marriages of Marcia and Jan. It was curiously broadcast as a mini-series but proved successful at reviving interest in the family. It was followed by a regular series: \"<em>The Brady Brides</em>\". Marcia and Jan and their new spouses move in together in a single household. The two sisters get along well but this is not the case with the husbands. Jan has married Phillip Covington III , a respectable college professor. Marcia has married Wally Logan, a man drifting from job to job. The two men are often at odds with each other. This series lasted 10 episodes, all broadcast in 1981.</p><p> </p><p>In 1988, the Brady family received its second television film: \"<a href=\"/a-very-brady-christmas/4025-561\" data-ref-id=\"4025-561\"><em>A Very Brady Christmas</em></a>\". Mike and Carol, retired and aging, invite all six of their children to a <a href=\"/christmas/4015-55951\" data-ref-id=\"4015-55951\">Christmas</a> family reunion. But all six \"children\" are now adults with hectic schedules and various personal problems. Getting to the party is not as easy as it sounds. A ratings hit of its time, it led to a 1990 television series \"<em>The Bradys</em>\" which was supposed to focus on the problematic lives of the Brady family. It is considered to have went too far towards drama, alienating its audience. Only 6 episodes were released. Main plot points included:</p><p> </p><p>*Marcia and Wally have two children but the latter is still unable to find steady employment. They are broke and forced to move in with Mike and Carol. Marcia feels like a failure and is slowly becoming an alcoholic.</p><p>*Jan and Philip are giving a second chance to their marriage following a brief separation. Jan has become an architect. They are still troubled at failing to have children. They resolve to adopt a daughter by the end of the series.</p><p>*Bobby's career as a professional race car driver, established in the Brady Christmas, ends prematurely in an accident. He is left paraplegic, undergoing therapy and forced to switch to a desk job.</p><p>*Cindy is employed as a deejay but has an affair with her boss. A boss almost two decades her senior, widowed and having two children of his own.</p><p> </p><p>A new incarnation of the Bradys was featured in \"<a href=\"/the-brady-bunch-movie/4025-562\" data-ref-id=\"4025-562\"><em>The Brady Bunch Movie</em></a>\" (1995). They are a family with 1970s fashion sense and values living in a modern 1990s environment. Much of the humor derived from the cultural clashes resulting. It also emphasized some character traits from the original series to a much larger degree. Notably, Marcia's charisma and popularity, Jan obsessing with how to get out Marcia's shadow and Cindy being a tattle-tale. Since it proved a hit, the film received its own sequel.</p><p> </p><p>\"<a href=\"/a-very-brady-sequel/4025-563\" data-ref-id=\"4025-563\"><em>A Very Brady Sequel</em></a>\" (1996) had an impostor claiming to be Carol's first husband, long declared missing. The Bradys are in danger of splitting up to two families, Carol's second wedding declared void. Meanwhile sexual tensions develop between Greg and Marcia who have trouble regarding each other as siblings. The film was less successful and its only sequel to date was only released on video. \"<a href=\"/the-brady-bunch-in-the-white-house/4025-564\" data-ref-id=\"4025-564\"><em>The Brady Bunch in the White House</em></a>\" (2002) has the premise of the President of the United States resigning while the Brady family are visiting the <a href=\"/white-house/4020-56318\" data-ref-id=\"4020-56318\">White House</a>. Instead of following the presidential order of succession, Mike is selected as a \"wholesome, all-American replacement\". Carol becomes his new Vice President and the Bradys become the First Family. The film is so far the last incarnation of the Bradys.</p>",
+        "allies": [],
+        "aliases": null,
+        "publisher": {
+            "name": "Dell",
+            "api_detail_url": "http://comicvine.gamespot.com/api/publisher/4010-4/",
+            "id": 4
+        },
+        "name": "The Brady Bunch",
+        "enemies": [],
+        "image": {
+            "icon_url": "http://static1.comicvine.com/uploads/square_avatar/3/37015/913852-brady_bunch1.jpg",
+            "medium_url": "http://static2.comicvine.com/uploads/scale_medium/3/37015/913852-brady_bunch1.jpg",
+            "thumb_url": "http://static6.comicvine.com/uploads/scale_avatar/3/37015/913852-brady_bunch1.jpg",
+            "tiny_url": "http://static7.comicvine.com/uploads/square_mini/3/37015/913852-brady_bunch1.jpg",
+            "super_url": "http://static5.comicvine.com/uploads/scale_large/3/37015/913852-brady_bunch1.jpg",
+            "screen_url": "http://static3.comicvine.com/uploads/screen_medium/3/37015/913852-brady_bunch1.jpg",
+            "small_url": "http://static4.comicvine.com/uploads/scale_small/3/37015/913852-brady_bunch1.jpg"
+        }
+    },
+    "5": {
+        "characters": [
+            {
+                "name": "Oil Can Harry",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-64424/",
+                "id": 64424,
+                "site_detail_url": "http://comicvine.gamespot.com/oil-can-harry/4005-64424/"
+            }
+        ],
+        "description": "<p>The Claw Gang is a Gang of cats brought together by the evil <a data-ref-id=\"4005-64424\" href=\"/oil-can-harry/4005-64424\" slug=\"oil-can-harry\">Oil Can Harry</a>, even though he isn't a member. It consists of an unamed deputy leader, Butch, Spike, Killer, and\u00a0Shrink, all pawns in Oil Can Harry's game against <a data-ref-id=\"4005-39433\" href=\"/mighty-mouse/4005-39433\" slug=\"mighty-mouse\">Mighty Mouse</a>. </p><figure data-align=\"right\" data-embed-type=\"image\" data-img-src=\"http://static.comicvine.com/uploads/original/3/35816/718736-l.jpg\" data-ref-id=\"1300-718736\" data-size=\"medium\" data-ratio=\"0.69627507163324\" data-width=\"349\" style=\"width: 349px\"><a class=\"fluid-height\" style=\"padding-bottom:69.6%\" href=\"http://static.comicvine.com/uploads/original/3/35816/718736-l.jpg\" data-ref-id=\"1300-718736\"><img src=\"http://static1.comicvine.com/uploads/scale_medium/3/35816/718736-l.jpg\" alt=\"Mighty Mouse against Harry (the Gang knocked out)\"></a><figcaption>Mighty Mouse against Harry (the Gang knocked out)</figcaption></figure> Time and time time again\u00a0the Claw Gang had failed to kill Mighty Mouse until he was run over by a plane just landing. But he wasn't dead yet! He was just faking it.\u00a0",
+        "allies": [],
+        "aliases": null,
+        "publisher": {
+            "name": "Dell",
+            "api_detail_url": "http://comicvine.gamespot.com/api/publisher/4010-4/",
+            "id": 4
+        },
+        "name": "Claw Gang",
+        "enemies": [],
+        "image": null
+    },
+    "6": {
+        "characters": [],
+        "description": "<h2>Origin</h2>Leut. Dan Cork (Agent 5), and Leut. Tom Harrow (Agent 9) are behind the line commandos who are noted for going behind enemy lines in skin-tight black outfits of their design.\u00a0Once behind lines they are most often helped by English female undercover agent 4-73 who works as a cocktail waitress in Berlin.\u00a0At first calling themselves the Black Wings they are called by the Nazi the Night Devils, they quickly change their name to this obtain other commandos whom they train in their stealth methods. \u00a0 \u00a0",
+        "allies": [],
+        "aliases": null,
+        "publisher": {
+            "name": "Dell",
+            "api_detail_url": "http://comicvine.gamespot.com/api/publisher/4010-4/",
+            "id": 4
+        },
+        "name": "The Night Devils",
+        "enemies": [],
+        "image": {
+            "icon_url": "http://static1.comicvine.com/uploads/square_avatar/2/27783/1593502-nightdevils2.jpg",
+            "medium_url": "http://static2.comicvine.com/uploads/scale_medium/2/27783/1593502-nightdevils2.jpg",
+            "thumb_url": "http://static6.comicvine.com/uploads/scale_avatar/2/27783/1593502-nightdevils2.jpg",
+            "tiny_url": "http://static7.comicvine.com/uploads/square_mini/2/27783/1593502-nightdevils2.jpg",
+            "super_url": "http://static5.comicvine.com/uploads/scale_large/2/27783/1593502-nightdevils2.jpg",
+            "screen_url": "http://static3.comicvine.com/uploads/screen_medium/2/27783/1593502-nightdevils2.jpg",
+            "small_url": "http://static4.comicvine.com/uploads/scale_small/2/27783/1593502-nightdevils2.jpg"
+        }
+    },
+    "7": {
+        "characters": [],
+        "description": null,
+        "allies": [],
+        "aliases": null,
+        "publisher": {
+            "name": "Dell",
+            "api_detail_url": "http://comicvine.gamespot.com/api/publisher/4010-4/",
+            "id": 4
+        },
+        "name": "Pithecanthropus tribe",
+        "enemies": [],
+        "image": null
+    },
+    "8": {
+        "characters": [
+            {
+                "name": "Elly May Clampett",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-100164/",
+                "id": 100164,
+                "site_detail_url": "http://comicvine.gamespot.com/elly-may-clampett/4005-100164/"
+            },
+            {
+                "name": "Granny",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-100166/",
+                "id": 100166,
+                "site_detail_url": "http://comicvine.gamespot.com/granny/4005-100166/"
+            },
+            {
+                "name": "Jed Clampett",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-100165/",
+                "id": 100165,
+                "site_detail_url": "http://comicvine.gamespot.com/jed-clampett/4005-100165/"
+            },
+            {
+                "name": "Jethro Bodine",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-100163/",
+                "id": 100163,
+                "site_detail_url": "http://comicvine.gamespot.com/jethro-bodine/4005-100163/"
+            }
+        ],
+        "description": "<p>The Beverly Hillbillies (1962-1971) was a hit television series on CBS. The protagonists were the fictional Clampett family.</p><p>The Clampetts' were originally an impoverished family from the Ozark Mountains area. Several episodes implied that their home state was <a href=\"/missouri/4020-55752\" data-ref-id=\"4020-55752\">Missouri</a>. Their family property included a large swampy area. When oil was discovered in said area, they sold the drilling rights to OK Oil Company. Gaining millions in the process, they decided to move to a location more appropriate for their newfound wealth: Beverly Hills.</p><p>Much of the humor of the show derived from the culture clash between the unsophisticated, rural family and their upper-class, snobbish neighbors. The main cast included de facto head-of-family Jedediah D. \"Jed\" Clampett, his shotgun-wielding mother-in-law Daisy Mae \"Granny\" Moses, his beautiful tomboy daughter Elly May Clampett, his naive, ignorant, and pompous nephew Jethro Bodine. The president of the Commerce Bank of Beverly Hills Milburn Drysdale was the Clampetts' closest friend along with and his efficient secretary Jane Hathaway.</p>",
+        "allies": [
+            {
+                "name": "Jane Hathaway",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-100096/",
+                "id": 100096,
+                "site_detail_url": "http://comicvine.gamespot.com/jane-hathaway/4005-100096/"
+            },
+            {
+                "name": "Milburn Drysdale",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-100161/",
+                "id": 100161,
+                "site_detail_url": "http://comicvine.gamespot.com/milburn-drysdale/4005-100161/"
+            }
+        ],
+        "aliases": null,
+        "publisher": {
+            "name": "Dell",
+            "api_detail_url": "http://comicvine.gamespot.com/api/publisher/4010-4/",
+            "id": 4
+        },
+        "name": "Beverly Hillbillies",
+        "enemies": [
+            {
+                "name": "Margaret Drysdale",
+                "api_detail_url": "http://comicvine.gamespot.com/api/character/4005-100162/",
+                "id": 100162,
+                "site_detail_url": "http://comicvine.gamespot.com/margaret-drysdale/4005-100162/"
+            }
+        ],
+        "image": {
+            "icon_url": "http://static1.comicvine.com/uploads/square_avatar/3/37015/2578557-veverly_hillbillies1.jpg",
+            "medium_url": "http://static2.comicvine.com/uploads/scale_medium/3/37015/2578557-veverly_hillbillies1.jpg",
+            "thumb_url": "http://static6.comicvine.com/uploads/scale_avatar/3/37015/2578557-veverly_hillbillies1.jpg",
+            "tiny_url": "http://static7.comicvine.com/uploads/square_mini/3/37015/2578557-veverly_hillbillies1.jpg",
+            "super_url": "http://static5.comicvine.com/uploads/scale_large/3/37015/2578557-veverly_hillbillies1.jpg",
+            "screen_url": "http://static3.comicvine.com/uploads/screen_medium/3/37015/2578557-veverly_hillbillies1.jpg",
+            "small_url": "http://static4.comicvine.com/uploads/scale_small/3/37015/2578557-veverly_hillbillies1.jpg"
+        }
+    },
+    "9": {
+        "characters": [],
+        "description": null,
+        "allies": [],
+        "aliases": null,
+        "publisher": {
+            "name": "Dell",
+            "api_detail_url": "http://comicvine.gamespot.com/api/publisher/4010-4/",
+            "id": 4
+        },
+        "name": "Rocket Boys",
+        "enemies": [],
+        "image": {
+            "icon_url": "http://static1.comicvine.com/uploads/square_avatar/6/69951/3250853-22+frank+and+mack+rocket+boys+in+space+dell.jpg",
+            "medium_url": "http://static2.comicvine.com/uploads/scale_medium/6/69951/3250853-22+frank+and+mack+rocket+boys+in+space+dell.jpg",
+            "thumb_url": "http://static6.comicvine.com/uploads/scale_avatar/6/69951/3250853-22+frank+and+mack+rocket+boys+in+space+dell.jpg",
+            "tiny_url": "http://static7.comicvine.com/uploads/square_mini/6/69951/3250853-22+frank+and+mack+rocket+boys+in+space+dell.jpg",
+            "super_url": "http://static5.comicvine.com/uploads/scale_large/6/69951/3250853-22+frank+and+mack+rocket+boys+in+space+dell.jpg",
+            "screen_url": "http://static3.comicvine.com/uploads/screen_medium/6/69951/3250853-22+frank+and+mack+rocket+boys+in+space+dell.jpg",
+            "small_url": "http://static4.comicvine.com/uploads/scale_small/6/69951/3250853-22+frank+and+mack+rocket+boys+in+space+dell.jpg"
+        }
+    }
+}
