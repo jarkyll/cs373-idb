@@ -21,7 +21,7 @@ for data in glob.glob("*.json"):
     extracted['location']['city'] = test['results']['location_city']
     extracted['location']['state'] = test['results']['location_state']
     extracted['location']['address'] = test['results']['location_address']
-    extracted['description'] = test['results']['description']
+    extracted['deck'] = test['results']['deck']
     extracted['characters'] = test['results']['characters']
     extracted['volumes'] = test['results']['volumes']
     extracted['teams'] = test['results']['teams']
