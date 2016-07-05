@@ -22,9 +22,9 @@ def characters():
 	return "this html is about the list of characters"
 
 
-@app.route("/comicseries")
-def series():
-	return "this html is about the list of comic book series"
+@app.route("/comicteam")
+def team():
+	return "this html is about the list of comic book team"
 
 @app.route("/publishers")
 def publishers():
