@@ -1,0 +1,44 @@
+/*
+ * General
+*/
+
+
+/*
+ * Navigation
+*/
+#navbar
+{
+    height:50px;
+}
+
+
+/*
+ * Carousel
+*/
+
+#myCarousel.carousel.slide{
+  height: 100%;
+}
+
+#the-carousel {
+    padding-right: 0;
+    padding-left: 0;
+}
+html,body{
+  height:100%;
+}
+#the-carousel,.item,.active{
+  height:100%;
+}
+.carousel-inner{
+  height:100%;
+}
+
+
+#content{
+    position:absolute;
+    top: 50px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll;        
+}
