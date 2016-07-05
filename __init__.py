@@ -19,7 +19,7 @@ def about():
 
 @app.route("/characters")
 def characters():
-	return render_template("character_template.html")
+	return render_template("characters.html")
 
 @app.route("/volumes")
 def volumes():
@@ -32,6 +32,7 @@ def teams():
 @app.route("/publishers")
 def publishers():
 	return render_template("publishers.html")
+
 
 
 @app.route("/publisher/1")
