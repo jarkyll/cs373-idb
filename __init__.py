@@ -53,7 +53,7 @@ def CC():
 
 @app.route("/character/2")
 def Sheena():
-	return render_template("sheena.html")
+	return render_template("reef.html")
 
 @app.route("/character/3")
 def Jerry():
@@ -69,7 +69,7 @@ def Sum():
 
 @app.route("/volume/3")
 def Jumbo():
-	return render_template("jumo.html")
+	return render_template("planet.html")
 
 @app.route("/team/1")
 def Ewoks():
@@ -78,6 +78,10 @@ def Ewoks():
 @app.route("/team/2")
 def Mouse():
 	return render_template("mouse.html")
+
+@app.route("/team/3")
+def Space():
+	return render_template("space.html")
 
 if __name__=="__main__":
 	app.run()
