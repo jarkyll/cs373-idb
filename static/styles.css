@@ -12,28 +12,26 @@
 }
 
 
+
 /*
  * Carousel
 */
 
-#myCarousel.carousel.slide{
-  height: 100%;
+
+
+html,body{
+  height:100%;
+}
+
+.item,.active{
+    height: 50%;
 }
 
 #the-carousel {
     padding-right: 0;
     padding-left: 0;
+    height: inherit;
 }
-html,body{
-  height:100%;
-}
-#the-carousel,.item,.active{
-  height:100%;
-}
-.carousel-inner{
-  height:100%;
-}
-
 
 #content{
     position:absolute;
@@ -41,4 +39,14 @@ html,body{
     right:0px;
     bottom:0px;
     overflow-y:scroll;        
+}
+
+#myCarousel{
+    height: 100%;
+}
+.carousel-inner{
+    height: 100%;
+}
+.carousel{
+    padding-top: 50px;
 }
