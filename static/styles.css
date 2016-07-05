@@ -50,3 +50,9 @@ html,body{
 .carousel{
     padding-top: 50px;
 }
+
+/* for rows */
+tr {
+    height: 5%;
+}
+
