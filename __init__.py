@@ -75,5 +75,13 @@ def Sum():
 def Jumbo():
 	return render_template("jumo.html")
 
+@app.route("/team/1")
+def Ewoks():
+	return render_template("ewoks.html")
+
+@app.route("/team/2")
+def Mouse():
+	return render_template("mouse.html")
+
 if __name__=="__main__":
 	app.run()
