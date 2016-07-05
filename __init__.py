@@ -23,7 +23,7 @@ def characters():
 
 @app.route("/volumes")
 def volumes():
-	return render_template("volumes_template.html")
+	return render_template("volumes.html")
 
 @app.route("/teams")
 def teams():
@@ -51,6 +51,29 @@ def FH():
 def Dell():
 	return render_template("publisher_dell.html")
 
+@app.route("/character/1")
+def CC():
+	return render_template("chief_chirpa.html")
+
+@app.route("/character/2")
+def Sheena():
+	return render_template("sheena.html")
+
+@app.route("/character/3")
+def Jerry():
+	return render_template("Jerry.html")
+
+@app.route("/volume/1")
+def SW():
+	return render_template("star_wars.html")
+
+@app.route("/volume/2")
+def Sum():
+	return render_template("summer.html")
+
+@app.route("/volume/3")
+def Jumbo():
+	return render_template("jumo.html")
 
 if __name__=="__main__":
 	app.run()

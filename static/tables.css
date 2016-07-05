@@ -7,3 +7,14 @@
     background-repeat:   no-repeat;
     background-size:     cover;
 }
+
+
+#title{
+  text-align: center;
+  vertical-align: middle;
+}
+
+#inner{
+  display: table;
+  margin: 0 auto;  
+}

@@ -10,7 +10,8 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <!-- Latest compiled JavaScript -->
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="../css/styles.css">
+      <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5000/static/styles.css">
+      <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5000/static/tables.css">
 　　  <!-- Navigation -->
       <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
          <div class="container">
@@ -44,10 +45,10 @@
 　　</head>
    <body>
       <br /><br /><br /><br />
-      <div id="cotent" class="container">
+      <div id="content" class="container">
          <div class="row">
             <div class="col-md-4">
-               <img src="http://static2.comicvine.com/uploads/scale_medium/6/69951/1387447-logo.gif" class="img-responsive img-thumbnail" alt="Dell">
+               <img id="inner" src="http://static2.comicvine.com/uploads/scale_medium/6/69951/1387447-logo.gif" class="img-responsive img-thumbnail" alt="Dell">
             </div>
             <div class="col-md-8">
                <h2 class="">Dell</h2>
@@ -74,14 +75,17 @@
          <br /><br />
          <div class="row">
             <div class="col-md-4">
+              <h2 id="title"> Characters </h2>
                <!-- each image will be 300x300 pixels -->
-               <a href="URL_TO_CHARACTERS_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Characters"></a>
+               <a id="inner" href="http://www.downing.rocks/character/3"><img src="http://static4.comicvine.com/uploads/square_avatar/1/12483/277673-175026-jerry.jpg" class="img-rounded" alt="Characters"></a>
             </div>
             <div class="col-md-4">
-               <a href="URL_TO_TEAM_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Teams"></a>
+              <h2 id="title"> Teams </h2>
+               <a id="inner" href="URL_TO_TEAM_RESULTS"><img src="http://static1.comicvine.com/uploads/square_avatar/0/3125/1044725-mm.jpg" class="img-rounded" alt="Teams"></a>
             </div>
             <div class="col-md-4">
-               <a href="URL_TO_VOLUMES_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Volumes"></a>
+              <h2 id="title"> Volumes </h2>
+               <a id="inner" href="http://www.downing.rocks/volume/3"><img src="http://static1.comicvine.com/uploads/square_avatar/0/4/1148-1622-1230-1-tom-amp-jerry-summ.jpg" class="img-rounded" alt="Volumes"></a>
             </div>
          </div>
       </div>

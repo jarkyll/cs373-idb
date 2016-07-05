@@ -10,7 +10,8 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <!-- Latest compiled JavaScript -->
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="../css/styles.css">
+      <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5000/static/styles.css">
+      <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5000/static/tables.css">
        <!-- Navigation -->
       <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
          <div class="container">
@@ -47,10 +48,10 @@
       <div id="content" class="container">
          <div class="row">
             <div class="col-md-4">
-               <img src="http://static3.comicvine.com/uploads/scale_small/6/69951/1387073-fiction_house.jpg" class="img-responsive img-thumbnail" alt="Dark Horse Comics">
+               <img id="inner" src="http://static3.comicvine.com/uploads/scale_small/6/69951/1387073-fiction_house.jpg" class="img-responsive img-thumbnail" alt="Dark Horse Comics">
             </div>
             <div class="col-md-8">
-               <h2 class="">Fiction House</h2>
+               <h2 href="http://www.downing.rocks/publisher/1">Fiction House</h2>
                <!-- https://raw.githubusercontent.com/jarkyll/cs373-idb/back-end/dark_horse_comics.json -->
                <p>A pulp magazine and comic book publisher in the Golden Age of Comics.</p>
                <table class="table">
@@ -74,14 +75,17 @@
          <br /><br />
          <div class="row">
             <div class="col-md-4">
+              <h2 id="title"> Characters </h2>
                <!-- each image will be 300x300 pixels -->
-               <a href="URL_TO_CHARACTERS_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Characters"></a>
+               <a id="inner" href="http://www.downing.rocks/character/2"><img src="http://static3.comicvine.com/uploads/square_avatar/0/3848/131272-16412-sheena.jpg" class="img-rounded" alt="Characters"></a>
             </div>
             <div class="col-md-4">
-               <a href="URL_TO_TEAM_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Teams"></a>
+              <h2 id="title"> Teams </h2>
+               <a id="inner" href="URL_TO_TEAM_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Teams"></a>
             </div>
             <div class="col-md-4">
-               <a href="URL_TO_VOLUMES_RESULTS"><img src="https://placehold.it/300x300" class="img-rounded" alt="Volumes"></a>
+              <h2 id="title"> Volumes </h2>
+               <a id="inner" href="http://www.downing.rocks/volume/2"><img src="http://static1.comicvine.com/uploads/square_avatar/0/9116/1556940-38491.jpg" class="img-rounded" alt="Volumes"></a>
             </div>
          </div>
       </div>
