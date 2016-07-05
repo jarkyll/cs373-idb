@@ -25,3 +25,7 @@
   display: table;
   margin: 0 auto;
 }
+
+/*for stacking */
+.mobilewrapper{width:100%!important; height:auto!important;}
+.colsplit{width:320px!important; float:left!important; display:block !important;}
