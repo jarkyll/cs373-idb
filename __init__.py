@@ -29,11 +29,6 @@ def volumes():
 def teams():
 	return render_template("teams_template.html")
 
-@app.route("/team/1")
-def team_1():
-	return render_template("team_1.html")
-
-
 @app.route("/publishers")
 def publishers():
 	return render_template("publishers.html")
