@@ -3,48 +3,45 @@
 	<head>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!-- Navigation -->
+					<nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+						 <div class="container">
+								<div class="navbar-header">
+									 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+									 <span class="icon-bar"></span>
+									 <span class="icon-bar"></span>
+									 <span class="icon-bar"></span>
+									 </button>
+									 <a class="navbar-brand" href="http://downing.rocks/">Komixx</a>
+								</div>
+								<div class="collapse navbar-collapse" id="myNavbar">
+									 <ul class="nav navbar-nav navbar-right">
+											<li>
+												 <a href="http://downing.rocks/characters">Characters</a>
+											</li>
+											<li>
+												 <a href="http://downing.rocks/teams">Teams</a>
+											</li>
+											<li>
+												 <a href="http://downing.rocks/volumes">Volumes</a>
+											</li>
+											<li>
+												 <a href="http://downing.rocks/publishers">Publishers</a>
+											</li>
+									 </ul>
+								</div>
+						 </div>
+					</nav>
 	</head>
 	<body>
 
-
-		<!-- Navigation -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-			      <a class="navbar-brand" href="index.html">Komixx</a>
-			</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="characters.html">Characters</a>
-						</li>
-						<li>
-							<a href="teams.html">Teams</a>
-						</li>
-						<li>
-							<a href="volumes.html">Volumes</a>
-						</li>
-						<li>
-							<a href="publishers.html">Publishers</a>
-						</li>
-						<li>
-							<a href="about.html">About</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
 
 
 
@@ -56,7 +53,7 @@
 		</div>
 		<div  class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div id="inner" class="col-md-4">
 					<h2>Nabeel Virani</h2>
 					<img src="../static/img/nabeel_about.jpg" class="img-responsive img-thumbnail" alt="Nabeel" height"200" width="200">
 					<p>About Paragraph</p>
@@ -67,7 +64,7 @@
 						<li>Number of Unit Tests</li>
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div id="inner" class="col-md-4">
 					<h2>Allen McClure</h2>
 					<img src="../static/img/aj_about.jpg" class="img-responsive img-thumbnail" alt="Nabeel" heigh"200" width="200">
 					<p>Hey! My name is AJ and I'm an undergraduate student studying Computer Science at the Universy of Texas at Austin. When I'm not busy writing programs I enjoy reading graphic novels, playing video games, and chilling with friends. </p>
@@ -90,7 +87,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div id="inner" class="col-md-4">
 					<h2>Chuqi Zhou</h2>
 					<img src="../static/img/chuqi_about.JPG" class="img-responsive img-thumbnail" alt="Chuqi" heigh"300" width="300">
 					<p>I am Chuqi Zhou. I am a CS student at UT Austin, originally from China.</p>
@@ -101,7 +98,7 @@
 						<li>Number of Unit Tests</li>
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div id="inner" class="col-md-4">
 					<h2>Haihan Yu</h2>
 					<p>Pic and About Paragraph</p>
 					<p>Stats</p>
@@ -111,7 +108,7 @@
 						<li>Number of Unit Tests</li>
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div id="inner" class="col-md-4">
 					<h2>Adan Briones</h2>
 					<img src="../static/img/adan_about.jpg" class="img-responsive img-thumbnail" alt="Nabeel" height"200" width="200">
 					<p>I am a senior CS student at the University of Texas at Austin. When I am not on a computer I like to watch all the sports I can.</p>
@@ -138,11 +135,11 @@
 						<li><a href="https://github.com/jarkyll/cs373-idb/wiki">GitHub Wiki</a></li>
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div id="inner" class="col-md-4">
 					<h2>Project Data</h2>
 					<ul>
 						<li>Link to Data Sources</li>
-						<li>Description of how each was scraped</li>
+						<li>We used urllib2 and it's request call to scrape data from the corresponding type</li>
 					</ul>
 				</div>
 				<div class="col-md-4">
