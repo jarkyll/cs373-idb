@@ -27,7 +27,7 @@ def volumes():
 
 @app.route("/teams")
 def teams():
-	return render_template("teams_template.html")
+	return render_template("teams.html")
 
 @app.route("/publishers")
 def publishers():
