@@ -19,17 +19,37 @@ def about():
 
 @app.route("/characters")
 def characters():
-	return "this html is about the list of characters"
+	return render_template("character_template.html")
 
+@app.route("/volumes")
+def volumes():
+	return render_template("volumes_template.html")
 
-@app.route("/comicseries")
-def series():
-	return "this html is about the list of comic book series"
+@app.route("/teams")
+def teams():
+	return render_template("teams_template.html")
+
+@app.route("/team/1")
+def team_1():
+	return render_template("team_1.html")
+
 
 @app.route("/publishers")
 def publishers():
-	return "this html is about the list of comic book publishers"
+	return render_template("publishers.html")
 
+
+@app.route("/publisher/1")
+def DH():
+	return render_template("publisher_dark_horse.html")
+
+@app.route("/publisher/2")
+def FH():
+	return render_template("publisher_fiction_house.html")
+
+@app.route("/publisher/3")
+def Dell():
+	return render_template("publisher_dell.html")
 
 
 if __name__=="__main__":
