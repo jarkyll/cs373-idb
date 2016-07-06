@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
-# from SQLAlchemy import Column, Integer, String
+from SQLAlchemy import Column, Integer, String
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
 
 # db.Model is the base class for all of our models

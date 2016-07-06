@@ -1,16 +1,15 @@
-FILES :=        \
-    .gitignore  \
-    .travis.yml \
-    makefile    \
-    apiary.apib \
-    IDB1.log    \
-    models.html \
+FILES :=        	\
+    .gitignore  	\
+    makefile    	\
+    apiary.apib 	\
+    IDB1.log    	\
+    models.html 	\
     app/models.py   \
     app/tests.py    \
     UML.pdf
 
 check:
-		@not_found=0;                                 \
+		@not_found=0;                             \
     for i in $(FILES);                            \
     do                                            \
         if [ -e $$i ];                            \
@@ -35,14 +34,11 @@ clean:
 	rm -rf __pycache__
 
 format:
-	autopep8 -i models.py
+	autopep8 -i app/models.py
 
-models.html: models.py
+models.html: app/models.py
 	pydoc3 -w models
 
 IDB1.log:
 	git log > IDB1.log
 
-test:
-	pip install flask
-	python3 app/tests.py check
