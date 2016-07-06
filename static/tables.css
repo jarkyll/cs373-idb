@@ -42,8 +42,14 @@
 
 #characters > th{
   display: block;
+  text-align: center;
 }
-
+.table > th{
+  text-align: center;
+}
+#imcol{
+  display: inline-block;
+}
 ul{
     padding-right: 0;
     list-style-type: none;
