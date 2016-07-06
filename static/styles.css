@@ -1,0 +1,51 @@
+/*
+ * General
+*/
+
+
+/*
+ * Navigation
+*/
+#navbar
+{
+    height:50px;
+}
+
+
+
+/*
+ * Carousel
+*/
+
+
+
+html,body{
+  height:100%;
+}
+
+.item,.active{
+    height: 50%;
+}
+
+#the-carousel {
+    padding-right: 0;
+    padding-left: 0;
+    height: inherit;
+}
+
+
+
+#myCarousel{
+    height: 100%;
+}
+.carousel-inner{
+    height: 100%;
+}
+.carousel{
+    padding-top: 50px;
+}
+
+/* for rows */
+tr {
+    height: 5%;
+}
