@@ -1,5 +1,5 @@
 FORMAT: 1A
-HOST: http://polls.apiblueprint.org/
+HOST: http://downing.rocks/
 
 # Komixx
 
@@ -11,37 +11,214 @@ Komixx is provides an interactive experience in exploring the comic book world. 
 
 + Response 200 (application/json)
 
+        
+        {
+            [   
+                {
+                    "id": 0,
+                    "name": "Jerry",
+                    "birth": NULL,
+                    "volumes": ["name1", "name2", "name3"],
+                    "primary_publisher": "Dell",
+                    "image": "url to image",
+                    "powers": ["power1","power2","power3"],
+                    "gender": "Male",
+                    "creator": "Creator"
+                },
+                
+                {   
+                    "id": 1,
+                    "name": "Terry",
+                    "birth": NULL,
+                    "volumes": ["name1", "name2", "name3"],
+                    "primary_publisher": "Dell",
+                    "image": "url to image",
+                    "powers": ["power1","power2","power3"],
+                    "gender": "Male",
+                    "creator": "Creator"
+                }
+            ]    
+        }
+        
 ## Characters [/characters/id]
 ### List a Single Character [GET]
 
 + Response 200 (application/json)
 
+        {
+            "id": 0,
+            "name": "Jerry",
+            "birth": NULL,
+            "volumes": ["name1", "name2", "name3"],
+            "primary_publisher": "Dell",
+            "image": "url to image",
+            "powers": ["power1","power2","power3"],
+            "gender": "Male",
+            "creator": "Creator"
+        }
 ## Teams [/teams]
 ### List All Teams [GET]
 
 + Response 200 (application/json)
+
+        {
+            [
+                {
+                    "id": 0,
+                    "name": "Space Ranger",
+                    "publisher": "Fiction House",
+                    "description": "blah blah blah",
+                    "image": "imageurl.com",
+                    "volumes": ["name1", "name2", "name3"],
+                    "characters": ["Reef Ryan", "another person"],
+                    "enemies": ["enemy1","enemy2","enemy3"],
+                    "allies":  ["ally", "anotherally"]
+                },
+                {
+                    "id": 0,
+                    "name": "Space Ranger",
+                    "publisher": "Fiction House",
+                    "description": "blah blah blah",
+                    "image": "imageurl.com",
+                    "volumes": ["name1", "name2", "name3"],
+                    "characters": ["Reef Ryan", "another person"],
+                    "enemies": ["enemy1","enemy2","enemy3"],
+                    "allies":  ["ally", "anotherally"]
+                }
+            }
+            
+            
+            ]   
+        }
+
+
 
 ## Teams [/teams/id]
 ### List a Single Team [GET]
 
 + Response 200 (application/json)
 
+        {
+            "id": 0,
+            "name": "Space Ranger",
+            "publisher": "Fiction House",
+            "description": "blah blah blah",
+            "image": "imageurl.com",
+            "volumes": ["name1", "name2", "name3"],
+            "characters": ["Reef Ryan", "another person"],
+            "enemies": ["enemy1","enemy2","enemy3"],
+            "allies":  ["ally", "anotherally"]
+        }
+
+
+
+
 ## Volumes [/volumes]
 ### List All Volumes [GET]
 
 + Response 200 (application/json)
+
+        {
+            [
+                {
+                    "id": 0,
+                    "image": "url_to_string",
+                    "publisher": "Fiction House",
+                    "description": "blah blah blah",
+                    "count_of_issues": 23,
+                    "characters": ["Reef Ryan", "another person"],
+                    "aliases": ["name1","name2","name3"],
+                    "start_year":  1919
+                },
+                {
+                    "id": 1,
+                    "image": "url_to_string",
+                    "publisher": "Fiction House",
+                    "description": "blah blah blah",
+                    "count_of_issues": 23,
+                    "characters": ["Reef Ryan", "another person"],
+                    "aliases": ["name1","name2","name3"],
+                    "start_year":  1919
+                }
+            ]
+        }
+
 
 ## Volumes [/volumes/id]
 ### List a Single Volume [GET]
 
 + Response 200 (application/json)
 
+        {
+            "id": 0,
+            "image": "url_to_string",
+            "publisher": "Fiction House",
+            "description": "blah blah blah",
+            "count_of_issues": 23,
+            "characters": ["Reef Ryan", "another person"],
+            "aliases": ["name1","name2","name3"],
+            "start_year":  1919
+        }
+
+
+
 ## Publishers Collection [/publishers]
 ### List All Publishers [GET]
 
 + Response 200 (application/json)
 
+        {
+            {
+                "id": 0,
+                "name": "Dark Horse Comics",
+                "characters": ["Chief Chirpa", " Char 2"],
+                "locAd": "10956 SE Main Street",
+                "city": "Milwaukie",
+                "state": "Oregon",
+                "deck": "Dark Horse Comics is one of...",
+                "image": "url_to_string",
+                "volumes": ["Star Wars: Dark Rising", "Volume 2"],
+                "teams": ["Ewoks", "Char 2"],
+                "year": 1986,
+                "abbreviation": "Dark Horse",
+                "country": "United States" 
+            },
+            {
+                "id": 1,
+                "name": "Fiction House",
+                "characters": ["Reef Ryan", " Char 2"],
+                "locAd": "Unknown",
+                "city": "Unknown",
+                "state": "Unknown",
+                "deck": "A pulp magazine and comic book publisher in the Golden Age of Comics.",
+                "image": "url_to_string",
+                "volumes": ["Planet Comics", "Volume 2"],
+                "teams": ["Space Rangers", "Char 2"],
+                "year": 1920,
+                "abbreviation": "Unknown",
+                "country": "Unknown" 
+            }
+        }
+
 ## Publishers Collection [/publishers/id]
 ### List a Single Publisher [GET]
 
 + Response 200 (application/json)
+
+        {
+            {
+                "id": 0,
+                "name": "Dark Horse Comics",
+                "characters": ["Chief Chirpa", "Char 2"],
+                "locAd": "10956 SE Main Street",
+                "city": "Milwaukie",
+                "state": "Oregon",
+                "deck": "Dark Horse Comics is one of...",
+                "image": "url_to_string",
+                "volumes": ["Star Wars: Dark Rising", "Volume 2"],
+                "teams": ["Ewoks", "Team 2"],
+                "year": 1986,
+                "abbreviation": "Dark Horse",
+                "country": "United States"
+            }
+        }
