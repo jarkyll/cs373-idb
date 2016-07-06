@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 		<link rel="stylesheet" type="text/css" href="http://downing.rocks/static/tables.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -13,6 +12,19 @@
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+
+		<!-- TESTING SORTING BELOW-->
+
+		<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="https://cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+		<script src="https://cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+		<script>
+		$(document).ready(function() {
+			$('#volumes').dataTable();
+		});
+		</script>
 					<!-- Navigation -->
 		      <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
 		         <div class="container">
@@ -49,7 +61,7 @@
 	<body>
 
 		<div id="content" class="container">
-      <table class="table">
+      <table id="volumes" class="table">
         <thead>
           <tr>
             <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->

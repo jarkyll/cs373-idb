@@ -19,6 +19,8 @@
 }
 /* the stuff below the nav bar*/
 #content{
+    padding-top: 3%;
+    display: table;
     position:relative;
     top: 50px;
     right:0px;
