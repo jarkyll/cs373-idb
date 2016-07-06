@@ -6,10 +6,7 @@
 /*
  * Navigation
 */
-#navbar
-{
-    height:50px;
-}
+
 
 
 
@@ -21,6 +18,7 @@
 
 html,body{
   height:100%;
+  text-align: center;
 }
 
 .item,.active{
@@ -48,4 +46,21 @@ html,body{
 /* for rows */
 tr {
     height: 5%;
+}
+
+
+
+/* for about page */
+#abouts > div{
+   display: inline-block;
+   border: solid 1px #000;
+}
+#abouts{
+  border: solid 1px #ff0000;
+  text-align: center;
+  margin: 0px auto;
+  width: 40%;
+}
+#info{
+  text-align: center;
 }

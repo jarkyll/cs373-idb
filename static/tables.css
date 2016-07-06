@@ -40,6 +40,14 @@
   margin: 0 auto;
 }
 
+#characters > th{
+  display: block;
+}
+
+ul{
+    padding-right: 0;
+    list-style-type: none;
+}
 /*for stacking */
 .mobilewrapper{width:100%!important; height:auto!important;}
 .colsplit{width:320px!important; float:left!important; display:block !important;}
