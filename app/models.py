@@ -1,14 +1,14 @@
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
-from SQLAlchemy import Column, Integer, String
-from afsiodfajf.database import Base  # afsafsf is going to be our database name
+# from SQLAlchemy import Column, Integer, String
+# from afsiodfajf.database import Base  # afsafsf is going to be our database name
 
 # db.Model is the base class for all of our models
 # whatever
 
-# app = Flask(__name__)
-# app.config['SQLALCHEMY_DATABASE_URI'] = 
-# db = sqlalchemy(app)
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://'
+db = sqlalchemy(app)
 
 
 class Character(db.Model):
@@ -24,6 +24,14 @@ class Character(db.Model):
     gender = db.Column(String(10))
     creator = db.Column(String(50), unique=False)
 
+    def __init__(self, id, name, birth):
+        self.id = id
+        self.name = name
+        self.birth = birth
+
+    def __repr__(self):
+        return '<Character %r>' % self.name
+
 
 class Publisher(db.Model):
     __tablename__ = "Publisher"
@@ -38,6 +46,13 @@ class Publisher(db.Model):
     volumes = db.Column(db.Array(mutable=True))
     teams = db.Column(db.Array(mutable=True))
 
+    def __init__(self, id, name, locAd):
+        self.id = id
+        self.name = name
+        self.locAd = locAd
+
+    def __repr__(self):
+        return '<Publisher %r>' % self.name
 
 class Volume(db.Model):
     __tablename__ = "Volume"
@@ -50,6 +65,13 @@ class Volume(db.Model):
     aliases = db.Column(db.Array(mutable=True))
     start_year = db.Column(Integer, unique=False)
 
+    def __init__(self, id, image, description):
+        self.id = id
+        self.image = image
+        self.description = description
+
+    def __repr__(self):
+        return '<Volume %r>' % self.name
 
 class Team(db.Model):
     __tablename__ = "Team"
@@ -64,3 +86,11 @@ class Team(db.Model):
     team_members = db.Column(db.Array(mutable=True))
     character_enemies = db.Column(db.Array(mutable=True))
     character_allies = db.Column(db.Array(mutable=True))
+
+    def __init__(self, id, name, publisher):
+        self.id = id
+        self.name = name
+        self.publisher = publisher
+
+    def __repr__(self):
+        return '<Team %r>' % self.name
