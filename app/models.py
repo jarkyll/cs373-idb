@@ -30,7 +30,7 @@ class Character(BASE):
     birth = Column(String(100), unique=False)
     image = Column(String)  # image url
     gender = Column(String(10))
-    creator = Column(String(50), unique=False),
+    creator = Column(String(50), unique=False)
     volumes = relationship("Volume", secondary=characters_volumes, back_populates="characters")
     teams = relationship("Team", secondary=characters_teams, back_populates="characters")
     publisher = relationship("Publisher",  back_populates="characters")
