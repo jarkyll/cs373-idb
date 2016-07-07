@@ -1,96 +1,119 @@
-from flask import Flask, render_template
-from flask_sqlalchemy import SQLAlchemy
-from SQLAlchemy import Column, Integer, String
+from sqlalchemy import Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
+
+
+main = declarative_base()
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
 
-# db.Model is the base class for all of our models
+# main is the base class for all of our models
 # whatever
+characters_volumes = Table('characters_volumes', BASE.main,
+    Column('volume_name', String(100), ForeignKey('Volume.name')),
+    Column('character_name', String(150), ForeignKey('Character.name'))
+)
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://'
-db = sqlalchemy(app)
+characters_teams = Table('characters_teams', BASE.main,
+    Column('character_name', String(200), ForeignKey('Character.name')),
+    Column('team_name', String(250), ForeignKey('Team.name'))
+)
+
+volumes_teams = Table('volumes_teams', Base.main,
+    Column('volume_name', String(200), ForeignKey('Volume.name')),
+    Column('team_name', String(150), ForeignKey('Team.name'))
+)
 
 
-class Character(db.Model):
+class Character(main):
     __tablename__ = "Characters"
-    id = db.Column(Integer, primary_key=True)
-    name = db.Column(String(50), unique=True)
-    birth = db.Column(String(100), unique=False)
-    volumes = db.Column(db.Array(mutable=True))  # maybe this one?
-    primary_publisher = db.Column(String(30), unique=False)
-    image = db.Column(String)  # image url
-    volume_credits = db.Column(db.Array(mutable=True))
-    powers = db.Column(db.Array(mutable=True))
-    gender = db.Column(String(10))
-    creator = db.Column(String(50), unique=False)
-
-    def __init__(self, id, name, birth):
-        self.id = id
-        self.name = name
-        self.birth = birth
+    name = Column(String(150), unique=True)
+    birth = Column(String(100), unique=False)
+    image = Column(String)  # image url
+    powers = Column(Array(mutable=True))
+    gender = Column(String(10))
+    creator = Column(String(50), unique=False),
+    volumes = relationship("Volume", secondary=characters_volumes, back_populates="characters")
+    teams = relationship("Team", secondary=characters_teams, back_populates="characters")
+    publisher = relationship("Publisher",  back_populates="characters")
 
     def __repr__(self):
-        return '<Character %r>' % self.name
+        return 'Character(name={}, image={}, volumes='.format(
+            self.name,
+            self.image,
+            self.volumes
+            ) + \
+            ' birth={}, powers={}, gender={}, creator = {}, publisher={}, teams='.format(
+                self.birth,
+                self.powers,
+                self.gender,
+                self.creator,
+                self.publisher) \
+            + self.teams + ")"
 
 
-class Publisher(db.Model):
+class Publisher(main):
     __tablename__ = "Publisher"
-    id = db.Column(Integer, primary_key=True)
-    name = db.Column(String(50), unique=True)
-    characters = db.Column(db.Array(mutable=True))
-    locAd = db.Column(String(100), unique=false)  # maybe this one?
-    city = db.Column(String(20), unique=False)
-    state = db.Column(String(2), unique=False)
-    deck = db.Column(String, unique=False)
-    image = db.Column(String)  # image url
-    volumes = db.Column(db.Array(mutable=True))
-    teams = db.Column(db.Array(mutable=True))
-
-    def __init__(self, id, name, locAd):
-        self.id = id
-        self.name = name
-        self.locAd = locAd
+    name = Column(String(50), unique=True)
+    address = Column(String(100), unique=false)  # maybe this one?
+    city = Column(String(20), unique=False)
+    state = Column(String(2), unique=False)
+    deck = Column(String, unique=False)
+    image = Column(String)  # image url
+    characters = relationship("Character", back_populates="publisher")
+    volumes = relationship("Volume", back_populates="publisher")
+    teams = relationship("Team", back_populates="publisher")
 
     def __repr__(self):
-        return '<Publisher %r>' % self.name
+        return 'Publisher(name={}, address={}, city={}, state={}, deck={}, volumes={}, teams={}'.format(
+            self.name,
+            self.address,
+            self.city,
+            self.state,
+            self.deck,
+            self.volumes,
+            self.teams
+            ) + ")"
 
-class Volume(db.Model):
+
+class Volume(main):
     __tablename__ = "Volume"
-    id = db.Column(Integer, primary_key=True)
     image = db.Column(String)  # image url
     description = db.Column(String(200), unique=False)
-    publisher = db.Column(String, unique=False)
     count_of_issues = db.Column(Integer, unique=false)
-    characters = db.Column(db.Array(mutable=True))
     aliases = db.Column(db.Array(mutable=True))
     start_year = db.Column(Integer, unique=False)
-
-    def __init__(self, id, image, description):
-        self.id = id
-        self.image = image
-        self.description = description
+    publisher = relationship("Publisher",  back_populates="volumes")
+    characters = relationship("Volume", secondary=characters_volumes, back_populates="volumes")
+    teams = relationship("Team", secondary=volumes_teams, back_populates="volumes")
 
     def __repr__(self):
-        return '<Volume %r>' % self.name
+        return 'Volume(image={}, description={}, count_of_issues={}, aliases={}, start_year={}, publisher={}, teams={}'.format(
+            self.image,
+            self.description,
+            self.count_of_issues,
+            self.aliases,
+            self.start_year,
+            self.publisher,
+            self.teams
+            ) + ")"
 
-class Team(db.Model):
+
+class Team(main):
     __tablename__ = "Team"
     name = db.Column(String(50), unique=False)
-    id = db.Column(Integer, primary_key=True)
-    publisher = db.Column(String(50), unique=False)
     description = db.Column(String, unique=False)
     image = db.Column(String)  # image url
     aliases = db.Column(db.Array(mutable=True))
-    volume_credits = db.Column(db.Array(mutable=True))
-    characters = db.Column(db.Array(mutable=True))
-    team_members = db.Column(db.Array(mutable=True))
-    character_enemies = db.Column(db.Array(mutable=True))
-    character_allies = db.Column(db.Array(mutable=True))
+    publisher = relationship("Publisher", back_populates="teams")
+    characters = relationship("Character",  back_populates="teams")
+    volumes = relationship("Volume", secondary=volumes_teams, back_populates="teams")
 
-    def __init__(self, id, name, publisher):
-        self.id = id
-        self.name = name
-        self.publisher = publisher
 
     def __repr__(self):
-        return '<Team %r>' % self.name
+        return 'Team(name={}, description={}, image={}, aliases={}, publisher={}, characters={}, volumes={}'.format(
+            self.name,
+            self.description,
+            self.aliases,
+            self.publisher,
+            self.characters,
+            self.volumes,
+            ) + ")"
