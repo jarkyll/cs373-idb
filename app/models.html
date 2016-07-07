@@ -35,7 +35,16 @@
 <td colspan=3 valign=bottom>&nbsp;<br>
 <font color="#000000" face="helvetica, arial"><a name="Character">class <strong>Character</strong></a>(sqlalchemy.ext.declarative.api.Base)</font></td></tr>
     
-<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>name:&nbsp;name&nbsp;of&nbsp;characters<br>
+birth:&nbsp;when&nbsp;the&nbsp;character&nbsp;was&nbsp;born<br>
+image:&nbsp;image&nbsp;url<br>
+gender:&nbsp;male&nbsp;or&nbsp;female<br>
+creator:&nbsp;creator&nbsp;name<br>
+volumes:&nbsp;volumes&nbsp;that&nbsp;character&nbsp;is&nbsp;in<br>
+teams:&nbsp;teams&nbsp;that&nbsp;character&nbsp;is&nbsp;in<br>
+publisher:&nbsp;publisher&nbsp;character&nbsp;is&nbsp;with<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
 <td width="100%"><dl><dt>Method resolution order:</dt>
 <dd><a href="models.html#Character">Character</a></dd>
 <dd>sqlalchemy.ext.declarative.api.Base</dd>
@@ -74,7 +83,7 @@ Data descriptors defined here:<br>
 </dl>
 <hr>
 Data and other attributes defined here:<br>
-<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7f0d67106410; Character&gt;</dl>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7fb9f3fb3410; Character&gt;</dl>
 
 <dl><dt><strong>__table__</strong> = Table('Character', MetaData(bind=None), Column('...ring(length=50), table=&lt;Character&gt;), schema=None)</dl>
 
@@ -98,7 +107,16 @@ Data and other attributes inherited from sqlalchemy.ext.declarative.api.Base:<br
 <td colspan=3 valign=bottom>&nbsp;<br>
 <font color="#000000" face="helvetica, arial"><a name="Publisher">class <strong>Publisher</strong></a>(sqlalchemy.ext.declarative.api.Base)</font></td></tr>
     
-<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>name:&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;publisher<br>
+address:&nbsp;address&nbsp;of&nbsp;publisher&nbsp;if&nbsp;given<br>
+city:&nbsp;city&nbsp;of&nbsp;publisher<br>
+state:&nbsp;state&nbsp;of&nbsp;publisher<br>
+deck:&nbsp;description<br>
+image:&nbsp;image&nbsp;url<br>
+characters:&nbsp;character&nbsp;publisher&nbsp;has&nbsp;worked&nbsp;with<br>
+volumes:&nbsp;volumes&nbsp;character&nbsp;has&nbsp;worked&nbsp;with<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
 <td width="100%"><dl><dt>Method resolution order:</dt>
 <dd><a href="models.html#Publisher">Publisher</a></dd>
 <dd>sqlalchemy.ext.declarative.api.Base</dd>
@@ -139,7 +157,7 @@ Data descriptors defined here:<br>
 </dl>
 <hr>
 Data and other attributes defined here:<br>
-<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7f0d67106c90; Publisher&gt;</dl>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7fb9f3fb3c90; Publisher&gt;</dl>
 
 <dl><dt><strong>__table__</strong> = Table('Publisher', MetaData(bind=None), Column('...mage', String(), table=&lt;Publisher&gt;), schema=None)</dl>
 
@@ -163,7 +181,14 @@ Data and other attributes inherited from sqlalchemy.ext.declarative.api.Base:<br
 <td colspan=3 valign=bottom>&nbsp;<br>
 <font color="#000000" face="helvetica, arial"><a name="Team">class <strong>Team</strong></a>(sqlalchemy.ext.declarative.api.Base)</font></td></tr>
     
-<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>name:&nbsp;name&nbsp;of&nbsp;team<br>
+description:&nbsp;description&nbsp;of&nbsp;team<br>
+image:&nbsp;image&nbsp;url<br>
+publisher:&nbsp;main&nbsp;publisher&nbsp;for&nbsp;team<br>
+characters:&nbsp;characters&nbsp;in&nbsp;team<br>
+volumes:&nbsp;volumes&nbsp;that&nbsp;team&nbsp;appeard&nbsp;in<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
 <td width="100%"><dl><dt>Method resolution order:</dt>
 <dd><a href="models.html#Team">Team</a></dd>
 <dd>sqlalchemy.ext.declarative.api.Base</dd>
@@ -198,7 +223,7 @@ Data descriptors defined here:<br>
 </dl>
 <hr>
 Data and other attributes defined here:<br>
-<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7f0d6712e810; Team&gt;</dl>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7fb9f3fdb810; Team&gt;</dl>
 
 <dl><dt><strong>__table__</strong> = Table('Team', MetaData(bind=None), Column('name'...mn('image', String(), table=&lt;Team&gt;), schema=None)</dl>
 
@@ -222,7 +247,16 @@ Data and other attributes inherited from sqlalchemy.ext.declarative.api.Base:<br
 <td colspan=3 valign=bottom>&nbsp;<br>
 <font color="#000000" face="helvetica, arial"><a name="Volume">class <strong>Volume</strong></a>(sqlalchemy.ext.declarative.api.Base)</font></td></tr>
     
-<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>image:&nbsp;image&nbsp;url<br>
+description:&nbsp;info&nbsp;on&nbsp;volume<br>
+count_of_issues:&nbsp;num&nbsp;issues&nbsp;in&nbsp;volume<br>
+start_year:&nbsp;when&nbsp;volume&nbsp;started<br>
+publisher:&nbsp;main&nbsp;publisher<br>
+characters:&nbsp;characters&nbsp;in&nbsp;volume<br>
+teams:&nbsp;teams&nbsp;in&nbsp;the&nbsp;characters<br>
+name:&nbsp;name&nbsp;of&nbsp;volume<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
 <td width="100%"><dl><dt>Method resolution order:</dt>
 <dd><a href="models.html#Volume">Volume</a></dd>
 <dd>sqlalchemy.ext.declarative.api.Base</dd>
@@ -261,7 +295,7 @@ Data descriptors defined here:<br>
 </dl>
 <hr>
 Data and other attributes defined here:<br>
-<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7f0d6712e2d0; Volume&gt;</dl>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7fb9f3fdb2d0; Volume&gt;</dl>
 
 <dl><dt><strong>__table__</strong> = Table('Volume', MetaData(bind=None), Column('ima..., primary_key=True, nullable=False), schema=None)</dl>
 
