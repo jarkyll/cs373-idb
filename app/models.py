@@ -52,7 +52,7 @@ class Character(BASE):
 class Publisher(BASE):
     __tablename__ = "Publisher"
     name = Column(String(50), unique=True, primary_key=True)
-    address = Column(String(100), unique=false)  # maybe this one?
+    address = Column(String(100), unique=False)  # maybe this one?
     city = Column(String(20), unique=False)
     state = Column(String(2), unique=False)
     deck = Column(String, unique=False)
