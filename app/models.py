@@ -25,7 +25,7 @@ volumes_teams = Table('volumes_teams', BASE.metadata,
 
 
 class Character(BASE):
-    __tablename__ = "Characters"
+    __tablename__ = "Character"
     name = Column(String(150), unique=True)
     birth = Column(String(100), unique=False)
     image = Column(String)  # image url
