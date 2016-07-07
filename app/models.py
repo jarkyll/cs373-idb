@@ -8,17 +8,17 @@ BASE = declarative_base()
 
 # main is the base class for all of our models
 # whatever
-characters_volumes = Table('characters_volumes', BASE.main,
+characters_volumes = Table('characters_volumes', BASE.metadata,
     Column('volume_name', String(100), ForeignKey('Volume.name')),
     Column('character_name', String(150), ForeignKey('Character.name'))
 )
 
-characters_teams = Table('characters_teams', BASE.main,
+characters_teams = Table('characters_teams', BASE.metadata,
     Column('character_name', String(200), ForeignKey('Character.name')),
     Column('team_name', String(250), ForeignKey('Team.name'))
 )
 
-volumes_teams = Table('volumes_teams', BASE.main,
+volumes_teams = Table('volumes_teams', BASE.metadata,
     Column('volume_name', String(200), ForeignKey('Volume.name')),
     Column('team_name', String(150), ForeignKey('Team.name'))
 )
