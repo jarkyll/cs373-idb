@@ -25,6 +25,16 @@ volumes_teams = Table('volumes_teams', BASE.metadata,
 
 
 class Character(BASE):
+    """
+    name: name of characters
+    birth: when the character was born
+    image: image url
+    gender: male or female
+    creator: creator name
+    volumes: volumes that character is in
+    teams: teams that character is in
+    publisher: publisher character is with
+    """
     __tablename__ = "Character"
     name = Column(String(150), unique=True, primary_key=True)
     birth = Column(String(100), unique=False)
@@ -50,6 +60,16 @@ class Character(BASE):
 
 
 class Publisher(BASE):
+    """
+        name: the name of the publisher
+        address: address of publisher if given
+        city: city of publisher
+        state: state of publisher
+        deck: description
+        image: image url
+        characters: character publisher has worked with
+        volumes: volumes character has worked with
+    """
     __tablename__ = "Publisher"
     name = Column(String(50), unique=True, primary_key=True)
     address = Column(String(100), unique=False)  # maybe this one?
@@ -74,6 +94,16 @@ class Publisher(BASE):
 
 
 class Volume(BASE):
+    """
+    image: image url
+    description: info on volume
+    count_of_issues: num issues in volume
+    start_year: when volume started
+    publisher: main publisher
+    characters: characters in volume
+    teams: teams in the characters
+    name: name of volume
+    """
     __tablename__ = "Volume"
     image = Column(String)  # image url
     description = Column(String(200), unique=False)
@@ -96,6 +126,14 @@ class Volume(BASE):
 
 
 class Team(BASE):
+        """
+        name: name of team
+        description: description of team
+        image: image url
+        publisher: main publisher for team
+        characters: characters in team
+        volumes: volumes that team appeard in
+        """
     __tablename__ = "Team"
     name = Column(String(50), unique=True, primary_key=True)
     description = Column(String, unique=False)
