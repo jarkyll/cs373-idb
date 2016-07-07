@@ -26,7 +26,7 @@ volumes_teams = Table('volumes_teams', BASE.metadata,
 
 class Character(BASE):
     __tablename__ = "Character"
-    name = Column(String(150), unique=True)
+    name = Column(String(150), unique=True, primary_key=True)
     birth = Column(String(100), unique=False)
     image = Column(String)  # image url
     gender = Column(String(10))
@@ -51,7 +51,7 @@ class Character(BASE):
 
 class Publisher(BASE):
     __tablename__ = "Publisher"
-    name = Column(String(50), unique=True)
+    name = Column(String(50), unique=True, primary_key=True)
     address = Column(String(100), unique=false)  # maybe this one?
     city = Column(String(20), unique=False)
     state = Column(String(2), unique=False)
@@ -77,12 +77,12 @@ class Volume(BASE):
     __tablename__ = "Volume"
     image = Column(String)  # image url
     description = Column(String(200), unique=False)
-    count_of_issues = Column(Integer, unique=false)
+    count_of_issues = Column(Integer, unique=False)
     start_year = Column(Integer, unique=False)
     publisher = relationship("Publisher",  back_populates="volumes")
     characters = relationship("Volume", secondary=characters_volumes, back_populates="volumes")
     teams = relationship("Team", secondary=volumes_teams, back_populates="volumes")
-
+    name = Column(String, unique=True, primary_key=True)
     def __repr__(self):
         return 'Volume(image={}, description={}, count_of_issues={},  start_year={}, publisher={}, teams={}'.format(
             self.image,
@@ -90,13 +90,14 @@ class Volume(BASE):
             self.count_of_issues,
             self.start_year,
             self.publisher,
-            self.teams
+            self.teams,
+            self.name
             ) + ")"
 
 
 class Team(BASE):
     __tablename__ = "Team"
-    name = Column(String(50), unique=False)
+    name = Column(String(50), unique=True, primary_key=True)
     description = Column(String, unique=False)
     image = Column(String)  # image url
     publisher = relationship("Publisher", back_populates="teams")
