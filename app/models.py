@@ -126,14 +126,14 @@ class Volume(BASE):
 
 
 class Team(BASE):
-        """
+    """
         name: name of team
         description: description of team
         image: image url
         publisher: main publisher for team
         characters: characters in team
         volumes: volumes that team appeard in
-        """
+    """
     __tablename__ = "Team"
     name = Column(String(50), unique=True, primary_key=True)
     description = Column(String, unique=False)
