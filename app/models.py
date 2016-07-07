@@ -18,7 +18,7 @@ characters_teams = Table('characters_teams', BASE.main,
     Column('team_name', String(250), ForeignKey('Team.name'))
 )
 
-volumes_teams = Table('volumes_teams', Base.main,
+volumes_teams = Table('volumes_teams', BASE.main,
     Column('volume_name', String(200), ForeignKey('Volume.name')),
     Column('team_name', String(150), ForeignKey('Team.name'))
 )
