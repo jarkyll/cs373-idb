@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Table, ForeignKey, Array, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 
 
