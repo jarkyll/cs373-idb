@@ -1,5 +1,5 @@
 from sqlalchemy import Table, ForeignKey, Column, Integer, String
-from sqlalchemy.dialects.postgres import array
+from sqlalchemy.dialects.postgresql import array
 from sqlalchemy.ext.declarative import declarative_base
 
 
