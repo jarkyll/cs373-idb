@@ -1,5 +1,4 @@
 from sqlalchemy import Table, ForeignKey, Column, Integer, String
-from sqlalchemy.dialects import ARRAY
 from sqlalchemy.ext.declarative import declarative_base
 
 
@@ -29,7 +28,6 @@ class Character(BASE):
     name = Column(String(150), unique=True)
     birth = Column(String(100), unique=False)
     image = Column(String)  # image url
-    powers = Column(  array(mutable=True))
     gender = Column(String(10))
     creator = Column(String(50), unique=False),
     volumes = relationship("Volume", secondary=characters_volumes, back_populates="characters")
@@ -42,9 +40,8 @@ class Character(BASE):
             self.image,
             self.volumes
             ) + \
-            ' birth={}, powers={}, gender={}, creator = {}, publisher={}, teams='.format(
+            ' birth={}, gender={}, creator = {}, publisher={}, teams='.format(
                 self.birth,
-                self.powers,
                 self.gender,
                 self.creator,
                 self.publisher) \
@@ -80,18 +77,16 @@ class Volume(BASE):
     image = Column(String)  # image url
     description = Column(String(200), unique=False)
     count_of_issues = Column(Integer, unique=false)
-    aliases = Column( array(mutable=True))
     start_year = Column(Integer, unique=False)
     publisher = relationship("Publisher",  back_populates="volumes")
     characters = relationship("Volume", secondary=characters_volumes, back_populates="volumes")
     teams = relationship("Team", secondary=volumes_teams, back_populates="volumes")
 
     def __repr__(self):
-        return 'Volume(image={}, description={}, count_of_issues={}, aliases={}, start_year={}, publisher={}, teams={}'.format(
+        return 'Volume(image={}, description={}, count_of_issues={},  start_year={}, publisher={}, teams={}'.format(
             self.image,
             self.description,
             self.count_of_issues,
-            self.aliases,
             self.start_year,
             self.publisher,
             self.teams
@@ -103,17 +98,15 @@ class Team(BASE):
     name = Column(String(50), unique=False)
     description = Column(String, unique=False)
     image = Column(String)  # image url
-    aliases = Column( array(mutable=True))
     publisher = relationship("Publisher", back_populates="teams")
     characters = relationship("Character",  back_populates="teams")
     volumes = relationship("Volume", secondary=volumes_teams, back_populates="teams")
 
 
     def __repr__(self):
-        return 'Team(name={}, description={}, image={}, aliases={}, publisher={}, characters={}, volumes={}'.format(
+        return 'Team(name={}, description={}, image={}, publisher={}, characters={}, volumes={}'.format(
             self.name,
             self.description,
-            self.aliases,
             self.publisher,
             self.characters,
             self.volumes,
