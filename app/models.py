@@ -1,4 +1,4 @@
-from sqlalchemy import Table, ForeignKey, Array, Column, Integer, String
+from sqlalchemy import Table, ForeignKey,  ARRAY, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 
 
@@ -28,7 +28,7 @@ class Character(main):
     name = Column(String(150), unique=True)
     birth = Column(String(100), unique=False)
     image = Column(String)  # image url
-    powers = Column(Array(mutable=True))
+    powers = Column( ARRAY(mutable=True))
     gender = Column(String(10))
     creator = Column(String(50), unique=False),
     volumes = relationship("Volume", secondary=characters_volumes, back_populates="characters")
@@ -76,11 +76,11 @@ class Publisher(main):
 
 class Volume(main):
     __tablename__ = "Volume"
-    image = db.Column(String)  # image url
-    description = db.Column(String(200), unique=False)
-    count_of_issues = db.Column(Integer, unique=false)
-    aliases = db.Column(db.Array(mutable=True))
-    start_year = db.Column(Integer, unique=False)
+    image = Column(String)  # image url
+    description = Column(String(200), unique=False)
+    count_of_issues = Column(Integer, unique=false)
+    aliases = Column(ARRAY(mutable=True))
+    start_year = Column(Integer, unique=False)
     publisher = relationship("Publisher",  back_populates="volumes")
     characters = relationship("Volume", secondary=characters_volumes, back_populates="volumes")
     teams = relationship("Team", secondary=volumes_teams, back_populates="volumes")
@@ -99,10 +99,10 @@ class Volume(main):
 
 class Team(main):
     __tablename__ = "Team"
-    name = db.Column(String(50), unique=False)
-    description = db.Column(String, unique=False)
-    image = db.Column(String)  # image url
-    aliases = db.Column(db.Array(mutable=True))
+    name = Column(String(50), unique=False)
+    description = Column(String, unique=False)
+    image = Column(String)  # image url
+    aliases = Column(ARRAY(mutable=True))
     publisher = relationship("Publisher", back_populates="teams")
     characters = relationship("Character",  back_populates="teams")
     volumes = relationship("Volume", secondary=volumes_teams, back_populates="teams")
