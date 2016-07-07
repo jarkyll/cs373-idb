@@ -1,4 +1,4 @@
-from sqlalchemy import Table, ForeignKey,  ARRAY, Column, Integer, String
+from sqlalchemy import Table, ForeignKey,   array, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 
 
@@ -28,7 +28,7 @@ class Character(main):
     name = Column(String(150), unique=True)
     birth = Column(String(100), unique=False)
     image = Column(String)  # image url
-    powers = Column( ARRAY(mutable=True))
+    powers = Column(  array(mutable=True))
     gender = Column(String(10))
     creator = Column(String(50), unique=False),
     volumes = relationship("Volume", secondary=characters_volumes, back_populates="characters")
@@ -79,7 +79,7 @@ class Volume(main):
     image = Column(String)  # image url
     description = Column(String(200), unique=False)
     count_of_issues = Column(Integer, unique=false)
-    aliases = Column(ARRAY(mutable=True))
+    aliases = Column( array(mutable=True))
     start_year = Column(Integer, unique=False)
     publisher = relationship("Publisher",  back_populates="volumes")
     characters = relationship("Volume", secondary=characters_volumes, back_populates="volumes")
@@ -102,7 +102,7 @@ class Team(main):
     name = Column(String(50), unique=False)
     description = Column(String, unique=False)
     image = Column(String)  # image url
-    aliases = Column(ARRAY(mutable=True))
+    aliases = Column( array(mutable=True))
     publisher = relationship("Publisher", back_populates="teams")
     characters = relationship("Character",  back_populates="teams")
     volumes = relationship("Volume", secondary=volumes_teams, back_populates="teams")
