@@ -3,7 +3,7 @@ from sqlalchemy.dialects.postgres import array
 from sqlalchemy.ext.declarative import declarative_base
 
 
-main = declarative_base()
+BASE = declarative_base()
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
 
 # main is the base class for all of our models
@@ -24,7 +24,7 @@ volumes_teams = Table('volumes_teams', Base.main,
 )
 
 
-class Character(main):
+class Character(BASE):
     __tablename__ = "Characters"
     name = Column(String(150), unique=True)
     birth = Column(String(100), unique=False)
@@ -51,7 +51,7 @@ class Character(main):
             + self.teams + ")"
 
 
-class Publisher(main):
+class Publisher(BASE):
     __tablename__ = "Publisher"
     name = Column(String(50), unique=True)
     address = Column(String(100), unique=false)  # maybe this one?
@@ -75,7 +75,7 @@ class Publisher(main):
             ) + ")"
 
 
-class Volume(main):
+class Volume(BASE):
     __tablename__ = "Volume"
     image = Column(String)  # image url
     description = Column(String(200), unique=False)
@@ -98,7 +98,7 @@ class Volume(main):
             ) + ")"
 
 
-class Team(main):
+class Team(BASE):
     __tablename__ = "Team"
     name = Column(String(50), unique=False)
     description = Column(String, unique=False)
