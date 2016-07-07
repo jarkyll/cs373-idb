@@ -1,3 +1,161 @@
+commit 060395b1c6a0b6e75ea2e3a4220935f7f8b9a9f8
+Merge: 222d877 740ca53
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 21:59:40 2016 -0400
+
+    Merge branch 'master' of https://github.com/jarkyll/cs373-idb
+
+commit 222d877570c6e750ce7371c1fc70b3d7f90152bb
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 21:59:26 2016 -0400
+
+    moved models.html in master
+
+commit cdfdccac0bf9aaceccd4bc85b6d41d4977cbb85f
+Merge: f298ee6 4926e59
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 21:58:26 2016 -0400
+
+    Merge branch 'dev'
+
+commit 4926e59e3aa7ad389bb1d1c27139540063585688
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 21:54:38 2016 -0400
+
+    new models html
+
+commit 7fa9bc2533a029bae256752d12045375d1626ec4
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:53:35 2016 -0500
+
+    fixed format for models
+
+commit 5b4f900ae71d251d35ca2bc68fdc042e9fd731ea
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:51:28 2016 -0500
+
+    added comments to models.py
+
+commit be26aaa701221e70f88aaf7ceac48418ba57cd5a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 21:39:28 2016 -0400
+
+    pydoc3 does not work
+
+commit c1fcdc462c60bfc50696e1e63d80ff2917dc4f81
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:36:55 2016 -0500
+
+    added boolean
+
+commit 6d43d1c64f6916b9953fa85c9c5b9e7a3b14e2a4
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:33:59 2016 -0500
+
+    removed comma from models
+
+commit 7f299ffc38efc5039d398fe2acee16344508a7bb
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:31:20 2016 -0500
+
+    lowercase false
+
+commit e5caaa27a83b7c913c0d289322923f4c4e173f69
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:30:30 2016 -0500
+
+    added primary key
+
+commit 8b1593648cbb49405bcaced471907d88dd377aa2
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:28:21 2016 -0500
+
+    s removed from Characters
+
+commit a3c1c61ffbc34b7670a64f062f486e75f7a67724
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:27:32 2016 -0500
+
+    adding relationship function
+
+commit 39c728b12105b41c94aeed8278f2665e91fcbd58
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:25:09 2016 -0500
+
+    avoiding array
+
+commit e97d86730deb0e351fd67ff7649264f3ca1fb66e
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:23:16 2016 -0500
+
+    trying array again
+
+commit 38418272bf9b0d7fcc1358c2b4f7ccad71e6fc0a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:20:35 2016 -0500
+
+    updated import
+
+commit f624acc04fa0b6b51a5e1ed4a9324590054e5df6
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:14:01 2016 -0500
+
+    accidently add main not metadata
+
+commit 78636f260e11299a89253977c62cefe17440a551
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:11:09 2016 -0500
+
+    BASE not Base
+
+commit cc832148fcef4ac5cc37aca395d40a92ceaad180
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:09:08 2016 -0500
+
+    BASE has to be used not main
+
+commit 68e12c6f44d9e366bdec7a92a78c54a55aebcd95
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:07:34 2016 -0500
+
+    importing array
+
+commit cbe40063ac87801efadf2a859e5315bdfd8c7ff1
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:04:48 2016 -0500
+
+    trying to import array
+
+commit a8bebad82d323b88e618d21d589d8f40759af70c
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 19:59:01 2016 -0500
+
+    db was added in models
+
+commit 626944cd3cb847d9d878e53f2b60aa9911c5ebfc
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 19:55:06 2016 -0500
+
+    added table foreign key and array
+
+commit 42c36a0f70852e6addbc7d14a2b934e3a717732c
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 19:51:20 2016 -0500
+
+    fixed models
+
+commit 740ca5332ef04fd91ba271e0453390348db64375
+Author: asb26 <adan_briones@outlook.com>
+Date:   Wed Jul 6 19:15:10 2016 -0500
+
+    Removed the id attribute from models
+
+commit f298ee66c459a9803e5505edd52d11e19a8354ec
+Author: asb26 <adidan26@yahoo.com>
+Date:   Wed Jul 6 17:46:13 2016 -0500
+
+    Adding the forgotten log file
+
 commit d3bfca420c048e10dfd2eccb6807dc3f517310dc
 Merge: be2b6d7 10bfda7
 Author: Nabeel Virani <nabeelvirani@gmail.com>
