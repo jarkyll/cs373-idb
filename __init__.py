@@ -14,8 +14,7 @@ def homepage():
 
 @app.route("/about")
 def about():
-	return "this html is about us"
-
+	return render_template("about.html")
 
 @app.route("/characters")
 def characters():

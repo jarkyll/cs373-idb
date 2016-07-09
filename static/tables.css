@@ -7,13 +7,27 @@
     background-repeat:   no-repeat;
     background-size:     cover;
 }
+
+#about{
+    position: relative;
+    float: left;
+    width:  200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
 /* the stuff below the nav bar*/
 #content{
-    position:absolute;
+    padding-top: 3%;
+    display: table;
+    position:relative;
     top: 50px;
     right:0px;
     bottom:0px;
     overflow-y:scroll;
+    display: table;
+    margin: 0 auto;
 }
 
 #title{
@@ -26,6 +40,20 @@
   margin: 0 auto;
 }
 
+#characters > th{
+  display: block;
+  text-align: center;
+}
+.table > th{
+  text-align: center;
+}
+#imcol{
+  display: inline-block;
+}
+ul{
+    padding-right: 0;
+    list-style-type: none;
+}
 /*for stacking */
 .mobilewrapper{width:100%!important; height:auto!important;}
 .colsplit{width:320px!important; float:left!important; display:block !important;}
