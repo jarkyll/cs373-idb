@@ -3,8 +3,6 @@ from sqlalchemy.orm import sessionmaker
 from models import Publisher, Volume, Character, Team, db_connect, create_tables
 
 
-db = SQLAlchemy()
-BOT_NAME = "batman"
 
 app = Flask(__name__)
 engine = db_connect()
