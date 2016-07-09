@@ -1,13 +1,33 @@
-from sqlalchemy import Table, ForeignKey, Column, Integer, String, Boolean
+from sqlalchemy import create_engine, Table, ForeignKey, Column, Integer, String, Boolean
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
-
+from sqlalchemy.engine.url import URL
 
 BASE = declarative_base()
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
 
-# main is the base class for all of our models
-# whatever
+DATABASE = {
+		'drivername': 'postgres',
+		'host': 'localhost',
+		'port': '5432',
+		'username': 'root',
+		'password': "",
+		'database': "testing"
+}
+
+
+def db_connect():
+    """
+    Connects to the database
+    """
+    return create_engine(URL(**settings.DATABASE))
+
+
+def create_tables(engine):
+    BASE.metadata.create_all(engine)
+
+
+
 characters_volumes = Table('characters_volumes', BASE.metadata,
     Column('volume_name', String(100), ForeignKey('Volume.name')),
     Column('character_name', String(150), ForeignKey('Character.name'))

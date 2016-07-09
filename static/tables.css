@@ -9,6 +9,9 @@
 }
 
 #about{
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    transition: all 3s ease;
     position: relative;
     float: left;
     width:  200px;
@@ -16,7 +19,56 @@
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
+    -webkit-animation: slide 2s ease-in-out .5s infinite alternate;
+    -moz-animation: slide 2s ease-in-out .5s infinite alternate;
+    -ms-animation: slide 2s ease-in-out .5s infinite alternate;
+    -o-animation: slide 2s ease-in-out .5s infinite alternate;
+    animation: slide 2s ease-in-out .5s infinite alternate;
 }
+
+@keyframes pulsate {
+  0% {
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
+  100% {
+    -webkit-clip-path: polygon(50% 0%, 100% 0%, 100%% 36%, 500px 72%, 100% 100%, 50% 100%, 0% 100%, 0% 72%, 0% 36%, 0% 0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
+  100% {
+    -webkit-clip-path: polygon(50% 0%, 100% 0%, 100% 36%, 100% 72%, 100% 100%, 50% 100%, 0% 100%, 0% 72%, 0% 36%, 0% 0%);
+  }
+}
+@-moz-keyframes pulsate {
+  0% {
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
+  100% {
+    -webkit-clip-path: polygon(50% 0%, 100% 0%, 100% 36%, 100% 72%, 100% 100%, 50% 100%, 0% 100%, 0% 72%, 0% 36%, 0% 0%);
+  }
+}
+@-ms-keyframes pulsate {
+  0% {
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
+  100% {
+    -webkit-clip-path: polygon(50% 0%, 100% 0%, 100% 36%, 100% 72%, 100% 100%, 50% 100%, 0% 100%, 0% 72%, 0% 36%, 0% 0%);
+  }
+}
+@-o-keyframes pulsate {
+  0% {
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
+  100% {
+    -webkit-clip-path: polygon(50% 0%, 100% 0%, 100% 36%, 100% 72%, 100% 100%, 50% 100%, 0% 100%, 0% 72%, 0% 36%, 0% 0%);
+  }
+}
+
+
+
 /* the stuff below the nav bar*/
 #content{
     padding-top: 3%;
@@ -40,10 +92,7 @@
   margin: 0 auto;
 }
 
-#characters > th{
-  display: block;
-  text-align: center;
-}
+
 .table > th{
   text-align: center;
 }

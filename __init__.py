@@ -1,11 +1,25 @@
 from flask import Flask, render_template
-from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.orm import sessionmaker
+from models import Publisher, Volume, Character, Team, db_connect, create_tables
+
 
 db = SQLAlchemy()
-
+BOT_NAME = "batman"
 
 app = Flask(__name__)
-db.init_app(app)
+engine = db_connect()
+create_tables(engine)
+maker = sessionmaker(bind=engine)
+session = maker()
+
+DEMO = {
+	name: "hay",
+	address: "910101",
+	city: "Austin",
+	state: "Dallas",
+	deck: "Unknown",
+	image: "google.com"
+}
 
 @app.route("/")
 def homepage():
@@ -81,6 +95,12 @@ def Mouse():
 @app.route("/team/3")
 def Space():
 	return render_template("space.html")
+
+
+@app.route("/character/<name>")
+def show_character(name):
+	character = User.query.filter_by(name=name).first_or_404()
+	return render_template("character.html", character=character)
 
 if __name__=="__main__":
 	app.run()
