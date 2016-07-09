@@ -20,7 +20,7 @@ def db_connect():
     """
     Connects to the database
     """
-    return create_engine(URL(DATABASE))
+    return create_engine(URL(**DATABASE))
 
 
 def create_tables(engine):
