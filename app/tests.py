@@ -130,11 +130,10 @@ class MyTest(TestCase):
     	q = db.query.filter_by(volume=0).first(); 
     	assertEqual(t.publisher, "");
 
-
-	def test_Query2(self):
-    	t = Publisher()
+    def test_Query2(self):
+        t = Publisher()
     	db.session.add(t)
-    	q = db.query.filter_by(publisher="").first(); 
+        q = db.query.filter_by(publisher="").first(); 
     	assertEqual(t.publisher, "");    
 
     def test_Query3(self):

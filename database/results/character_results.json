@@ -1,0 +1,196 @@
+{
+    "0": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5187/",
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 0,
+        "name": "Badrock"
+    },
+    "1": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5248/",
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 1,
+        "name": "Battlestone"
+    },
+    "2": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-55130/",
+        "creator": {
+            "name": "Alan Moore"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 2,
+        "name": "Big Brother"
+    },
+    "3": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-26951/",
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 3,
+        "name": "Bloodwulf"
+    },
+    "33": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-68280/",
+        "creator": {
+            "name": "Erik Larsen"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 33,
+        "name": "Bad Axe"
+    },
+    "32": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-68613/",
+        "creator": {
+            "name": "Erik Larsen"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 32,
+        "name": "Assassin"
+    },
+    "40": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-27157/",
+        "creator": {
+            "name": "Brian Murray"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 40,
+        "name": "Decibel"
+    },
+    "41": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-26761/",
+        "creator": {},
+        "gender": 1,
+        "birth": null,
+        "id": 41,
+        "name": "Godspeed"
+    },
+    "10": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5294/",
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 10,
+        "name": "Atlas"
+    },
+    "11": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5187/",
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 11,
+        "name": "Badrock"
+    },
+    "12": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5248/",
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 12,
+        "name": "Battlestone"
+    },
+    "13": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5273/",
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 13,
+        "name": "Boone"
+    },
+    "43": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-52425/",
+        "creator": {
+            "name": "Brian Murray"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 43,
+        "name": "Riot"
+    },
+    "20": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-48967/",
+        "creator": {},
+        "gender": 1,
+        "birth": null,
+        "id": 20,
+        "name": "Black Crystal"
+    },
+    "21": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-48970/",
+        "creator": {
+            "name": "Mike Allred"
+        },
+        "gender": 2,
+        "birth": null,
+        "id": 21,
+        "name": "Carla"
+    },
+    "22": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-48968/",
+        "creator": {},
+        "gender": 1,
+        "birth": null,
+        "id": 22,
+        "name": "Horn"
+    },
+    "23": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-17868/",
+        "creator": {
+            "name": "Mike Allred"
+        },
+        "gender": 2,
+        "birth": null,
+        "id": 23,
+        "name": "It Girl"
+    },
+    "42": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-27156/",
+        "creator": {
+            "name": "Brian Murray"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 42,
+        "name": "Menagerie"
+    },
+    "30": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-21841/",
+        "creator": {
+            "name": "Erik Larsen"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 30,
+        "name": "Abner Cadaver"
+    },
+    "31": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-21847/",
+        "creator": {
+            "name": "Erik Larsen"
+        },
+        "gender": 1,
+        "birth": null,
+        "id": 31,
+        "name": "Arachnid"
+    }
+}
