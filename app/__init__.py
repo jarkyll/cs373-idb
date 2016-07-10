@@ -11,13 +11,19 @@ maker = sessionmaker(bind=engine)
 session = maker()
 
 DEMO = {
-	name: "hay",
-	address: "910101",
-	city: "Austin",
-	state: "Dallas",
-	deck: "Unknown",
-	image: "google.com"
+	'name': "tesing"
 }
+
+pub = Volume(**DEMO)
+try:
+	session.add(pub)
+	session.commit()
+except:
+	session.rollback()
+	raise
+finally:
+	session.close()
+
 
 @app.route("/")
 def homepage():
