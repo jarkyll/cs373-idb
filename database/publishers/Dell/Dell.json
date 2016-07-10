@@ -1,0 +1,103 @@
+{
+    "name": "Dell",
+    "location": {
+        "address": "1745 Broadwa",
+        "state": "New York",
+        "city": "New York"
+    },
+    "teams": [
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/mouse-musketeers/4060-47541/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-47541/",
+            "id": 47541,
+            "name": "Mouse Musketeers"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/buzzards/4060-47791/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-47791/",
+            "id": 47791,
+            "name": "Buzzards"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/brothers-of-the-spear/4060-56310/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56310/",
+            "id": 56310,
+            "name": "Brothers of the Spear"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/mod-squad/4060-56624/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56624/",
+            "id": 56624,
+            "name": "Mod Squad"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/the-brady-bunch/4060-56651/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56651/",
+            "id": 56651,
+            "name": "The Brady Bunch"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/claw-gang/4060-56708/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56708/",
+            "id": 56708,
+            "name": "Claw Gang"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/the-night-devils/4060-58000/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58000/",
+            "id": 58000,
+            "name": "The Night Devils"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/pithecanthropus-tribe/4060-58811/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58811/",
+            "id": 58811,
+            "name": "Pithecanthropus tribe"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/beverly-hillbillies/4060-59058/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-59058/",
+            "id": 59058,
+            "name": "Beverly Hillbillies"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/rocket-boys/4060-60031/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-60031/",
+            "id": 60031,
+            "name": "Rocket Boys"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/ermintrude-and-herkimer/4060-60058/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-60058/",
+            "id": 60058,
+            "name": "Ermintrude and Herkimer"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/eloise-and-elmer/4060-60059/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-60059/",
+            "id": 60059,
+            "name": "Eloise and Elmer"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/amazo/4060-60117/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-60117/",
+            "id": 60117,
+            "name": "Amazo"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/flying-felines/4060-60118/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-60118/",
+            "id": 60118,
+            "name": "Flying Felines"
+        },
+        {
+            "site_detail_url": "http://comicvine.gamespot.com/fab-four/4060-61801/",
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-61801/",
+            "id": 61801,
+            "name": "Fab Four"
+        }
+    ],
+    "id": 3,
+    "image": "http://static4.comicvine.com/uploads/scale_small/6/69951/1387447-logo.gif?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json",
+    "deck": "Also Known as Dell Comics Group and Dell Super Comics Group was an American publisher of books and comic books, founded in 1921. They would partner with Western Publishing from 1938 to 1962. Dell was bought by Random House and is now part of the \"Bantam Dell Publishing Group\"."
+}

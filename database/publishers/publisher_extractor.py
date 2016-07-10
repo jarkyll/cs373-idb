@@ -14,6 +14,7 @@ for data in glob.glob('*.json'):
     f = open(data, 'r')
     test = json.load(f)
 
+    extracted['id'] =  id
     extracted['name'] = test['results']['name']
     extracted['location'] = {}
     extracted['location']['city'] = test['results']['location_city']
@@ -29,8 +30,18 @@ for data in glob.glob('*.json'):
     f.close()
     id += 1
 
+    direc = '/u/cz4792/cs373/cs373-idb/database/publishers/' + extracted['name']
+    if not os.path.exists(direc):
+        os.mkdir('/u/cz4792/cs373/cs373-idb/database/publishers/' + extracted['name'])
+    path = '/u/cz4792/cs373/cs373-idb/database/publishers/' + extracted['name'] + '/' + extracted['name'] + '.json'
+    with open(path, 'w') as f:
+        json.dump(extracted, f, indent=4)
+
+    # f = open(path, 'r')
+    f.close()
+
 with open('/u/cz4792/cs373/cs373-idb/database/results/publisher_results.json', 'w') as f:
     json.dump(result, f, indent=4)
 
-f = open('/u/cz4792/cs373/cs373-idb/database/results/publisher_results.json', 'r')
+# f = open('/u/cz4792/cs373/cs373-idb/database/results/publisher_results.json', 'r')
 f.close()
