@@ -1,17 +1,38 @@
-from sqlalchemy import Table, ForeignKey, Column, Integer, String, Boolean
+from sqlalchemy import create_engine, Table, ForeignKey, Column, Integer, String, Boolean
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
-
+from sqlalchemy.engine.url import URL
 
 BASE = declarative_base()
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
 
-# main is the base class for all of our models
-# whatever
-characters_volumes = Table('characters_volumes', BASE.metadata,
-    Column('volume_name', String(100), ForeignKey('Volume.name')),
-    Column('character_name', String(150), ForeignKey('Character.name'))
+DATABASE = {
+		'drivername': 'postgres',
+		'host': 'localhost',
+		'port': '5432',
+		'username': 'postgres',
+		'password': 'batman',
+		'database': "try"
+}
+
+
+def db_connect():
+    """
+    Connects to the database
+    """
+    return create_engine(URL(**DATABASE))
+
+
+def create_tables(engine):
+    BASE.metadata.create_all(engine)
+
+
+
+CHARACTERS_VOLUMES = Table('characters_volumes', BASE.metadata,
+    Column('character_name', String(150), ForeignKey('Character.name')),
+    Column('volume_name', String(100), ForeignKey('Volume.name'))
 )
+
 
 characters_teams = Table('characters_teams', BASE.metadata,
     Column('character_name', String(200), ForeignKey('Character.name')),
@@ -41,9 +62,12 @@ class Character(BASE):
     image = Column(String)  # image url
     gender = Column(String(10))
     creator = Column(String(50), unique=False)
-    volumes = relationship("Volume", secondary=characters_volumes, back_populates="characters")
+    publisher = Column(String(150), ForeignKey('Publisher.name'))
+
+
+    volumes = relationship("Volume", secondary=CHARACTERS_VOLUMES, back_populates="characters")
     teams = relationship("Team", secondary=characters_teams, back_populates="characters")
-    publisher = relationship("Publisher",  back_populates="characters")
+    publisher_name = relationship("Publisher", back_populates="characters")
 
     def __repr__(self):
         return 'Character(name={}, image={}, volumes='.format(
@@ -76,10 +100,10 @@ class Publisher(BASE):
     city = Column(String(20), unique=False)
     state = Column(String(2), unique=False)
     deck = Column(String, unique=False)
-    image = Column(String)  # image url
-    characters = relationship("Character", back_populates="publisher")
-    volumes = relationship("Volume", back_populates="publisher")
-    teams = relationship("Team", back_populates="publisher")
+    image = Column(String)  # image url    
+    characters = relationship("Character", back_populates="publisher_name")
+    volumes = relationship("Volume", back_populates="publisher_name")
+    teams = relationship("Team", back_populates="publisher_name")
 
     def __repr__(self):
         return 'Publisher(name={}, address={}, city={}, state={}, deck={}, volumes={}, teams={}'.format(
@@ -109,8 +133,9 @@ class Volume(BASE):
     description = Column(String(200), unique=False)
     count_of_issues = Column(Integer, unique=False)
     start_year = Column(Integer, unique=False)
-    publisher = relationship("Publisher",  back_populates="volumes")
-    characters = relationship("Volume", secondary=characters_volumes, back_populates="volumes")
+    publisher = Column(String(150), ForeignKey('Publisher.name'))
+    publisher_name = relationship("Publisher",  back_populates="volumes")
+    characters = relationship("Volume", secondary=CHARACTERS_VOLUMES, back_populates="volumes")
     teams = relationship("Team", secondary=volumes_teams, back_populates="volumes")
     name = Column(String, unique=True, primary_key=True)
     def __repr__(self):
@@ -138,8 +163,9 @@ class Team(BASE):
     name = Column(String(50), unique=True, primary_key=True)
     description = Column(String, unique=False)
     image = Column(String)  # image url
-    publisher = relationship("Publisher", back_populates="teams")
-    characters = relationship("Character",  back_populates="teams")
+    publisher = Column(String(150), ForeignKey('Publisher.name'))	
+    publisher_name = relationship("Publisher", back_populates="teams")
+    characters = relationship("Character", secondary=characters_teams, back_populates="teams")
     volumes = relationship("Volume", secondary=volumes_teams, back_populates="teams")
 
 

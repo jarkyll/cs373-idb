@@ -17,6 +17,10 @@
 
 
 html,body{
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
   height:100%;
   text-align: center;
 }
@@ -34,7 +38,9 @@ html,body{
 
 
 #myCarousel{
-    height: 100%;
+  z-index: -90;
+  height: 100%;
+  position: fixed;
 }
 .carousel-inner{
     height: 100%;
