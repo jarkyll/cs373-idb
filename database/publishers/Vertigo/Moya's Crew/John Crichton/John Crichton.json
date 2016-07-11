@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/Moya's Crew/John Crichton/John Crichton.json
     "name": "John Crichton",
     "creator": {},
     "gender": 1,
     "api_url": "http://comicvine.gamespot.com/api/character/4005-63234/",
     "birth": null,
     "id": 963
+=======
+    "id": 163,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-63234/",
+    "birth": null,
+    "gender": 1,
+    "name": "John Crichton"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/Moya's Crew/John Crichton/John Crichton.json
 }

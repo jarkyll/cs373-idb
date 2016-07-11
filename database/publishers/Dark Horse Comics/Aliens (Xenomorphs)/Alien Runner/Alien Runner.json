@@ -1,10 +1,20 @@
 {
+<<<<<<< HEAD
     "api_url": "http://comicvine.gamespot.com/api/character/4005-91389/",
     "name": "Alien Runner",
     "gender": 1,
+=======
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
     "id": 221,
     "creator": {
         "name": "H.R. Giger"
     },
+<<<<<<< HEAD
     "birth": null
+=======
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-91389/",
+    "birth": null,
+    "gender": 1,
+    "name": "Alien Runner"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
 }

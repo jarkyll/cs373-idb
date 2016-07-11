@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/The Think Tank/Alan Ripley/Alan Ripley.json
     "name": "Alan Ripley",
     "creator": {},
     "gender": 1,
     "api_url": "http://comicvine.gamespot.com/api/character/4005-61962/",
     "birth": null,
     "id": 950
+=======
+    "id": 150,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-61962/",
+    "birth": null,
+    "gender": 1,
+    "name": "Alan Ripley"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/The Think Tank/Alan Ripley/Alan Ripley.json
 }

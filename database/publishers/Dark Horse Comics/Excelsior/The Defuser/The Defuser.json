@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD
     "api_url": "http://comicvine.gamespot.com/api/character/4005-60035/",
     "name": "The Defuser",
     "gender": 1,
     "id": 282,
     "creator": {},
     "birth": null
+=======
+    "id": 282,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-60035/",
+    "birth": null,
+    "gender": 1,
+    "name": "The Defuser"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
 }

@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/The Think Tank/The Operator/The Operator.json
     "name": "The Operator",
     "creator": {},
     "gender": 1,
     "api_url": "http://comicvine.gamespot.com/api/character/4005-61963/",
     "birth": null,
     "id": 951
+=======
+    "id": 151,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-61963/",
+    "birth": null,
+    "gender": 1,
+    "name": "The Operator"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/The Think Tank/The Operator/The Operator.json
 }

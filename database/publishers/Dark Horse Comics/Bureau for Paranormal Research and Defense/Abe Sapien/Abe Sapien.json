@@ -1,10 +1,20 @@
 {
+<<<<<<< HEAD
     "api_url": "http://comicvine.gamespot.com/api/character/4005-25795/",
     "name": "Abe Sapien",
     "gender": 1,
+=======
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
     "id": 230,
     "creator": {
         "name": "Mike Mignola"
     },
+<<<<<<< HEAD
     "birth": null
+=======
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-25795/",
+    "birth": null,
+    "gender": 1,
+    "name": "Abe Sapien"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
 }

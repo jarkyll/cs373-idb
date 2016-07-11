@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/Peacekeepers/Aeryn Sun/Aeryn Sun.json
     "name": "Aeryn Sun",
     "creator": {},
     "gender": 2,
     "api_url": "http://comicvine.gamespot.com/api/character/4005-63247/",
     "birth": null,
     "id": 970
+=======
+    "id": 160,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-63247/",
+    "birth": null,
+    "gender": 2,
+    "name": "Aeryn Sun"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/Moya's Crew/Aeryn Sun/Aeryn Sun.json
 }

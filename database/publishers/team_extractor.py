@@ -23,11 +23,19 @@ postpend = "?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
 dir = os.getcwd() + '/'
 id = 0
 
+<<<<<<< HEAD:database/publishers/team_extractor.py
 PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics', 'Dell', 'Fiction House', 'IDW Publishing', 'Image', 'Top Cow', 'Valiant', 'Vertigo']
+=======
+PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics', 'Dell', 'Fiction House']
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/teams/team_extractor.py
 
 f = open(dir + 'results/publisher_results.json', 'r')
 test = json.load(f)
+<<<<<<< HEAD:database/publishers/team_extractor.py
 for id in range(6, 10, 1):
+=======
+for id in range(3, 5):
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/teams/team_extractor.py
     teamCount = 0
     teamList = []
     teamList = test[str(id)]['teams']
@@ -63,7 +71,11 @@ for id in range(6, 10, 1):
 f.close()
 
 
+<<<<<<< HEAD:database/publishers/team_extractor.py
 with open( dir + "results/team_results7-10.json", 'w') as f:
+=======
+with open("/u/cz4792/cs373/cs373-idb/database/results/team_results4-5.json", 'w') as f:
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/teams/team_extractor.py
     json.dump(result, f, indent=4)
 
 f.close()

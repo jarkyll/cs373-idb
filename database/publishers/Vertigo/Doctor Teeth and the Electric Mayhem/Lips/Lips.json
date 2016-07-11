@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/Doctor Teeth and the Electric Mayhem/Lips/Lips.json
     "name": "Lips",
     "creator": {
         "name": "Jim Henson"
@@ -7,4 +8,14 @@
     "api_url": "http://comicvine.gamespot.com/api/character/4005-113378/",
     "birth": null,
     "id": 924
+=======
+    "id": 124,
+    "creator": {
+        "name": "Jim Henson"
+    },
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-113378/",
+    "birth": null,
+    "gender": 1,
+    "name": "Lips"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/Doctor Teeth and the Electric Mayhem/Lips/Lips.json
 }

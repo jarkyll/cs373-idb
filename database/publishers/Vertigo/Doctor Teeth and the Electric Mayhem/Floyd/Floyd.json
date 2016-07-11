@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/Doctor Teeth and the Electric Mayhem/Floyd/Floyd.json
     "name": "Floyd",
     "creator": {},
     "gender": 1,
     "api_url": "http://comicvine.gamespot.com/api/character/4005-7563/",
     "birth": null,
     "id": 922
+=======
+    "id": 122,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-7563/",
+    "birth": null,
+    "gender": 1,
+    "name": "Floyd"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/Doctor Teeth and the Electric Mayhem/Floyd/Floyd.json
 }

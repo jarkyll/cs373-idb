@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/Cenobites/Angelique/Angelique.json
     "name": "Angelique",
     "creator": {},
     "gender": 2,
     "api_url": "http://comicvine.gamespot.com/api/character/4005-54716/",
     "birth": null,
     "id": 903
+=======
+    "id": 103,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-54716/",
+    "birth": null,
+    "gender": 2,
+    "name": "Angelique"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/Cenobites/Angelique/Angelique.json
 }

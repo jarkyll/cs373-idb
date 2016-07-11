@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/Paradigm/Gazer/Gazer.json
     "name": "Gazer",
     "creator": {},
     "gender": 1,
     "api_url": "http://comicvine.gamespot.com/api/character/4005-73936/",
     "birth": null,
     "id": 983
+=======
+    "id": 183,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-73936/",
+    "birth": null,
+    "gender": 1,
+    "name": "Gazer"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/Paradigm/Gazer/Gazer.json
 }

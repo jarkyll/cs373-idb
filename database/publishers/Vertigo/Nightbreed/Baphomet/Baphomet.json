@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/Nightbreed/Baphomet/Baphomet.json
     "name": "Baphomet",
     "creator": {
         "name": "Clive Barker"
@@ -7,4 +8,14 @@
     "api_url": "http://comicvine.gamespot.com/api/character/4005-102925/",
     "birth": null,
     "id": 934
+=======
+    "id": 134,
+    "creator": {
+        "name": "Clive Barker"
+    },
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-102925/",
+    "birth": null,
+    "gender": 1,
+    "name": "Baphomet"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/Nightbreed/Baphomet/Baphomet.json
 }

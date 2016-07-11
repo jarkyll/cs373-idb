@@ -1,10 +1,20 @@
 {
+<<<<<<< HEAD
     "api_url": "http://comicvine.gamespot.com/api/character/4005-92578/",
     "name": "Bodyburster",
     "gender": 1,
+=======
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
     "id": 223,
     "creator": {
         "name": "Justin Green"
     },
+<<<<<<< HEAD
     "birth": null
+=======
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-92578/",
+    "birth": null,
+    "gender": 1,
+    "name": "Bodyburster"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
 }

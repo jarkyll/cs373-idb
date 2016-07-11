@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/Planetary Brigade/Captain Valor/Captain Valor.json
     "name": "Captain Valor",
     "creator": {},
     "gender": 1,
     "api_url": "http://comicvine.gamespot.com/api/character/4005-61083/",
     "birth": null,
     "id": 940
+=======
+    "id": 140,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-61083/",
+    "birth": null,
+    "gender": 1,
+    "name": "Captain Valor"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/Planetary Brigade/Captain Valor/Captain Valor.json
 }

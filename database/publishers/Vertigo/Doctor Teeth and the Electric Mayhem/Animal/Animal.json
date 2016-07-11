@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/Doctor Teeth and the Electric Mayhem/Animal/Animal.json
     "name": "Animal",
     "creator": {},
     "gender": 1,
     "api_url": "http://comicvine.gamespot.com/api/character/4005-7551/",
     "birth": null,
     "id": 920
+=======
+    "id": 120,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-7551/",
+    "birth": null,
+    "gender": 1,
+    "name": "Animal"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/Doctor Teeth and the Electric Mayhem/Animal/Animal.json
 }

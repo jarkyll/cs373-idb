@@ -1,10 +1,20 @@
 {
+<<<<<<< HEAD
     "api_url": "http://comicvine.gamespot.com/api/character/4005-56749/",
     "name": "Atom Predator",
     "gender": 1,
+=======
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
     "id": 212,
     "creator": {
         "name": "John Ostrander"
     },
+<<<<<<< HEAD
     "birth": null
+=======
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-56749/",
+    "birth": null,
+    "gender": 1,
+    "name": "Atom Predator"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
 }

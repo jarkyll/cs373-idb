@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD
     "api_url": "http://comicvine.gamespot.com/api/character/4005-83566/",
     "name": "Buffybot",
     "gender": 3,
     "id": 254,
     "creator": {},
     "birth": null
+=======
+    "id": 254,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-83566/",
+    "birth": null,
+    "gender": 3,
+    "name": "Buffybot"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
 }

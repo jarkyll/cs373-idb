@@ -1,10 +1,20 @@
 {
+<<<<<<< HEAD
     "api_url": "http://comicvine.gamespot.com/api/character/4005-91536/",
     "name": "Crocodile Alien",
     "gender": 1,
+=======
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
     "id": 224,
     "creator": {
         "name": "Ron Marz"
     },
+<<<<<<< HEAD
     "birth": null
+=======
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-91536/",
+    "birth": null,
+    "gender": 1,
+    "name": "Crocodile Alien"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
 }

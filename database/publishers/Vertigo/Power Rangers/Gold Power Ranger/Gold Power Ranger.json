@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/Power Rangers/Gold Power Ranger/Gold Power Ranger.json
     "name": "Gold Power Ranger",
     "creator": {},
     "gender": 1,
     "api_url": "http://comicvine.gamespot.com/api/character/4005-69415/",
     "birth": null,
     "id": 914
+=======
+    "id": 114,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-69415/",
+    "birth": null,
+    "gender": 1,
+    "name": "Gold Power Ranger"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/Power Rangers/Gold Power Ranger/Gold Power Ranger.json
 }

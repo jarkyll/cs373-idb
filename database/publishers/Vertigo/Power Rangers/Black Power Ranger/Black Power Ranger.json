@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD:database/publishers/Vertigo/Power Rangers/Black Power Ranger/Black Power Ranger.json
     "name": "Black Power Ranger",
     "creator": {},
     "gender": 1,
     "api_url": "http://comicvine.gamespot.com/api/character/4005-48313/",
     "birth": null,
     "id": 911
+=======
+    "id": 111,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-48313/",
+    "birth": null,
+    "gender": 1,
+    "name": "Black Power Ranger"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/publishers/Boom! Studios/Power Rangers/Black Power Ranger/Black Power Ranger.json
 }

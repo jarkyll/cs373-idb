@@ -1,8 +1,17 @@
 {
+<<<<<<< HEAD
     "api_url": "http://comicvine.gamespot.com/api/character/4005-20100/",
     "name": "Anya",
     "gender": 2,
     "id": 251,
     "creator": {},
     "birth": null
+=======
+    "id": 251,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-20100/",
+    "birth": null,
+    "gender": 2,
+    "name": "Anya"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
 }

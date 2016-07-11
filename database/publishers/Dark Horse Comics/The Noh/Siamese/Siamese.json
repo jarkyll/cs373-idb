@@ -1,10 +1,20 @@
 {
+<<<<<<< HEAD
     "api_url": "http://comicvine.gamespot.com/api/character/4005-41508/",
     "name": "Siamese",
     "gender": 2,
+=======
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
     "id": 244,
     "creator": {
         "name": "David Mack"
     },
+<<<<<<< HEAD
     "birth": null
+=======
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41508/",
+    "birth": null,
+    "gender": 2,
+    "name": "Siamese"
+>>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608
 }
