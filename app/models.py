@@ -89,12 +89,14 @@ class Publisher(db.Model):
     teams = db.relationship("Team", backref="team_publisher", lazy='dynamic')
 
     def __repr__(self):
-        return 'Publisher(name={}, address={}, city={}, state={}, deck={}, volumes={}, teams={}'.format(
+        return 'Publisher(name={}, address={}, city={}, state={}, deck={}, image={}, characters={}, volumes={}, teams={}'.format(
             self.name,
             self.address,
             self.city,
             self.state,
             self.deck,
+            self.image,
+            self.characters,
             self.volumes,
             self.teams,
             ) + ")"
