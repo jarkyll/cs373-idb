@@ -1,0 +1,706 @@
+{
+    "9730": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9730,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9731": {
+        "start_year": "2002",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18871/",
+        "id": 9731,
+        "name": "100 Bullets: A Foregone Tomorrow",
+        "description": null
+    },
+    "9220": {
+        "start_year": "1989",
+        "count_of_issues": 75,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4207/",
+        "id": 9220,
+        "name": "The Sandman",
+        "description": null
+    },
+    "9221": {
+        "start_year": "2005",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-7577/",
+        "id": 9221,
+        "name": "Lucifer: The Wolf Beneath the Tree",
+        "description": null
+    },
+    "9740": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9740,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9741": {
+        "start_year": "2002",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18871/",
+        "id": 9741,
+        "name": "100 Bullets: A Foregone Tomorrow",
+        "description": null
+    },
+    "9230": {
+        "start_year": "1989",
+        "count_of_issues": 75,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4207/",
+        "id": 9230,
+        "name": "The Sandman",
+        "description": null
+    },
+    "9231": {
+        "start_year": "1996",
+        "count_of_issues": 60,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5744/",
+        "id": 9231,
+        "name": "The Dreaming",
+        "description": null
+    },
+    "9240": {
+        "start_year": "1989",
+        "count_of_issues": 75,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4207/",
+        "id": 9240,
+        "name": "The Sandman",
+        "description": null
+    },
+    "9241": {
+        "start_year": "2003",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19552/",
+        "id": 9241,
+        "name": "Death: At Death's Door",
+        "description": null
+    },
+    "9500": {
+        "start_year": "1995",
+        "count_of_issues": 66,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "id": 9500,
+        "name": "Preacher",
+        "description": null
+    },
+    "9501": {
+        "start_year": "1998",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-28307/",
+        "id": 9501,
+        "name": "Preacher: Dixie Fried",
+        "description": null
+    },
+    "9510": {
+        "start_year": "1998",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18111/",
+        "id": 9510,
+        "name": "Preacher Special: Cassidy : Blood and Whiskey",
+        "description": null
+    },
+    "9511": {
+        "start_year": "2009",
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-29843/",
+        "id": 9511,
+        "name": "Preacher",
+        "description": null
+    },
+    "9000": {
+        "start_year": "2003",
+        "count_of_issues": 32,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11226/",
+        "id": 9000,
+        "name": "The Losers",
+        "description": null
+    },
+    "9001": {
+        "start_year": "2008",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27716/",
+        "id": 9001,
+        "name": "Vertigo Encyclopedia",
+        "description": null
+    },
+    "9520": {
+        "start_year": "1995",
+        "count_of_issues": 66,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "id": 9520,
+        "name": "Preacher",
+        "description": null
+    },
+    "9521": {
+        "start_year": "1998",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18111/",
+        "id": 9521,
+        "name": "Preacher Special: Cassidy : Blood and Whiskey",
+        "description": null
+    },
+    "9010": {
+        "start_year": "2003",
+        "count_of_issues": 32,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11226/",
+        "id": 9010,
+        "name": "The Losers",
+        "description": null
+    },
+    "9011": {
+        "start_year": "2008",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27716/",
+        "id": 9011,
+        "name": "Vertigo Encyclopedia",
+        "description": null
+    },
+    "9530": {
+        "start_year": "1995",
+        "count_of_issues": 66,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "id": 9530,
+        "name": "Preacher",
+        "description": null
+    },
+    "9531": {
+        "start_year": "1998",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18111/",
+        "id": 9531,
+        "name": "Preacher Special: Cassidy : Blood and Whiskey",
+        "description": null
+    },
+    "9020": {
+        "start_year": "2003",
+        "count_of_issues": 32,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11226/",
+        "id": 9020,
+        "name": "The Losers",
+        "description": null
+    },
+    "9021": {
+        "start_year": "2008",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27716/",
+        "id": 9021,
+        "name": "Vertigo Encyclopedia",
+        "description": null
+    },
+    "9540": {
+        "start_year": "1995",
+        "count_of_issues": 66,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "id": 9540,
+        "name": "Preacher",
+        "description": null
+    },
+    "9541": {
+        "start_year": "1998",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-28307/",
+        "id": 9541,
+        "name": "Preacher: Dixie Fried",
+        "description": null
+    },
+    "9030": {
+        "start_year": "2003",
+        "count_of_issues": 32,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11226/",
+        "id": 9030,
+        "name": "The Losers",
+        "description": null
+    },
+    "9031": {
+        "start_year": "2008",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27716/",
+        "id": 9031,
+        "name": "Vertigo Encyclopedia",
+        "description": null
+    },
+    "9800": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9800,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9801": {
+        "start_year": "2001",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18870/",
+        "id": 9801,
+        "name": "100 Bullets: Split Second Chance",
+        "description": null
+    },
+    "9040": {
+        "start_year": "2003",
+        "count_of_issues": 32,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11226/",
+        "id": 9040,
+        "name": "The Losers",
+        "description": null
+    },
+    "9041": {
+        "start_year": "2008",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27716/",
+        "id": 9041,
+        "name": "Vertigo Encyclopedia",
+        "description": null
+    },
+    "9810": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9810,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9811": {
+        "start_year": "2001",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18870/",
+        "id": 9811,
+        "name": "100 Bullets: Split Second Chance",
+        "description": null
+    },
+    "9300": {
+        "start_year": "2004",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-7362/",
+        "id": 9300,
+        "name": "Lucifer: Inferno",
+        "description": null
+    },
+    "9301": {
+        "start_year": "2001",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-7364/",
+        "id": 9301,
+        "name": "Lucifer: Children and Monsters",
+        "description": null
+    },
+    "9820": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9820,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9821": {
+        "start_year": "2001",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18869/",
+        "id": 9821,
+        "name": "100 Bullets: Hang Up on the Hang Low",
+        "description": null
+    },
+    "9310": {
+        "start_year": "1989",
+        "count_of_issues": 75,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4207/",
+        "id": 9310,
+        "name": "The Sandman",
+        "description": null
+    },
+    "9311": {
+        "start_year": "1990",
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4354/",
+        "id": 9311,
+        "name": "The Books of Magic",
+        "description": null
+    },
+    "9830": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9830,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9831": {
+        "start_year": "2001",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18870/",
+        "id": 9831,
+        "name": "100 Bullets: Split Second Chance",
+        "description": null
+    },
+    "9320": {
+        "start_year": "1990",
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4354/",
+        "id": 9320,
+        "name": "The Books of Magic",
+        "description": null
+    },
+    "9321": {
+        "start_year": "1992",
+        "count_of_issues": 63,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4754/",
+        "id": 9321,
+        "name": "The Spectre",
+        "description": null
+    },
+    "9840": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9840,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9841": {
+        "start_year": "2002",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18871/",
+        "id": 9841,
+        "name": "100 Bullets: A Foregone Tomorrow",
+        "description": null
+    },
+    "9600": {
+        "start_year": "2013",
+        "count_of_issues": 35,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-62857/",
+        "id": 9600,
+        "name": "Astro City",
+        "description": "Continuation of Kurt Busiek and Brent Anderson's epic story."
+    },
+    "9610": {
+        "start_year": "2013",
+        "count_of_issues": 35,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-62857/",
+        "id": 9610,
+        "name": "Astro City",
+        "description": "Continuation of Kurt Busiek and Brent Anderson's epic story."
+    },
+    "9100": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9100,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9101": {
+        "start_year": "1940",
+        "count_of_issues": 716,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-796/",
+        "id": 9101,
+        "name": "Batman",
+        "description": "The one that started it all. Batman focuses on the rise of the famous Batman and his influence on Gotham City as he fights the most devilish of villains and stops the most dastardly plans. It spanned from 1940-2011."
+    },
+    "9620": {
+        "start_year": "1995",
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18162/",
+        "id": 9620,
+        "name": "Kurt Busiek's Astro City",
+        "description": null
+    },
+    "9621": {
+        "start_year": "1996",
+        "count_of_issues": 23,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18181/",
+        "id": 9621,
+        "name": "Kurt Busiek's Astro City",
+        "description": null
+    },
+    "9110": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9110,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9111": {
+        "start_year": "2001",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18870/",
+        "id": 9111,
+        "name": "100 Bullets: Split Second Chance",
+        "description": null
+    },
+    "9630": {
+        "start_year": "1995",
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18162/",
+        "id": 9630,
+        "name": "Kurt Busiek's Astro City",
+        "description": null
+    },
+    "9631": {
+        "start_year": "2004",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18183/",
+        "id": 9631,
+        "name": "Astro City: A Visitor's Guide",
+        "description": null
+    },
+    "9120": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9120,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9121": {
+        "start_year": "2001",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18870/",
+        "id": 9121,
+        "name": "100 Bullets: Split Second Chance",
+        "description": null
+    },
+    "9640": {
+        "start_year": "1995",
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18162/",
+        "id": 9640,
+        "name": "Kurt Busiek's Astro City",
+        "description": null
+    },
+    "9641": {
+        "start_year": "1996",
+        "count_of_issues": 23,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18181/",
+        "id": 9641,
+        "name": "Kurt Busiek's Astro City",
+        "description": null
+    },
+    "9130": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9130,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9131": {
+        "start_year": "2002",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18871/",
+        "id": 9131,
+        "name": "100 Bullets: A Foregone Tomorrow",
+        "description": null
+    },
+    "9900": {
+        "start_year": "1995",
+        "count_of_issues": 66,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "id": 9900,
+        "name": "Preacher",
+        "description": null
+    },
+    "9901": {
+        "start_year": "1996",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25742/",
+        "id": 9901,
+        "name": "Preacher: Gone to Texas",
+        "description": null
+    },
+    "9140": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9140,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9141": {
+        "start_year": "2001",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18869/",
+        "id": 9141,
+        "name": "100 Bullets: Hang Up on the Hang Low",
+        "description": null
+    },
+    "9910": {
+        "start_year": "1995",
+        "count_of_issues": 66,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "id": 9910,
+        "name": "Preacher",
+        "description": null
+    },
+    "9911": {
+        "start_year": "1996",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25742/",
+        "id": 9911,
+        "name": "Preacher: Gone to Texas",
+        "description": null
+    },
+    "9400": {
+        "start_year": "1995",
+        "count_of_issues": 66,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "id": 9400,
+        "name": "Preacher",
+        "description": null
+    },
+    "9401": {
+        "start_year": "1991",
+        "count_of_issues": 242,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18692/",
+        "id": 9401,
+        "name": "Wizard: The Comics Magazine",
+        "description": null
+    },
+    "9410": {
+        "start_year": "1998",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-23557/",
+        "id": 9410,
+        "name": "Preacher Special: One Man's War",
+        "description": null
+    },
+    "9411": {
+        "start_year": "2009",
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-29843/",
+        "id": 9411,
+        "name": "Preacher",
+        "description": null
+    },
+    "9420": {
+        "start_year": "1995",
+        "count_of_issues": 66,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "id": 9420,
+        "name": "Preacher",
+        "description": null
+    },
+    "9421": {
+        "start_year": "2000",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-28548/",
+        "id": 9421,
+        "name": "Preacher: All Hell's A-Coming",
+        "description": null
+    },
+    "9430": {
+        "start_year": "1995",
+        "count_of_issues": 66,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "id": 9430,
+        "name": "Preacher",
+        "description": null
+    },
+    "9431": {
+        "start_year": "1998",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-23557/",
+        "id": 9431,
+        "name": "Preacher Special: One Man's War",
+        "description": null
+    },
+    "9440": {
+        "start_year": "1995",
+        "count_of_issues": 66,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "id": 9440,
+        "name": "Preacher",
+        "description": null
+    },
+    "9441": {
+        "start_year": "2000",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25598/",
+        "id": 9441,
+        "name": "Preacher: Dead or Alive",
+        "description": null
+    },
+    "9700": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9700,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9701": {
+        "start_year": "1940",
+        "count_of_issues": 716,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-796/",
+        "id": 9701,
+        "name": "Batman",
+        "description": "The one that started it all. Batman focuses on the rise of the famous Batman and his influence on Gotham City as he fights the most devilish of villains and stops the most dastardly plans. It spanned from 1940-2011."
+    },
+    "9710": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9710,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9711": {
+        "start_year": "2006",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-22920/",
+        "id": 9711,
+        "name": "100 Bullets: Decayed",
+        "description": null
+    },
+    "9200": {
+        "start_year": "1989",
+        "count_of_issues": 75,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4207/",
+        "id": 9200,
+        "name": "The Sandman",
+        "description": null
+    },
+    "9201": {
+        "start_year": "1997",
+        "count_of_issues": 126,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5957/",
+        "id": 9201,
+        "name": "JLA",
+        "description": "The Justice League of America is Reborn."
+    },
+    "9720": {
+        "start_year": "1999",
+        "count_of_issues": 100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "id": 9720,
+        "name": "100 Bullets",
+        "description": null
+    },
+    "9721": {
+        "start_year": "2002",
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18871/",
+        "id": 9721,
+        "name": "100 Bullets: A Foregone Tomorrow",
+        "description": null
+    },
+    "9210": {
+        "start_year": "1989",
+        "count_of_issues": 75,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4207/",
+        "id": 9210,
+        "name": "The Sandman",
+        "description": null
+    },
+    "9211": {
+        "start_year": "1987",
+        "count_of_issues": 57,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3782/",
+        "id": 9211,
+        "name": "Captain Atom",
+        "description": "Volume 3."
+    }
+}

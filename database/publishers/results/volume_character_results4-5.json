@@ -1,0 +1,290 @@
+{
+    "3200": {
+        "start_year": "1948",
+        "id": 3200,
+        "count_of_issues": 131,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1176/",
+        "description": null,
+        "name": "Tarzan"
+    },
+    "3201": {
+        "start_year": "1972",
+        "id": 3201,
+        "count_of_issues": 18,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-7426/",
+        "description": null,
+        "name": "Brothers of the Spear"
+    },
+    "3010": {
+        "start_year": "1949",
+        "id": 3010,
+        "count_of_issues": 153,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1247/",
+        "description": null,
+        "name": "Tom & Jerry Comics"
+    },
+    "3011": {
+        "start_year": "1952",
+        "id": 3011,
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1479/",
+        "description": null,
+        "name": "Tom & Jerry Winter Carnival"
+    },
+    "3400": {
+        "start_year": "1970",
+        "id": 3400,
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26901/",
+        "description": null,
+        "name": "Brady Bunch"
+    },
+    "3500": {
+        "start_year": "1955",
+        "id": 3500,
+        "count_of_issues": 15,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-34943/",
+        "description": null,
+        "name": "Adventures Of Mighty Mouse"
+    },
+    "3210": {
+        "start_year": "1948",
+        "id": 3210,
+        "count_of_issues": 131,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1176/",
+        "description": null,
+        "name": "Tarzan"
+    },
+    "3211": {
+        "start_year": "1972",
+        "id": 3211,
+        "count_of_issues": 18,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-7426/",
+        "description": null,
+        "name": "Brothers of the Spear"
+    },
+    "3821": {
+        "start_year": "1966",
+        "id": 3821,
+        "count_of_issues": 67,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-38363/",
+        "description": null,
+        "name": "Lady Penelope"
+    },
+    "3000": {
+        "start_year": "1949",
+        "id": 3000,
+        "count_of_issues": 153,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1247/",
+        "description": null,
+        "name": "Tom & Jerry Comics"
+    },
+    "3410": {
+        "start_year": "1970",
+        "id": 3410,
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26901/",
+        "description": null,
+        "name": "Brady Bunch"
+    },
+    "3411": {
+        "start_year": "1976",
+        "id": 3411,
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27391/",
+        "description": null,
+        "name": "Brady Bunch Kite Fun Book"
+    },
+    "3001": {
+        "start_year": "1952",
+        "id": 3001,
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1479/",
+        "description": null,
+        "name": "Tom & Jerry Winter Carnival"
+    },
+    "3800": {
+        "start_year": "1963",
+        "id": 3800,
+        "count_of_issues": 21,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-37550/",
+        "description": null,
+        "name": "Beverly Hillbillies"
+    },
+    "3801": {
+        "start_year": "1966",
+        "id": 3801,
+        "count_of_issues": 67,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-38363/",
+        "description": null,
+        "name": "Lady Penelope"
+    },
+    "3420": {
+        "start_year": "1970",
+        "id": 3420,
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26901/",
+        "description": null,
+        "name": "Brady Bunch"
+    },
+    "3421": {
+        "start_year": "1976",
+        "id": 3421,
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27391/",
+        "description": null,
+        "name": "Brady Bunch Kite Fun Book"
+    },
+    "4000": {
+        "start_year": "1940",
+        "id": 4000,
+        "count_of_issues": 73,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-816/",
+        "description": null,
+        "name": "Planet Comics"
+    },
+    "4001": {
+        "start_year": "2013",
+        "id": 4001,
+        "count_of_issues": 13,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-68951/",
+        "description": null,
+        "name": "Roy Thomas Presents Planet Comics"
+    },
+    "3810": {
+        "start_year": "1963",
+        "id": 3810,
+        "count_of_issues": 21,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-37550/",
+        "description": null,
+        "name": "Beverly Hillbillies"
+    },
+    "3811": {
+        "start_year": "1966",
+        "id": 3811,
+        "count_of_issues": 67,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-38363/",
+        "description": null,
+        "name": "Lady Penelope"
+    },
+    "3300": {
+        "start_year": "1969",
+        "id": 3300,
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2440/",
+        "description": null,
+        "name": "The Mod Squad"
+    },
+    "3301": {
+        "start_year": "1970",
+        "id": 3301,
+        "count_of_issues": 5,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2478/",
+        "description": null,
+        "name": "Spoof"
+    },
+    "3430": {
+        "start_year": "1970",
+        "id": 3430,
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26901/",
+        "description": null,
+        "name": "Brady Bunch"
+    },
+    "3431": {
+        "start_year": "1976",
+        "id": 3431,
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27391/",
+        "description": null,
+        "name": "Brady Bunch Kite Fun Book"
+    },
+    "3820": {
+        "start_year": "1963",
+        "id": 3820,
+        "count_of_issues": 21,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-37550/",
+        "description": null,
+        "name": "Beverly Hillbillies"
+    },
+    "3501": {
+        "start_year": "1983",
+        "id": 3501,
+        "count_of_issues": 140,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19176/",
+        "description": null,
+        "name": "Marvel Age"
+    },
+    "3310": {
+        "start_year": "1969",
+        "id": 3310,
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2440/",
+        "description": null,
+        "name": "The Mod Squad"
+    },
+    "3311": {
+        "start_year": "1970",
+        "id": 3311,
+        "count_of_issues": 5,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2478/",
+        "description": null,
+        "name": "Spoof"
+    },
+    "3440": {
+        "start_year": "1970",
+        "id": 3440,
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26901/",
+        "description": null,
+        "name": "Brady Bunch"
+    },
+    "3441": {
+        "start_year": "1976",
+        "id": 3441,
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27391/",
+        "description": null,
+        "name": "Brady Bunch Kite Fun Book"
+    },
+    "3830": {
+        "start_year": "1963",
+        "id": 3830,
+        "count_of_issues": 21,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-37550/",
+        "description": null,
+        "name": "Beverly Hillbillies"
+    },
+    "3831": {
+        "start_year": "1966",
+        "id": 3831,
+        "count_of_issues": 67,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-38363/",
+        "description": null,
+        "name": "Lady Penelope"
+    },
+    "3320": {
+        "start_year": "1969",
+        "id": 3320,
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2440/",
+        "description": null,
+        "name": "The Mod Squad"
+    },
+    "3321": {
+        "start_year": "1970",
+        "id": 3321,
+        "count_of_issues": 5,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2478/",
+        "description": null,
+        "name": "Spoof"
+    },
+    "3401": {
+        "start_year": "1976",
+        "id": 3401,
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27391/",
+        "description": null,
+        "name": "Brady Bunch Kite Fun Book"
+    }
+}

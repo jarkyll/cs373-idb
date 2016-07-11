@@ -1,0 +1,706 @@
+{
+    "2820": {
+        "name": "Who Wants To Be A Superhero?: Defuser",
+        "id": 2820,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26135/",
+        "description": null,
+        "count_of_issues": 1,
+        "start_year": "2009"
+    },
+    "2310": {
+        "name": "B.P.R.D. Hell On Earth",
+        "id": 2310,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-61307/",
+        "description": null,
+        "count_of_issues": 35,
+        "start_year": "2013"
+    },
+    "2311": {
+        "name": "B.P.R.D. Hell On Earth: A Cold Day In Hell",
+        "id": 2311,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-71055/",
+        "description": null,
+        "count_of_issues": 1,
+        "start_year": "2014"
+    },
+    "2320": {
+        "name": "B.P.R.D.: Hell on Earth - The Long Death",
+        "id": 2320,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-45868/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2012"
+    },
+    "2321": {
+        "name": "B.P.R.D. Hell On Earth",
+        "id": 2321,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-61307/",
+        "description": null,
+        "count_of_issues": 35,
+        "start_year": "2013"
+    },
+    "2330": {
+        "name": "Abe Sapien: The Drowning",
+        "id": 2330,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20473/",
+        "description": null,
+        "count_of_issues": 5,
+        "start_year": "2008"
+    },
+    "2331": {
+        "name": "Abe Sapien: The Drowning",
+        "id": 2331,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-44829/",
+        "description": null,
+        "count_of_issues": 1,
+        "start_year": "2008"
+    },
+    "2340": {
+        "name": "B.P.R.D.: Hell on Earth - The Long Death",
+        "id": 2340,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-45868/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2012"
+    },
+    "2341": {
+        "name": "B.P.R.D.: Hell on Earth - The Transformation of J.H. O'Donnell",
+        "id": 2341,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-48307/",
+        "description": null,
+        "count_of_issues": 1,
+        "start_year": "2012"
+    },
+    "2600": {
+        "name": "Star Wars Tales",
+        "id": 2600,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11119/",
+        "description": null,
+        "count_of_issues": 24,
+        "start_year": "1999"
+    },
+    "2601": {
+        "name": "Star Wars",
+        "id": 2601,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11246/",
+        "description": null,
+        "count_of_issues": 45,
+        "start_year": "1998"
+    },
+    "2610": {
+        "name": "Star Wars Tales",
+        "id": 2610,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11119/",
+        "description": null,
+        "count_of_issues": 24,
+        "start_year": "1999"
+    },
+    "2611": {
+        "name": "Star Wars",
+        "id": 2611,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11246/",
+        "description": null,
+        "count_of_issues": 45,
+        "start_year": "1998"
+    },
+    "2100": {
+        "name": "Predator: Big Game",
+        "id": 2100,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21859/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1991"
+    },
+    "2620": {
+        "name": "Star Wars Tales",
+        "id": 2620,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11119/",
+        "description": null,
+        "count_of_issues": 24,
+        "start_year": "1999"
+    },
+    "2621": {
+        "name": "Star Wars: General Grievous",
+        "id": 2621,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19143/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "2005"
+    },
+    "2110": {
+        "name": "JLA Versus Predator",
+        "id": 2110,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-22635/",
+        "description": null,
+        "count_of_issues": 1,
+        "start_year": "2001"
+    },
+    "2630": {
+        "name": "Star Wars: The Clone Wars",
+        "id": 2630,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-22969/",
+        "description": null,
+        "count_of_issues": 12,
+        "start_year": "2008"
+    },
+    "2631": {
+        "name": "Star Wars: The Clone Wars - Shipyards of Doom",
+        "id": 2631,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-23494/",
+        "description": null,
+        "count_of_issues": 1,
+        "start_year": "2008"
+    },
+    "2120": {
+        "name": "JLA Versus Predator",
+        "id": 2120,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-22635/",
+        "description": null,
+        "count_of_issues": 1,
+        "start_year": "2001"
+    },
+    "2640": {
+        "name": "Star Wars: General Grievous",
+        "id": 2640,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19143/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "2005"
+    },
+    "2641": {
+        "name": "Star Wars Omnibus: Clone Wars",
+        "id": 2641,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-51619/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2012"
+    },
+    "2130": {
+        "name": "JLA Versus Predator",
+        "id": 2130,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-22635/",
+        "description": null,
+        "count_of_issues": 1,
+        "start_year": "2001"
+    },
+    "2900": {
+        "name": "Hellboy: Seed of Destruction",
+        "id": 2900,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5388/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1994"
+    },
+    "2901": {
+        "name": "Hellboy: Seed of Destruction",
+        "id": 2901,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-33634/",
+        "description": " ",
+        "count_of_issues": 1,
+        "start_year": "1994"
+    },
+    "2140": {
+        "name": "Aliens_Predator: The Deadliest of the Species",
+        "id": 2140,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21129/",
+        "description": null,
+        "count_of_issues": 12,
+        "start_year": "1993"
+    },
+    "2141": {
+        "name": "Aliens_Predator: Panel to Panel",
+        "id": 2141,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-42444/",
+        "description": "A trade paperback with artwork by countless artists who have worked on the Aliens and Predator series over the years.",
+        "count_of_issues": 1,
+        "start_year": "2006"
+    },
+    "2910": {
+        "name": "Ghosts",
+        "id": 2910,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2503/",
+        "description": null,
+        "count_of_issues": 112,
+        "start_year": "1971"
+    },
+    "2911": {
+        "name": "The Shadow Strikes",
+        "id": 2911,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4210/",
+        "description": null,
+        "count_of_issues": 31,
+        "start_year": "1989"
+    },
+    "2400": {
+        "name": "Kabuki: Circle Of Blood",
+        "id": 2400,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5642/",
+        "description": null,
+        "count_of_issues": 7,
+        "start_year": "1995"
+    },
+    "2401": {
+        "name": "Kabuki: Masks of the Noh",
+        "id": 2401,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5858/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1996"
+    },
+    "2920": {
+        "name": "Hellboy: Seed of Destruction",
+        "id": 2920,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5388/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1994"
+    },
+    "2921": {
+        "name": "Hellboy: Wake the Devil",
+        "id": 2921,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5835/",
+        "description": null,
+        "count_of_issues": 5,
+        "start_year": "1996"
+    },
+    "2410": {
+        "name": "Kabuki: Circle Of Blood",
+        "id": 2410,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5642/",
+        "description": null,
+        "count_of_issues": 7,
+        "start_year": "1995"
+    },
+    "2411": {
+        "name": "Kabuki: Masks of the Noh",
+        "id": 2411,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5858/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1996"
+    },
+    "2930": {
+        "name": "Hellboy: Seed of Destruction",
+        "id": 2930,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5388/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1994"
+    },
+    "2931": {
+        "name": "Hellboy: Wake the Devil",
+        "id": 2931,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5835/",
+        "description": null,
+        "count_of_issues": 5,
+        "start_year": "1996"
+    },
+    "2420": {
+        "name": "Kabuki: Circle Of Blood",
+        "id": 2420,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5642/",
+        "description": null,
+        "count_of_issues": 7,
+        "start_year": "1995"
+    },
+    "2421": {
+        "name": "Kabuki: Masks of the Noh",
+        "id": 2421,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5858/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1996"
+    },
+    "2940": {
+        "name": "Hellboy: Seed of Destruction",
+        "id": 2940,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5388/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1994"
+    },
+    "2941": {
+        "name": "Hellboy: Wake the Devil",
+        "id": 2941,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5835/",
+        "description": null,
+        "count_of_issues": 5,
+        "start_year": "1996"
+    },
+    "2430": {
+        "name": "Kabuki: Circle Of Blood",
+        "id": 2430,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5642/",
+        "description": null,
+        "count_of_issues": 7,
+        "start_year": "1995"
+    },
+    "2431": {
+        "name": "Kabuki: Masks of the Noh",
+        "id": 2431,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5858/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1996"
+    },
+    "2440": {
+        "name": "Kabuki: Circle Of Blood",
+        "id": 2440,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5642/",
+        "description": null,
+        "count_of_issues": 7,
+        "start_year": "1995"
+    },
+    "2441": {
+        "name": "Kabuki: Masks of the Noh",
+        "id": 2441,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5858/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1996"
+    },
+    "2700": {
+        "name": "Serenity",
+        "id": 2700,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18135/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2005"
+    },
+    "2701": {
+        "name": "Serenity Better Days",
+        "id": 2701,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20901/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2008"
+    },
+    "2710": {
+        "name": "Serenity",
+        "id": 2710,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18135/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2005"
+    },
+    "2711": {
+        "name": "Serenity Better Days",
+        "id": 2711,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20901/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2008"
+    },
+    "2200": {
+        "name": "Aliens",
+        "id": 2200,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4132/",
+        "description": null,
+        "count_of_issues": 6,
+        "start_year": "1988"
+    },
+    "2201": {
+        "name": "Dark Horse Presents",
+        "id": 2201,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3739/",
+        "description": "Volume I",
+        "count_of_issues": 162,
+        "start_year": "1986"
+    },
+    "2720": {
+        "name": "Serenity",
+        "id": 2720,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18135/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2005"
+    },
+    "2721": {
+        "name": "Serenity Better Days",
+        "id": 2721,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20901/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2008"
+    },
+    "2210": {
+        "name": "Alien\u00b3",
+        "id": 2210,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4859/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "1992"
+    },
+    "2730": {
+        "name": "Serenity",
+        "id": 2730,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18135/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2005"
+    },
+    "2731": {
+        "name": "Serenity Better Days",
+        "id": 2731,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20901/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2008"
+    },
+    "2220": {
+        "name": "Aliens",
+        "id": 2220,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4132/",
+        "description": null,
+        "count_of_issues": 6,
+        "start_year": "1988"
+    },
+    "2221": {
+        "name": "Dark Horse Comics",
+        "id": 2221,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4864/",
+        "description": null,
+        "count_of_issues": 25,
+        "start_year": "1992"
+    },
+    "2740": {
+        "name": "Serenity",
+        "id": 2740,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18135/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2005"
+    },
+    "2741": {
+        "name": "Serenity Better Days",
+        "id": 2741,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20901/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2008"
+    },
+    "2230": {
+        "name": "Aliens: Kidnapped",
+        "id": 2230,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21122/",
+        "description": null,
+        "count_of_issues": 1,
+        "start_year": "1999"
+    },
+    "2231": {
+        "name": "Aliens: Kidnapped",
+        "id": 2231,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21238/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "1997"
+    },
+    "2240": {
+        "name": "Batman_Aliens",
+        "id": 2240,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6820/",
+        "description": null,
+        "count_of_issues": 2,
+        "start_year": "1997"
+    },
+    "2241": {
+        "name": "Batman _ Aliens",
+        "id": 2241,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-49204/",
+        "description": null,
+        "count_of_issues": 2,
+        "start_year": "2001"
+    },
+    "2500": {
+        "name": "Buffy the Vampire Slayer",
+        "id": 2500,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6239/",
+        "description": null,
+        "count_of_issues": 64,
+        "start_year": "1998"
+    },
+    "2501": {
+        "name": "Buffy the Vampire Slayer: Angel",
+        "id": 2501,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6368/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1999"
+    },
+    "2510": {
+        "name": "Buffy the Vampire Slayer",
+        "id": 2510,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6239/",
+        "description": null,
+        "count_of_issues": 64,
+        "start_year": "1998"
+    },
+    "2511": {
+        "name": "Angel",
+        "id": 2511,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6695/",
+        "description": null,
+        "count_of_issues": 17,
+        "start_year": "1999"
+    },
+    "2000": {
+        "name": "Marvel Comics Super Special",
+        "id": 2000,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2909/",
+        "description": null,
+        "count_of_issues": 41,
+        "start_year": "1977"
+    },
+    "2001": {
+        "name": "Star Wars",
+        "id": 2001,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2914/",
+        "description": "A long time ago...",
+        "count_of_issues": 107,
+        "start_year": "1977"
+    },
+    "2520": {
+        "name": "Buffy the Vampire Slayer Season Nine",
+        "id": 2520,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-42820/",
+        "description": null,
+        "count_of_issues": 25,
+        "start_year": "2011"
+    },
+    "2521": {
+        "name": "Buffy The Vampire Slayer Season Nine: Guarded",
+        "id": 2521,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-60911/",
+        "description": null,
+        "count_of_issues": 1,
+        "start_year": "2013"
+    },
+    "2010": {
+        "name": "Ewoks",
+        "id": 2010,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3481/",
+        "description": null,
+        "count_of_issues": 14,
+        "start_year": "1985"
+    },
+    "2011": {
+        "name": "Star Wars Omnibus: Droids and Ewoks",
+        "id": 2011,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-49936/",
+        "description": "This omnibus collects all the issues of the Ewoks and Star Wars: Droids comics series, released in the 1980s by Marvel's imprint Star Comics.",
+        "count_of_issues": 1,
+        "start_year": "2012"
+    },
+    "2530": {
+        "name": "Buffy the Vampire Slayer",
+        "id": 2530,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6239/",
+        "description": null,
+        "count_of_issues": 64,
+        "start_year": "1998"
+    },
+    "2531": {
+        "name": "Buffy the Vampire Slayer: Angel",
+        "id": 2531,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6368/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1999"
+    },
+    "2020": {
+        "name": "Ewoks",
+        "id": 2020,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3481/",
+        "description": null,
+        "count_of_issues": 14,
+        "start_year": "1985"
+    },
+    "2021": {
+        "name": "Star Wars Omnibus: Droids and Ewoks",
+        "id": 2021,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-49936/",
+        "description": "This omnibus collects all the issues of the Ewoks and Star Wars: Droids comics series, released in the 1980s by Marvel's imprint Star Comics.",
+        "count_of_issues": 1,
+        "start_year": "2012"
+    },
+    "2540": {
+        "name": "Buffy the Vampire Slayer",
+        "id": 2540,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6239/",
+        "description": null,
+        "count_of_issues": 64,
+        "start_year": "1998"
+    },
+    "2541": {
+        "name": "Buffy the Vampire Slayer: Omnibus",
+        "id": 2541,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19054/",
+        "description": null,
+        "count_of_issues": 7,
+        "start_year": "2007"
+    },
+    "2030": {
+        "name": "Ewoks",
+        "id": 2030,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3481/",
+        "description": null,
+        "count_of_issues": 14,
+        "start_year": "1985"
+    },
+    "2031": {
+        "name": "Star Wars Omnibus: Droids and Ewoks",
+        "id": 2031,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-49936/",
+        "description": "This omnibus collects all the issues of the Ewoks and Star Wars: Droids comics series, released in the 1980s by Marvel's imprint Star Comics.",
+        "count_of_issues": 1,
+        "start_year": "2012"
+    },
+    "2800": {
+        "name": "Fat Momma",
+        "id": 2800,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-24702/",
+        "description": null,
+        "count_of_issues": 3,
+        "start_year": "2007"
+    },
+    "2040": {
+        "name": "Marvel Comics Super Special",
+        "id": 2040,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2909/",
+        "description": null,
+        "count_of_issues": 41,
+        "start_year": "1977"
+    },
+    "2041": {
+        "name": "Star Wars",
+        "id": 2041,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2914/",
+        "description": "A long time ago...",
+        "count_of_issues": 107,
+        "start_year": "1977"
+    },
+    "2810": {
+        "name": "Who Wants to be a Superhero?",
+        "id": 2810,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18513/",
+        "description": null,
+        "count_of_issues": 2,
+        "start_year": "2007"
+    },
+    "2300": {
+        "name": "Hellboy: Seed of Destruction",
+        "id": 2300,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5388/",
+        "description": null,
+        "count_of_issues": 4,
+        "start_year": "1994"
+    },
+    "2301": {
+        "name": "Babe 2",
+        "id": 2301,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5609/",
+        "description": null,
+        "count_of_issues": 2,
+        "start_year": "1995"
+    }
+}

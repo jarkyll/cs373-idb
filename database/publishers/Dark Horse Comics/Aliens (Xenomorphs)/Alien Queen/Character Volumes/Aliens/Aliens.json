@@ -1,0 +1,8 @@
+{
+    "name": "Aliens",
+    "id": 2200,
+    "api_url": "http://comicvine.gamespot.com/api/volume/4050-4132/",
+    "description": null,
+    "count_of_issues": 6,
+    "start_year": "1988"
+}

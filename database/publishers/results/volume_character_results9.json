@@ -1,0 +1,466 @@
+{
+    "8320": {
+        "count_of_issues": 60,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4607/",
+        "start_year": "1991",
+        "id": 8320,
+        "name": "Solar, Man of the Atom",
+        "description": null
+    },
+    "8321": {
+        "count_of_issues": 27,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4824/",
+        "start_year": "1992",
+        "id": 8321,
+        "name": "Archer & Armstrong",
+        "description": null
+    },
+    "8200": {
+        "count_of_issues": 15,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-79862/",
+        "start_year": "2015",
+        "id": 8200,
+        "name": "Imperium",
+        "description": null
+    },
+    "8300": {
+        "count_of_issues": 50,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4825/",
+        "start_year": "1992",
+        "id": 8300,
+        "name": "Eternal Warrior",
+        "description": "Volume 1."
+    },
+    "8330": {
+        "count_of_issues": 42,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4827/",
+        "start_year": "1992",
+        "id": 8330,
+        "name": "Harbinger",
+        "description": null
+    },
+    "8331": {
+        "count_of_issues": 21,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5071/",
+        "start_year": "1993",
+        "id": 8331,
+        "name": "Secret Weapons",
+        "description": null
+    },
+    "8301": {
+        "count_of_issues": 52,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5067/",
+        "start_year": "1993",
+        "id": 8301,
+        "name": "Bloodshot",
+        "description": null
+    },
+    "8210": {
+        "count_of_issues": 21,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6036/",
+        "start_year": "1997",
+        "id": 8210,
+        "name": "X-O Manowar",
+        "description": null
+    },
+    "8340": {
+        "count_of_issues": 21,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5071/",
+        "start_year": "1993",
+        "id": 8340,
+        "name": "Secret Weapons",
+        "description": null
+    },
+    "8341": {
+        "count_of_issues": 52,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5067/",
+        "start_year": "1993",
+        "id": 8341,
+        "name": "Bloodshot",
+        "description": null
+    },
+    "8600": {
+        "count_of_issues": 65,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4606/",
+        "start_year": "1991",
+        "id": 8600,
+        "name": "Magnus Robot Fighter",
+        "description": null
+    },
+    "8601": {
+        "count_of_issues": 34,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4828/",
+        "start_year": "1992",
+        "id": 8601,
+        "name": "Rai",
+        "description": null
+    },
+    "8220": {
+        "count_of_issues": 50,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4825/",
+        "start_year": "1992",
+        "id": 8220,
+        "name": "Eternal Warrior",
+        "description": "Volume 1."
+    },
+    "8221": {
+        "count_of_issues": 52,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5067/",
+        "start_year": "1993",
+        "id": 8221,
+        "name": "Bloodshot",
+        "description": null
+    },
+    "8610": {
+        "count_of_issues": 60,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4607/",
+        "start_year": "1991",
+        "id": 8610,
+        "name": "Solar, Man of the Atom",
+        "description": null
+    },
+    "8611": {
+        "count_of_issues": 34,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4828/",
+        "start_year": "1992",
+        "id": 8611,
+        "name": "Rai",
+        "description": null
+    },
+    "8100": {
+        "count_of_issues": 27,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4824/",
+        "start_year": "1992",
+        "id": 8100,
+        "name": "Archer & Armstrong",
+        "description": null
+    },
+    "8101": {
+        "count_of_issues": 50,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4825/",
+        "start_year": "1992",
+        "id": 8101,
+        "name": "Eternal Warrior",
+        "description": "Volume 1."
+    },
+    "8230": {
+        "count_of_issues": 30,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4826/",
+        "start_year": "1992",
+        "id": 8230,
+        "name": "The H.A.R.D. Corps",
+        "description": null
+    },
+    "8000": {
+        "count_of_issues": 10,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5349/",
+        "start_year": "1994",
+        "id": 8000,
+        "name": "Psi-Lords",
+        "description": null
+    },
+    "8620": {
+        "count_of_issues": 65,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4606/",
+        "start_year": "1991",
+        "id": 8620,
+        "name": "Magnus Robot Fighter",
+        "description": null
+    },
+    "8621": {
+        "count_of_issues": 34,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4828/",
+        "start_year": "1992",
+        "id": 8621,
+        "name": "Rai",
+        "description": null
+    },
+    "8110": {
+        "count_of_issues": 27,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4824/",
+        "start_year": "1992",
+        "id": 8110,
+        "name": "Archer & Armstrong",
+        "description": null
+    },
+    "8111": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26619/",
+        "start_year": "2008",
+        "id": 8111,
+        "name": "Archer & Armstrong",
+        "description": null
+    },
+    "8240": {
+        "count_of_issues": 21,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6036/",
+        "start_year": "1997",
+        "id": 8240,
+        "name": "X-O Manowar",
+        "description": null
+    },
+    "8241": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6034/",
+        "start_year": "1997",
+        "id": 8241,
+        "name": "Solar, Man Of The Atom: Hell On Earth",
+        "description": null
+    },
+    "8630": {
+        "count_of_issues": 46,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2157/",
+        "start_year": "1963",
+        "id": 8630,
+        "name": "Magnus, Robot Fighter",
+        "description": null
+    },
+    "8631": {
+        "count_of_issues": 13,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2354/",
+        "start_year": "1967",
+        "id": 8631,
+        "name": "Not Brand Echh",
+        "description": null
+    },
+    "8120": {
+        "count_of_issues": 27,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4824/",
+        "start_year": "1992",
+        "id": 8120,
+        "name": "Archer & Armstrong",
+        "description": null
+    },
+    "8640": {
+        "count_of_issues": 46,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2157/",
+        "start_year": "1963",
+        "id": 8640,
+        "name": "Magnus, Robot Fighter",
+        "description": null
+    },
+    "8641": {
+        "count_of_issues": 13,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2354/",
+        "start_year": "1967",
+        "id": 8641,
+        "name": "Not Brand Echh",
+        "description": null
+    },
+    "8130": {
+        "count_of_issues": 27,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4824/",
+        "start_year": "1992",
+        "id": 8130,
+        "name": "Archer & Armstrong",
+        "description": null
+    },
+    "8131": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26619/",
+        "start_year": "2008",
+        "id": 8131,
+        "name": "Archer & Armstrong",
+        "description": null
+    },
+    "8900": {
+        "count_of_issues": 65,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4606/",
+        "start_year": "1991",
+        "id": 8900,
+        "name": "Magnus Robot Fighter",
+        "description": null
+    },
+    "8901": {
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25921/",
+        "start_year": "1994",
+        "id": 8901,
+        "name": "Magnus Trade Paperback",
+        "description": null
+    },
+    "8010": {
+        "count_of_issues": 10,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5349/",
+        "start_year": "1994",
+        "id": 8010,
+        "name": "Psi-Lords",
+        "description": null
+    },
+    "8140": {
+        "count_of_issues": 27,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4824/",
+        "start_year": "1992",
+        "id": 8140,
+        "name": "Archer & Armstrong",
+        "description": null
+    },
+    "8141": {
+        "count_of_issues": 50,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4825/",
+        "start_year": "1992",
+        "id": 8141,
+        "name": "Eternal Warrior",
+        "description": "Volume 1."
+    },
+    "8910": {
+        "count_of_issues": 46,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2157/",
+        "start_year": "1963",
+        "id": 8910,
+        "name": "Magnus, Robot Fighter",
+        "description": null
+    },
+    "8911": {
+        "count_of_issues": 31,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2091/",
+        "start_year": "1962",
+        "id": 8911,
+        "name": "Doctor Solar, Man of the Atom",
+        "description": null
+    },
+    "8020": {
+        "count_of_issues": 10,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5349/",
+        "start_year": "1994",
+        "id": 8020,
+        "name": "Psi-Lords",
+        "description": null
+    },
+    "8920": {
+        "count_of_issues": 65,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4606/",
+        "start_year": "1991",
+        "id": 8920,
+        "name": "Magnus Robot Fighter",
+        "description": null
+    },
+    "8921": {
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25921/",
+        "start_year": "1994",
+        "id": 8921,
+        "name": "Magnus Trade Paperback",
+        "description": null
+    },
+    "8030": {
+        "count_of_issues": 10,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5349/",
+        "start_year": "1994",
+        "id": 8030,
+        "name": "Psi-Lords",
+        "description": null
+    },
+    "8800": {
+        "count_of_issues": 23,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6031/",
+        "start_year": "1997",
+        "id": 8800,
+        "name": "Quantum & Woody",
+        "description": null
+    },
+    "8801": {
+        "count_of_issues": 21,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6036/",
+        "start_year": "1997",
+        "id": 8801,
+        "name": "X-O Manowar",
+        "description": null
+    },
+    "8930": {
+        "count_of_issues": 65,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4606/",
+        "start_year": "1991",
+        "id": 8930,
+        "name": "Magnus Robot Fighter",
+        "description": null
+    },
+    "8040": {
+        "count_of_issues": 10,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5349/",
+        "start_year": "1994",
+        "id": 8040,
+        "name": "Psi-Lords",
+        "description": null
+    },
+    "8810": {
+        "count_of_issues": 23,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6031/",
+        "start_year": "1997",
+        "id": 8810,
+        "name": "Quantum & Woody",
+        "description": null
+    },
+    "8811": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-35348/",
+        "start_year": "1998",
+        "id": 8811,
+        "name": "The Goat",
+        "description": "One shot comic from Acclaim featuring Vincent Van Goat and Tempest Sheridan."
+    },
+    "8940": {
+        "count_of_issues": 65,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4606/",
+        "start_year": "1991",
+        "id": 8940,
+        "name": "Magnus Robot Fighter",
+        "description": null
+    },
+    "8941": {
+        "count_of_issues": 34,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4828/",
+        "start_year": "1992",
+        "id": 8941,
+        "name": "Rai",
+        "description": null
+    },
+    "8820": {
+        "count_of_issues": 23,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6031/",
+        "start_year": "1997",
+        "id": 8820,
+        "name": "Quantum & Woody",
+        "description": null
+    },
+    "8821": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6034/",
+        "start_year": "1997",
+        "id": 8821,
+        "name": "Solar, Man Of The Atom: Hell On Earth",
+        "description": null
+    },
+    "8310": {
+        "count_of_issues": 60,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4607/",
+        "start_year": "1991",
+        "id": 8310,
+        "name": "Solar, Man of the Atom",
+        "description": null
+    },
+    "8311": {
+        "count_of_issues": 34,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4828/",
+        "start_year": "1992",
+        "id": 8311,
+        "name": "Rai",
+        "description": null
+    },
+    "8830": {
+        "count_of_issues": 23,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6031/",
+        "start_year": "1997",
+        "id": 8830,
+        "name": "Quantum & Woody",
+        "description": null
+    },
+    "8831": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6034/",
+        "start_year": "1997",
+        "id": 8831,
+        "name": "Solar, Man Of The Atom: Hell On Earth",
+        "description": null
+    }
+}
