@@ -13,10 +13,14 @@ session = DBSession()
 
 ### Pages
 
-@app.route('/')
+
 @app.route('/hello')
 def HelloWorld():
 	return 'home'
+
+@app.route("/home")
+def homepage():
+	return render_template("index.html")
 
 @app.route('/about')
 def about():
