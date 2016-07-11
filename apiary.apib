@@ -18,11 +18,15 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                     "name": "Jerry",
                     "birth": NULL,
                     "volumes": ["name1", "name2", "name3"],
-                    "primary_publisher": "Dell",
+                    "publisher": "Dell",
                     "image": "url to image",
+                    "volume_credits": ["Volume1","Volume2","Volume3"],
                     "powers": ["power1","power2","power3"],
                     "gender": "Male",
                     "creator": "Creator"
+                    "teams": ["Team1","Team2","Team3"],
+                    "appear": "July 6, 1979",
+                    "real": "Unknown"
                 },
                 
                 {   
@@ -31,9 +35,13 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                     "volumes": ["name1", "name2", "name3"],
                     "primary_publisher": "Dell",
                     "image": "url to image",
+                    "volume_credits": ["Volume1","Volume2","Volume3"],
                     "powers": ["power1","power2","power3"],
                     "gender": "Male",
                     "creator": "Creator"
+                    "teams": ["Team1","Team2","Team3"],
+                    "appear": "June 9, 1979",
+                    "real": "Unknown"
                 }
             ]    
         }
@@ -47,11 +55,15 @@ Komixx is provides an interactive experience in exploring the comic book world. 
             "name": "Jerry",
             "birth": NULL,
             "volumes": ["name1", "name2", "name3"],
-            "primary_publisher": "Dell",
+            "publisher": "Dell",
             "image": "url to image",
+            "volume_credits": ["Volume1","Volume2","Volume3"],
             "powers": ["power1","power2","power3"],
             "gender": "Male",
             "creator": "Creator"
+            "teams": ["Team1","Team2","Team3"],
+            "appear": "July 6, 1979",
+            "real": "Unknown"
         }
 ## Teams [/teams]
 ### List All Teams [GET]
@@ -67,8 +79,8 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                     "image": "imageurl.com",
                     "volumes": ["name1", "name2", "name3"],
                     "characters": ["Reef Ryan", "another person"],
-                    "enemies": ["enemy1","enemy2","enemy3"],
-                    "allies":  ["ally", "anotherally"]
+                    "appear": "April 3, 1876",
+                    "num_appearances": 345
                 },
                 {
                     "name": "Space Ranger",
@@ -77,8 +89,8 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                     "image": "imageurl.com",
                     "volumes": ["name1", "name2", "name3"],
                     "characters": ["Reef Ryan", "another person"],
-                    "enemies": ["enemy1","enemy2","enemy3"],
-                    "allies":  ["ally", "anotherally"]
+                    "appear": "April 7, 1976",
+                    "num_appearances": 400
                 }
             }
             
@@ -100,8 +112,8 @@ Komixx is provides an interactive experience in exploring the comic book world. 
             "image": "imageurl.com",
             "volumes": ["name1", "name2", "name3"],
             "characters": ["Reef Ryan", "another person"],
-            "enemies": ["enemy1","enemy2","enemy3"],
-            "allies":  ["ally", "anotherally"]
+            "appear": "April 3, 1876",
+            "num_appearances": 345
         }
 
 
@@ -118,19 +130,21 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                     "image": "url_to_string",
                     "publisher": "Fiction House",
                     "description": "blah blah blah",
-                    "count_of_issues": 23,
-                    "characters": ["Reef Ryan", "another person"],
+                    "num_issues": 23,
                     "aliases": ["name1","name2","name3"],
-                    "start_year":  1919
+                    "start_year":  1919,
+                    "teams": ["Team1", "Team2"],
+                    "name": "Volume Name"
                 },
                 {
                     "image": "url_to_string",
                     "publisher": "Fiction House",
                     "description": "blah blah blah",
-                    "count_of_issues": 23,
-                    "characters": ["Reef Ryan", "another person"],
+                    "num_issues": 23,
                     "aliases": ["name1","name2","name3"],
-                    "start_year":  1919
+                    "start_year":  1919,
+                    "teams": ["Team1", "Team2"],
+                    "name": "Volume Name"
                 }
             ]
         }
@@ -145,10 +159,11 @@ Komixx is provides an interactive experience in exploring the comic book world. 
             "image": "url_to_string",
             "publisher": "Fiction House",
             "description": "blah blah blah",
-            "count_of_issues": 23,
-            "characters": ["Reef Ryan", "another person"],
+            "num_issues": 23,
             "aliases": ["name1","name2","name3"],
-            "start_year":  1919
+            "start_year":  1919,
+            "teams": ["Team1", "Team2"],
+            "name": "Volume Name"
         }
 
 
@@ -168,10 +183,7 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                 "deck": "Dark Horse Comics is one of...",
                 "image": "url_to_string",
                 "volumes": ["Star Wars: Dark Rising", "Volume 2"],
-                "teams": ["Ewoks", "Char 2"],
-                "year": 1986,
-                "abbreviation": "Dark Horse",
-                "country": "United States" 
+                "teams": ["Ewoks", "Char 2"]
             },
             {
                 "name": "Fiction House",
@@ -182,10 +194,7 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                 "deck": "A pulp magazine and comic book publisher in the Golden Age of Comics.",
                 "image": "url_to_string",
                 "volumes": ["Planet Comics", "Volume 2"],
-                "teams": ["Space Rangers", "Char 2"],
-                "year": 1920,
-                "abbreviation": "Unknown",
-                "country": "Unknown" 
+                "teams": ["Space Rangers", "Char 2"]
             }
         }
 
@@ -203,8 +212,5 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                 "deck": "Dark Horse Comics is one of...",
                 "image": "url_to_string",
                 "volumes": ["Star Wars: Dark Rising", "Volume 2"],
-                "teams": ["Ewoks", "Team 2"],
-                "year": 1986,
-                "abbreviation": "Dark Horse",
-                "country": "United States"
+                "teams": ["Ewoks", "Team 2"]
         }
