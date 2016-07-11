@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 app = Flask(__name__)
 
 from sqlalchemy import create_engine
@@ -41,7 +41,8 @@ def publishers():
 ### API
 @app.route('/api/characters')
 def character_api():
-	
+	characters = session.query(Character).all()
+	return jsonify(Character=[c.serialize for c in characters])
 
 
 
