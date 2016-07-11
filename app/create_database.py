@@ -77,15 +77,13 @@ class Volume(Base):
 	@property 
 	def serialize(self):
 		return {
-			'name': self.name,
-			'birth' : self.birth,
-			'volumes' : self.volumes,
-			'primary_publisher' : self.primary_publisher,
-			'image' : self.image,
-			'volume_credits' : self.volume_credits,
-			'powers' : self.powers,
-			'gender' : self.gender,
-			'creator' : self.creator
+			'image': self.image,
+			'description' : self.description,
+			'publisher' : self.publisher,
+			'count_of_issues' : self.count_of_issues,
+			'characters' : self.characters,
+			'aliases' : self.aliases,
+			'start_year' : self.start_year
 		} 
 
 
@@ -107,14 +105,15 @@ class Team(Base):
 	def serialize(self):
 		return {
 			'name': self.name,
-			'birth' : self.birth,
-			'volumes' : self.volumes,
-			'primary_publisher' : self.primary_publisher,
+			'publisher' : self.publisher,
+			'description' : self.description,
 			'image' : self.image,
+			'aliases' : self.aliases,
 			'volume_credits' : self.volume_credits,
-			'powers' : self.powers,
-			'gender' : self.gender,
-			'creator' : self.creator
+			'characters' : self.characters,
+			'team_members' : self.team_members,
+			'character_enemies' : self.character_enemies,
+			'character_allies' : self.character_allies
 		} 
 
 

@@ -44,8 +44,20 @@ def character_api():
 	characters = session.query(Character).all()
 	return jsonify(Character=[c.serialize for c in characters])
 
+@app.route('/api/publishers')
+def publisher_api():
+	publishers = session.query(Publisher).all()
+	return jsonify(Publisher=[p.serialize for p in publishers])
 
+@app.route('/api/volumes')
+def volume_api():
+	volumes = session.query(Volume).all()
+	return jsonify(Volume=[v.serialize for v in volumes])
 
+@app.route('/api/teams')
+def team_api():
+	teams = session.query(Team).all()
+	return jsonify(Team=[t.serialize for t in teams])
 
 
 if __name__== "__main__":
