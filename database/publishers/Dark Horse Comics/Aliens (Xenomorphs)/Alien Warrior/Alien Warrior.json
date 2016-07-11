@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Alien Warrior",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-61046/",
+    "id": 222,
     "creator": {
         "name": "H.R. Giger"
     },
-    "id": 222
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-61046/",
+    "birth": null,
+    "gender": 1,
+    "name": "Alien Warrior"
 }

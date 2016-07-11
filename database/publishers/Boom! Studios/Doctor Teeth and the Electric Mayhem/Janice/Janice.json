@@ -1,8 +1,8 @@
 {
+    "id": 123,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-7562/",
     "birth": null,
     "gender": 2,
-    "name": "Janice",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-7562/",
-    "creator": {},
-    "id": 123
+    "name": "Janice"
 }

@@ -1,8 +1,8 @@
 {
+    "id": 112,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-46075/",
     "birth": null,
     "gender": null,
-    "name": "Blue Power Ranger",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-46075/",
-    "creator": {},
-    "id": 112
+    "name": "Blue Power Ranger"
 }

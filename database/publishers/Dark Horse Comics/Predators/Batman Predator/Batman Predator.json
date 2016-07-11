@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Batman Predator",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-56707/",
+    "id": 213,
     "creator": {
         "name": "John Ostrander"
     },
-    "id": 213
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-56707/",
+    "birth": null,
+    "gender": 1,
+    "name": "Batman Predator"
 }

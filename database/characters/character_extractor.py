@@ -23,15 +23,14 @@ result = {}
 os.chdir("/u/cz4792/cs373/cs373-idb/database/results")
 postpend = "?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
 id = 0
-PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics']
+PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics', 'Dell', 'Fiction House']
 
 
-f = open('team_results1-3.json', 'r')
+f = open('team_results4-5.json', 'r')
 test = json.load(f)
 for id in test.keys():
     characterCount = 0
     team_url = test[str(id)]['api_url']
-    # if int(id)/10 == 0:
     pathName = PublisherName[int(id)//10]
 
     info = fetch_json(team_url + postpend)
@@ -44,7 +43,6 @@ for id in test.keys():
             extracted = {}
             extracted['id'] = int(id) * 10 + characterCount
             extracted['name'] = character['name']
-            # pprint(extracted['name'])
             extracted['api_url'] = character['api_detail_url']
             
             info2 = fetch_json(character['api_detail_url'] + postpend)
@@ -85,7 +83,7 @@ for id in test.keys():
 f.close()
 
 
-with open("/u/cz4792/cs373/cs373-idb/database/results/character_results1-3.json", 'w') as f:
+with open("/u/cz4792/cs373/cs373-idb/database/results/character_results4-5.json", 'w') as f:
     json.dump(result, f, indent=4)
 
 f.close()

@@ -1,8 +1,8 @@
 {
+    "id": 150,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-61962/",
     "birth": null,
     "gender": 1,
-    "name": "Alan Ripley",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-61962/",
-    "creator": {},
-    "id": 150
+    "name": "Alan Ripley"
 }

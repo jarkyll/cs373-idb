@@ -1,8 +1,8 @@
 {
+    "id": 110,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-76762/",
     "birth": null,
     "gender": 1,
-    "name": "Alpha 5",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-76762/",
-    "creator": {},
-    "id": 110
+    "name": "Alpha 5"
 }

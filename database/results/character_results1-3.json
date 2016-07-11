@@ -1,736 +1,736 @@
 {
     "130": {
-        "birth": null,
-        "gender": 1,
-        "name": "Aaron Boone",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-55067/",
+        "id": 130,
         "creator": {
             "name": "Clive Barker"
         },
-        "id": 130
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-55067/",
+        "birth": null,
+        "gender": 1,
+        "name": "Aaron Boone"
     },
     "131": {
-        "birth": null,
-        "gender": 2,
-        "name": "Aello",
+        "id": 131,
+        "creator": {
+            "name": "Clive Barker"
+        },
         "api_url": "http://comicvine.gamespot.com/api/character/4005-102934/",
-        "creator": {
-            "name": "Clive Barker"
-        },
-        "id": 131
-    },
-    "132": {
         "birth": null,
         "gender": 2,
-        "name": "Annastajia",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-107958/",
-        "creator": {},
-        "id": 132
-    },
-    "133": {
-        "birth": null,
-        "gender": 2,
-        "name": "Babette",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-102923/",
-        "creator": {
-            "name": "Clive Barker"
-        },
-        "id": 133
-    },
-    "134": {
-        "birth": null,
-        "gender": 1,
-        "name": "Baphomet",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-102925/",
-        "creator": {
-            "name": "Clive Barker"
-        },
-        "id": 134
-    },
-    "263": {
-        "birth": null,
-        "gender": 2,
-        "name": "Ahsoka Tano",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-55028/",
-        "creator": {},
-        "id": 263
-    },
-    "264": {
-        "birth": null,
-        "gender": 2,
-        "name": "Allara",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-75186/",
-        "creator": {},
-        "id": 264
-    },
-    "10": {
-        "birth": "Aug 13, 1860",
-        "gender": 2,
-        "name": "Annie Oakley",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-40110/",
-        "creator": {},
-        "id": 10
-    },
-    "151": {
-        "birth": null,
-        "gender": 1,
-        "name": "The Operator",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-61963/",
-        "creator": {},
-        "id": 151
-    },
-    "140": {
-        "birth": null,
-        "gender": 1,
-        "name": "Captain Valor",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-61083/",
-        "creator": {},
-        "id": 140
-    },
-    "13": {
-        "birth": "Oct 27, 1858",
-        "gender": 1,
-        "name": "Theodore Roosevelt",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-9634/",
-        "creator": {},
-        "id": 13
-    },
-    "270": {
-        "birth": null,
-        "gender": 1,
-        "name": "Book",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-42088/",
-        "creator": {},
-        "id": 270
-    },
-    "271": {
-        "birth": null,
-        "gender": 2,
-        "name": "Inara Serra",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-42124/",
-        "creator": {},
-        "id": 271
-    },
-    "272": {
-        "birth": null,
-        "gender": 1,
-        "name": "Jayne Cobb",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-42085/",
-        "creator": {},
-        "id": 272
-    },
-    "273": {
-        "birth": null,
-        "gender": 2,
-        "name": "Kaylee Frye",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-42157/",
-        "creator": {},
-        "id": 273
-    },
-    "274": {
-        "birth": null,
-        "gender": 1,
-        "name": "Malcolm Reynolds",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-41697/",
-        "creator": {},
-        "id": 274
-    },
-    "252": {
-        "birth": null,
-        "gender": 1,
-        "name": "Billy Lane",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-99788/",
-        "creator": {
-            "name": "Jane Espenson"
-        },
-        "id": 252
-    },
-    "150": {
-        "birth": null,
-        "gender": 1,
-        "name": "Alan Ripley",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-61962/",
-        "creator": {},
-        "id": 150
-    },
-    "281": {
-        "birth": null,
-        "gender": 1,
-        "name": "Feedback",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-42319/",
-        "creator": {
-            "name": "Zander Cannon"
-        },
-        "id": 281
-    },
-    "280": {
-        "birth": null,
-        "gender": 2,
-        "name": "Fat Momma",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-70548/",
-        "creator": {},
-        "id": 280
+        "name": "Aello"
     },
     "260": {
-        "birth": null,
-        "gender": 2,
-        "name": "Aayla Secura",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-5389/",
+        "id": 260,
         "creator": {
             "name": "Rick Magyar"
         },
-        "id": 260
-    },
-    "282": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5389/",
         "birth": null,
-        "gender": 1,
-        "name": "The Defuser",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-60035/",
-        "creator": {},
-        "id": 282
+        "gender": 2,
+        "name": "Aayla Secura"
     },
     "261": {
-        "birth": null,
-        "gender": 2,
-        "name": "Adi Gallia",
+        "id": 261,
+        "creator": {},
         "api_url": "http://comicvine.gamespot.com/api/character/4005-5401/",
-        "creator": {},
-        "id": 261
-    },
-    "160": {
         "birth": null,
         "gender": 2,
-        "name": "Aeryn Sun",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-63247/",
-        "creator": {},
-        "id": 160
-    },
-    "161": {
-        "birth": null,
-        "gender": 2,
-        "name": "Chiana",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-63249/",
-        "creator": {},
-        "id": 161
-    },
-    "162": {
-        "birth": null,
-        "gender": 1,
-        "name": "Deke Crichton",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-71382/",
-        "creator": {},
-        "id": 162
-    },
-    "163": {
-        "birth": null,
-        "gender": 1,
-        "name": "John Crichton",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-63234/",
-        "creator": {},
-        "id": 163
-    },
-    "164": {
-        "birth": null,
-        "gender": 1,
-        "name": "Jothee",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-63323/",
-        "creator": {},
-        "id": 164
+        "name": "Adi Gallia"
     },
     "262": {
-        "birth": null,
-        "gender": 1,
-        "name": "Agen Kolar",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-56843/",
+        "id": 262,
         "creator": {
             "name": "George Lucas"
         },
-        "id": 262
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-56843/",
+        "birth": null,
+        "gender": 1,
+        "name": "Agen Kolar"
     },
-    "241": {
+    "263": {
+        "id": 263,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-55028/",
         "birth": null,
         "gender": 2,
-        "name": "Ice",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-41515/",
+        "name": "Ahsoka Tano"
+    },
+    "264": {
+        "id": 264,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-75186/",
+        "birth": null,
+        "gender": 2,
+        "name": "Allara"
+    },
+    "10": {
+        "id": 10,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-40110/",
+        "birth": "Aug 13, 1860",
+        "gender": 2,
+        "name": "Annie Oakley"
+    },
+    "132": {
+        "id": 132,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-107958/",
+        "birth": null,
+        "gender": 2,
+        "name": "Annastajia"
+    },
+    "140": {
+        "id": 140,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-61083/",
+        "birth": null,
+        "gender": 1,
+        "name": "Captain Valor"
+    },
+    "13": {
+        "id": 13,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-9634/",
+        "birth": "Oct 27, 1858",
+        "gender": 1,
+        "name": "Theodore Roosevelt"
+    },
+    "14": {
+        "id": 14,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-20002/",
+        "birth": "Feb 11, 1847",
+        "gender": 1,
+        "name": "Thomas Alva Edison"
+    },
+    "271": {
+        "id": 271,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42124/",
+        "birth": null,
+        "gender": 2,
+        "name": "Inara Serra"
+    },
+    "272": {
+        "id": 272,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42085/",
+        "birth": null,
+        "gender": 1,
+        "name": "Jayne Cobb"
+    },
+    "273": {
+        "id": 273,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42157/",
+        "birth": null,
+        "gender": 2,
+        "name": "Kaylee Frye"
+    },
+    "274": {
+        "id": 274,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41697/",
+        "birth": null,
+        "gender": 1,
+        "name": "Malcolm Reynolds"
+    },
+    "252": {
+        "id": 252,
         "creator": {
-            "name": "David Mack"
+            "name": "Jane Espenson"
         },
-        "id": 241
-    },
-    "183": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-99788/",
         "birth": null,
         "gender": 1,
-        "name": "Gazer",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-73936/",
-        "creator": {},
-        "id": 183
+        "name": "Billy Lane"
     },
-    "170": {
+    "150": {
+        "id": 150,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-61962/",
+        "birth": null,
+        "gender": 1,
+        "name": "Alan Ripley"
+    },
+    "151": {
+        "id": 151,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-61963/",
+        "birth": null,
+        "gender": 1,
+        "name": "The Operator"
+    },
+    "280": {
+        "id": 280,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-70548/",
         "birth": null,
         "gender": 2,
-        "name": "Aeryn Sun",
+        "name": "Fat Momma"
+    },
+    "281": {
+        "id": 281,
+        "creator": {
+            "name": "Zander Cannon"
+        },
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42319/",
+        "birth": null,
+        "gender": 1,
+        "name": "Feedback"
+    },
+    "282": {
+        "id": 282,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-60035/",
+        "birth": null,
+        "gender": 1,
+        "name": "The Defuser"
+    },
+    "133": {
+        "id": 133,
+        "creator": {
+            "name": "Clive Barker"
+        },
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-102923/",
+        "birth": null,
+        "gender": 2,
+        "name": "Babette"
+    },
+    "160": {
+        "id": 160,
+        "creator": {},
         "api_url": "http://comicvine.gamespot.com/api/character/4005-63247/",
-        "creator": {},
-        "id": 170
-    },
-    "171": {
         "birth": null,
-        "gender": 1,
-        "name": "Bialar Crais",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-63360/",
-        "creator": {},
-        "id": 171
-    },
-    "172": {
-        "birth": null,
-        "gender": 1,
-        "name": "Scorpius",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-63265/",
-        "creator": {},
-        "id": 172
+        "gender": 2,
+        "name": "Aeryn Sun"
     },
     "240": {
-        "birth": null,
-        "gender": 2,
-        "name": "Butoh",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-41514/",
+        "id": 240,
         "creator": {
             "name": "David Mack"
         },
-        "id": 240
-    },
-    "180": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41514/",
         "birth": null,
         "gender": 2,
-        "name": "Bette Noir",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-67609/",
+        "name": "Butoh"
+    },
+    "162": {
+        "id": 162,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-71382/",
+        "birth": null,
+        "gender": 1,
+        "name": "Deke Crichton"
+    },
+    "163": {
+        "id": 163,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-63234/",
+        "birth": null,
+        "gender": 1,
+        "name": "John Crichton"
+    },
+    "164": {
+        "id": 164,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-63323/",
+        "birth": null,
+        "gender": 1,
+        "name": "Jothee"
+    },
+    "134": {
+        "id": 134,
+        "creator": {
+            "name": "Clive Barker"
+        },
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-102925/",
+        "birth": null,
+        "gender": 1,
+        "name": "Baphomet"
+    },
+    "241": {
+        "id": 241,
+        "creator": {
+            "name": "David Mack"
+        },
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41515/",
+        "birth": null,
+        "gender": 2,
+        "name": "Ice"
+    },
+    "170": {
+        "id": 170,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-63247/",
+        "birth": null,
+        "gender": 2,
+        "name": "Aeryn Sun"
+    },
+    "171": {
+        "id": 171,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-63360/",
+        "birth": null,
+        "gender": 1,
+        "name": "Bialar Crais"
+    },
+    "172": {
+        "id": 172,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-63265/",
+        "birth": null,
+        "gender": 1,
+        "name": "Scorpius"
+    },
+    "242": {
+        "id": 242,
+        "creator": {
+            "name": "David Mack"
+        },
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-40753/",
+        "birth": null,
+        "gender": 2,
+        "name": "Kabuki"
+    },
+    "270": {
+        "id": 270,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42088/",
+        "birth": null,
+        "gender": 1,
+        "name": "Book"
+    },
+    "180": {
+        "id": 180,
         "creator": {
             "name": "Peter Krause"
         },
-        "id": 180
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-67609/",
+        "birth": null,
+        "gender": 2,
+        "name": "Bette Noir"
     },
     "181": {
+        "id": 181,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-67612/",
         "birth": null,
         "gender": 1,
-        "name": "Charybdis",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-67612/",
-        "creator": {},
-        "id": 181
+        "name": "Charybdis"
     },
     "182": {
-        "birth": null,
-        "gender": 1,
-        "name": "Citadel",
+        "id": 182,
+        "creator": {},
         "api_url": "http://comicvine.gamespot.com/api/character/4005-77382/",
-        "creator": {},
-        "id": 182
-    },
-    "201": {
         "birth": null,
         "gender": 1,
-        "name": "Ebab",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-64468/",
+        "name": "Citadel"
+    },
+    "183": {
+        "id": 183,
         "creator": {},
-        "id": 201
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-73936/",
+        "birth": null,
+        "gender": 1,
+        "name": "Gazer"
     },
     "184": {
+        "id": 184,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-67608/",
         "birth": null,
         "gender": 1,
-        "name": "Gilgamos",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-67608/",
-        "creator": {},
-        "id": 184
+        "name": "Gilgamos"
     },
     "104": {
+        "id": 104,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-82942/",
         "birth": null,
         "gender": 1,
-        "name": "Atkins",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-82942/",
-        "creator": {},
-        "id": 104
+        "name": "Atkins"
     },
     "102": {
-        "birth": null,
-        "gender": 1,
-        "name": "Alastor",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-102987/",
+        "id": 102,
         "creator": {
             "name": "Clive Barker"
         },
-        "id": 102
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-102987/",
+        "birth": null,
+        "gender": 1,
+        "name": "Alastor"
     },
     "11": {
+        "id": 11,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-39873/",
         "birth": "Mar 24, 1874",
         "gender": 1,
-        "name": "Harry Houdini",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-39873/",
+        "name": "Harry Houdini"
+    },
+    "161": {
+        "id": 161,
         "creator": {},
-        "id": 11
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-63249/",
+        "birth": null,
+        "gender": 2,
+        "name": "Chiana"
     },
     "200": {
+        "id": 200,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-7917/",
         "birth": null,
         "gender": 1,
-        "name": "Chief Chirpa",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-7917/",
-        "creator": {},
-        "id": 200
+        "name": "Chief Chirpa"
     },
     "12": {
+        "id": 12,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-127845/",
         "birth": "Mar 30, 1878",
         "gender": 1,
-        "name": "Jack Johnson",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-127845/",
-        "creator": {},
-        "id": 12
+        "name": "Jack Johnson"
     },
     "202": {
+        "id": 202,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-64474/",
         "birth": null,
         "gender": 1,
-        "name": "Graak",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-64474/",
-        "creator": {},
-        "id": 202
+        "name": "Graak"
     },
     "203": {
+        "id": 203,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-64470/",
         "birth": null,
         "gender": 2,
-        "name": "Latara",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-64470/",
-        "creator": {},
-        "id": 203
+        "name": "Latara"
     },
     "204": {
+        "id": 204,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-16170/",
         "birth": null,
         "gender": 1,
-        "name": "Logray",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-16170/",
+        "name": "Logray"
+    },
+    "201": {
+        "id": 201,
         "creator": {},
-        "id": 204
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-64468/",
+        "birth": null,
+        "gender": 1,
+        "name": "Ebab"
     },
     "210": {
+        "id": 210,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-87307/",
         "birth": null,
         "gender": 1,
-        "name": "Adilgashii",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-87307/",
-        "creator": {},
-        "id": 210
+        "name": "Adilgashii"
     },
     "211": {
-        "birth": null,
-        "gender": 1,
-        "name": "Aquaman Predator",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-56709/",
+        "id": 211,
         "creator": {
             "name": "John Ostrander"
         },
-        "id": 211
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-56709/",
+        "birth": null,
+        "gender": 1,
+        "name": "Aquaman Predator"
     },
     "212": {
-        "birth": null,
-        "gender": 1,
-        "name": "Atom Predator",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-56749/",
+        "id": 212,
         "creator": {
             "name": "John Ostrander"
         },
-        "id": 212
-    },
-    "14": {
-        "birth": "Feb 11, 1847",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-56749/",
+        "birth": null,
         "gender": 1,
-        "name": "Thomas Alva Edison",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-20002/",
-        "creator": {},
-        "id": 14
+        "name": "Atom Predator"
+    },
+    "213": {
+        "id": 213,
+        "creator": {
+            "name": "John Ostrander"
+        },
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-56707/",
+        "birth": null,
+        "gender": 1,
+        "name": "Batman Predator"
     },
     "214": {
-        "birth": null,
-        "gender": 2,
-        "name": "Big Momma",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-87276/",
+        "id": 214,
         "creator": {
             "name": "Chris Claremont"
         },
-        "id": 214
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-87276/",
+        "birth": null,
+        "gender": 2,
+        "name": "Big Momma"
     },
     "250": {
-        "birth": null,
-        "gender": 1,
-        "name": "Angel",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-20094/",
+        "id": 250,
         "creator": {
             "name": "Joss Whedon"
         },
-        "id": 250
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-20094/",
+        "birth": null,
+        "gender": 1,
+        "name": "Angel"
     },
     "220": {
-        "birth": null,
-        "gender": 2,
-        "name": "Alien Queen",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-52594/",
+        "id": 220,
         "creator": {
             "name": "Randy Stradley"
         },
-        "id": 220
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-52594/",
+        "birth": null,
+        "gender": 2,
+        "name": "Alien Queen"
     },
     "221": {
-        "birth": null,
-        "gender": 1,
-        "name": "Alien Runner",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-91389/",
+        "id": 221,
         "creator": {
             "name": "H.R. Giger"
         },
-        "id": 221
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-91389/",
+        "birth": null,
+        "gender": 1,
+        "name": "Alien Runner"
     },
     "222": {
-        "birth": null,
-        "gender": 1,
-        "name": "Alien Warrior",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-61046/",
+        "id": 222,
         "creator": {
             "name": "H.R. Giger"
         },
-        "id": 222
-    },
-    "223": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-61046/",
         "birth": null,
         "gender": 1,
-        "name": "Bodyburster",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-92578/",
+        "name": "Alien Warrior"
+    },
+    "223": {
+        "id": 223,
         "creator": {
             "name": "Justin Green"
         },
-        "id": 223
-    },
-    "224": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-92578/",
         "birth": null,
         "gender": 1,
-        "name": "Crocodile Alien",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-91536/",
+        "name": "Bodyburster"
+    },
+    "224": {
+        "id": 224,
         "creator": {
             "name": "Ron Marz"
         },
-        "id": 224
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-91536/",
+        "birth": null,
+        "gender": 1,
+        "name": "Crocodile Alien"
     },
     "251": {
+        "id": 251,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-20100/",
         "birth": null,
         "gender": 2,
-        "name": "Anya",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-20100/",
-        "creator": {},
-        "id": 251
+        "name": "Anya"
     },
     "100": {
+        "id": 100,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-82941/",
         "birth": null,
         "gender": 2,
-        "name": "Abigor",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-82941/",
-        "creator": {},
-        "id": 100
+        "name": "Abigor"
     },
     "101": {
-        "birth": null,
-        "gender": 2,
-        "name": "Aeshma Deva",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-102986/",
+        "id": 101,
         "creator": {
             "name": "Clive Barker"
         },
-        "id": 101
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-102986/",
+        "birth": null,
+        "gender": 2,
+        "name": "Aeshma Deva"
     },
     "230": {
-        "birth": null,
-        "gender": 1,
-        "name": "Abe Sapien",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-25795/",
+        "id": 230,
         "creator": {
             "name": "Mike Mignola"
         },
-        "id": 230
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-25795/",
+        "birth": null,
+        "gender": 1,
+        "name": "Abe Sapien"
     },
     "231": {
-        "birth": null,
-        "gender": 1,
-        "name": "Agent Enos",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-125166/",
+        "id": 231,
         "creator": {
             "name": "Mike Mignola"
         },
-        "id": 231
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-125166/",
+        "birth": null,
+        "gender": 1,
+        "name": "Agent Enos"
     },
     "232": {
-        "birth": null,
-        "gender": 2,
-        "name": "Agent Gervesh",
+        "id": 232,
+        "creator": {},
         "api_url": "http://comicvine.gamespot.com/api/character/4005-125055/",
-        "creator": {},
-        "id": 232
-    },
-    "242": {
         "birth": null,
         "gender": 2,
-        "name": "Kabuki",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-40753/",
-        "creator": {
-            "name": "David Mack"
-        },
-        "id": 242
-    },
-    "234": {
-        "birth": null,
-        "gender": 1,
-        "name": "Agent Nichols",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-124274/",
-        "creator": {},
-        "id": 234
-    },
-    "103": {
-        "birth": null,
-        "gender": 2,
-        "name": "Angelique",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-54716/",
-        "creator": {},
-        "id": 103
-    },
-    "110": {
-        "birth": null,
-        "gender": 1,
-        "name": "Alpha 5",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-76762/",
-        "creator": {},
-        "id": 110
-    },
-    "111": {
-        "birth": null,
-        "gender": 1,
-        "name": "Black Power Ranger",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-48313/",
-        "creator": {},
-        "id": 111
-    },
-    "112": {
-        "birth": null,
-        "gender": null,
-        "name": "Blue Power Ranger",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-46075/",
-        "creator": {},
-        "id": 112
-    },
-    "113": {
-        "birth": null,
-        "gender": 2,
-        "name": "Dimitria",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-89796/",
-        "creator": {},
-        "id": 113
-    },
-    "114": {
-        "birth": null,
-        "gender": 1,
-        "name": "Gold Power Ranger",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-69415/",
-        "creator": {},
-        "id": 114
-    },
-    "243": {
-        "birth": null,
-        "gender": 2,
-        "name": "Scarab",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-40850/",
-        "creator": {
-            "name": "David Mack"
-        },
-        "id": 243
-    },
-    "244": {
-        "birth": null,
-        "gender": 2,
-        "name": "Siamese",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-41508/",
-        "creator": {
-            "name": "David Mack"
-        },
-        "id": 244
+        "name": "Agent Gervesh"
     },
     "233": {
-        "birth": null,
-        "gender": 1,
-        "name": "Agent Hampton",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-99897/",
+        "id": 233,
         "creator": {
             "name": "Mike Mignola"
         },
-        "id": 233
-    },
-    "120": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-99897/",
         "birth": null,
         "gender": 1,
-        "name": "Animal",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-7551/",
-        "creator": {},
-        "id": 120
+        "name": "Agent Hampton"
     },
-    "121": {
+    "234": {
+        "id": 234,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-124274/",
         "birth": null,
         "gender": 1,
-        "name": "Dr. Teeth",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-7561/",
-        "creator": {},
-        "id": 121
+        "name": "Agent Nichols"
     },
-    "122": {
-        "birth": null,
-        "gender": 1,
-        "name": "Floyd",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-7563/",
+    "103": {
+        "id": 103,
         "creator": {},
-        "id": 122
-    },
-    "123": {
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-54716/",
         "birth": null,
         "gender": 2,
-        "name": "Janice",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-7562/",
-        "creator": {},
-        "id": 123
+        "name": "Angelique"
     },
-    "124": {
+    "110": {
+        "id": 110,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-76762/",
         "birth": null,
         "gender": 1,
-        "name": "Lips",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-113378/",
+        "name": "Alpha 5"
+    },
+    "111": {
+        "id": 111,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-48313/",
+        "birth": null,
+        "gender": 1,
+        "name": "Black Power Ranger"
+    },
+    "112": {
+        "id": 112,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-46075/",
+        "birth": null,
+        "gender": null,
+        "name": "Blue Power Ranger"
+    },
+    "113": {
+        "id": 113,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-89796/",
+        "birth": null,
+        "gender": 2,
+        "name": "Dimitria"
+    },
+    "114": {
+        "id": 114,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-69415/",
+        "birth": null,
+        "gender": 1,
+        "name": "Gold Power Ranger"
+    },
+    "243": {
+        "id": 243,
+        "creator": {
+            "name": "David Mack"
+        },
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-40850/",
+        "birth": null,
+        "gender": 2,
+        "name": "Scarab"
+    },
+    "244": {
+        "id": 244,
+        "creator": {
+            "name": "David Mack"
+        },
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41508/",
+        "birth": null,
+        "gender": 2,
+        "name": "Siamese"
+    },
+    "120": {
+        "id": 120,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-7551/",
+        "birth": null,
+        "gender": 1,
+        "name": "Animal"
+    },
+    "121": {
+        "id": 121,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-7561/",
+        "birth": null,
+        "gender": 1,
+        "name": "Dr. Teeth"
+    },
+    "122": {
+        "id": 122,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-7563/",
+        "birth": null,
+        "gender": 1,
+        "name": "Floyd"
+    },
+    "123": {
+        "id": 123,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-7562/",
+        "birth": null,
+        "gender": 2,
+        "name": "Janice"
+    },
+    "124": {
+        "id": 124,
         "creator": {
             "name": "Jim Henson"
         },
-        "id": 124
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-113378/",
+        "birth": null,
+        "gender": 1,
+        "name": "Lips"
     },
     "253": {
-        "birth": "Jan 19, 1981",
-        "gender": 2,
-        "name": "Buffy",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-20096/",
+        "id": 253,
         "creator": {
             "name": "Tim Townsend"
         },
-        "id": 253
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-20096/",
+        "birth": "Jan 19, 1981",
+        "gender": 2,
+        "name": "Buffy"
     },
     "254": {
+        "id": 254,
+        "creator": {},
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-83566/",
         "birth": null,
         "gender": 3,
-        "name": "Buffybot",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-83566/",
-        "creator": {},
-        "id": 254
-    },
-    "213": {
-        "birth": null,
-        "gender": 1,
-        "name": "Batman Predator",
-        "api_url": "http://comicvine.gamespot.com/api/character/4005-56707/",
-        "creator": {
-            "name": "John Ostrander"
-        },
-        "id": 213
+        "name": "Buffybot"
     }
 }

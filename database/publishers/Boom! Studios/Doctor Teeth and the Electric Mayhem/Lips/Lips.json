@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Lips",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-113378/",
+    "id": 124,
     "creator": {
         "name": "Jim Henson"
     },
-    "id": 124
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-113378/",
+    "birth": null,
+    "gender": 1,
+    "name": "Lips"
 }

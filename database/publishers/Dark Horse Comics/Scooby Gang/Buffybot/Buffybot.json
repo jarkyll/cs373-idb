@@ -1,8 +1,8 @@
 {
+    "id": 254,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-83566/",
     "birth": null,
     "gender": 3,
-    "name": "Buffybot",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-83566/",
-    "creator": {},
-    "id": 254
+    "name": "Buffybot"
 }

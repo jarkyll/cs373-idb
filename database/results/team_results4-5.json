@@ -1,0 +1,110 @@
+{
+    "32": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/2/27783/728849-broothespear.jpg",
+        "id": 32,
+        "name": "Brothers of the Spear",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56310/"
+    },
+    "33": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/2/27783/1594158-modsquad.jpg",
+        "id": 33,
+        "name": "Mod Squad",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56624/"
+    },
+    "34": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/3/37015/913852-brady_bunch1.jpg",
+        "id": 34,
+        "name": "The Brady Bunch",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56651/"
+    },
+    "35": {
+        "image": null,
+        "id": 35,
+        "name": "Claw Gang",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56708/"
+    },
+    "36": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/2/27783/1593502-nightdevils2.jpg",
+        "id": 36,
+        "name": "The Night Devils",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58000/"
+    },
+    "37": {
+        "image": null,
+        "id": 37,
+        "name": "Pithecanthropus tribe",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58811/"
+    },
+    "38": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/3/37015/2578557-veverly_hillbillies1.jpg",
+        "id": 38,
+        "name": "Beverly Hillbillies",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-59058/"
+    },
+    "40": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/2/27783/2181282-spacerangers.jpg",
+        "id": 40,
+        "name": "Space Rangers",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56995/"
+    },
+    "41": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/6/69951/1616179-rangers_of_freedom.jpg",
+        "id": 41,
+        "name": "Rangers of Freedom",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58036/"
+    },
+    "42": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/6/69951/1616246-royal_watch_rangers_comics_1.jpg",
+        "id": 42,
+        "name": "Royal Watch",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58037/"
+    },
+    "43": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/6/69951/1616251-defense_patrol.jpg",
+        "id": 43,
+        "name": "Defense Patrol",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58038/"
+    },
+    "44": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/6/69951/1617886-phantom_falcons.jpg",
+        "id": 44,
+        "name": "Phantom Falcons",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58040/"
+    },
+    "45": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/6/69951/1618095-captain_morgans_us_rangers.jpg",
+        "id": 45,
+        "name": "Captain Morgan's US Rangers",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58041/"
+    },
+    "46": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/6/69951/1618131-captain_morgans_sky_rangers.jpg",
+        "id": 46,
+        "name": "Captain Morgans Sky Rangers",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58042/"
+    },
+    "47": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/2/27783/1619465-crusoe_island.jpg",
+        "id": 47,
+        "name": "Crusoe Island",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58044/"
+    },
+    "48": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/6/69951/1699404-captain_thunder_and_his_congo_lancers.jpg",
+        "id": 48,
+        "name": "Congo Lancers",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58184/"
+    },
+    "30": {
+        "image": "http://static4.comicvine.com/uploads/scale_small/0/3125/1044725-mm.jpg",
+        "id": 30,
+        "name": "Mouse Musketeers",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-47541/"
+    },
+    "31": {
+        "image": null,
+        "id": 31,
+        "name": "Buzzards",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-47791/"
+    }
+}

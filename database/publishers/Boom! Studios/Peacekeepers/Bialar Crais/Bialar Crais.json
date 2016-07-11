@@ -1,8 +1,8 @@
 {
+    "id": 171,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-63360/",
     "birth": null,
     "gender": 1,
-    "name": "Bialar Crais",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-63360/",
-    "creator": {},
-    "id": 171
+    "name": "Bialar Crais"
 }

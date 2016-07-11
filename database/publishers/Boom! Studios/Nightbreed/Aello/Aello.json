@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 2,
-    "name": "Aello",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-102934/",
+    "id": 131,
     "creator": {
         "name": "Clive Barker"
     },
-    "id": 131
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-102934/",
+    "birth": null,
+    "gender": 2,
+    "name": "Aello"
 }

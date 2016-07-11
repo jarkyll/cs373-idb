@@ -1,8 +1,8 @@
 {
+    "id": 120,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-7551/",
     "birth": null,
     "gender": 1,
-    "name": "Animal",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-7551/",
-    "creator": {},
-    "id": 120
+    "name": "Animal"
 }

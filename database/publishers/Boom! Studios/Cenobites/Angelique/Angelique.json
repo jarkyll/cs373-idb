@@ -1,8 +1,8 @@
 {
+    "id": 103,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-54716/",
     "birth": null,
     "gender": 2,
-    "name": "Angelique",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-54716/",
-    "creator": {},
-    "id": 103
+    "name": "Angelique"
 }

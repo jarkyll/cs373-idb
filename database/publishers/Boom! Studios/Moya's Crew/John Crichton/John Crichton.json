@@ -1,8 +1,8 @@
 {
+    "id": 163,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-63234/",
     "birth": null,
     "gender": 1,
-    "name": "John Crichton",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-63234/",
-    "creator": {},
-    "id": 163
+    "name": "John Crichton"
 }

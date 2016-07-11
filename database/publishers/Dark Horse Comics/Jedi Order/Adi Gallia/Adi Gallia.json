@@ -1,8 +1,8 @@
 {
+    "id": 261,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-5401/",
     "birth": null,
     "gender": 2,
-    "name": "Adi Gallia",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-5401/",
-    "creator": {},
-    "id": 261
+    "name": "Adi Gallia"
 }

@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 2,
-    "name": "Aayla Secura",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-5389/",
+    "id": 260,
     "creator": {
         "name": "Rick Magyar"
     },
-    "id": 260
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-5389/",
+    "birth": null,
+    "gender": 2,
+    "name": "Aayla Secura"
 }

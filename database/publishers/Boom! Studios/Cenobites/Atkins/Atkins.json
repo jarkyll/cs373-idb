@@ -1,8 +1,8 @@
 {
+    "id": 104,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-82942/",
     "birth": null,
     "gender": 1,
-    "name": "Atkins",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-82942/",
-    "creator": {},
-    "id": 104
+    "name": "Atkins"
 }

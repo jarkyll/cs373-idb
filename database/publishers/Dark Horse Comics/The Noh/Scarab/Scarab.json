@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 2,
-    "name": "Scarab",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-40850/",
+    "id": 243,
     "creator": {
         "name": "David Mack"
     },
-    "id": 243
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-40850/",
+    "birth": null,
+    "gender": 2,
+    "name": "Scarab"
 }

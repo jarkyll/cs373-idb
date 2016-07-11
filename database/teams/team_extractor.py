@@ -22,11 +22,11 @@ os.chdir("/u/cz4792/cs373/cs373-idb/database/results")
 postpend = "?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
 id = 0
 
-PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics']
+PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics', 'Dell', 'Fiction House']
 
 f = open('publisher_results.json', 'r')
 test = json.load(f)
-for id in range(3):
+for id in range(3, 5):
     teamCount = 0
     teamList = []
     teamList = test[str(id)]['teams']
@@ -62,7 +62,7 @@ for id in range(3):
 f.close()
 
 
-with open("/u/cz4792/cs373/cs373-idb/database/results/team_results1-3.json", 'w') as f:
+with open("/u/cz4792/cs373/cs373-idb/database/results/team_results4-5.json", 'w') as f:
     json.dump(result, f, indent=4)
 
 f.close()

@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Aquaman Predator",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-56709/",
+    "id": 211,
     "creator": {
         "name": "John Ostrander"
     },
-    "id": 211
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-56709/",
+    "birth": null,
+    "gender": 1,
+    "name": "Aquaman Predator"
 }

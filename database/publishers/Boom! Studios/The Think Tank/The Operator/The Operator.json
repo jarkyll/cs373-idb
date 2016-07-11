@@ -1,8 +1,8 @@
 {
+    "id": 151,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-61963/",
     "birth": null,
     "gender": 1,
-    "name": "The Operator",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-61963/",
-    "creator": {},
-    "id": 151
+    "name": "The Operator"
 }

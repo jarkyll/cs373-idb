@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 2,
-    "name": "Ice",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-41515/",
+    "id": 241,
     "creator": {
         "name": "David Mack"
     },
-    "id": 241
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41515/",
+    "birth": null,
+    "gender": 2,
+    "name": "Ice"
 }

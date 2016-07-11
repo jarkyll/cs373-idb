@@ -1,8 +1,8 @@
 {
+    "id": 200,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-7917/",
     "birth": null,
     "gender": 1,
-    "name": "Chief Chirpa",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-7917/",
-    "creator": {},
-    "id": 200
+    "name": "Chief Chirpa"
 }

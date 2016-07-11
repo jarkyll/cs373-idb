@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 2,
-    "name": "Aeshma Deva",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-102986/",
+    "id": 101,
     "creator": {
         "name": "Clive Barker"
     },
-    "id": 101
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-102986/",
+    "birth": null,
+    "gender": 2,
+    "name": "Aeshma Deva"
 }

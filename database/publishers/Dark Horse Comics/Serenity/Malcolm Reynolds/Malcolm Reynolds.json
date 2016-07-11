@@ -1,8 +1,8 @@
 {
+    "id": 274,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41697/",
     "birth": null,
     "gender": 1,
-    "name": "Malcolm Reynolds",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-41697/",
-    "creator": {},
-    "id": 274
+    "name": "Malcolm Reynolds"
 }

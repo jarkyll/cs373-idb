@@ -1,8 +1,8 @@
 {
+    "id": 182,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-77382/",
     "birth": null,
     "gender": 1,
-    "name": "Citadel",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-77382/",
-    "creator": {},
-    "id": 182
+    "name": "Citadel"
 }

@@ -1,0 +1,148 @@
+{
+    "320": {
+        "creator": {},
+        "id": 320,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-18121/",
+        "birth": null,
+        "name": "Dan-El",
+        "gender": 1
+    },
+    "321": {
+        "creator": {},
+        "id": 321,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-18122/",
+        "birth": null,
+        "name": "Natongo",
+        "gender": 1
+    },
+    "330": {
+        "creator": {},
+        "id": 330,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-63301/",
+        "birth": null,
+        "name": "Julie Barnes",
+        "gender": 2
+    },
+    "332": {
+        "creator": {},
+        "id": 332,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-63300/",
+        "birth": null,
+        "name": "Pete Cochran",
+        "gender": 1
+    },
+    "382": {
+        "creator": {},
+        "id": 382,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-100165/",
+        "birth": null,
+        "name": "Jed Clampett",
+        "gender": 1
+    },
+    "331": {
+        "creator": {},
+        "id": 331,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-63302/",
+        "birth": null,
+        "name": "Linc Hayes",
+        "gender": 1
+    },
+    "300": {
+        "creator": {
+            "name": "William Hanna"
+        },
+        "id": 300,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-39850/",
+        "birth": "Feb 10, 1940",
+        "name": "Jerry",
+        "gender": 1
+    },
+    "301": {
+        "creator": {},
+        "id": 301,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-39632/",
+        "birth": null,
+        "name": "Tuffy",
+        "gender": 1
+    },
+    "400": {
+        "creator": {},
+        "id": 400,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-63306/",
+        "birth": null,
+        "name": "Reef Ryan",
+        "gender": 1
+    },
+    "340": {
+        "creator": {},
+        "id": 340,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-64209/",
+        "birth": null,
+        "name": "Bobby Brady",
+        "gender": 1
+    },
+    "341": {
+        "creator": {},
+        "id": 341,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-64210/",
+        "birth": null,
+        "name": "Cindy Brady",
+        "gender": 2
+    },
+    "342": {
+        "creator": {},
+        "id": 342,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-64205/",
+        "birth": null,
+        "name": "Greg Brady",
+        "gender": 1
+    },
+    "343": {
+        "creator": {},
+        "id": 343,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-64208/",
+        "birth": null,
+        "name": "Jan Brady",
+        "gender": 2
+    },
+    "344": {
+        "creator": {},
+        "id": 344,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-64206/",
+        "birth": null,
+        "name": "Marcia Brady",
+        "gender": 2
+    },
+    "380": {
+        "creator": {},
+        "id": 380,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-100164/",
+        "birth": null,
+        "name": "Elly May Clampett",
+        "gender": 2
+    },
+    "381": {
+        "creator": {},
+        "id": 381,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-100166/",
+        "birth": null,
+        "name": "Granny",
+        "gender": 2
+    },
+    "350": {
+        "creator": {},
+        "id": 350,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-64424/",
+        "birth": null,
+        "name": "Oil Can Harry",
+        "gender": 1
+    },
+    "383": {
+        "creator": {},
+        "id": 383,
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-100163/",
+        "birth": null,
+        "name": "Jethro Bodine",
+        "gender": 1
+    }
+}

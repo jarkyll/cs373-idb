@@ -1,8 +1,8 @@
 {
+    "id": 111,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-48313/",
     "birth": null,
     "gender": 1,
-    "name": "Black Power Ranger",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-48313/",
-    "creator": {},
-    "id": 111
+    "name": "Black Power Ranger"
 }

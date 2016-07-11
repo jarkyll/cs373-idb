@@ -1,8 +1,8 @@
 {
+    "id": 263,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-55028/",
     "birth": null,
     "gender": 2,
-    "name": "Ahsoka Tano",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-55028/",
-    "creator": {},
-    "id": 263
+    "name": "Ahsoka Tano"
 }

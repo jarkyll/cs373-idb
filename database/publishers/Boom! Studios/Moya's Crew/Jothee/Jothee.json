@@ -1,8 +1,8 @@
 {
+    "id": 164,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-63323/",
     "birth": null,
     "gender": 1,
-    "name": "Jothee",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-63323/",
-    "creator": {},
-    "id": 164
+    "name": "Jothee"
 }

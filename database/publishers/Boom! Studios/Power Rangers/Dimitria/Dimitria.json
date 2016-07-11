@@ -1,8 +1,8 @@
 {
+    "id": 113,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-89796/",
     "birth": null,
     "gender": 2,
-    "name": "Dimitria",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-89796/",
-    "creator": {},
-    "id": 113
+    "name": "Dimitria"
 }

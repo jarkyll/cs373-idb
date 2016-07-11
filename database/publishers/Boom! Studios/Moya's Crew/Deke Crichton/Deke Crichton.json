@@ -1,8 +1,8 @@
 {
+    "id": 162,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-71382/",
     "birth": null,
     "gender": 1,
-    "name": "Deke Crichton",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-71382/",
-    "creator": {},
-    "id": 162
+    "name": "Deke Crichton"
 }

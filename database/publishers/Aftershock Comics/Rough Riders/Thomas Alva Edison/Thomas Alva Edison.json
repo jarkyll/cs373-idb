@@ -1,8 +1,8 @@
 {
+    "id": 14,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-20002/",
     "birth": "Feb 11, 1847",
     "gender": 1,
-    "name": "Thomas Alva Edison",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-20002/",
-    "creator": {},
-    "id": 14
+    "name": "Thomas Alva Edison"
 }

@@ -1,8 +1,8 @@
 {
+    "id": 270,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-42088/",
     "birth": null,
     "gender": 1,
-    "name": "Book",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-42088/",
-    "creator": {},
-    "id": 270
+    "name": "Book"
 }

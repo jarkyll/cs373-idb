@@ -1,8 +1,8 @@
 {
+    "id": 251,
+    "creator": {},
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-20100/",
     "birth": null,
     "gender": 2,
-    "name": "Anya",
-    "api_url": "http://comicvine.gamespot.com/api/character/4005-20100/",
-    "creator": {},
-    "id": 251
+    "name": "Anya"
 }
