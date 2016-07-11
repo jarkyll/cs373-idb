@@ -1,0 +1,10 @@
+{
+    "birth": null,
+    "gender": 2,
+    "name": "Butoh",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41514/",
+    "creator": {
+        "name": "David Mack"
+    },
+    "id": 240
+}

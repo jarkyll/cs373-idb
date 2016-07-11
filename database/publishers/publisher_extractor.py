@@ -37,11 +37,9 @@ for data in glob.glob('*.json'):
     with open(path, 'w') as f:
         json.dump(extracted, f, indent=4)
 
-    # f = open(path, 'r')
     f.close()
 
 with open('/u/cz4792/cs373/cs373-idb/database/results/publisher_results.json', 'w') as f:
     json.dump(result, f, indent=4)
 
-# f = open('/u/cz4792/cs373/cs373-idb/database/results/publisher_results.json', 'r')
 f.close()

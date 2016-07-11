@@ -22,10 +22,11 @@ os.chdir("/u/cz4792/cs373/cs373-idb/database/results")
 postpend = "?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
 id = 0
 
+PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics']
 
 f = open('publisher_results.json', 'r')
 test = json.load(f)
-for id in range(10):
+for id in range(3):
     teamCount = 0
     teamList = []
     teamList = test[str(id)]['teams']
@@ -38,7 +39,7 @@ for id in range(10):
         info = fetch_json(team_url + postpend)
         
 
-        if info['results']['image'] != None:
+        if info['results']['image']:
             extracted['image'] = info['results']['image']['small_url']
         else:
             extracted['image'] = None
@@ -48,13 +49,21 @@ for id in range(10):
             break
 
         result[id * 10 + teamCount - 1] = extracted
+
+        direc = '/u/cz4792/cs373/cs373-idb/database/publishers/' + PublisherName[id] + '/' + extracted['name']
+        if not os.path.exists(direc):
+            os.mkdir(direc)
+        path = direc + '/' + extracted['name'] + '.json'
+        with open(path, 'w') as f:
+            json.dump(extracted, f, indent=4)
+
+        f.close()
     
 f.close()
 
 
-with open("/u/cz4792/cs373/cs373-idb/database/results/team_results.json", 'w') as f:
+with open("/u/cz4792/cs373/cs373-idb/database/results/team_results1-3.json", 'w') as f:
     json.dump(result, f, indent=4)
 
-f = open('/u/cz4792/cs373/cs373-idb/database/results/team_results.json', 'r')
 f.close()
 

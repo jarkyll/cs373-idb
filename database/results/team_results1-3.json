@@ -1,0 +1,122 @@
+{
+    "0": {
+        "id": 0,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-62497/",
+        "name": "Black-Eyed Children",
+        "image": "http://static4.comicvine.com/uploads/scale_small/0/1/1-male-good-large.jpg"
+    },
+    "1": {
+        "id": 1,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-62532/",
+        "name": "Rough Riders",
+        "image": "http://static4.comicvine.com/uploads/scale_small/11/110802/5234768-rough+riders.jpg"
+    },
+    "10": {
+        "id": 10,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42598/",
+        "name": "Cenobites",
+        "image": "http://static4.comicvine.com/uploads/scale_small/3/33224/668061-cenobites_4536.jpg"
+    },
+    "11": {
+        "id": 11,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-46181/",
+        "name": "Power Rangers",
+        "image": "http://static4.comicvine.com/uploads/scale_small/1/18154/5012280-boom-mightymorphinpowerrangers-002-c-incentive2-29516.jpg"
+    },
+    "12": {
+        "id": 12,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-50972/",
+        "name": "Doctor Teeth and the Electric Mayhem",
+        "image": "http://static4.comicvine.com/uploads/scale_small/0/77/1165952-electric_mayhem_708497.jpg"
+    },
+    "13": {
+        "id": 13,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-55023/",
+        "name": "Nightbreed",
+        "image": "http://static4.comicvine.com/uploads/scale_small/3/35816/828665-nightbreed.jpg"
+    },
+    "14": {
+        "id": 14,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56402/",
+        "name": "Planetary Brigade",
+        "image": "http://static4.comicvine.com/uploads/scale_small/3/36009/758516-planetary_bribade.jpg"
+    },
+    "15": {
+        "id": 15,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56503/",
+        "name": "The Think Tank",
+        "image": "http://static4.comicvine.com/uploads/scale_small/0/40/796870-picture_1.png"
+    },
+    "16": {
+        "id": 16,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56622/",
+        "name": "Moya's Crew",
+        "image": "http://static4.comicvine.com/uploads/scale_small/3/38826/863156-moyacrew.jpg"
+    },
+    "17": {
+        "id": 17,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56623/",
+        "name": "Peacekeepers",
+        "image": "http://static4.comicvine.com/uploads/scale_small/3/38826/863234-peacekeepers.jpg"
+    },
+    "18": {
+        "id": 18,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-57147/",
+        "name": "Paradigm",
+        "image": "http://static4.comicvine.com/uploads/scale_small/11/117763/2510735-incorruptible__16___page_3.jpg"
+    },
+    "20": {
+        "id": 20,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-6331/",
+        "name": "Ewoks",
+        "image": "http://static4.comicvine.com/uploads/scale_small/1/19151/367187-154544-ewoks.JPG"
+    },
+    "21": {
+        "id": 21,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-18392/",
+        "name": "Predators",
+        "image": "http://static4.comicvine.com/uploads/scale_small/3/38826/876686-predator3.jpg"
+    },
+    "22": {
+        "id": 22,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-20659/",
+        "name": "Aliens (Xenomorphs)",
+        "image": "http://static4.comicvine.com/uploads/scale_small/3/38826/877172-alienwarrior.jpg"
+    },
+    "23": {
+        "id": 23,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40436/",
+        "name": "Bureau for Paranormal Research and Defense",
+        "image": "http://static4.comicvine.com/uploads/scale_small/0/462/79445-99481-bureau-for-paranorma.jpg"
+    },
+    "24": {
+        "id": 24,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40839/",
+        "name": "The Noh",
+        "image": "http://static4.comicvine.com/uploads/scale_small/12/128795/2549159-noh_kabuki_masks_of_the_noh_v1_003.jpg"
+    },
+    "25": {
+        "id": 25,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41140/",
+        "name": "Scooby Gang",
+        "image": "http://static4.comicvine.com/uploads/scale_small/0/1772/93755-163895-scooby-gang.jpg"
+    },
+    "26": {
+        "id": 26,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41234/",
+        "name": "Jedi Order",
+        "image": "http://static4.comicvine.com/uploads/scale_small/0/5904/205438-136163-jedi-order.gif"
+    },
+    "27": {
+        "id": 27,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42087/",
+        "name": "Serenity",
+        "image": "http://static4.comicvine.com/uploads/scale_small/0/3848/327934-186776-serenity.jpg"
+    },
+    "28": {
+        "id": 28,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42318/",
+        "name": "Excelsior",
+        "image": "http://static4.comicvine.com/uploads/scale_small/0/934/146928-46750-excelsior.jpg"
+    }
+}

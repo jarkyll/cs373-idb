@@ -1,0 +1,10 @@
+{
+    "birth": null,
+    "gender": 2,
+    "name": "Bette Noir",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-67609/",
+    "creator": {
+        "name": "Peter Krause"
+    },
+    "id": 180
+}

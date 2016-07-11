@@ -1,0 +1,10 @@
+{
+    "birth": null,
+    "gender": 2,
+    "name": "Scarab",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-40850/",
+    "creator": {
+        "name": "David Mack"
+    },
+    "id": 243
+}

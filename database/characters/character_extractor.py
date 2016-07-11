@@ -23,13 +23,16 @@ result = {}
 os.chdir("/u/cz4792/cs373/cs373-idb/database/results")
 postpend = "?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
 id = 0
-count = 0
+PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics']
 
-f = open('team_results.json', 'r')
+
+f = open('team_results1-3.json', 'r')
 test = json.load(f)
 for id in test.keys():
     characterCount = 0
     team_url = test[str(id)]['api_url']
+    # if int(id)/10 == 0:
+    pathName = PublisherName[int(id)//10]
 
     info = fetch_json(team_url + postpend)
 
@@ -38,8 +41,6 @@ for id in test.keys():
 
 
         for character in characterList:
-            count += 1
-            print(count)
             extracted = {}
             extracted['id'] = int(id) * 10 + characterCount
             extracted['name'] = character['name']
@@ -65,19 +66,27 @@ for id in test.keys():
             extracted['creator'] = creator
 
             characterCount += 1
-            if characterCount == 4:
+            if characterCount == 6:
                 break
 
             result[int(id) * 10 + characterCount - 1] = extracted
+
+            direc = '/u/cz4792/cs373/cs373-idb/database/publishers/' + pathName + '/' + test[str(id)]['name'] + '/' + extracted['name']
+            if not os.path.exists(direc):
+                os.mkdir(direc)
+            path = direc + '/' + extracted['name'] + '.json'
+            with open(path, 'w') as f:
+                json.dump(extracted, f, indent=4)
+
+            f.close()
     else:
         continue
     
 f.close()
 
 
-with open("/u/cz4792/cs373/cs373-idb/database/results/character_results.json", 'w') as f:
+with open("/u/cz4792/cs373/cs373-idb/database/results/character_results1-3.json", 'w') as f:
     json.dump(result, f, indent=4)
 
-f = open('/u/cz4792/cs373/cs373-idb/database/results/character_results.json', 'r')
 f.close()
 

@@ -1,0 +1,10 @@
+{
+    "birth": null,
+    "gender": 1,
+    "name": "Bodyburster",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-92578/",
+    "creator": {
+        "name": "Justin Green"
+    },
+    "id": 223
+}

@@ -1,0 +1,10 @@
+{
+    "birth": null,
+    "gender": 2,
+    "name": "Kabuki",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-40753/",
+    "creator": {
+        "name": "David Mack"
+    },
+    "id": 242
+}

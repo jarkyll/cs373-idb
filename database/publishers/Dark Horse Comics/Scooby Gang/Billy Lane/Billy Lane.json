@@ -1,0 +1,10 @@
+{
+    "birth": null,
+    "gender": 1,
+    "name": "Billy Lane",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-99788/",
+    "creator": {
+        "name": "Jane Espenson"
+    },
+    "id": 252
+}

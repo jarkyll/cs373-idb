@@ -1,0 +1,10 @@
+{
+    "birth": "Jan 19, 1981",
+    "gender": 2,
+    "name": "Buffy",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-20096/",
+    "creator": {
+        "name": "Tim Townsend"
+    },
+    "id": 253
+}

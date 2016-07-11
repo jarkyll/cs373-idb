@@ -1,0 +1,10 @@
+{
+    "birth": null,
+    "gender": 1,
+    "name": "Agent Enos",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-125166/",
+    "creator": {
+        "name": "Mike Mignola"
+    },
+    "id": 231
+}

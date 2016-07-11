@@ -1,0 +1,10 @@
+{
+    "birth": null,
+    "gender": 1,
+    "name": "Abe Sapien",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-25795/",
+    "creator": {
+        "name": "Mike Mignola"
+    },
+    "id": 230
+}

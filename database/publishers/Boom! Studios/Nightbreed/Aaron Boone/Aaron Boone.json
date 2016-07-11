@@ -1,0 +1,10 @@
+{
+    "birth": null,
+    "gender": 1,
+    "name": "Aaron Boone",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-55067/",
+    "creator": {
+        "name": "Clive Barker"
+    },
+    "id": 130
+}
