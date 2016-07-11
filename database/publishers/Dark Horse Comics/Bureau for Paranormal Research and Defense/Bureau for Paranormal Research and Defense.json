@@ -1,8 +1,9 @@
 {
-    "name": "Bureau for Paranormal Research and Defense",
-    "appear": "Chapter One",
-    "image": "http://static4.comicvine.com/uploads/scale_small/0/462/79445-99481-bureau-for-paranorma.jpg",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-40436/",
+    "num_appearances": 0,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/79445-99481-bureau-for-paranorma.jpg",
+    "appear": "Chapter One",
+    "name": "Bureau for Paranormal Research and Defense",
     "id": 23,
-    "num_appearances": 0
+    "description": "The Bureau for Paranormal Research and Defense (BPRD) is a grouping of supernatural individuals and government agents that investigate paranormal and occult phenomenon."
 }

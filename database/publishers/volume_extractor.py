@@ -24,55 +24,57 @@ result = {}
 # os.chdir("/u/cz4792/cs373/cs373-idb/database/results")
 postpend = "?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
 id = 0
-PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics']
-dir = os.getcwd() + '' \
-                    '/'
+PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics', 'Dell', 'Fiction House', 'IDW Publishing', 'Image', 'Top Cow', 'Valiant', 'Vertigo']
+dir = os.getcwd() + '/'
 
-f = open(dir + 'results/team_results1-3.json', 'r')
+f = open(dir + 'results/team_results7-10.json', 'r')
 test = json.load(f)
 for id in test.keys():
-    characterCount = 0
+    volumeCount = 0
     team_url = test[str(id)]['api_url']
     # if int(id)/10 == 0:
     pathName = PublisherName[int(id) // 10]
 
     info = fetch_json(team_url + postpend)
 
-    if info and info['results']['characters']:
-        characterList = info['results']['characters']
+    if info and info['results']['volume_credits']:
+        volumeList = info['results']['volume_credits']
 
-        for character in characterList:
+        for volume in volumeList:
             extracted = {}
-            extracted['id'] = int(id) * 10 + characterCount
-            extracted['name'] = character['name']
-            # pprint(extracted['name'])
-            extracted['api_url'] = character['api_detail_url']
+            extracted['id'] = int(id) * 100 + volumeCount
+            extracted['name'] = volume['name']
+            if '/' in extracted['name']:
+                extracted['name'] = extracted['name'].replace('/', '_')
+            extracted['api_url'] = volume['api_detail_url']
 
-            info2 = fetch_json(character['api_detail_url'] + postpend)
-            if info2 and info2['results']['birth']:
-                extracted['birth'] = info2['results']['birth']
+            info2 = fetch_json(volume['api_detail_url'] + postpend)
+            if info2 and info2['results']['deck']:
+                extracted['description'] = info2['results']['deck']
             else:
-                extracted['birth'] = None
-            if info2 and info2['results']['gender']:
-                extracted['gender'] = info2['results']['gender']
+                extracted['description'] = None
+            if info2 and info2['results']['count_of_issues']:
+                extracted['count_of_issues'] = info2['results']['count_of_issues']
             else:
-                extracted['gender'] = None
+                extracted['count_of_issues'] = None
 
-            creator = {}
-            if info2 and info2['results']['creators']:
-                creatorList = info2['results']['creators']
-                for creatorDict in creatorList:
-                    creator['name'] = creatorDict['name']
+            if info2 and info2['results']['start_year']:
+                extracted['start_year'] = info2['results']['start_year']
+            else:
+                extracted['start_year'] = None
 
-            extracted['creator'] = creator
-
-            characterCount += 1
-            if characterCount == 6:
+            volumeCount += 1
+            if volumeCount == 3:
                 break
 
-            result[int(id) * 10 + characterCount - 1] = extracted
+            result[int(id) * 100 + volumeCount - 1] = extracted
 
-            direc = dir + pathName + '/' + test[str(id)]['name'] + '/volume/' + extracted['name']
+            direc1 = dir + pathName + '/' + test[str(id)]['name'] + '/Team Volumes'
+            if not os.path.exists(direc1):
+                os.mkdir(direc1)
+
+
+            direc = dir + pathName + '/' + test[str(id)]['name'] + '/Team Volumes/' + extracted['name']
             if not os.path.exists(direc):
                 os.mkdir(direc)
             path = direc + '/' + extracted['name'] + '.json'
@@ -85,7 +87,7 @@ for id in test.keys():
 
 f.close()
 
-with open(dir + "results/volume_results1-3.json", 'w') as f:
+with open(dir + "results/volume_results7-10.json", 'w') as f:
     json.dump(result, f, indent=4)
 
 f.close()

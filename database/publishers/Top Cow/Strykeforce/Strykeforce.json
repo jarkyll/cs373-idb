@@ -1,8 +1,9 @@
 {
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-41874/",
-    "id": 36,
     "name": "Strykeforce",
+    "description": "A mercenary team led by Morgan Stryker of CyberForce. The team travels the globe performing missions including protection, retrieval, and intervention, for the right price.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-41874/",
     "num_appearances": 0,
-    "image": "http://static4.comicvine.com/uploads/scale_small/0/229/89983-52535-strykeforce.jpg",
-    "appear": "The Tin Men of War: Part Four"
+    "appear": "The Tin Men of War: Part Four",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/89983-52535-strykeforce.jpg",
+    "id": 76
 }

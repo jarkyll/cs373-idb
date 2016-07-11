@@ -1,8 +1,9 @@
 {
-    "name": "C.T.U.",
-    "appear": null,
-    "image": "http://static4.comicvine.com/uploads/scale_small/2/23749/497959-24_cast.jpg",
+    "appear": "Unknown",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-41249/",
-    "id": 18,
-    "num_appearances": 0
+    "name": "C.T.U.",
+    "id": 58,
+    "description": "Counter Terrorist Unit, a United States counter-terrorist agency set to defend America from foreign and domestic terrorists.",
+    "num_appearances": 0,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/497959-24_cast.jpg"
 }

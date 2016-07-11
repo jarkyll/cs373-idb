@@ -1,8 +1,9 @@
 {
-    "name": "Scooby Gang",
-    "appear": "Wu-Tang Fang",
-    "image": "http://static5.comicvine.com/uploads/scale_small/0/1772/93755-163895-scooby-gang.jpg",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-41140/",
+    "num_appearances": 0,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/93755-163895-scooby-gang.jpg",
+    "appear": "Wu-Tang Fang",
+    "name": "Scooby Gang",
     "id": 25,
-    "num_appearances": 0
+    "description": "The nickname for the close-knit group of friends that formed to support Buffy the Vampire Slayer in her time in Sunnydale."
 }

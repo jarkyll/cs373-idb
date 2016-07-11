@@ -1,8 +1,9 @@
 {
-    "name": "Dinobots",
     "appear": "The Last Stand; part 1",
-    "image": "http://static4.comicvine.com/uploads/scale_small/4/49448/2466082-rage_of_the_dinobots.jpg",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-41692/",
-    "id": 19,
-    "num_appearances": 0
+    "name": "Dinobots",
+    "id": 59,
+    "description": "A team of independent minded Autobot dinosaur robots that give the Autobots the muscle to match the threat of the more dangerous and powerful Decepticons. In the IDW universe they are known as the Dynobots.",
+    "num_appearances": 0,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2466082-rage_of_the_dinobots.jpg"
 }

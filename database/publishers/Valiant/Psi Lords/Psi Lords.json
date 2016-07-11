@@ -1,8 +1,9 @@
 {
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-56134/",
-    "id": 40,
     "name": "Psi Lords",
+    "description": "Psi Lords are aliens who are watching the earth in the Valiant Universe. ",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-56134/",
     "num_appearances": 0,
-    "image": "http://static4.comicvine.com/uploads/scale_small/1/13923/671121-picpsi_lords01.jpg",
-    "appear": "The Beasts And The Children"
+    "appear": "The Beasts And The Children",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/671121-picpsi_lords01.jpg",
+    "id": 80
 }

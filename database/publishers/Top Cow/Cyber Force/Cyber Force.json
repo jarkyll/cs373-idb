@@ -1,8 +1,9 @@
 {
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-25321/",
-    "id": 30,
     "name": "Cyber Force",
+    "description": "Cyber Force is a Top Cow Superhero team created by artist Marc Silvestri and writer Eric Silvestri in 1992.The idea of the book is that a group of mutants that were capture by Cyberdata and were experimented on to become S.H.O.C.s(Special Hazardous Operations Cyborg) but soon after they broke out and from Cyber Force to fight Cyberdata.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-25321/",
     "num_appearances": 0,
-    "image": "http://static4.comicvine.com/uploads/scale_small/14/149570/3756482-cyberforce6.jpg",
-    "appear": "Unknown"
+    "appear": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3756482-cyberforce6.jpg",
+    "id": 70
 }

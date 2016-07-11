@@ -1,8 +1,9 @@
 {
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-56145/",
-    "id": 42,
     "name": "H.A.R.D. Corps",
+    "description": "H.A.R.D. Corps (Harbinger Active Resistance Division) is a team of humans with brain implants that give them the ability to download super powers. They hunt down super powered psiots (Harbingers) in the Valiant Universe. Capture or death by enemies causes their brain implants to explode.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-56145/",
     "num_appearances": 0,
-    "image": "http://static4.comicvine.com/uploads/scale_small/14/149570/3232207-tumblr_mob7futy031r55wi9o1_500.jpg",
-    "appear": "New Beginnings"
+    "appear": "New Beginnings",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3232207-tumblr_mob7futy031r55wi9o1_500.jpg",
+    "id": 82
 }

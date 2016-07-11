@@ -1,0 +1,14 @@
+{
+    "name": "Skar",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3292627-snapshot%2824%29-1.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-92243/",
+    "gender": 1,
+    "id": 591,
+    "creator": {
+        "name": "Chris Metzen"
+    },
+    "real_name": "Unknown",
+    "num_appearances": 3,
+    "appear": "Chapter 6: Underworld"
+}

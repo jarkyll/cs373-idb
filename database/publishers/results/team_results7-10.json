@@ -1,0 +1,361 @@
+{
+    "64": {
+        "name": "Heavy Mettle",
+        "description": "Government funded super-team briefly led by Supreme.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-26809/",
+        "num_appearances": 0,
+        "appear": "Unknown",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/324660-170371-heavy-mettle.JPG",
+        "id": 64
+    },
+    "65": {
+        "name": "Team 1",
+        "description": "Team 1 was a team made of some of the characters that would go on to be members of Stormwatch and Wild C.A.T.S. The team was created by Lord Emp to combat the emerging Daemonite threat.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40690/",
+        "num_appearances": 0,
+        "appear": "Unknown",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/80323-178127-team-1.jpg",
+        "id": 65
+    },
+    "66": {
+        "name": "Coalition of Planets",
+        "description": "The Coalition of Planets is an alliance between several alien races in the Invincible universe. The Coalition was formed to find a way to stop the Viltrumites.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41132/",
+        "num_appearances": 0,
+        "appear": "Unknown",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1612540-cop_unite.jpg",
+        "id": 66
+    },
+    "67": {
+        "name": "Elephantmen",
+        "description": "The Elephantmen are a group of Human/Animal hybrids created by the MAPPO corporation.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41176/",
+        "num_appearances": 0,
+        "appear": "Unnatural Selection",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/556632-elephantmen_promo01.jpg",
+        "id": 67
+    },
+    "68": {
+        "name": "Unholy Alliance",
+        "description": "A group of villains led by Demolitia. In 1998, they attacked Detroit as part of the conquistador's grand scheme to discredit america's hero.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42350/",
+        "num_appearances": 0,
+        "appear": "Safeguards",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1100262-unholyalliance_2.jpg",
+        "id": 68
+    },
+    "69": {
+        "name": "Wildcore",
+        "description": "A group of Kherubim and super-powered humans assembled by PSI to fight the forces of the D'rahn. Team leader Backlash and Co Leader's Taboo and Zealot(to Backlash chagrin)",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42427/",
+        "num_appearances": 0,
+        "appear": "Unknown",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1672724-wild_core_by_brett_booth.jpg",
+        "id": 69
+    },
+    "70": {
+        "name": "Cyber Force",
+        "description": "Cyber Force is a Top Cow Superhero team created by artist Marc Silvestri and writer Eric Silvestri in 1992.The idea of the book is that a group of mutants that were capture by Cyberdata and were experimented on to become S.H.O.C.s(Special Hazardous Operations Cyborg) but soon after they broke out and from Cyber Force to fight Cyberdata.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-25321/",
+        "num_appearances": 0,
+        "appear": "Unknown",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3756482-cyberforce6.jpg",
+        "id": 70
+    },
+    "71": {
+        "name": "Freedom Phalanx",
+        "description": "Officially founded on July 4, 1932, The Freedom Phalanx was the first ever registered superhero group in Paragon City. After two decades that bore witness to World War I and The Great Depression, The Freedom Phalanx would become a beacon of light for heroism & justice.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40661/",
+        "num_appearances": 0,
+        "appear": "Unknown",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/216217-89917-freedom-phalanx.jpg",
+        "id": 71
+    },
+    "72": {
+        "name": "Arachnos",
+        "description": "Originally a former Italian Facist group, it quietly grew over decades under the command of the technocrat and mastermind, Lord Recluse.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40689/",
+        "num_appearances": 0,
+        "appear": "Unknown",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/217378-141826-arachnos.jpg",
+        "id": 72
+    },
+    "73": {
+        "name": "Hunter-Killer",
+        "description": "Forget what they teach you in History class.  World War I? II? Cuban Missile Crisis? Cold War?  All of these events revolved around the trading and stockpiling of superhumans, or Ultra Sapiens.  Now underground, they are pursued by the Hunter Killer teams.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40992/",
+        "num_appearances": 0,
+        "appear": "Unknown",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1070662-hunterkiller5.jpg",
+        "id": 73
+    },
+    "74": {
+        "name": "The Fraternity",
+        "description": "The Fraternity is the group of super villains that rule the world of Wanted. They consist of 5 separate families, ruling different parts of the world. The main protagonists in Wanted are members of the North American family. ",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41047/",
+        "num_appearances": 0,
+        "appear": "Bring on the Bad Guys",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/83795-26612-the-fraternity.jpg",
+        "id": 74
+    },
+    "75": {
+        "name": "Council of Five",
+        "description": "The Council of Five is the group of supervillains that control the world.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41073/",
+        "num_appearances": 0,
+        "appear": "Supergangbang",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/83770-146030-council-of-five.jpg",
+        "id": 75
+    },
+    "76": {
+        "name": "Strykeforce",
+        "description": "A mercenary team led by Morgan Stryker of CyberForce. The team travels the globe performing missions including protection, retrieval, and intervention, for the right price.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41874/",
+        "num_appearances": 0,
+        "appear": "The Tin Men of War: Part Four",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/89983-52535-strykeforce.jpg",
+        "id": 76
+    },
+    "77": {
+        "name": "Weapon Zero",
+        "description": null,
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42950/",
+        "num_appearances": 0,
+        "appear": "Unknown",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/661141-zero2.jpg",
+        "id": 77
+    },
+    "78": {
+        "name": "Freshmen",
+        "description": "They are college kids who were granted odd powers when the ax-cell-erator exploding giving them powers based on their actions at the given moment.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-43190/",
+        "num_appearances": 0,
+        "appear": "2005",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/615656-fresh.jpg",
+        "id": 78
+    },
+    "79": {
+        "name": "Aggressive Solutions International",
+        "description": "A.S.I. is the corporate face of a criminal syndicate. They possess vast resources and  have highly trained mega-tech empowered individuals at their disposal. Their primary work comes from secretly contracting out their special (and illegal) services to high paying clients.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-44935/",
+        "num_appearances": 0,
+        "appear": "Fade In",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/980640-asi.jpg",
+        "id": 79
+    },
+    "80": {
+        "name": "Psi Lords",
+        "description": "Psi Lords are aliens who are watching the earth in the Valiant Universe. ",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56134/",
+        "num_appearances": 0,
+        "appear": "The Beasts And The Children",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/671121-picpsi_lords01.jpg",
+        "id": 80
+    },
+    "81": {
+        "name": "The Sect",
+        "description": "An ancient clandestine organization.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56138/",
+        "num_appearances": 0,
+        "appear": "Lifelines Part 1: Revival",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3170010-aa_014_cover_evans1.jpg",
+        "id": 81
+    },
+    "82": {
+        "name": "H.A.R.D. Corps",
+        "description": "H.A.R.D. Corps (Harbinger Active Resistance Division) is a team of humans with brain implants that give them the ability to download super powers. They hunt down super powered psiots (Harbingers) in the Valiant Universe. Capture or death by enemies causes their brain implants to explode.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56145/",
+        "num_appearances": 0,
+        "appear": "New Beginnings",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3232207-tumblr_mob7futy031r55wi9o1_500.jpg",
+        "id": 82
+    },
+    "83": {
+        "name": "Secret Weapons",
+        "description": "Secret Weapons is a Team in the Valiant Universe. ",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56146/",
+        "num_appearances": 0,
+        "appear": "Secret Weapons 3...",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/721242-secretweaponsunpublishedcover22.jpg",
+        "id": 83
+    },
+    "84": {
+        "name": "The Force",
+        "description": "The Force is a team in the Valiant Universe. They appear in Eternal Warrior. ",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56166/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/685777-picforce01.jpg",
+        "id": 84
+    },
+    "85": {
+        "name": "Star Soldiers",
+        "description": "Star Soldiers are Characters in the Valiant Universe. \nThey have space armors to guard Toyo Harada's holdings. ",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56182/",
+        "num_appearances": 0,
+        "appear": "The Trouble With Midnight",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/696072-picstarsoldiers01.jpg",
+        "id": 85
+    },
+    "86": {
+        "name": "Futureforce",
+        "description": "The Futureforce are freedom fighters for mankind who fight in the against the Malev Emperor and his robot empire in the 41st century.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56285/",
+        "num_appearances": 0,
+        "appear": "After The Holocaust",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/721212-768px_futureforce.jpg",
+        "id": 86
+    },
+    "87": {
+        "name": "Young Wolves",
+        "description": "Young Wolves is a team in the Valiant Universe: \nSpikey and Pert, Sam the Neo Dog, and the Outsiders teamed up and named themselfes \"Young Wolves\".",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56287/",
+        "num_appearances": 0,
+        "appear": "Exemplar",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/721808-picyoungwolves01.jpg",
+        "id": 87
+    },
+    "88": {
+        "name": "Quantum & Woody",
+        "description": "The World's Worst Superhero Team",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56288/",
+        "num_appearances": 0,
+        "appear": "Quantum and Woody: The Director's Cut",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3309794-qw_006_cover_crain.jpg",
+        "id": 88
+    },
+    "89": {
+        "name": "Freewill Robots",
+        "description": "Freewill Robots are \"living\" in the Valiant Universe. The first freewill was 1-A who raised Magnus Robot Fighter. ",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56296/",
+        "num_appearances": 0,
+        "appear": "Steel Nation",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/728970-picfreewills01.jpg",
+        "id": 89
+    },
+    "90": {
+        "name": "The Losers",
+        "description": "Ex-CIA team who seek revenge against their handler Max after he betrayed them.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-30927/",
+        "num_appearances": 0,
+        "appear": "Unknown",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2136897-losers.jpg",
+        "id": 90
+    },
+    "91": {
+        "name": "Minutemen",
+        "description": "The enformers of the Trust who were responsible for policing all thirteen families. Their role was to maintain the status quo. Acting as judge, jury and executioner, they settled disputes in blood.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40441/",
+        "num_appearances": 0,
+        "appear": "The Right Ear, Left in the Cold, Part Two",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2152183-graves2.png",
+        "id": 91
+    },
+    "92": {
+        "name": "The Endless",
+        "description": "The Endless are seven siblings that embody seven different fundamental forces of existence itself. Ageless, immortal and nigh-omnipotent, these siblings were the central characters of the landmark Vertigo series \"The Sandman\".",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40483/",
+        "num_appearances": 0,
+        "appear": "Season of Mists: Prologue",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/94443-54950-the-endless.jpg",
+        "id": 92
+    },
+    "93": {
+        "name": "Yahweh's Children",
+        "description": "Yahweh's Children is not the official name of any team, though it is the union of Michael, Lucifer and Elaine, his true descendants.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40995/",
+        "num_appearances": 0,
+        "appear": "The Wolf Beneath the Tree: Part 3 of 4",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/522464-53.jpg",
+        "id": 93
+    },
+    "94": {
+        "name": "The Grail",
+        "description": "A secret organization dedicated to keeping the bloodline of Jesus Christ intact.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41404/",
+        "num_appearances": 0,
+        "appear": "Came A Pale Rider (Hunters Part 1)",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/669039-4861_20080219215927_large.jpg",
+        "id": 94
+    },
+    "95": {
+        "name": "Les Enfents du Sang",
+        "description": "A group of wannabe vampires in New Orleans.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41406/",
+        "num_appearances": 0,
+        "appear": "Good Times Rolling",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1519164-preacher31.jpg",
+        "id": 95
+    },
+    "96": {
+        "name": "Honor Guard",
+        "description": "Astro City's most famous and most powerful group of heroes. It was founded in 1959 by the size-changing Max O'Millions.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41979/",
+        "num_appearances": 0,
+        "appear": "In Dreams",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/5166433-9042975310-Honor.jpg",
+        "id": 96
+    },
+    "97": {
+        "name": "The Trust",
+        "description": "A secret society composed of thirteen families which can only be described as \"very old, very powerful and very dirty\" It's origins go back to the late 15th Century.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42163/",
+        "num_appearances": 0,
+        "appear": "Parlez Kung Vous, Conclusion",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/93239-172496-the-trust.jpg",
+        "id": 97
+    },
+    "98": {
+        "name": "Recipients of the Attach\u00e9",
+        "description": "These are the individuals have received one of Agent Graves Attach\u00e9s complete with information about the person who ruined their lives, a gun, 100 bullets and the immunity to do justice themselves. While some succeeded in this task, others failed...failure equaling death.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42440/",
+        "num_appearances": 0,
+        "appear": "100 Bullets",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/101628-186628-recipients-of-the-at.JPG",
+        "id": 98
+    },
+    "99": {
+        "name": "Adephi",
+        "description": " ",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42546/",
+        "num_appearances": 0,
+        "appear": "And The Horse You Rode In On",
+        "image": null,
+        "id": 99
+    },
+    "60": {
+        "name": "Youngblood",
+        "description": "Youngblood is a team of superheroes hired by the United States government.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-5196/",
+        "num_appearances": 0,
+        "appear": "Unknown",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2439091-youngblood_74.jpg",
+        "id": 60
+    },
+    "61": {
+        "name": "Brigade",
+        "description": "A rogue mercenary team lead by Battlestone. Brigade has fought against corrupt government agencies.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-5289/",
+        "num_appearances": 0,
+        "appear": "Sabotage!",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1180749-1.jpg",
+        "id": 61
+    },
+    "62": {
+        "name": "The Atomics",
+        "description": "A Super Hero team that consists of Madman and his most trusted friends.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-17865/",
+        "num_appearances": 0,
+        "appear": "Frank Einstein's Holi-daze Adventure",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/79331-144986-atomics.jpg",
+        "id": 62
+    },
+    "63": {
+        "name": "Vicious Circle",
+        "description": "A team of evil super-freaks who operate out of Chicago, they have come at odds with Savage Dragon, Superpatriot, Star, and Freak Force. The group was led by Overlord.",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-17942/",
+        "num_appearances": 0,
+        "appear": "Unknown",
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/869524-vicious.jpg",
+        "id": 63
+    }
+}

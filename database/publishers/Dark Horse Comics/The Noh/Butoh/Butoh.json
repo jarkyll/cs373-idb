@@ -1,0 +1,14 @@
+{
+    "num_appearances": 14,
+    "creator": {
+        "name": "David Mack"
+    },
+    "id": 240,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41514/",
+    "appear": "Fear The Reaper",
+    "gender": 2,
+    "birth": null,
+    "name": "Butoh",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1875185-19105_20080802133439_char.jpg"
+}

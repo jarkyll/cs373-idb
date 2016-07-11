@@ -23,13 +23,12 @@ postpend = "?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
 dir = os.getcwd() + '/'
 id = 0
 
-PublisherName = ['Vertigo', 'IDW Publishing', 'Dark Horse Comics', 'Top Cow', 'Valiant', 'Dell', 'Aftershock Comics', 'Image', 'Fiction House', 'Boom! Studios']
-
+PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics', 'Dell', 'Fiction House', 'IDW Publishing', 'Image', 'Top Cow', 'Valiant', 'Vertigo']
 
 f = open(dir + 'results/publisher_results.json', 'r')
 test = json.load(f)
 
-for id in range(3, 7, 1):
+for id in range(6, 10):
     teamCount = 0
     teamList = []
     teamList = test[str(id)]['teams']
@@ -53,7 +52,7 @@ for id in range(3, 7, 1):
         if 'count_of_isssue_appearances' in info['results'].keys():
             extracted['num_appearances'] = info['results']['count_of_isssue_appearances']
         else:
-            extracted['num_appearances'] = info['results']['count_of issue_appearances']
+            extracted['num_appearances'] = info['results']['count_of_isssue_appearances']
 
 
         teamCount += 1
@@ -74,7 +73,7 @@ for id in range(3, 7, 1):
 f.close()
 
 
-with open( dir + "results/team_results1-3.json", 'w') as f:
+with open( dir + "results/team_results7-10.json", 'w') as f:
     json.dump(result, f, indent=4)
 
 f.close()

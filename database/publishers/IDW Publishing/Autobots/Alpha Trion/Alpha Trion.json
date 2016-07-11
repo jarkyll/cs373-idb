@@ -1,0 +1,12 @@
+{
+    "name": "Alpha Trion",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/971585-alphatrionkhanna.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-55797/",
+    "gender": 1,
+    "id": 553,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 60,
+    "appear": "Departure"
+}

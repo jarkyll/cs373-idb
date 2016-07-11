@@ -1,0 +1,14 @@
+{
+    "id": 990,
+    "creator": {
+        "name": "Steve Dillon"
+    },
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/667207-002.jpg",
+    "appear": "The Time of the Preacher",
+    "real_name": "DeBlanc",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-10540/",
+    "birth": null,
+    "num_appearances": 19,
+    "name": "DeBlanc",
+    "gender": 1
+}

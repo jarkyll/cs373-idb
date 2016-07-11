@@ -21,7 +21,7 @@ def fetch_json(url):
 
 result = {}
 #os.chdir("/u/cz4792/cs373/cs373-idb/database/results")
-postpend = "?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
+postpend = "?api_key=bbb45e4e4bada96b673ed52a3fe5e27d94a548fb&format=json"
 id = 0
 PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics', 'Dell', 'Fiction House', 'IDW Publishing', 'Image', 'Top Cow', 'Valiant', 'Vertigo']
 dir = os.getcwd() + '/'
@@ -44,6 +44,7 @@ for id in test.keys():
             extracted['id'] = int(id) * 10 + characterCount
             extracted['name'] = character['name']
             extracted['api_url'] = character['api_detail_url']
+
             
             info2 = fetch_json(character['api_detail_url'] + postpend)
             if info2 and info2['results']['birth']:
@@ -54,6 +55,24 @@ for id in test.keys():
                 extracted['gender'] = info2['results']['gender']
             else:
                 extracted['gender'] = None
+
+            if info2 and info2['results']['image']:
+                extracted['image'] = info2['results']['image']['small_url']
+            else:
+                extracted['image'] = None
+            if info2 and info2['results']['first_appeared_in_issue']:
+                if info2['results']['first_appeared_in_issue']['name']:
+                    extracted['appear'] = info2['results']['first_appeared_in_issue']['name']
+            else:
+                extracted['appear'] = None
+            if info2 and info2['results']['count_of_issue_appearances']:
+                extracted['num_appearances'] = info2['results']['count_of_issue_appearances']
+            else:
+                extracted['num_appearances'] = 0
+            if info2 and info2['results']['real_name']:
+                extracted['real_name'] = info2['results']['real_name']
+            else:
+                extracted['real_name'] = 'Unknown'
 
             creator = {}
             if info2 and info2['results']['creators']:    

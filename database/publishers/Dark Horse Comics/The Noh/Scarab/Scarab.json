@@ -1,0 +1,14 @@
+{
+    "num_appearances": 25,
+    "creator": {
+        "name": "David Mack"
+    },
+    "id": 243,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-40850/",
+    "appear": "Fear The Reaper",
+    "gender": 2,
+    "birth": null,
+    "name": "Scarab",
+    "real_name": "Keiko",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/5011472-scarab.jpg"
+}

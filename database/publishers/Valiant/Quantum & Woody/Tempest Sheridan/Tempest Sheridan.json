@@ -1,0 +1,14 @@
+{
+    "id": 881,
+    "creator": {
+        "name": "Mark Bright"
+    },
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/811697-tempestsheridan.jpg",
+    "appear": "KYAG",
+    "real_name": "Tempest Sheridan",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-1914/",
+    "birth": null,
+    "num_appearances": 11,
+    "name": "Tempest Sheridan",
+    "gender": 2
+}

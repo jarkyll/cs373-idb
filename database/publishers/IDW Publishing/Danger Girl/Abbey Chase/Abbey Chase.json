@@ -1,0 +1,14 @@
+{
+    "name": "Abbey Chase",
+    "birth": "Apr 19, 1987",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3548769-danger%20girl_%20the%20chase!%20v2013%20%233%20%28of%204%29%20%282013_11%29%20-%20page%202.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-17820/",
+    "gender": 2,
+    "id": 570,
+    "creator": {
+        "name": "J. Scott Campbell"
+    },
+    "real_name": "Abbey Chase",
+    "num_appearances": 65,
+    "appear": "Prelude to Danger"
+}

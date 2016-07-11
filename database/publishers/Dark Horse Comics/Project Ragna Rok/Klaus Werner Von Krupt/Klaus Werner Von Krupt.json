@@ -1,0 +1,14 @@
+{
+    "num_appearances": 8,
+    "creator": {
+        "name": "Mike Mignola"
+    },
+    "id": 294,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-5499/",
+    "appear": "Chapter One",
+    "gender": 1,
+    "birth": null,
+    "name": "Klaus Werner Von Krupt",
+    "real_name": "Klaus Werner Von Krupt",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/104088-107881-general-klaus-werner.png"
+}

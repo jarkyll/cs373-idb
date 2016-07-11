@@ -1,8 +1,9 @@
 {
     "name": "Adephi",
+    "description": " ",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-42546/",
+    "num_appearances": 0,
     "appear": "And The Horse You Rode In On",
     "image": null,
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-42546/",
-    "id": 9,
-    "num_appearances": 0
+    "id": 99
 }

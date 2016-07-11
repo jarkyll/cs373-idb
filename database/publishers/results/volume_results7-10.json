@@ -1,0 +1,594 @@
+{
+    "9600": {
+        "count_of_issues": 6,
+        "id": 9600,
+        "description": null,
+        "start_year": "1995",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18162/",
+        "name": "Kurt Busiek's Astro City"
+    },
+    "9601": {
+        "count_of_issues": 23,
+        "id": 9601,
+        "description": null,
+        "start_year": "1996",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18181/",
+        "name": "Kurt Busiek's Astro City"
+    },
+    "7300": {
+        "count_of_issues": 13,
+        "id": 7300,
+        "description": null,
+        "start_year": "2005",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-17995/",
+        "name": "Hunter-Killer"
+    },
+    "6500": {
+        "count_of_issues": 2,
+        "id": 6500,
+        "description": null,
+        "start_year": "1995",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-17999/",
+        "name": "Team One: WildC.A.T.S"
+    },
+    "6401": {
+        "count_of_issues": 11,
+        "id": 6401,
+        "description": null,
+        "start_year": "1992",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11281/",
+        "name": "Youngblood"
+    },
+    "8200": {
+        "count_of_issues": 42,
+        "id": 8200,
+        "description": null,
+        "start_year": "1992",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4827/",
+        "name": "Harbinger"
+    },
+    "9900": {
+        "count_of_issues": 66,
+        "id": 9900,
+        "description": null,
+        "start_year": "1995",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "name": "Preacher"
+    },
+    "9300": {
+        "count_of_issues": 1,
+        "id": 9300,
+        "description": null,
+        "start_year": "2005",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-7577/",
+        "name": "Lucifer: The Wolf Beneath the Tree"
+    },
+    "9100": {
+        "count_of_issues": 100,
+        "id": 9100,
+        "description": null,
+        "start_year": "1999",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "name": "100 Bullets"
+    },
+    "9101": {
+        "count_of_issues": 1,
+        "id": 9101,
+        "description": null,
+        "start_year": "2001",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18869/",
+        "name": "100 Bullets: Hang Up on the Hang Low"
+    },
+    "9901": {
+        "count_of_issues": 1,
+        "id": 9901,
+        "description": null,
+        "start_year": "1996",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25742/",
+        "name": "Preacher: Gone to Texas"
+    },
+    "6800": {
+        "count_of_issues": 6,
+        "id": 6800,
+        "description": null,
+        "start_year": "1995",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18162/",
+        "name": "Kurt Busiek's Astro City"
+    },
+    "6801": {
+        "count_of_issues": 1,
+        "id": 6801,
+        "description": null,
+        "start_year": "2008",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20570/",
+        "name": "Astro City: The Tarnished Angel"
+    },
+    "7700": {
+        "count_of_issues": 20,
+        "id": 7700,
+        "description": null,
+        "start_year": "1996",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5870/",
+        "name": "Gen 13 Bootleg"
+    },
+    "7701": {
+        "count_of_issues": 1,
+        "id": 7701,
+        "description": null,
+        "start_year": "1997",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18379/",
+        "name": "Weapon Zero_Silver Surfer"
+    },
+    "8600": {
+        "count_of_issues": 34,
+        "id": 8600,
+        "description": null,
+        "start_year": "1992",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4828/",
+        "name": "Rai"
+    },
+    "6300": {
+        "count_of_issues": 216,
+        "id": 6300,
+        "description": null,
+        "start_year": "1993",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5170/",
+        "name": "Savage Dragon"
+    },
+    "9501": {
+        "count_of_issues": 1,
+        "id": 9501,
+        "description": null,
+        "start_year": "1998",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18111/",
+        "name": "Preacher Special: Cassidy : Blood and Whiskey"
+    },
+    "7301": {
+        "count_of_issues": 4,
+        "id": 7301,
+        "description": null,
+        "start_year": "2007",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18739/",
+        "name": "First Born"
+    },
+    "7200": {
+        "count_of_issues": 20,
+        "id": 7200,
+        "description": "Volume 2.",
+        "start_year": "2005",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19266/",
+        "name": "City of Heroes"
+    },
+    "7201": {
+        "count_of_issues": 1,
+        "id": 7201,
+        "description": null,
+        "start_year": "2008",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20529/",
+        "name": "You Are Cordially Invited"
+    },
+    "8100": {
+        "count_of_issues": 27,
+        "id": 8100,
+        "description": null,
+        "start_year": "1992",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4824/",
+        "name": "Archer & Armstrong"
+    },
+    "8101": {
+        "count_of_issues": 50,
+        "id": 8101,
+        "description": "Volume 1.",
+        "start_year": "1992",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4825/",
+        "name": "Eternal Warrior"
+    },
+    "9201": {
+        "count_of_issues": 4,
+        "id": 9201,
+        "description": null,
+        "start_year": "1990",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4354/",
+        "name": "The Books of Magic"
+    },
+    "9000": {
+        "count_of_issues": 181,
+        "id": 9000,
+        "description": "Volume 1",
+        "start_year": "1954",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1618/",
+        "name": "Our Fighting Forces"
+    },
+    "9500": {
+        "count_of_issues": 66,
+        "id": 9500,
+        "description": null,
+        "start_year": "1995",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "name": "Preacher"
+    },
+    "6700": {
+        "count_of_issues": 1,
+        "id": 6700,
+        "description": null,
+        "start_year": "2002",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18049/",
+        "name": "Hip Flask"
+    },
+    "6701": {
+        "count_of_issues": 71,
+        "id": 6701,
+        "description": null,
+        "start_year": "2006",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20056/",
+        "name": "Elephantmen"
+    },
+    "6301": {
+        "count_of_issues": 4,
+        "id": 6301,
+        "description": null,
+        "start_year": "1995",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5674/",
+        "name": "Star"
+    },
+    "7600": {
+        "count_of_issues": 15,
+        "id": 7600,
+        "description": null,
+        "start_year": "1994",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6637/",
+        "name": "Codename: Strykeforce"
+    },
+    "7601": {
+        "count_of_issues": 5,
+        "id": 7601,
+        "description": null,
+        "start_year": "2004",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11279/",
+        "name": "Strykeforce"
+    },
+    "8500": {
+        "count_of_issues": 30,
+        "id": 8500,
+        "description": null,
+        "start_year": "1992",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4826/",
+        "name": "The H.A.R.D. Corps"
+    },
+    "6601": {
+        "count_of_issues": 2,
+        "id": 6601,
+        "description": null,
+        "start_year": "2006",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-22298/",
+        "name": "The Official Handbook of the Invincible Universe"
+    },
+    "8201": {
+        "count_of_issues": 30,
+        "id": 8201,
+        "description": null,
+        "start_year": "1992",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4826/",
+        "name": "The H.A.R.D. Corps"
+    },
+    "6200": {
+        "count_of_issues": 216,
+        "id": 6200,
+        "description": null,
+        "start_year": "1993",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5170/",
+        "name": "Savage Dragon"
+    },
+    "6201": {
+        "count_of_issues": 20,
+        "id": 6201,
+        "description": null,
+        "start_year": "1994",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5391/",
+        "name": "Madman Comics"
+    },
+    "7100": {
+        "count_of_issues": 20,
+        "id": 7100,
+        "description": "Volume 2.",
+        "start_year": "2005",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19266/",
+        "name": "City of Heroes"
+    },
+    "8000": {
+        "count_of_issues": 65,
+        "id": 8000,
+        "description": null,
+        "start_year": "1991",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4606/",
+        "name": "Magnus Robot Fighter"
+    },
+    "8001": {
+        "count_of_issues": 10,
+        "id": 8001,
+        "description": null,
+        "start_year": "1994",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5349/",
+        "name": "Psi-Lords"
+    },
+    "8900": {
+        "count_of_issues": 65,
+        "id": 8900,
+        "description": null,
+        "start_year": "1991",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4606/",
+        "name": "Magnus Robot Fighter"
+    },
+    "8901": {
+        "count_of_issues": 2,
+        "id": 8901,
+        "description": null,
+        "start_year": "1994",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25921/",
+        "name": "Magnus Trade Paperback"
+    },
+    "9800": {
+        "count_of_issues": 100,
+        "id": 9800,
+        "description": null,
+        "start_year": "1999",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "name": "100 Bullets"
+    },
+    "9801": {
+        "count_of_issues": 1,
+        "id": 9801,
+        "description": null,
+        "start_year": "2001",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18870/",
+        "name": "100 Bullets: Split Second Chance"
+    },
+    "7500": {
+        "count_of_issues": 8,
+        "id": 7500,
+        "description": null,
+        "start_year": "2003",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18009/",
+        "name": "Wanted"
+    },
+    "7501": {
+        "count_of_issues": 1,
+        "id": 7501,
+        "description": null,
+        "start_year": "2004",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27356/",
+        "name": "Wanted Dossier"
+    },
+    "6400": {
+        "count_of_issues": 43,
+        "id": 6400,
+        "description": null,
+        "start_year": "1992",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4938/",
+        "name": "Supreme"
+    },
+    "9400": {
+        "count_of_issues": 66,
+        "id": 9400,
+        "description": null,
+        "start_year": "1995",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5516/",
+        "name": "Preacher"
+    },
+    "6100": {
+        "count_of_issues": 43,
+        "id": 6100,
+        "description": null,
+        "start_year": "1992",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4938/",
+        "name": "Supreme"
+    },
+    "6101": {
+        "count_of_issues": 9,
+        "id": 6101,
+        "description": "Crossover event between Valiant Comics and Image Comics.",
+        "start_year": "1993",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5165/",
+        "name": "Deathmate"
+    },
+    "9401": {
+        "count_of_issues": 1,
+        "id": 9401,
+        "description": null,
+        "start_year": "1998",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-23557/",
+        "name": "Preacher Special: One Man's War"
+    },
+    "7000": {
+        "count_of_issues": 43,
+        "id": 7000,
+        "description": null,
+        "start_year": "1992",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4938/",
+        "name": "Supreme"
+    },
+    "7001": {
+        "count_of_issues": 9,
+        "id": 7001,
+        "description": "Crossover event between Valiant Comics and Image Comics.",
+        "start_year": "1993",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5165/",
+        "name": "Deathmate"
+    },
+    "6600": {
+        "count_of_issues": 129,
+        "id": 6600,
+        "description": null,
+        "start_year": "2003",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-17993/",
+        "name": "Invincible"
+    },
+    "7900": {
+        "count_of_issues": 6,
+        "id": 7900,
+        "description": null,
+        "start_year": "2007",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18746/",
+        "name": "Madame Mirage"
+    },
+    "7901": {
+        "count_of_issues": 1,
+        "id": 7901,
+        "description": "Collects Madame Mirage #1-6. Also includes an Introduction by Jim McLaughlin; From the Desk of Paul Dini; and a Cover Gallery.",
+        "start_year": "2008",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-34707/",
+        "name": "Madame Mirage"
+    },
+    "6501": {
+        "count_of_issues": 2,
+        "id": 6501,
+        "description": null,
+        "start_year": "1995",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18191/",
+        "name": "Team One: Stormwatch"
+    },
+    "8800": {
+        "count_of_issues": 1,
+        "id": 8800,
+        "description": "Trade paperback collecting issues 1-4. Also adds \"outtakes\" and some reformatted scenes.",
+        "start_year": "1997",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-35760/",
+        "name": "Quantum and Woody: The Director's Cut"
+    },
+    "8801": {
+        "count_of_issues": 1,
+        "id": 8801,
+        "description": "Collects issues 13 - 16 of Quantum and Woody. Includes extra material and \"outtakes.\"",
+        "start_year": "1999",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-35761/",
+        "name": "Quantum and Woody: Magnum Force"
+    },
+    "9200": {
+        "count_of_issues": 75,
+        "id": 9200,
+        "description": null,
+        "start_year": "1989",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4207/",
+        "name": "The Sandman"
+    },
+    "9700": {
+        "count_of_issues": 100,
+        "id": 9700,
+        "description": null,
+        "start_year": "1999",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6306/",
+        "name": "100 Bullets"
+    },
+    "9701": {
+        "count_of_issues": 1,
+        "id": 9701,
+        "description": null,
+        "start_year": "2002",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18871/",
+        "name": "100 Bullets: A Foregone Tomorrow"
+    },
+    "7400": {
+        "count_of_issues": 8,
+        "id": 7400,
+        "description": null,
+        "start_year": "2003",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18009/",
+        "name": "Wanted"
+    },
+    "7401": {
+        "count_of_issues": 1,
+        "id": 7401,
+        "description": null,
+        "start_year": "2004",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27356/",
+        "name": "Wanted Dossier"
+    },
+    "8300": {
+        "count_of_issues": 21,
+        "id": 8300,
+        "description": null,
+        "start_year": "1993",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5071/",
+        "name": "Secret Weapons"
+    },
+    "8301": {
+        "count_of_issues": 52,
+        "id": 8301,
+        "description": null,
+        "start_year": "1993",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5067/",
+        "name": "Bloodshot"
+    },
+    "6000": {
+        "count_of_issues": 43,
+        "id": 6000,
+        "description": null,
+        "start_year": "1992",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4938/",
+        "name": "Supreme"
+    },
+    "6001": {
+        "count_of_issues": 11,
+        "id": 6001,
+        "description": null,
+        "start_year": "1993",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5179/",
+        "name": "Youngblood Strikefile"
+    },
+    "6900": {
+        "count_of_issues": 29,
+        "id": 6900,
+        "description": "Volume 1",
+        "start_year": "1999",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-7499/",
+        "name": "The Authority"
+    },
+    "6901": {
+        "count_of_issues": 11,
+        "id": 6901,
+        "description": null,
+        "start_year": "1997",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18631/",
+        "name": "Wildcore"
+    },
+    "9001": {
+        "count_of_issues": 32,
+        "id": 9001,
+        "description": null,
+        "start_year": "2003",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11226/",
+        "name": "The Losers"
+    },
+    "7800": {
+        "count_of_issues": 6,
+        "id": 7800,
+        "description": null,
+        "start_year": "2006",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18745/",
+        "name": "Freshmen II: Fundamentals of Fear"
+    },
+    "7801": {
+        "count_of_issues": 1,
+        "id": 7801,
+        "description": null,
+        "start_year": "2008",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21925/",
+        "name": "Freshmen Summer Vacation Special"
+    },
+    "8700": {
+        "count_of_issues": 65,
+        "id": 8700,
+        "description": null,
+        "start_year": "1991",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4606/",
+        "name": "Magnus Robot Fighter"
+    },
+    "9301": {
+        "count_of_issues": 75,
+        "id": 9301,
+        "description": null,
+        "start_year": "2000",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-9744/",
+        "name": "Lucifer"
+    }
+}

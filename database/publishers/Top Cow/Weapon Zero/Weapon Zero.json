@@ -1,8 +1,9 @@
 {
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-42950/",
-    "id": 37,
     "name": "Weapon Zero",
+    "description": null,
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-42950/",
     "num_appearances": 0,
-    "image": "http://static4.comicvine.com/uploads/scale_small/1/15776/661141-zero2.jpg",
-    "appear": "Unknown"
+    "appear": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/661141-zero2.jpg",
+    "id": 77
 }

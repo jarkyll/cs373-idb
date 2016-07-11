@@ -1,0 +1,13 @@
+{
+    "num_appearances": 5,
+    "creator": {
+        "name": "Justin Green"
+    },
+    "id": 223,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-92578/",
+    "gender": 1,
+    "birth": null,
+    "name": "Bodyburster",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3323849-bodyburster-aliens-kidnapped%232.jpg"
+}

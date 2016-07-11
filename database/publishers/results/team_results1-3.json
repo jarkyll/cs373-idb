@@ -1,242 +1,200 @@
 {
     "0": {
-        "name": "The Losers",
-        "appear": null,
-        "image": "http://static1.comicvine.com/uploads/scale_small/7/71975/2136897-losers.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-30927/",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-62497/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1-male-good-large.jpg",
+        "appear": "Unknown",
+        "name": "Black-Eyed Children",
         "id": 0,
-        "num_appearances": 0
+        "description": null
     },
     "1": {
-        "name": "Minutemen",
-        "appear": "The Right Ear, Left in the Cold, Part Two",
-        "image": "http://static4.comicvine.com/uploads/scale_small/7/71975/2152183-graves2.png",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40441/",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-62532/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/5234768-rough%20riders.jpg",
+        "appear": "Bully For You",
+        "name": "Rough Riders",
         "id": 1,
-        "num_appearances": 0
-    },
-    "2": {
-        "name": "The Endless",
-        "appear": "Season of Mists: Prologue",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/574/94443-54950-the-endless.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40483/",
-        "id": 2,
-        "num_appearances": 0
-    },
-    "3": {
-        "name": "Yahweh's Children",
-        "appear": "The Wolf Beneath the Tree: Part 3 of 4",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/9116/522464-53.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40995/",
-        "id": 3,
-        "num_appearances": 0
-    },
-    "4": {
-        "name": "The Grail",
-        "appear": "Came A Pale Rider (Hunters Part 1)",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/9241/669039-4861_20080219215927_large.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-41404/",
-        "id": 4,
-        "num_appearances": 0
-    },
-    "5": {
-        "name": "Les Enfents du Sang",
-        "appear": "Good Times Rolling",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/9116/1519164-preacher31.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-41406/",
-        "id": 5,
-        "num_appearances": 0
-    },
-    "6": {
-        "name": "Honor Guard",
-        "appear": "In Dreams",
-        "image": "http://static4.comicvine.com/uploads/scale_small/11112/111123579/5166433-9042975310-Honor.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-41979/",
-        "id": 6,
-        "num_appearances": 0
-    },
-    "7": {
-        "name": "The Trust",
-        "appear": "Parlez Kung Vous, Conclusion",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/1812/93239-172496-the-trust.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-42163/",
-        "id": 7,
-        "num_appearances": 0
-    },
-    "8": {
-        "name": "Recipients of the Attach\u00e9",
-        "appear": "100 Bullets",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/1812/101628-186628-recipients-of-the-at.JPG",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-42440/",
-        "id": 8,
-        "num_appearances": 0
-    },
-    "9": {
-        "name": "Adephi",
-        "appear": "And The Horse You Rode In On",
-        "image": null,
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-42546/",
-        "id": 9,
-        "num_appearances": 0
+        "description": "A band of historic figures brought together by Theodore Roosevelt to fight against invading forces in Cuba."
     },
     "10": {
-        "name": "COBRA",
-        "appear": "Operation: Lady Doomsday; ...Hot Potato!",
-        "image": "http://static4.comicvine.com/uploads/scale_small/5/51078/964808-cobra.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-7417/",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42598/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/668061-cenobites_4536.jpg",
+        "appear": "The Canons Of Pain; Dead Man's Hand; The Warm Red; Dance Of The Fetus",
+        "name": "Cenobites",
         "id": 10,
-        "num_appearances": 0
+        "description": "Humans twisted into demonic beings through years of torture after they solved the puzzle of \"The Box\"."
     },
     "11": {
-        "name": "Dreadnoks",
-        "appear": "Zartan!",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/229/90339-2626-dreadnoks.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-7715/",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-46181/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/5012280-boom-mightymorphinpowerrangers-002-c-incentive2-29516.jpg",
+        "appear": "Highspeed Hijinks",
+        "name": "Power Rangers",
         "id": 11,
-        "num_appearances": 0
+        "description": "The Power Rangers are a group of people chosen to defend the innocent utilizing numerous high-tech weaponry and technology. The newest team of Power Rangers is called Power Rangers Dino Charge. Power Rangers is the American counterpart of the Japanese Tokusatsu TV show Super Sentai."
     },
     "12": {
-        "name": "G.I. Joe",
-        "appear": "William M. Gaines' Utterly Mad",
-        "image": "http://static9.comicvine.com/uploads/scale_small/11/117763/2596436-gi.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-12206/",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-50972/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1165952-electric_mayhem_708497.jpg",
+        "appear": "It's The Muppets!",
+        "name": "Doctor Teeth and the Electric Mayhem",
         "id": 12,
-        "num_appearances": 0
+        "description": "The Muppet's house band, the group is lead by Dr Teeth and are known for being wildly vibrant and entertaining."
     },
     "13": {
-        "name": "Romulans",
-        "appear": null,
-        "image": "http://static6.comicvine.com/uploads/scale_small/3/38758/879941-romulan_symbols.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-23900/",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-55023/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/828665-nightbreed.jpg",
+        "appear": "...Where the Monsters Go",
+        "name": "Nightbreed",
         "id": 13,
-        "num_appearances": 0
+        "description": "A society of demons that secretly live in the underground city of Midian. Some are peaceful, while others are violent and sadistic killers."
     },
     "14": {
-        "name": "Teenage Mutant Ninja Turtles",
-        "appear": null,
-        "image": "http://static1.comicvine.com/uploads/scale_small/13/132327/2710732-teenage_mutant_ninja_turtles_by_tpollockjr.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-26934/",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56402/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/758516-planetary_bribade.jpg",
+        "appear": "Unknown",
+        "name": "Planetary Brigade",
         "id": 14,
-        "num_appearances": 0
+        "description": " "
     },
     "15": {
-        "name": "Autobots",
-        "appear": "Battle For Cybertron",
-        "image": "http://static2.comicvine.com/uploads/scale_small/0/3133/141241-195921-autobots.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40489/",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56503/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/796870-picture_1.png",
+        "appear": "Unknown",
+        "name": "The Think Tank",
         "id": 15,
-        "num_appearances": 0
+        "description": "A group created by the government to try to predict worst case scenarios terrorists may use against the United States."
     },
     "16": {
-        "name": "Decepticons",
-        "appear": "Battle For Cybertron",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/4/77601-102027-decepticons.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40490/",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56622/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/863156-moyacrew.jpg",
+        "appear": "War Torn Chapter One: Rocks and Hard Places",
+        "name": "Moya's Crew",
         "id": 16,
-        "num_appearances": 0
+        "description": "Adventurers aboard the living starship Moya, in the Farscape series."
     },
     "17": {
-        "name": "Danger Girl",
-        "appear": "Prelude to Danger",
-        "image": "http://static4.comicvine.com/uploads/scale_small/2/24477/2293538-dgr.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40975/",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56623/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/863234-peacekeepers.jpg",
+        "appear": "The Beginning of the End of the Beginning, Part 2: Dungeons and Dominars",
+        "name": "Peacekeepers",
         "id": 17,
-        "num_appearances": 0
+        "description": "A military faction attempting to police the universe in the Farscape series."
     },
     "18": {
-        "name": "C.T.U.",
-        "appear": null,
-        "image": "http://static4.comicvine.com/uploads/scale_small/2/23749/497959-24_cast.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-41249/",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-57147/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2510735-incorruptible__16___page_3.jpg",
+        "appear": "Unknown",
+        "name": "Paradigm",
         "id": 18,
-        "num_appearances": 0
+        "description": "Superhero team which the Plutonian was part of, before he turned against them."
     },
     "19": {
-        "name": "Dinobots",
-        "appear": "The Last Stand; part 1",
-        "image": "http://static4.comicvine.com/uploads/scale_small/4/49448/2466082-rage_of_the_dinobots.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-41692/",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-57148/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1038531-modeusbots_1.jpg",
+        "appear": "Unknown",
+        "name": "Modeusbots",
         "id": 19,
-        "num_appearances": 0
+        "description": "Robots created by Quibit to calculate Modeus' precise whereabouts. They were built with his brain patterns."
     },
     "20": {
-        "name": "Ewoks",
-        "appear": "Mad 176-179",
-        "image": "http://static4.comicvine.com/uploads/scale_small/1/19151/367187-154544-ewoks.JPG",
         "api_url": "http://comicvine.gamespot.com/api/team/4060-6331/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/367187-154544-ewoks.JPG",
+        "appear": "Mad 176-179",
+        "name": "Ewoks",
         "id": 20,
-        "num_appearances": 0
+        "description": "Ewoks are a small teddy bear like species that is native to the planet Endor."
     },
     "21": {
-        "name": "Predators",
-        "appear": "Predator",
-        "image": "http://static5.comicvine.com/uploads/scale_small/3/38826/876686-predator3.jpg",
         "api_url": "http://comicvine.gamespot.com/api/team/4060-18392/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/876686-predator3.jpg",
+        "appear": "Predator",
+        "name": "Predators",
         "id": 21,
-        "num_appearances": 0
+        "description": "The Predators, also known as the Yautja, are a race of technologically advanced extraterrestrial hunters who travel the galaxy searching for worthy game while following a strict honor code."
     },
     "22": {
-        "name": "Aliens (Xenomorphs)",
-        "appear": "Operation Copperhead",
-        "image": "http://static6.comicvine.com/uploads/scale_small/3/38826/877172-alienwarrior.jpg",
         "api_url": "http://comicvine.gamespot.com/api/team/4060-20659/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/877172-alienwarrior.jpg",
+        "appear": "Operation Copperhead",
+        "name": "Aliens (Xenomorphs)",
         "id": 22,
-        "num_appearances": 0
+        "description": "Aliens (or Xenomorphs as they are formally known) are living, breathing weapons with absolute adaptability, no fear, and no mercy. They will destroy anything that attacks them. With their acidic blood, tongues with teeth and tails that can kill, Xenomorphs are one of sci-fi's most fearful alien species."
     },
     "23": {
-        "name": "Bureau for Paranormal Research and Defense",
-        "appear": "Chapter One",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/462/79445-99481-bureau-for-paranorma.jpg",
         "api_url": "http://comicvine.gamespot.com/api/team/4060-40436/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/79445-99481-bureau-for-paranorma.jpg",
+        "appear": "Chapter One",
+        "name": "Bureau for Paranormal Research and Defense",
         "id": 23,
-        "num_appearances": 0
+        "description": "The Bureau for Paranormal Research and Defense (BPRD) is a grouping of supernatural individuals and government agents that investigate paranormal and occult phenomenon."
     },
     "24": {
-        "name": "The Noh",
-        "appear": "Fear The Reaper",
-        "image": "http://static4.comicvine.com/uploads/scale_small/12/128795/2549159-noh_kabuki_masks_of_the_noh_v1_003.jpg",
         "api_url": "http://comicvine.gamespot.com/api/team/4060-40839/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2549159-noh_kabuki_masks_of_the_noh_v1_003.jpg",
+        "appear": "Fear The Reaper",
+        "name": "The Noh",
         "id": 24,
-        "num_appearances": 0
+        "description": "A government agency that secretly polices the balance between business, politics and organized crime in a future Japan where they now exist in a delicate interdependence."
     },
     "25": {
-        "name": "Scooby Gang",
-        "appear": "Wu-Tang Fang",
-        "image": "http://static5.comicvine.com/uploads/scale_small/0/1772/93755-163895-scooby-gang.jpg",
         "api_url": "http://comicvine.gamespot.com/api/team/4060-41140/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/93755-163895-scooby-gang.jpg",
+        "appear": "Wu-Tang Fang",
+        "name": "Scooby Gang",
         "id": 25,
-        "num_appearances": 0
+        "description": "The nickname for the close-knit group of friends that formed to support Buffy the Vampire Slayer in her time in Sunnydale."
     },
     "26": {
-        "name": "Jedi Order",
-        "appear": "Six Against the Galaxy",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/5904/205438-136163-jedi-order.gif",
         "api_url": "http://comicvine.gamespot.com/api/team/4060-41234/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/205438-136163-jedi-order.gif",
+        "appear": "Six Against the Galaxy",
+        "name": "Jedi Order",
         "id": 26,
-        "num_appearances": 0
+        "description": "The ancient Jedi serve as the keepers of order and peace in the galaxy, as well as sworn guardians of the Republic."
     },
     "27": {
-        "name": "Serenity",
-        "appear": "Those Left Behind, Part 1",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/3848/327934-186776-serenity.jpg",
         "api_url": "http://comicvine.gamespot.com/api/team/4060-42087/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/327934-186776-serenity.jpg",
+        "appear": "Those Left Behind, Part 1",
+        "name": "Serenity",
         "id": 27,
-        "num_appearances": 0
+        "description": "Serenity harbors a crew of nine; three fighters, a Companion, a mechanic, a pilot, a doctor, a preacher and a girl with apparent mental issues. They fly on the edge of the system, keeping out of the Alliance's reach and taking any job they can to keep flying."
     },
     "28": {
-        "name": "Excelsior",
-        "appear": "Runaways: True Believers",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/934/146928-46750-excelsior.jpg",
         "api_url": "http://comicvine.gamespot.com/api/team/4060-42318/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/146928-46750-excelsior.jpg",
+        "appear": "Runaways: True Believers",
+        "name": "Excelsior",
         "id": 28,
-        "num_appearances": 0
+        "description": "Team of Season 1 Superhero contestants from Stan Lee/Sci Fi Channel's \"Who Wants to be a Superhero?\"\r\n\r\nThere is also a fictional hero group called Excelsior, see below."
     },
     "29": {
-        "name": "Project Ragna Rok",
-        "appear": "Chapter One",
-        "image": "http://static4.comicvine.com/uploads/scale_small/3/31666/2593381-bprdhellonearth_returnofthemaster5.jpg",
         "api_url": "http://comicvine.gamespot.com/api/team/4060-43050/",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2593381-bprdhellonearth_returnofthemaster5.jpg",
+        "appear": "Chapter One",
+        "name": "Project Ragna Rok",
         "id": 29,
-        "num_appearances": 0
+        "description": "It was a nazi secret plan during WWII. A team of nazi scientists and occultist headed by Rasputin was supposed to create a doomsday weapon capable of ending the war, and bring victory to Hitler."
     }
 }

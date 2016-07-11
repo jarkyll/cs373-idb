@@ -1,0 +1,12 @@
+{
+    "name": "Cletus",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2971932-cletus-card.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-45523/",
+    "gender": 1,
+    "id": 513,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 1,
+    "appear": "World War III, Part : Havoc!"
+}

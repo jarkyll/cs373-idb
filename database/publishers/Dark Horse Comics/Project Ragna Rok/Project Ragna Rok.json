@@ -1,8 +1,9 @@
 {
-    "name": "Project Ragna Rok",
-    "appear": "Chapter One",
-    "image": "http://static4.comicvine.com/uploads/scale_small/3/31666/2593381-bprdhellonearth_returnofthemaster5.jpg",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-43050/",
+    "num_appearances": 0,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2593381-bprdhellonearth_returnofthemaster5.jpg",
+    "appear": "Chapter One",
+    "name": "Project Ragna Rok",
     "id": 29,
-    "num_appearances": 0
+    "description": "It was a nazi secret plan during WWII. A team of nazi scientists and occultist headed by Rasputin was supposed to create a doomsday weapon capable of ending the war, and bring victory to Hitler."
 }

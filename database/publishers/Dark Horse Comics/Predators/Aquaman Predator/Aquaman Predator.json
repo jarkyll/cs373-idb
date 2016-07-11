@@ -1,0 +1,14 @@
+{
+    "num_appearances": 1,
+    "creator": {
+        "name": "John Ostrander"
+    },
+    "id": 211,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-56709/",
+    "appear": "JLA vs Predator",
+    "gender": 1,
+    "birth": null,
+    "name": "Aquaman Predator",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/477815-aquaman_predator_1_.jpg"
+}

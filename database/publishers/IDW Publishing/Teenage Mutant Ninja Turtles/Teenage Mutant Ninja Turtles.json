@@ -1,8 +1,9 @@
 {
-    "name": "Teenage Mutant Ninja Turtles",
-    "appear": null,
-    "image": "http://static1.comicvine.com/uploads/scale_small/13/132327/2710732-teenage_mutant_ninja_turtles_by_tpollockjr.jpg",
+    "appear": "Unknown",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-26934/",
-    "id": 14,
-    "num_appearances": 0
+    "name": "Teenage Mutant Ninja Turtles",
+    "id": 54,
+    "description": "Four baby turtles mutated by toxic goo called mutagen and trained in the art of ninjutsu by fellow mutant Master Splinter. The Turtles different fighting styles and personalities build off one another making them a formidable team.",
+    "num_appearances": 0,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2710732-teenage_mutant_ninja_turtles_by_tpollockjr.jpg"
 }

@@ -1,8 +1,9 @@
 {
     "name": "Yahweh's Children",
-    "appear": "The Wolf Beneath the Tree: Part 3 of 4",
-    "image": "http://static4.comicvine.com/uploads/scale_small/0/9116/522464-53.jpg",
+    "description": "Yahweh's Children is not the official name of any team, though it is the union of Michael, Lucifer and Elaine, his true descendants.",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-40995/",
-    "id": 3,
-    "num_appearances": 0
+    "num_appearances": 0,
+    "appear": "The Wolf Beneath the Tree: Part 3 of 4",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/522464-53.jpg",
+    "id": 93
 }

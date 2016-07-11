@@ -1,0 +1,14 @@
+{
+    "name": "Deuce",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/220618-165028-deuce.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-17807/",
+    "gender": 1,
+    "id": 571,
+    "creator": {
+        "name": "J. Scott Campbell"
+    },
+    "real_name": "Unknown",
+    "num_appearances": 40,
+    "appear": "Dangerously Yours"
+}

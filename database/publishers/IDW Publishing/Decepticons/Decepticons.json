@@ -1,8 +1,9 @@
 {
-    "name": "Decepticons",
     "appear": "Battle For Cybertron",
-    "image": "http://static4.comicvine.com/uploads/scale_small/0/4/77601-102027-decepticons.jpg",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-40490/",
-    "id": 16,
-    "num_appearances": 0
+    "name": "Decepticons",
+    "id": 56,
+    "description": "Decepticons are the arch-enemies of the Autobots.  Decepticons -- as their name implies -- use deception and villainy to advance their own cause.",
+    "num_appearances": 0,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/77601-102027-decepticons.jpg"
 }

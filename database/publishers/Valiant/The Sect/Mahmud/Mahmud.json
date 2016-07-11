@@ -1,0 +1,14 @@
+{
+    "id": 814,
+    "creator": {
+        "name": "Jim Shooter"
+    },
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/672360-picmahmud01.jpg",
+    "appear": "Lifelines Part 1: Revival",
+    "real_name": "Mahmud",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-27603/",
+    "birth": null,
+    "num_appearances": 10,
+    "name": "Mahmud",
+    "gender": 1
+}

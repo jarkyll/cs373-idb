@@ -1,0 +1,12 @@
+{
+    "name": "Dan-El",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1028260-dan_el.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-18121/",
+    "gender": 1,
+    "id": 320,
+    "creator": {},
+    "real_name": "Dan-El",
+    "num_appearances": 30,
+    "appear": "The Webs of Arrack"
+}

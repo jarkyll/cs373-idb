@@ -1,8 +1,9 @@
 {
     "name": "The Trust",
-    "appear": "Parlez Kung Vous, Conclusion",
-    "image": "http://static4.comicvine.com/uploads/scale_small/0/1812/93239-172496-the-trust.jpg",
+    "description": "A secret society composed of thirteen families which can only be described as \"very old, very powerful and very dirty\" It's origins go back to the late 15th Century.",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-42163/",
-    "id": 7,
-    "num_appearances": 0
+    "num_appearances": 0,
+    "appear": "Parlez Kung Vous, Conclusion",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/93239-172496-the-trust.jpg",
+    "id": 97
 }

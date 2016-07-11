@@ -1,8 +1,9 @@
 {
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-40992/",
-    "id": 33,
     "name": "Hunter-Killer",
+    "description": "Forget what they teach you in History class.  World War I? II? Cuban Missile Crisis? Cold War?  All of these events revolved around the trading and stockpiling of superhumans, or Ultra Sapiens.  Now underground, they are pursued by the Hunter Killer teams.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-40992/",
     "num_appearances": 0,
-    "image": "http://static4.comicvine.com/uploads/scale_small/1/15776/1070662-hunterkiller5.jpg",
-    "appear": "Unknown"
+    "appear": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1070662-hunterkiller5.jpg",
+    "id": 73
 }

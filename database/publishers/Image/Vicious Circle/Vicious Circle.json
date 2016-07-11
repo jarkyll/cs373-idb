@@ -1,0 +1,9 @@
+{
+    "name": "Vicious Circle",
+    "description": "A team of evil super-freaks who operate out of Chicago, they have come at odds with Savage Dragon, Superpatriot, Star, and Freak Force. The group was led by Overlord.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-17942/",
+    "num_appearances": 0,
+    "appear": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/869524-vicious.jpg",
+    "id": 63
+}

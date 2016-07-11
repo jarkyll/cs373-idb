@@ -1,8 +1,9 @@
 {
-    "name": "Romulans",
-    "appear": null,
-    "image": "http://static6.comicvine.com/uploads/scale_small/3/38758/879941-romulan_symbols.jpg",
+    "appear": "Unknown",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-23900/",
-    "id": 13,
-    "num_appearances": 0
+    "name": "Romulans",
+    "id": 53,
+    "description": "Romulas are an alien race on in the Star Trek Universe. They are descended from another alien race called Vulcans. They are usually enemies of the Federation.",
+    "num_appearances": 0,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/879941-romulan_symbols.jpg"
 }

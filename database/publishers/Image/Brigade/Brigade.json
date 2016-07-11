@@ -1,0 +1,9 @@
+{
+    "name": "Brigade",
+    "description": "A rogue mercenary team lead by Battlestone. Brigade has fought against corrupt government agencies.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-5289/",
+    "num_appearances": 0,
+    "appear": "Sabotage!",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1180749-1.jpg",
+    "id": 61
+}

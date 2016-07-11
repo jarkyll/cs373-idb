@@ -1,8 +1,9 @@
 {
     "name": "The Endless",
-    "appear": "Season of Mists: Prologue",
-    "image": "http://static4.comicvine.com/uploads/scale_small/0/574/94443-54950-the-endless.jpg",
+    "description": "The Endless are seven siblings that embody seven different fundamental forces of existence itself. Ageless, immortal and nigh-omnipotent, these siblings were the central characters of the landmark Vertigo series \"The Sandman\".",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-40483/",
-    "id": 2,
-    "num_appearances": 0
+    "num_appearances": 0,
+    "appear": "Season of Mists: Prologue",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/94443-54950-the-endless.jpg",
+    "id": 92
 }

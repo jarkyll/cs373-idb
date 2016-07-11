@@ -1,8 +1,9 @@
 {
-    "name": "Danger Girl",
     "appear": "Prelude to Danger",
-    "image": "http://static4.comicvine.com/uploads/scale_small/2/24477/2293538-dgr.jpg",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-40975/",
-    "id": 17,
-    "num_appearances": 0
+    "name": "Danger Girl",
+    "id": 57,
+    "description": "A top secret, covert combat force consisting of the best female operatives in the world.",
+    "num_appearances": 0,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2293538-dgr.jpg"
 }

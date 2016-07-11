@@ -1,8 +1,9 @@
 {
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-44935/",
-    "id": 39,
     "name": "Aggressive Solutions International",
+    "description": "A.S.I. is the corporate face of a criminal syndicate. They possess vast resources and  have highly trained mega-tech empowered individuals at their disposal. Their primary work comes from secretly contracting out their special (and illegal) services to high paying clients.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-44935/",
     "num_appearances": 0,
-    "image": "http://static4.comicvine.com/uploads/scale_small/1/15776/980640-asi.jpg",
-    "appear": "Fade In"
+    "appear": "Fade In",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/980640-asi.jpg",
+    "id": 79
 }

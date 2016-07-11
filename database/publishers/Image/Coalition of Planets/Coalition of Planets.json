@@ -1,0 +1,9 @@
+{
+    "name": "Coalition of Planets",
+    "description": "The Coalition of Planets is an alliance between several alien races in the Invincible universe. The Coalition was formed to find a way to stop the Viltrumites.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-41132/",
+    "num_appearances": 0,
+    "appear": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1612540-cop_unite.jpg",
+    "id": 66
+}

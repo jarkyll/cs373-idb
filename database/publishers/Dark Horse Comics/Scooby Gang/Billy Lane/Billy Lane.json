@@ -1,0 +1,14 @@
+{
+    "num_appearances": 13,
+    "creator": {
+        "name": "Jane Espenson"
+    },
+    "id": 252,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-99788/",
+    "appear": "Billy the Vampire Slayer, Part One",
+    "gender": 1,
+    "birth": null,
+    "name": "Billy Lane",
+    "real_name": "Billy Lane",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3711350-billycloseup.jpg"
+}

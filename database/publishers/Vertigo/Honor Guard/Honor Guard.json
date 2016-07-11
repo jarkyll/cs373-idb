@@ -1,8 +1,9 @@
 {
     "name": "Honor Guard",
-    "appear": "In Dreams",
-    "image": "http://static4.comicvine.com/uploads/scale_small/11112/111123579/5166433-9042975310-Honor.jpg",
+    "description": "Astro City's most famous and most powerful group of heroes. It was founded in 1959 by the size-changing Max O'Millions.",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-41979/",
-    "id": 6,
-    "num_appearances": 0
+    "num_appearances": 0,
+    "appear": "In Dreams",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/5166433-9042975310-Honor.jpg",
+    "id": 96
 }

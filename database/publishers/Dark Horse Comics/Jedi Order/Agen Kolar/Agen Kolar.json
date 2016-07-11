@@ -1,0 +1,14 @@
+{
+    "num_appearances": 15,
+    "creator": {
+        "name": "George Lucas"
+    },
+    "id": 262,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-56843/",
+    "appear": "Apocalypse Endor",
+    "gender": 1,
+    "birth": null,
+    "name": "Agen Kolar",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/492778-agenkolar.jpg"
+}

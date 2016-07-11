@@ -1,0 +1,378 @@
+{
+    "3200": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1176/",
+        "description": null,
+        "id": 3200,
+        "count_of_issues": 131,
+        "name": "Tarzan",
+        "start_year": "1948"
+    },
+    "3201": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-7426/",
+        "description": null,
+        "id": 3201,
+        "count_of_issues": 18,
+        "name": "Brothers of the Spear",
+        "start_year": "1972"
+    },
+    "4100": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-879/",
+        "description": null,
+        "id": 4100,
+        "count_of_issues": 7,
+        "name": "Rangers of Freedom Comics",
+        "start_year": "1941"
+    },
+    "5000": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3632/",
+        "description": null,
+        "id": 5000,
+        "count_of_issues": 4,
+        "name": "G.I. Joe and the Transformers",
+        "start_year": "1986"
+    },
+    "5001": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4077/",
+        "description": null,
+        "id": 5001,
+        "count_of_issues": 15,
+        "name": "Tales Of G.I. Joe",
+        "start_year": "1988"
+    },
+    "5900": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3370/",
+        "description": null,
+        "id": 5900,
+        "count_of_issues": 80,
+        "name": "The Transformers",
+        "start_year": "1984"
+    },
+    "5901": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5058/",
+        "description": null,
+        "id": 5901,
+        "count_of_issues": 12,
+        "name": "Transformers: Generation 2",
+        "start_year": "1993"
+    },
+    "3600": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-37942/",
+        "description": "Dell",
+        "id": 3600,
+        "count_of_issues": 4,
+        "name": "War Comics",
+        "start_year": "1940"
+    },
+    "3601": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-37990/",
+        "description": null,
+        "id": 3601,
+        "count_of_issues": 4,
+        "name": "War Stories",
+        "start_year": "1942"
+    },
+    "4500": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19318/",
+        "description": null,
+        "id": 4500,
+        "count_of_issues": 62,
+        "name": "Rangers Comics",
+        "start_year": "1942"
+    },
+    "4501": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-879/",
+        "description": null,
+        "id": 4501,
+        "count_of_issues": 7,
+        "name": "Rangers of Freedom Comics",
+        "start_year": "1941"
+    },
+    "5400": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3716/",
+        "description": null,
+        "id": 5400,
+        "count_of_issues": 3,
+        "name": "Pre-Teen Dirty-Gene Kung-Fu Kangaroos",
+        "start_year": "1986"
+    },
+    "5401": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3425/",
+        "description": null,
+        "id": 5401,
+        "count_of_issues": 81,
+        "name": "Grimjack",
+        "start_year": "1984"
+    },
+    "3100": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19206/",
+        "description": null,
+        "id": 3100,
+        "count_of_issues": 20,
+        "name": "Our Gang With Tom & Jerry",
+        "start_year": "1947"
+    },
+    "4000": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-816/",
+        "description": null,
+        "id": 4000,
+        "count_of_issues": 73,
+        "name": "Planet Comics",
+        "start_year": "1940"
+    },
+    "4001": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-68951/",
+        "description": null,
+        "id": 4001,
+        "count_of_issues": 13,
+        "name": "Roy Thomas Presents Planet Comics",
+        "start_year": "2013"
+    },
+    "4900": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19564/",
+        "description": null,
+        "id": 4900,
+        "count_of_issues": 163,
+        "name": "Jungle Comics",
+        "start_year": "1940"
+    },
+    "5800": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18061/",
+        "description": null,
+        "id": 5800,
+        "count_of_issues": 1,
+        "name": "24: One Shot",
+        "start_year": "2004"
+    },
+    "5801": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18062/",
+        "description": null,
+        "id": 5801,
+        "count_of_issues": 1,
+        "name": "24 Stories",
+        "start_year": "2005"
+    },
+    "3500": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-34943/",
+        "description": null,
+        "id": 3500,
+        "count_of_issues": 15,
+        "name": "Adventures Of Mighty Mouse",
+        "start_year": "1955"
+    },
+    "4400": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19318/",
+        "description": null,
+        "id": 4400,
+        "count_of_issues": 62,
+        "name": "Rangers Comics",
+        "start_year": "1942"
+    },
+    "4401": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-879/",
+        "description": null,
+        "id": 4401,
+        "count_of_issues": 7,
+        "name": "Rangers of Freedom Comics",
+        "start_year": "1941"
+    },
+    "5300": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2364/",
+        "description": null,
+        "id": 5300,
+        "count_of_issues": 61,
+        "name": "Star Trek",
+        "start_year": "1967"
+    },
+    "5301": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3318/",
+        "description": null,
+        "id": 5301,
+        "count_of_issues": 56,
+        "name": "Star Trek",
+        "start_year": "1984"
+    },
+    "3000": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1622/",
+        "description": null,
+        "id": 3000,
+        "count_of_issues": 4,
+        "name": "Tom and Jerry's Summer Fun",
+        "start_year": "1954"
+    },
+    "3001": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-927/",
+        "description": null,
+        "id": 3001,
+        "count_of_issues": 1321,
+        "name": "Four Color",
+        "start_year": "1942"
+    },
+    "3900": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26397/",
+        "description": null,
+        "id": 3900,
+        "count_of_issues": 64,
+        "name": "The Funnies",
+        "start_year": "1936"
+    },
+    "4800": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19564/",
+        "description": null,
+        "id": 4800,
+        "count_of_issues": 163,
+        "name": "Jungle Comics",
+        "start_year": "1940"
+    },
+    "5700": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6841/",
+        "description": null,
+        "id": 5700,
+        "count_of_issues": 8,
+        "name": "Danger Girl",
+        "start_year": "1998"
+    },
+    "5701": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18433/",
+        "description": null,
+        "id": 5701,
+        "count_of_issues": 4,
+        "name": "Danger Girl: Body Shots",
+        "start_year": "2007"
+    },
+    "3400": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2407/",
+        "description": "A new hero has arrived, Iron Man, but who is he and what is he.\nThis is the comic that started it all, written by Stan Lee, Larry Lieber and drawn by Jack Kirby and Don Heck.",
+        "id": 3400,
+        "count_of_issues": 336,
+        "name": "Iron Man",
+        "start_year": "1968"
+    },
+    "3401": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26831/",
+        "description": null,
+        "id": 3401,
+        "count_of_issues": 1,
+        "name": "The Big Book of the 70's",
+        "start_year": "2000"
+    },
+    "4300": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-879/",
+        "description": null,
+        "id": 4300,
+        "count_of_issues": 7,
+        "name": "Rangers of Freedom Comics",
+        "start_year": "1941"
+    },
+    "5200": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3632/",
+        "description": null,
+        "id": 5200,
+        "count_of_issues": 4,
+        "name": "G.I. Joe and the Transformers",
+        "start_year": "1986"
+    },
+    "5201": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4077/",
+        "description": null,
+        "id": 5201,
+        "count_of_issues": 15,
+        "name": "Tales Of G.I. Joe",
+        "start_year": "1988"
+    },
+    "3800": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-37550/",
+        "description": null,
+        "id": 3800,
+        "count_of_issues": 21,
+        "name": "Beverly Hillbillies",
+        "start_year": "1963"
+    },
+    "4700": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19318/",
+        "description": null,
+        "id": 4700,
+        "count_of_issues": 62,
+        "name": "Rangers Comics",
+        "start_year": "1942"
+    },
+    "5600": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3632/",
+        "description": null,
+        "id": 5600,
+        "count_of_issues": 4,
+        "name": "G.I. Joe and the Transformers",
+        "start_year": "1986"
+    },
+    "5601": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3864/",
+        "description": null,
+        "id": 5601,
+        "count_of_issues": 4,
+        "name": "The Transformers: Headmasters",
+        "start_year": "1987"
+    },
+    "3300": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2440/",
+        "description": null,
+        "id": 3300,
+        "count_of_issues": 8,
+        "name": "The Mod Squad",
+        "start_year": "1969"
+    },
+    "3301": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2478/",
+        "description": null,
+        "id": 3301,
+        "count_of_issues": 5,
+        "name": "Spoof",
+        "start_year": "1970"
+    },
+    "4200": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-879/",
+        "description": null,
+        "id": 4200,
+        "count_of_issues": 7,
+        "name": "Rangers of Freedom Comics",
+        "start_year": "1941"
+    },
+    "5100": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3632/",
+        "description": null,
+        "id": 5100,
+        "count_of_issues": 4,
+        "name": "G.I. Joe and the Transformers",
+        "start_year": "1986"
+    },
+    "5101": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-9112/",
+        "description": null,
+        "id": 5101,
+        "count_of_issues": 25,
+        "name": "G.I. Joe: A Real American Hero",
+        "start_year": "2001"
+    },
+    "4600": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19318/",
+        "description": null,
+        "id": 4600,
+        "count_of_issues": 62,
+        "name": "Rangers Comics",
+        "start_year": "1942"
+    },
+    "5500": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3632/",
+        "description": null,
+        "id": 5500,
+        "count_of_issues": 4,
+        "name": "G.I. Joe and the Transformers",
+        "start_year": "1986"
+    },
+    "5501": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3864/",
+        "description": null,
+        "id": 5501,
+        "count_of_issues": 4,
+        "name": "The Transformers: Headmasters",
+        "start_year": "1987"
+    }
+}

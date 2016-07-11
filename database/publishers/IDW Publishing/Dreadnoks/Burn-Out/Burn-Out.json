@@ -1,0 +1,12 @@
+{
+    "name": "Burn-Out",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/949102-burn.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-7665/",
+    "gender": 1,
+    "id": 511,
+    "creator": {},
+    "real_name": "Walter O. Jones",
+    "num_appearances": 9,
+    "appear": "Family History Part 1"
+}

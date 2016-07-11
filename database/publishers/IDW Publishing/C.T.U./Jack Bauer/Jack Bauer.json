@@ -1,0 +1,14 @@
+{
+    "name": "Jack Bauer",
+    "birth": "Feb 18, 1966",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/867668-nightfall.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41250/",
+    "gender": 1,
+    "id": 581,
+    "creator": {
+        "name": "Renato Guedes"
+    },
+    "real_name": "Jack Bauer",
+    "num_appearances": 18,
+    "appear": "Dieter Scheisst die Superstars!"
+}

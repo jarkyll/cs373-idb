@@ -1,8 +1,9 @@
 {
-    "name": "Ewoks",
-    "appear": "Mad 176-179",
-    "image": "http://static4.comicvine.com/uploads/scale_small/1/19151/367187-154544-ewoks.JPG",
     "api_url": "http://comicvine.gamespot.com/api/team/4060-6331/",
+    "num_appearances": 0,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/367187-154544-ewoks.JPG",
+    "appear": "Mad 176-179",
+    "name": "Ewoks",
     "id": 20,
-    "num_appearances": 0
+    "description": "Ewoks are a small teddy bear like species that is native to the planet Endor."
 }
