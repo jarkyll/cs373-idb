@@ -11,6 +11,8 @@ Base.metadata.bind = engine
 DBSession = sessionmaker(bind=engine)
 session = DBSession()
 
+### Pages
+
 @app.route('/')
 @app.route('/hello')
 def HelloWorld():
@@ -35,6 +37,15 @@ def teams():
 @app.route('/publishers')
 def publishers():
 	return render_template('publishers.html')
+
+### API
+@app.route('/api/characters')
+def character_api():
+	
+
+
+
+
 
 if __name__== "__main__":
 	app.run()

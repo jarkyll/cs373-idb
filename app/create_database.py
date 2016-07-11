@@ -18,7 +18,22 @@ class Character(Base):
 	volume_credits = Column(UnicodeText(64), nullable=False)
 	powers = Column(UnicodeText(64), nullable=False)
 	gender = Column(UnicodeText(64), nullable=False)
-	creator = Column(UnicodeText(64), nullable=False)  
+	creator = Column(UnicodeText(64), nullable=False)
+
+	@property 
+	def serialize(self):
+		return {
+			'name': self.name,
+			'birth' : self.birth,
+			'volumes' : self.volumes,
+			'primary_publisher' : self.primary_publisher,
+			'image' : self.image,
+			'volume_credits' : self.volume_credits,
+			'powers' : self.powers,
+			'gender' : self.gender,
+			'creator' : self.creator
+		} 
+
 
 class Publisher(Base):
 	__tablename__ = 'publisher'
@@ -33,6 +48,21 @@ class Publisher(Base):
 	volumes = Column(UnicodeText(64), nullable=False)
 	teams = Column(UnicodeText(64), nullable=False)
 
+	@property 
+	def serialize(self):
+		return {
+			'name': self.name,
+			'characters' : self.characters,
+			'locAd' : self.locAd,
+			'city' : self.city,
+			'state' : self.state,
+			'deck' : self.deck,
+			'image' : self.image,
+			'volumes' : self.volumes,
+			'teams' : self.teams
+		} 
+
+
 class Volume(Base):
 	__tablename__ = 'volume'
 	id = Column(Integer, primary_key=True)
@@ -43,6 +73,21 @@ class Volume(Base):
 	characters = Column(UnicodeText(64), nullable=False)
 	aliases = Column(UnicodeText(64), nullable=False)
 	start_year = Column(Integer, nullable=False)
+
+	@property 
+	def serialize(self):
+		return {
+			'name': self.name,
+			'birth' : self.birth,
+			'volumes' : self.volumes,
+			'primary_publisher' : self.primary_publisher,
+			'image' : self.image,
+			'volume_credits' : self.volume_credits,
+			'powers' : self.powers,
+			'gender' : self.gender,
+			'creator' : self.creator
+		} 
+
 
 class Team(Base):
 	__tablename__ = 'team'
@@ -57,6 +102,21 @@ class Team(Base):
 	team_members = Column(UnicodeText(64), nullable=False)
 	character_enemies = Column(UnicodeText(64), nullable=False)
 	character_allies = Column(UnicodeText(64), nullable=False)	
+
+	@property 
+	def serialize(self):
+		return {
+			'name': self.name,
+			'birth' : self.birth,
+			'volumes' : self.volumes,
+			'primary_publisher' : self.primary_publisher,
+			'image' : self.image,
+			'volume_credits' : self.volume_credits,
+			'powers' : self.powers,
+			'gender' : self.gender,
+			'creator' : self.creator
+		} 
+
 
 engine = create_engine('sqlite:///komixx.db')
 Base.metadata.create_all(engine)
