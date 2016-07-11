@@ -40,22 +40,22 @@ for id in range(3, 7, 1):
         team_url = team['api_detail_url']
         extracted['api_url'] = team_url
         info = fetch_json(team_url + postpend)
-        
-
+        extracted['description'] = info['results']['deck']
         if info['results']['image']:
             extracted['image'] = info['results']['image']['small_url']
         else:
             extracted['image'] = None
-        pprint(info['results'].keys())
-        if info['results']['first_appeared_in_issue']['name'] is not None:
-            extracted['appear'] = info['results']['first_appeared_in_issue']['name']
-        else:
-            extracted['appear'] = 'Unknown'
-        #pprint(info['results'])
+        if info['results']['first_appeared_in_issue']:
+            if info['results']['first_appeared_in_issue']['name'] is not None:
+                extracted['appear'] = info['results']['first_appeared_in_issue']['name']
+            else:
+                extracted['appear'] = 'Unknown'
         if 'count_of_isssue_appearances' in info['results'].keys():
             extracted['num_appearances'] = info['results']['count_of_isssue_appearances']
         else:
             extracted['num_appearances'] = info['results']['count_of issue_appearances']
+
+
         teamCount += 1
         if teamCount == 11:
             break
@@ -74,8 +74,7 @@ for id in range(3, 7, 1):
 f.close()
 
 
-with open( dir + "results/team_results3-6.json", 'w') as f:
-    print('where')
+with open( dir + "results/team_results1-3.json", 'w') as f:
     json.dump(result, f, indent=4)
 
 f.close()

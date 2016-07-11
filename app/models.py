@@ -30,6 +30,9 @@ class Character(db.Model):
     volumes: volumes that character is in
     teams: teams that character is in
     publisher: publisher character is with
+    appear: first appearance
+    real: real name if it exists
+    num_apperances: num of appearnces
     """
     __tablename__ = "Character"
     name = db.Column(db.String(150), unique=True, primary_key=True)
@@ -40,7 +43,9 @@ class Character(db.Model):
     publisher = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
     volumes = db.relationship("Volume", secondary=characters_volumes, backref=db.backref("volumes_character", lazy='dynamic'))
     teams = db.relationship("Team", secondary=characters_teams, backref=db.backref("teams_character", lazy='dynamic'))
-
+    appear = db.Column(db.String, unique=False)
+    real = db.Column(db.String, unique=False)
+    num_appearances = db.Column(db.String, unique=False)
 
 
     def __repr__(self):
@@ -49,12 +54,15 @@ class Character(db.Model):
             self.image,
             self.volumes
             ) + \
-            ' birth={}, gender={}, creator = {}, publisher={}, teams='.format(
+            ' birth={}, gender={}, creator = {}, publisher={}, teams={}, appear={}, real={}, num_appearances={}'.format(
                 self.birth,
                 self.gender,
                 self.creator,
-                self.publisher) \
-            + self.teams + ")"
+                self.publisher,
+                self.teams,
+                self.appear,
+                self.real) \
+            + self.num_appearances + ")"
 
 
 class Publisher(db.Model):
@@ -66,7 +74,8 @@ class Publisher(db.Model):
         deck: description
         image: image url
         characters: character publisher has worked with
-        volumes: volumes character has worked with
+        volumes: volumes publisher has worked with
+        teams: teams publisher has worked with
     """
     __tablename__ = "Publisher"
     name = db.Column(db.String(50), unique=True, primary_key=True)
@@ -87,7 +96,7 @@ class Publisher(db.Model):
             self.state,
             self.deck,
             self.volumes,
-            self.teams
+            self.teams,
             ) + ")"
 
 
@@ -111,16 +120,19 @@ class Volume(db.Model):
     characters = db.relationship("Volume", secondary=characters_volumes, backref=db.backref("characters_volume", lazy='dynamic'))
     teams = db.relationship("Team", secondary=volumes_teams, backref=db.backref('teams_volume', lazy='dynamic'))
     name = db.Column(db.String, unique=True, primary_key=True)
+    num_issues = db.Column(db.String)
+
 
     def __repr__(self):
-        return 'Volume(image={}, description={}, count_of_issues={},  start_year={}, publisher={}, teams={}'.format(
+        return 'Volume(image={}, description={}, count_of_issues={},  start_year={}, publisher={}, teams={}, name={}, num_issues={}'.format(
             self.image,
             self.description,
             self.count_of_issues,
             self.start_year,
             self.publisher,
             self.teams,
-            self.name
+            self.name,
+            self.num_issues
             ) + ")"
 
 
@@ -140,13 +152,16 @@ class Team(db.Model):
     publisher = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
     characters = db.relationship("Character", secondary=characters_teams, backref=db.backref('character_teams', lazy='dynamic'))
     volumes = db.relationship("Volume", secondary=volumes_teams, backref=db.backref('volume_teams', lazy='dynamic'))
-
+    appear = db.Column(db.String, unique=False)
+    num_appearances = db.Column(db.String, unique=False)
 
     def __repr__(self):
-        return 'Team(name={}, description={}, image={}, publisher={}, characters={}, volumes={}'.format(
+        return 'Team(name={}, description={}, image={}, publisher={}, characters={}, volumes={}, appear={}. num_appearances={}'.format(
             self.name,
             self.description,
             self.publisher,
             self.characters,
             self.volumes,
+            self.appear,
+            self.num_appearances,
             ) + ")"

@@ -7,7 +7,7 @@ from sqlalchemy.engine.url import URL
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:batman@localhost/donn"
 db = SQLAlchemy(app)
-
+db.create_all()
 ### BASE URL ###
 BASE_URL = '/api'
 
