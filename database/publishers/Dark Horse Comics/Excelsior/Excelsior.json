@@ -1,6 +1,8 @@
 {
-    "id": 28,
     "name": "Excelsior",
+    "appear": "Runaways: True Believers",
     "image": "http://static4.comicvine.com/uploads/scale_small/0/934/146928-46750-excelsior.jpg",
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-42318/"
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-42318/",
+    "id": 28,
+    "num_appearances": 0
 }

@@ -1,6 +1,8 @@
 {
-    "id": 26,
     "name": "Jedi Order",
+    "appear": "Six Against the Galaxy",
     "image": "http://static4.comicvine.com/uploads/scale_small/0/5904/205438-136163-jedi-order.gif",
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-41234/"
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-41234/",
+    "id": 26,
+    "num_appearances": 0
 }

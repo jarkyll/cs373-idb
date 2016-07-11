@@ -1,6 +1,8 @@
 {
-    "id": 29,
     "name": "Project Ragna Rok",
+    "appear": "Chapter One",
     "image": "http://static4.comicvine.com/uploads/scale_small/3/31666/2593381-bprdhellonearth_returnofthemaster5.jpg",
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-43050/"
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-43050/",
+    "id": 29,
+    "num_appearances": 0
 }

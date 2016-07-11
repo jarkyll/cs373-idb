@@ -23,6 +23,7 @@ for data in glob.glob('*.json'):
     extracted['location']['address'] = test['results']['location_address']
     extracted['deck'] = test['results']['deck']
     extracted['teams'] = test['results']['teams']
+
     if test['results']['image'] != None:
         extracted['image'] = test['results']['image']['small_url'] + postpend
     else:

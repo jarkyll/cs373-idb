@@ -1,182 +1,242 @@
 {
     "0": {
-        "id": 0,
         "name": "The Losers",
-        "image": "http://static4.comicvine.com/uploads/scale_small/7/71975/2136897-losers.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-30927/"
+        "appear": null,
+        "image": "http://static1.comicvine.com/uploads/scale_small/7/71975/2136897-losers.jpg",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-30927/",
+        "id": 0,
+        "num_appearances": 0
     },
     "1": {
-        "id": 1,
         "name": "Minutemen",
+        "appear": "The Right Ear, Left in the Cold, Part Two",
         "image": "http://static4.comicvine.com/uploads/scale_small/7/71975/2152183-graves2.png",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40441/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40441/",
+        "id": 1,
+        "num_appearances": 0
     },
     "2": {
-        "id": 2,
         "name": "The Endless",
+        "appear": "Season of Mists: Prologue",
         "image": "http://static4.comicvine.com/uploads/scale_small/0/574/94443-54950-the-endless.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40483/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40483/",
+        "id": 2,
+        "num_appearances": 0
     },
     "3": {
-        "id": 3,
         "name": "Yahweh's Children",
+        "appear": "The Wolf Beneath the Tree: Part 3 of 4",
         "image": "http://static4.comicvine.com/uploads/scale_small/0/9116/522464-53.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40995/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40995/",
+        "id": 3,
+        "num_appearances": 0
     },
     "4": {
-        "id": 4,
         "name": "The Grail",
+        "appear": "Came A Pale Rider (Hunters Part 1)",
         "image": "http://static4.comicvine.com/uploads/scale_small/0/9241/669039-4861_20080219215927_large.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-41404/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41404/",
+        "id": 4,
+        "num_appearances": 0
     },
     "5": {
-        "id": 5,
         "name": "Les Enfents du Sang",
+        "appear": "Good Times Rolling",
         "image": "http://static4.comicvine.com/uploads/scale_small/0/9116/1519164-preacher31.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-41406/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41406/",
+        "id": 5,
+        "num_appearances": 0
     },
     "6": {
-        "id": 6,
         "name": "Honor Guard",
+        "appear": "In Dreams",
         "image": "http://static4.comicvine.com/uploads/scale_small/11112/111123579/5166433-9042975310-Honor.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-41979/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41979/",
+        "id": 6,
+        "num_appearances": 0
     },
     "7": {
-        "id": 7,
         "name": "The Trust",
+        "appear": "Parlez Kung Vous, Conclusion",
         "image": "http://static4.comicvine.com/uploads/scale_small/0/1812/93239-172496-the-trust.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-42163/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42163/",
+        "id": 7,
+        "num_appearances": 0
     },
     "8": {
-        "id": 8,
         "name": "Recipients of the Attach\u00e9",
+        "appear": "100 Bullets",
         "image": "http://static4.comicvine.com/uploads/scale_small/0/1812/101628-186628-recipients-of-the-at.JPG",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-42440/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42440/",
+        "id": 8,
+        "num_appearances": 0
     },
     "9": {
-        "id": 9,
         "name": "Adephi",
+        "appear": "And The Horse You Rode In On",
         "image": null,
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-42546/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42546/",
+        "id": 9,
+        "num_appearances": 0
     },
     "10": {
-        "id": 10,
         "name": "COBRA",
+        "appear": "Operation: Lady Doomsday; ...Hot Potato!",
         "image": "http://static4.comicvine.com/uploads/scale_small/5/51078/964808-cobra.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-7417/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-7417/",
+        "id": 10,
+        "num_appearances": 0
     },
     "11": {
-        "id": 11,
         "name": "Dreadnoks",
+        "appear": "Zartan!",
         "image": "http://static4.comicvine.com/uploads/scale_small/0/229/90339-2626-dreadnoks.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-7715/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-7715/",
+        "id": 11,
+        "num_appearances": 0
     },
     "12": {
-        "id": 12,
         "name": "G.I. Joe",
-        "image": "http://static4.comicvine.com/uploads/scale_small/11/117763/2596436-gi.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-12206/"
+        "appear": "William M. Gaines' Utterly Mad",
+        "image": "http://static9.comicvine.com/uploads/scale_small/11/117763/2596436-gi.jpg",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-12206/",
+        "id": 12,
+        "num_appearances": 0
     },
     "13": {
-        "id": 13,
         "name": "Romulans",
-        "image": "http://static4.comicvine.com/uploads/scale_small/3/38758/879941-romulan_symbols.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-23900/"
+        "appear": null,
+        "image": "http://static6.comicvine.com/uploads/scale_small/3/38758/879941-romulan_symbols.jpg",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-23900/",
+        "id": 13,
+        "num_appearances": 0
     },
     "14": {
-        "id": 14,
         "name": "Teenage Mutant Ninja Turtles",
-        "image": "http://static4.comicvine.com/uploads/scale_small/13/132327/2710732-teenage_mutant_ninja_turtles_by_tpollockjr.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-26934/"
+        "appear": null,
+        "image": "http://static1.comicvine.com/uploads/scale_small/13/132327/2710732-teenage_mutant_ninja_turtles_by_tpollockjr.jpg",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-26934/",
+        "id": 14,
+        "num_appearances": 0
     },
     "15": {
-        "id": 15,
         "name": "Autobots",
-        "image": "http://static4.comicvine.com/uploads/scale_small/0/3133/141241-195921-autobots.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40489/"
+        "appear": "Battle For Cybertron",
+        "image": "http://static2.comicvine.com/uploads/scale_small/0/3133/141241-195921-autobots.jpg",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40489/",
+        "id": 15,
+        "num_appearances": 0
     },
     "16": {
-        "id": 16,
         "name": "Decepticons",
+        "appear": "Battle For Cybertron",
         "image": "http://static4.comicvine.com/uploads/scale_small/0/4/77601-102027-decepticons.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40490/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40490/",
+        "id": 16,
+        "num_appearances": 0
     },
     "17": {
-        "id": 17,
         "name": "Danger Girl",
+        "appear": "Prelude to Danger",
         "image": "http://static4.comicvine.com/uploads/scale_small/2/24477/2293538-dgr.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40975/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40975/",
+        "id": 17,
+        "num_appearances": 0
     },
     "18": {
-        "id": 18,
         "name": "C.T.U.",
+        "appear": null,
         "image": "http://static4.comicvine.com/uploads/scale_small/2/23749/497959-24_cast.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-41249/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41249/",
+        "id": 18,
+        "num_appearances": 0
     },
     "19": {
-        "id": 19,
         "name": "Dinobots",
+        "appear": "The Last Stand; part 1",
         "image": "http://static4.comicvine.com/uploads/scale_small/4/49448/2466082-rage_of_the_dinobots.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-41692/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41692/",
+        "id": 19,
+        "num_appearances": 0
     },
     "20": {
-        "id": 20,
         "name": "Ewoks",
+        "appear": "Mad 176-179",
         "image": "http://static4.comicvine.com/uploads/scale_small/1/19151/367187-154544-ewoks.JPG",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-6331/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-6331/",
+        "id": 20,
+        "num_appearances": 0
     },
     "21": {
-        "id": 21,
         "name": "Predators",
-        "image": "http://static4.comicvine.com/uploads/scale_small/3/38826/876686-predator3.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-18392/"
+        "appear": "Predator",
+        "image": "http://static5.comicvine.com/uploads/scale_small/3/38826/876686-predator3.jpg",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-18392/",
+        "id": 21,
+        "num_appearances": 0
     },
     "22": {
-        "id": 22,
         "name": "Aliens (Xenomorphs)",
-        "image": "http://static4.comicvine.com/uploads/scale_small/3/38826/877172-alienwarrior.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-20659/"
+        "appear": "Operation Copperhead",
+        "image": "http://static6.comicvine.com/uploads/scale_small/3/38826/877172-alienwarrior.jpg",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-20659/",
+        "id": 22,
+        "num_appearances": 0
     },
     "23": {
-        "id": 23,
         "name": "Bureau for Paranormal Research and Defense",
+        "appear": "Chapter One",
         "image": "http://static4.comicvine.com/uploads/scale_small/0/462/79445-99481-bureau-for-paranorma.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40436/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40436/",
+        "id": 23,
+        "num_appearances": 0
     },
     "24": {
-        "id": 24,
         "name": "The Noh",
+        "appear": "Fear The Reaper",
         "image": "http://static4.comicvine.com/uploads/scale_small/12/128795/2549159-noh_kabuki_masks_of_the_noh_v1_003.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-40839/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40839/",
+        "id": 24,
+        "num_appearances": 0
     },
     "25": {
-        "id": 25,
         "name": "Scooby Gang",
+        "appear": "Wu-Tang Fang",
         "image": "http://static5.comicvine.com/uploads/scale_small/0/1772/93755-163895-scooby-gang.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-41140/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41140/",
+        "id": 25,
+        "num_appearances": 0
     },
     "26": {
-        "id": 26,
         "name": "Jedi Order",
+        "appear": "Six Against the Galaxy",
         "image": "http://static4.comicvine.com/uploads/scale_small/0/5904/205438-136163-jedi-order.gif",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-41234/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41234/",
+        "id": 26,
+        "num_appearances": 0
     },
     "27": {
-        "id": 27,
         "name": "Serenity",
+        "appear": "Those Left Behind, Part 1",
         "image": "http://static4.comicvine.com/uploads/scale_small/0/3848/327934-186776-serenity.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-42087/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42087/",
+        "id": 27,
+        "num_appearances": 0
     },
     "28": {
-        "id": 28,
         "name": "Excelsior",
+        "appear": "Runaways: True Believers",
         "image": "http://static4.comicvine.com/uploads/scale_small/0/934/146928-46750-excelsior.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-42318/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-42318/",
+        "id": 28,
+        "num_appearances": 0
     },
     "29": {
-        "id": 29,
         "name": "Project Ragna Rok",
+        "appear": "Chapter One",
         "image": "http://static4.comicvine.com/uploads/scale_small/3/31666/2593381-bprdhellonearth_returnofthemaster5.jpg",
-        "api_url": "http://comicvine.gamespot.com/api/team/4060-43050/"
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-43050/",
+        "id": 29,
+        "num_appearances": 0
     }
 }

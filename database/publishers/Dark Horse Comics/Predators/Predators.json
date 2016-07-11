@@ -1,6 +1,8 @@
 {
-    "id": 21,
     "name": "Predators",
-    "image": "http://static4.comicvine.com/uploads/scale_small/3/38826/876686-predator3.jpg",
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-18392/"
+    "appear": "Predator",
+    "image": "http://static5.comicvine.com/uploads/scale_small/3/38826/876686-predator3.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-18392/",
+    "id": 21,
+    "num_appearances": 0
 }

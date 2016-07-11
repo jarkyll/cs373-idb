@@ -23,17 +23,10 @@ result = {}
 #os.chdir("/u/cz4792/cs373/cs373-idb/database/results")
 postpend = "?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
 id = 0
-<<<<<<< HEAD:database/publishers/character_extractor.py
 PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics', 'Dell', 'Fiction House', 'IDW Publishing', 'Image', 'Top Cow', 'Valiant', 'Vertigo']
 dir = os.getcwd() + '/'
 
-f = open(dir + 'results/team_results7-10.json', 'r')
-=======
-PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics', 'Dell', 'Fiction House']
-
-
-f = open('team_results4-5.json', 'r')
->>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/characters/character_extractor.py
+f = open(dir + 'results/team_results1-3.json', 'r')
 test = json.load(f)
 for id in test.keys():
     characterCount = 0
@@ -84,17 +77,17 @@ for id in test.keys():
                 json.dump(extracted, f, indent=4)
 
             f.close()
+
+
+
+
     else:
         continue
     
 f.close()
 
 
-<<<<<<< HEAD:database/publishers/character_extractor.py
-with open(dir + "results/character_results7-10.json", 'w') as f:
-=======
-with open("/u/cz4792/cs373/cs373-idb/database/results/character_results4-5.json", 'w') as f:
->>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/characters/character_extractor.py
+with open(dir + "results/character_results1-3.json", 'w') as f:
     json.dump(result, f, indent=4)
 
 f.close()

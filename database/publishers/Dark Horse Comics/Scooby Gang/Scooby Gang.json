@@ -1,6 +1,8 @@
 {
-    "id": 25,
     "name": "Scooby Gang",
+    "appear": "Wu-Tang Fang",
     "image": "http://static5.comicvine.com/uploads/scale_small/0/1772/93755-163895-scooby-gang.jpg",
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-41140/"
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-41140/",
+    "id": 25,
+    "num_appearances": 0
 }

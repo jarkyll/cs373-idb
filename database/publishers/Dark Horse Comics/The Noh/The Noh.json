@@ -1,6 +1,8 @@
 {
-    "id": 24,
     "name": "The Noh",
+    "appear": "Fear The Reaper",
     "image": "http://static4.comicvine.com/uploads/scale_small/12/128795/2549159-noh_kabuki_masks_of_the_noh_v1_003.jpg",
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-40839/"
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-40839/",
+    "id": 24,
+    "num_appearances": 0
 }

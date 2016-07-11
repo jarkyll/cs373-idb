@@ -1,6 +1,8 @@
 {
-    "id": 27,
     "name": "Serenity",
+    "appear": "Those Left Behind, Part 1",
     "image": "http://static4.comicvine.com/uploads/scale_small/0/3848/327934-186776-serenity.jpg",
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-42087/"
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-42087/",
+    "id": 27,
+    "num_appearances": 0
 }

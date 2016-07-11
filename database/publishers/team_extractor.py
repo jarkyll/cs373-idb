@@ -23,19 +23,13 @@ postpend = "?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
 dir = os.getcwd() + '/'
 id = 0
 
-<<<<<<< HEAD:database/publishers/team_extractor.py
-PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics', 'Dell', 'Fiction House', 'IDW Publishing', 'Image', 'Top Cow', 'Valiant', 'Vertigo']
-=======
-PublisherName = ['Aftershock Comics', 'Boom! Studios', 'Dark Horse Comics', 'Dell', 'Fiction House']
->>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/teams/team_extractor.py
+PublisherName = ['Vertigo', 'IDW Publishing', 'Dark Horse Comics', 'Top Cow', 'Valiant', 'Dell', 'Aftershock Comics', 'Image', 'Fiction House', 'Boom! Studios']
+
 
 f = open(dir + 'results/publisher_results.json', 'r')
 test = json.load(f)
-<<<<<<< HEAD:database/publishers/team_extractor.py
-for id in range(6, 10, 1):
-=======
-for id in range(3, 5):
->>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/teams/team_extractor.py
+
+for id in range(3, 7, 1):
     teamCount = 0
     teamList = []
     teamList = test[str(id)]['teams']
@@ -52,7 +46,16 @@ for id in range(3, 5):
             extracted['image'] = info['results']['image']['small_url']
         else:
             extracted['image'] = None
-
+        pprint(info['results'].keys())
+        if info['results']['first_appeared_in_issue']['name'] is not None:
+            extracted['appear'] = info['results']['first_appeared_in_issue']['name']
+        else:
+            extracted['appear'] = 'Unknown'
+        #pprint(info['results'])
+        if 'count_of_isssue_appearances' in info['results'].keys():
+            extracted['num_appearances'] = info['results']['count_of_isssue_appearances']
+        else:
+            extracted['num_appearances'] = info['results']['count_of issue_appearances']
         teamCount += 1
         if teamCount == 11:
             break
@@ -71,11 +74,8 @@ for id in range(3, 5):
 f.close()
 
 
-<<<<<<< HEAD:database/publishers/team_extractor.py
-with open( dir + "results/team_results7-10.json", 'w') as f:
-=======
-with open("/u/cz4792/cs373/cs373-idb/database/results/team_results4-5.json", 'w') as f:
->>>>>>> ee263c87dd2a660575ffa50f44a29acb3bfe5608:database/teams/team_extractor.py
+with open( dir + "results/team_results3-6.json", 'w') as f:
+    print('where')
     json.dump(result, f, indent=4)
 
 f.close()

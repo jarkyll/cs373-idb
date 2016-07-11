@@ -1,6 +1,8 @@
 {
-    "id": 22,
     "name": "Aliens (Xenomorphs)",
-    "image": "http://static4.comicvine.com/uploads/scale_small/3/38826/877172-alienwarrior.jpg",
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-20659/"
+    "appear": "Operation Copperhead",
+    "image": "http://static6.comicvine.com/uploads/scale_small/3/38826/877172-alienwarrior.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-20659/",
+    "id": 22,
+    "num_appearances": 0
 }

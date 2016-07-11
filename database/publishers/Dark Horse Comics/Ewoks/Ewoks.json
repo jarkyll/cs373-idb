@@ -1,6 +1,8 @@
 {
-    "id": 20,
     "name": "Ewoks",
+    "appear": "Mad 176-179",
     "image": "http://static4.comicvine.com/uploads/scale_small/1/19151/367187-154544-ewoks.JPG",
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-6331/"
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-6331/",
+    "id": 20,
+    "num_appearances": 0
 }

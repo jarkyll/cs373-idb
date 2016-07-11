@@ -1,115 +1,115 @@
 {
+    "image": "http://static4.comicvine.com/uploads/scale_small/6/69951/1387073-fiction_house.jpg?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json",
     "teams": [
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56995/",
-            "id": 56995,
             "name": "Space Rangers",
+            "id": 56995,
             "site_detail_url": "http://comicvine.gamespot.com/space-rangers/4060-56995/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58036/",
-            "id": 58036,
             "name": "Rangers of Freedom",
+            "id": 58036,
             "site_detail_url": "http://comicvine.gamespot.com/rangers-of-freedom/4060-58036/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58037/",
-            "id": 58037,
             "name": "Royal Watch",
+            "id": 58037,
             "site_detail_url": "http://comicvine.gamespot.com/royal-watch/4060-58037/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58038/",
-            "id": 58038,
             "name": "Defense Patrol",
+            "id": 58038,
             "site_detail_url": "http://comicvine.gamespot.com/defense-patrol/4060-58038/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58040/",
-            "id": 58040,
             "name": "Phantom Falcons",
+            "id": 58040,
             "site_detail_url": "http://comicvine.gamespot.com/phantom-falcons/4060-58040/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58041/",
-            "id": 58041,
             "name": "Captain Morgan's US Rangers",
+            "id": 58041,
             "site_detail_url": "http://comicvine.gamespot.com/captain-morgans-us-rangers/4060-58041/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58042/",
-            "id": 58042,
             "name": "Captain Morgans Sky Rangers",
+            "id": 58042,
             "site_detail_url": "http://comicvine.gamespot.com/captain-morgans-sky-rangers/4060-58042/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58044/",
-            "id": 58044,
             "name": "Crusoe Island",
+            "id": 58044,
             "site_detail_url": "http://comicvine.gamespot.com/crusoe-island/4060-58044/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58184/",
-            "id": 58184,
             "name": "Congo Lancers",
+            "id": 58184,
             "site_detail_url": "http://comicvine.gamespot.com/congo-lancers/4060-58184/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58185/",
-            "id": 58185,
             "name": "White Hunters of the African Safari",
+            "id": 58185,
             "site_detail_url": "http://comicvine.gamespot.com/white-hunters-of-the-african-safari/4060-58185/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58186/",
-            "id": 58186,
             "name": "Leopard Men",
+            "id": 58186,
             "site_detail_url": "http://comicvine.gamespot.com/leopard-men/4060-58186/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58187/",
-            "id": 58187,
             "name": "Man-Apes",
+            "id": 58187,
             "site_detail_url": "http://comicvine.gamespot.com/man-apes/4060-58187/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58188/",
-            "id": 58188,
             "name": "Doctor and Mac",
+            "id": 58188,
             "site_detail_url": "http://comicvine.gamespot.com/doctor-and-mac/4060-58188/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58189/",
-            "id": 58189,
             "name": "Super-Gorillas",
+            "id": 58189,
             "site_detail_url": "http://comicvine.gamespot.com/super-gorillas/4060-58189/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58190/",
-            "id": 58190,
             "name": "Ivory Hunters",
+            "id": 58190,
             "site_detail_url": "http://comicvine.gamespot.com/ivory-hunters/4060-58190/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58193/",
-            "id": 58193,
             "name": "Monkey Men",
+            "id": 58193,
             "site_detail_url": "http://comicvine.gamespot.com/monkey-men/4060-58193/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58194/",
-            "id": 58194,
             "name": "Flaming Claws",
+            "id": 58194,
             "site_detail_url": "http://comicvine.gamespot.com/flaming-claws/4060-58194/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58195/",
-            "id": 58195,
             "name": "Mercurians",
+            "id": 58195,
             "site_detail_url": "http://comicvine.gamespot.com/mercurians/4060-58195/"
         }
     ],
-    "deck": "A pulp magazine and comic book publisher in the Golden Age of Comics.",
     "name": "Fiction House",
     "location": {
         "state": null,
@@ -117,5 +117,5 @@
         "address": null
     },
     "id": 8,
-    "image": "http://static4.comicvine.com/uploads/scale_small/6/69951/1387073-fiction_house.jpg?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
+    "deck": "A pulp magazine and comic book publisher in the Golden Age of Comics."
 }

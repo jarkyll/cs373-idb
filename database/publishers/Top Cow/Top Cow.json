@@ -1,277 +1,277 @@
 {
+    "image": "http://static5.comicvine.com/uploads/scale_small/1/19151/573207-topcow_logo11.gif?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json",
     "teams": [
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-25321/",
-            "id": 25321,
             "name": "Cyber Force",
+            "id": 25321,
             "site_detail_url": "http://comicvine.gamespot.com/cyber-force/4060-25321/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-40661/",
-            "id": 40661,
             "name": "Freedom Phalanx",
+            "id": 40661,
             "site_detail_url": "http://comicvine.gamespot.com/freedom-phalanx/4060-40661/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-40689/",
-            "id": 40689,
             "name": "Arachnos",
+            "id": 40689,
             "site_detail_url": "http://comicvine.gamespot.com/arachnos/4060-40689/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-40992/",
-            "id": 40992,
             "name": "Hunter-Killer",
+            "id": 40992,
             "site_detail_url": "http://comicvine.gamespot.com/hunter-killer/4060-40992/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-41047/",
-            "id": 41047,
             "name": "The Fraternity",
+            "id": 41047,
             "site_detail_url": "http://comicvine.gamespot.com/the-fraternity/4060-41047/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-41073/",
-            "id": 41073,
             "name": "Council of Five",
+            "id": 41073,
             "site_detail_url": "http://comicvine.gamespot.com/council-of-five/4060-41073/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-41874/",
-            "id": 41874,
             "name": "Strykeforce",
+            "id": 41874,
             "site_detail_url": "http://comicvine.gamespot.com/strykeforce/4060-41874/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-42950/",
-            "id": 42950,
             "name": "Weapon Zero",
+            "id": 42950,
             "site_detail_url": "http://comicvine.gamespot.com/weapon-zero/4060-42950/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-43190/",
-            "id": 43190,
             "name": "Freshmen",
+            "id": 43190,
             "site_detail_url": "http://comicvine.gamespot.com/freshmen/4060-43190/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-44935/",
-            "id": 44935,
             "name": "Aggressive Solutions International",
+            "id": 44935,
             "site_detail_url": "http://comicvine.gamespot.com/aggressive-solutions-international/4060-44935/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-47135/",
-            "id": 47135,
             "name": "Gunmen",
+            "id": 47135,
             "site_detail_url": "http://comicvine.gamespot.com/gunmen/4060-47135/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-47421/",
-            "id": 47421,
             "name": "Angelus Warriors",
+            "id": 47421,
             "site_detail_url": "http://comicvine.gamespot.com/angelus-warriors/4060-47421/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-47558/",
-            "id": 47558,
             "name": "V.I.C.E.",
+            "id": 47558,
             "site_detail_url": "http://comicvine.gamespot.com/vice/4060-47558/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-47569/",
-            "id": 47569,
             "name": "Darklings",
+            "id": 47569,
             "site_detail_url": "http://comicvine.gamespot.com/darklings/4060-47569/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-47654/",
-            "id": 47654,
             "name": "G-Force",
+            "id": 47654,
             "site_detail_url": "http://comicvine.gamespot.com/g-force/4060-47654/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-48216/",
-            "id": 48216,
             "name": "Vindicators",
+            "id": 48216,
             "site_detail_url": "http://comicvine.gamespot.com/vindicators/4060-48216/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-49983/",
-            "id": 49983,
             "name": "Industrial Accidents",
+            "id": 49983,
             "site_detail_url": "http://comicvine.gamespot.com/industrial-accidents/4060-49983/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-50143/",
-            "id": 50143,
             "name": "The Franchetti Family",
+            "id": 50143,
             "site_detail_url": "http://comicvine.gamespot.com/the-franchetti-family/4060-50143/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-50578/",
-            "id": 50578,
             "name": "Specials",
+            "id": 50578,
             "site_detail_url": "http://comicvine.gamespot.com/specials/4060-50578/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-51776/",
-            "id": 51776,
             "name": "Cyberdata",
+            "id": 51776,
             "site_detail_url": "http://comicvine.gamespot.com/cyberdata/4060-51776/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56147/",
-            "id": 56147,
             "name": "Mekadom",
+            "id": 56147,
             "site_detail_url": "http://comicvine.gamespot.com/mekadom/4060-56147/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56148/",
-            "id": 56148,
             "name": "Ethreal",
+            "id": 56148,
             "site_detail_url": "http://comicvine.gamespot.com/ethreal/4060-56148/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56149/",
-            "id": 56149,
             "name": "Dayaks",
+            "id": 56149,
             "site_detail_url": "http://comicvine.gamespot.com/dayaks/4060-56149/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56150/",
-            "id": 56150,
             "name": "Mineans",
+            "id": 56150,
             "site_detail_url": "http://comicvine.gamespot.com/mineans/4060-56150/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56183/",
-            "id": 56183,
             "name": "Shu'roch",
+            "id": 56183,
             "site_detail_url": "http://comicvine.gamespot.com/shuroch/4060-56183/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56412/",
-            "id": 56412,
             "name": "Hunters of Tao",
+            "id": 56412,
             "site_detail_url": "http://comicvine.gamespot.com/hunters-of-tao/4060-56412/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56675/",
-            "id": 56675,
             "name": "Liberty Balance",
+            "id": 56675,
             "site_detail_url": "http://comicvine.gamespot.com/liberty-balance/4060-56675/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-56970/",
-            "id": 56970,
             "name": "Midgard International",
+            "id": 56970,
             "site_detail_url": "http://comicvine.gamespot.com/midgard-international/4060-56970/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-57006/",
-            "id": 57006,
             "name": "Batai",
+            "id": 57006,
             "site_detail_url": "http://comicvine.gamespot.com/batai/4060-57006/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-57007/",
-            "id": 57007,
             "name": "T'srri",
+            "id": 57007,
             "site_detail_url": "http://comicvine.gamespot.com/tsrri/4060-57007/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-57163/",
-            "id": 57163,
             "name": "Bare-Ass Syndicate",
+            "id": 57163,
             "site_detail_url": "http://comicvine.gamespot.com/bare-ass-syndicate/4060-57163/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-57242/",
-            "id": 57242,
             "name": "American Vampire League",
+            "id": 57242,
             "site_detail_url": "http://comicvine.gamespot.com/american-vampire-league/4060-57242/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-57243/",
-            "id": 57243,
             "name": "Fellowship of the Sun",
+            "id": 57243,
             "site_detail_url": "http://comicvine.gamespot.com/fellowship-of-the-sun/4060-57243/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58151/",
-            "id": 58151,
             "name": "The Real Super Hero Team of America",
+            "id": 58151,
             "site_detail_url": "http://comicvine.gamespot.com/the-real-super-hero-team-of-america/4060-58151/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58552/",
-            "id": 58552,
             "name": "Covenant",
+            "id": 58552,
             "site_detail_url": "http://comicvine.gamespot.com/covenant/4060-58552/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58591/",
-            "id": 58591,
             "name": "The Immortals",
+            "id": 58591,
             "site_detail_url": "http://comicvine.gamespot.com/the-immortals/4060-58591/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-58956/",
-            "id": 58956,
             "name": "The Brotherhood Of Darkness",
+            "id": 58956,
             "site_detail_url": "http://comicvine.gamespot.com/the-brotherhood-of-darkness/4060-58956/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-59054/",
-            "id": 59054,
             "name": "Brunhildas",
+            "id": 59054,
             "site_detail_url": "http://comicvine.gamespot.com/brunhildas/4060-59054/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-59149/",
-            "id": 59149,
             "name": "Kain's Empire",
+            "id": 59149,
             "site_detail_url": "http://comicvine.gamespot.com/kains-empire/4060-59149/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-59158/",
-            "id": 59158,
             "name": "Sarafan Brotherhood",
+            "id": 59158,
             "site_detail_url": "http://comicvine.gamespot.com/sarafan-brotherhood/4060-59158/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-59537/",
-            "id": 59537,
             "name": "TRACT",
+            "id": 59537,
             "site_detail_url": "http://comicvine.gamespot.com/tract/4060-59537/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-60869/",
-            "id": 60869,
             "name": "Level 42",
+            "id": 60869,
             "site_detail_url": "http://comicvine.gamespot.com/level-42/4060-60869/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-60992/",
-            "id": 60992,
             "name": "The Death Vigil",
+            "id": 60992,
             "site_detail_url": "http://comicvine.gamespot.com/the-death-vigil/4060-60992/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-61679/",
-            "id": 61679,
             "name": "Samaritan",
+            "id": 61679,
             "site_detail_url": "http://comicvine.gamespot.com/samaritan/4060-61679/"
         },
         {
             "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-61857/",
-            "id": 61857,
             "name": "Hellions",
+            "id": 61857,
             "site_detail_url": "http://comicvine.gamespot.com/hellions/4060-61857/"
         }
     ],
-    "deck": "Top Cow Productions (a comic book publisher partnered with Image Comics) is best known for titles such as Cyberforce, The Darkness, and Witchblade.",
     "name": "Top Cow",
     "location": {
         "state": null,
@@ -279,5 +279,5 @@
         "address": null
     },
     "id": 3,
-    "image": "http://static5.comicvine.com/uploads/scale_small/1/19151/573207-topcow_logo11.gif?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
+    "deck": "Top Cow Productions (a comic book publisher partnered with Image Comics) is best known for titles such as Cyberforce, The Darkness, and Witchblade."
 }
