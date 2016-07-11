@@ -2,50 +2,32 @@ from sqlalchemy import create_engine, Table, ForeignKey, Column, Integer, String
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.engine.url import URL
+from core import db
 
-BASE = declarative_base()
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
 
-DATABASE = {
-		'drivername': 'postgres',
-		'host': 'localhost',
-		'port': '5432',
-		'username': 'postgres',
-		'password': 'batman',
-		'database': "try"
-}
-
-
-def db_connect():
-    """
-    Connects to the database
-    """
-    return create_engine(URL(**DATABASE))
-
-
-def create_tables(engine):
-    BASE.metadata.create_all(engine)
 
 
 
-CHARACTERS_VOLUMES = Table('characters_volumes', BASE.metadata,
-    Column('character_name', String(150), ForeignKey('Character.name')),
-    Column('volume_name', String(100), ForeignKey('Volume.name'))
+
+characters_volumes = db.Table('characters_volumes',
+    db.Column('character_name', db.String(150), db.ForeignKey('Character.name')),
+    db.Column('volume_name', db.String(100), db.ForeignKey('Volume.name'))
 )
 
 
-characters_teams = Table('characters_teams', BASE.metadata,
-    Column('character_name', String(200), ForeignKey('Character.name')),
-    Column('team_name', String(250), ForeignKey('Team.name'))
+characters_teams = db.Table('characters_teams',
+    db.Column('character_name', db.String(200), db.ForeignKey('Character.name')),
+    db.Column('team_name', db.String(250), db.ForeignKey('Team.name'))
 )
 
-volumes_teams = Table('volumes_teams', BASE.metadata,
-    Column('volume_name', String(200), ForeignKey('Volume.name')),
-    Column('team_name', String(150), ForeignKey('Team.name'))
+volumes_teams = db.Table('volumes_teams',
+    db.Column('volume_name', db.String(200), db.ForeignKey('Volume.name')),
+    db.Column('team_name', db.String(150), db.ForeignKey('Team.name'))
 )
 
 
-class Character(BASE):
+class Character(db.Model):
     """
     name: name of characters
     birth: when the character was born
@@ -57,17 +39,16 @@ class Character(BASE):
     publisher: publisher character is with
     """
     __tablename__ = "Character"
-    name = Column(String(150), unique=True, primary_key=True)
-    birth = Column(String(100), unique=False)
-    image = Column(String)  # image url
-    gender = Column(String(10))
-    creator = Column(String(50), unique=False)
-    publisher = Column(String(150), ForeignKey('Publisher.name'))
+    name = db.Column(db.String(150), unique=True, primary_key=True)
+    birth = db.Column(db.String(100), unique=False)
+    image = db.Column(db.String)  # image url
+    gender = db.Column(db.String(10))
+    creator = db.Column(db.String(50), unique=False)
+    publisher = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
+    volumes = relationship("Volume", secondary=characters_volumes, backref=db.backref("volumes_character", lazy='dynamic'))
+    teams = relationship("Team", secondary=characters_teams, backref=db.backref("teams_character", lazy='dynamic'))
 
 
-    volumes = relationship("Volume", secondary=CHARACTERS_VOLUMES, back_populates="characters")
-    teams = relationship("Team", secondary=characters_teams, back_populates="characters")
-    publisher_name = relationship("Publisher", back_populates="characters")
 
     def __repr__(self):
         return 'Character(name={}, image={}, volumes='.format(
@@ -83,7 +64,7 @@ class Character(BASE):
             + self.teams + ")"
 
 
-class Publisher(BASE):
+class Publisher(db.Model):
     """
         name: the name of the publisher
         address: address of publisher if given
@@ -95,15 +76,15 @@ class Publisher(BASE):
         volumes: volumes character has worked with
     """
     __tablename__ = "Publisher"
-    name = Column(String(50), unique=True, primary_key=True)
-    address = Column(String(100), unique=False)  # maybe this one?
-    city = Column(String(20), unique=False)
-    state = Column(String(2), unique=False)
-    deck = Column(String, unique=False)
-    image = Column(String)  # image url    
-    characters = relationship("Character", back_populates="publisher_name")
-    volumes = relationship("Volume", back_populates="publisher_name")
-    teams = relationship("Team", back_populates="publisher_name")
+    name = db.Column(String(50), unique=True, primary_key=True)
+    address = db.Column(String(100), unique=False)  # maybe this one?
+    city = db.Column(String(20), unique=False)
+    state = db.Column(String(2), unique=False)
+    deck = db.Column(String, unique=False)
+    image = db.Column(String)  # image url
+    characters = db.relationship("Character", backref="character_publisher", lazy='dynamic')
+    volumes = db.relationship("Volume", backref="volume_publisher", lazy='dynamic')
+    teams = db.relationship("Team", backref="team_publisher", lazy='dynamic')
 
     def __repr__(self):
         return 'Publisher(name={}, address={}, city={}, state={}, deck={}, volumes={}, teams={}'.format(
@@ -117,7 +98,7 @@ class Publisher(BASE):
             ) + ")"
 
 
-class Volume(BASE):
+class Volume(db.Model):
     """
     image: image url
     description: info on volume
@@ -129,15 +110,14 @@ class Volume(BASE):
     name: name of volume
     """
     __tablename__ = "Volume"
-    image = Column(String)  # image url
-    description = Column(String(200), unique=False)
-    count_of_issues = Column(Integer, unique=False)
-    start_year = Column(Integer, unique=False)
-    publisher = Column(String(150), ForeignKey('Publisher.name'))
-    publisher_name = relationship("Publisher",  back_populates="volumes")
-    characters = relationship("Volume", secondary=CHARACTERS_VOLUMES, back_populates="volumes")
-    teams = relationship("Team", secondary=volumes_teams, back_populates="volumes")
-    name = Column(String, unique=True, primary_key=True)
+    image = db.Column(db.String)  # image url
+    description = db.Column(String(200), unique=False)
+    count_of_issues = db.Column(db.Integer, unique=False)
+    start_year = db.Column(db.Integer, unique=False)
+    publisher = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
+    characters = db.relationship("Volume", secondary=characters_volumes, backref=db.backref("characters_volume", lazy='dynamic'))
+    teams = db.relationship("Team", secondary=volumes_teams, backref=db.backref('teams_volume', lazy='dynamic'))
+    name = db.Column(String, unique=True, primary_key=True)
     def __repr__(self):
         return 'Volume(image={}, description={}, count_of_issues={},  start_year={}, publisher={}, teams={}'.format(
             self.image,
@@ -150,7 +130,7 @@ class Volume(BASE):
             ) + ")"
 
 
-class Team(BASE):
+class Team(db.Model):
     """
         name: name of team
         description: description of team
@@ -160,13 +140,12 @@ class Team(BASE):
         volumes: volumes that team appeard in
     """
     __tablename__ = "Team"
-    name = Column(String(50), unique=True, primary_key=True)
-    description = Column(String, unique=False)
-    image = Column(String)  # image url
-    publisher = Column(String(150), ForeignKey('Publisher.name'))	
-    publisher_name = relationship("Publisher", back_populates="teams")
-    characters = relationship("Character", secondary=characters_teams, back_populates="teams")
-    volumes = relationship("Volume", secondary=volumes_teams, back_populates="teams")
+    name = db.Column(db.String(50), unique=True, primary_key=True)
+    description = db.Column(db.String, unique=False)
+    image = db.Column(db.String)  # image url
+    publisher = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
+    characters = db.relationship("Character", secondary=characters_teams, backref=db.backref('character_teams', lazy='dynamic'))
+    volumes = db.relationship("Volume", secondary=volumes_teams, backref=db.backref('volume_teams', lazy='dynamic'))
 
 
     def __repr__(self):
