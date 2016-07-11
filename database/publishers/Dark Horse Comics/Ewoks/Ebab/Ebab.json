@@ -1,8 +1,8 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Ebab",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-64468/",
+    "name": "Ebab",
+    "gender": 1,
+    "id": 201,
     "creator": {},
-    "id": 201
+    "birth": null
 }

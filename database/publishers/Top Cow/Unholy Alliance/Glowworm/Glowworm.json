@@ -1,0 +1,10 @@
+{
+    "name": "Glowworm",
+    "creator": {
+        "name": "Kurt Busiek"
+    },
+    "gender": 1,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-42365/",
+    "birth": null,
+    "id": 782
+}

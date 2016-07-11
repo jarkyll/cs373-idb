@@ -7,7 +7,8 @@ from pprint import pprint
 postpend = "?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
 
 result = {}
-os.chdir('/u/cz4792/cs373/cs373-idb/database/publishers')
+#os.chdir('/u/cz4792/cs373/cs373-idb/database/publishers')
+working_directory = os.getcwd() + "/"
 id = 0
 for data in glob.glob('*.json'):
     extracted = {}
@@ -30,16 +31,16 @@ for data in glob.glob('*.json'):
     f.close()
     id += 1
 
-    direc = '/u/cz4792/cs373/cs373-idb/database/publishers/' + extracted['name']
+    direc = working_directory + extracted['name']
     if not os.path.exists(direc):
-        os.mkdir('/u/cz4792/cs373/cs373-idb/database/publishers/' + extracted['name'])
-    path = '/u/cz4792/cs373/cs373-idb/database/publishers/' + extracted['name'] + '/' + extracted['name'] + '.json'
+        os.mkdir(working_directory + extracted['name'])
+    path = working_directory + extracted['name'] + '/' + extracted['name'] + '.json'
     with open(path, 'w') as f:
         json.dump(extracted, f, indent=4)
 
     f.close()
 
-with open('/u/cz4792/cs373/cs373-idb/database/results/publisher_results.json', 'w') as f:
+with open(working_directory + 'results/publisher_results.json', 'w') as f:
     json.dump(result, f, indent=4)
 
 f.close()

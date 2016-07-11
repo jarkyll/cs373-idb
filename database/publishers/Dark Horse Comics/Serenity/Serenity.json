@@ -1,6 +1,6 @@
 {
     "id": 27,
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-42087/",
     "name": "Serenity",
-    "image": "http://static4.comicvine.com/uploads/scale_small/0/3848/327934-186776-serenity.jpg"
+    "image": "http://static4.comicvine.com/uploads/scale_small/0/3848/327934-186776-serenity.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-42087/"
 }

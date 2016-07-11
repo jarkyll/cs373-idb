@@ -1,8 +1,8 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Graak",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-64474/",
+    "name": "Graak",
+    "gender": 1,
+    "id": 202,
     "creator": {},
-    "id": 202
+    "birth": null
 }

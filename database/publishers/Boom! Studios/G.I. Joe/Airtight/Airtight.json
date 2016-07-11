@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-7702/",
+    "name": "Airtight",
+    "gender": 1,
+    "id": 124,
+    "creator": {
+        "name": "Mike Zeck"
+    },
+    "birth": null
+}

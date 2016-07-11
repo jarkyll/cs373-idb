@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-5569/",
+    "name": "Bloodshot",
+    "gender": 1,
+    "id": 422,
+    "creator": {
+        "name": "Kevin VanHook"
+    },
+    "birth": null
+}

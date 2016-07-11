@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Agent Hampton",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-99897/",
+    "name": "Agent Hampton",
+    "gender": 1,
+    "id": 233,
     "creator": {
         "name": "Mike Mignola"
     },
-    "id": 233
+    "birth": null
 }

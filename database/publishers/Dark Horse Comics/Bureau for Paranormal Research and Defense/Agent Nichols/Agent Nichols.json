@@ -1,8 +1,8 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Agent Nichols",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-124274/",
+    "name": "Agent Nichols",
+    "gender": 1,
+    "id": 234,
     "creator": {},
-    "id": 234
+    "birth": null
 }

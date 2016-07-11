@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-42148/",
+    "name": "Chucky Spinks",
+    "gender": 1,
+    "id": 80,
+    "creator": {
+        "name": "Eduardo Risso"
+    },
+    "birth": null
+}

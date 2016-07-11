@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 2,
-    "name": "Big Momma",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-87276/",
+    "name": "Big Momma",
+    "gender": 2,
+    "id": 214,
     "creator": {
         "name": "Chris Claremont"
     },
-    "id": 214
+    "birth": null
 }

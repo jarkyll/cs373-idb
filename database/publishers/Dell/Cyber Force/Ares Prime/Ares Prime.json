@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-86409/",
+    "name": "Ares Prime",
+    "gender": 1,
+    "id": 301,
+    "creator": {
+        "name": "Matt Hawkins"
+    },
+    "birth": null
+}

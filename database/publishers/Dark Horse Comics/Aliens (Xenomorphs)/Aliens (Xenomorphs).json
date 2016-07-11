@@ -1,6 +1,6 @@
 {
     "id": 22,
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-20659/",
     "name": "Aliens (Xenomorphs)",
-    "image": "http://static4.comicvine.com/uploads/scale_small/3/38826/877172-alienwarrior.jpg"
+    "image": "http://static4.comicvine.com/uploads/scale_small/3/38826/877172-alienwarrior.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-20659/"
 }

@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-12457/",
+    "name": "Magnus",
+    "gender": 1,
+    "id": 464,
+    "creator": {
+        "name": "Russ Manning"
+    },
+    "birth": null
+}

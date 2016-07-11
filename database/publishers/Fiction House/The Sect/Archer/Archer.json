@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-12469/",
+    "name": "Archer",
+    "gender": 1,
+    "id": 410,
+    "creator": {
+        "name": "Jim Shooter"
+    },
+    "birth": null
+}

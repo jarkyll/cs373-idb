@@ -1,8 +1,8 @@
 {
-    "birth": null,
-    "gender": 2,
-    "name": "Agent Gervesh",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-125055/",
+    "name": "Agent Gervesh",
+    "gender": 2,
+    "id": 232,
     "creator": {},
-    "id": 232
+    "birth": null
 }

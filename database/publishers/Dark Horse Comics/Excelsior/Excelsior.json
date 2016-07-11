@@ -1,6 +1,6 @@
 {
     "id": 28,
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-42318/",
     "name": "Excelsior",
-    "image": "http://static4.comicvine.com/uploads/scale_small/0/934/146928-46750-excelsior.jpg"
+    "image": "http://static4.comicvine.com/uploads/scale_small/0/934/146928-46750-excelsior.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-42318/"
 }

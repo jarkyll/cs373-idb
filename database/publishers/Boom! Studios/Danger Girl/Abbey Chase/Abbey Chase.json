@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-17820/",
+    "name": "Abbey Chase",
+    "gender": 2,
+    "id": 170,
+    "creator": {
+        "name": "J. Scott Campbell"
+    },
+    "birth": "Apr 19, 1987"
+}

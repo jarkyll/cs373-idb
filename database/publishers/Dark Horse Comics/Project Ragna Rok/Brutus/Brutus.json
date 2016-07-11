@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-82541/",
+    "name": "Brutus",
+    "gender": 1,
+    "id": 290,
+    "creator": {
+        "name": "Mike Mignola"
+    },
+    "birth": null
+}

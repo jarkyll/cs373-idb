@@ -1,8 +1,8 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Jayne Cobb",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-42085/",
+    "name": "Jayne Cobb",
+    "gender": 1,
+    "id": 272,
     "creator": {},
-    "id": 272
+    "birth": null
 }

@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-42116/",
+    "name": "Black Rapier",
+    "gender": 1,
+    "id": 63,
+    "creator": {
+        "name": "Kurt Busiek"
+    },
+    "birth": null
+}

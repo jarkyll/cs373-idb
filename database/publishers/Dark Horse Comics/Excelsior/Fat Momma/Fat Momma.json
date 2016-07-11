@@ -1,8 +1,8 @@
 {
-    "birth": null,
-    "gender": 2,
-    "name": "Fat Momma",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-70548/",
+    "name": "Fat Momma",
+    "gender": 2,
+    "id": 280,
     "creator": {},
-    "id": 280
+    "birth": null
 }

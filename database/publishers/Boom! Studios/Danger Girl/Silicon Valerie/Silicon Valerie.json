@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-17826/",
+    "name": "Silicon Valerie",
+    "gender": 2,
+    "id": 174,
+    "creator": {
+        "name": "J. Scott Campbell"
+    },
+    "birth": null
+}

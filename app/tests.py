@@ -1,30 +1,27 @@
-from flask_testing import TestCase
-from myapp import create_app, db
-import unittest
 # from OurModel import Character, Publisher, Volume, Team
-import flask_testing
+import json
+import unittest
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
+db = SQLAlchemy()
 
-class MyTest(TestCase):
-    SQLALCHEMY_DATABASE_URI = "postgres://"
-    TESTING = True
-    
-    def create_app(self):
-        return create_app(self)
+from models import *
+
+
+
+class MyTest(unittest.TestCase):
 
     def setUp(self):
-        # db.drop_all()
-        db.create_all()
-        character = Character(1, 'cha', 'Austin')
-        publisher = Publisher(2, 'pub', 'Houston')
-        volume = Volume(3, 'sfdfdkk.jpg', 'description')
-        team = Team(4, 'team', 'publisher')
-        db.session.add(character)
-        db.session.add(publisher)
-        db.session.add(volume)
-        db.session.add(team)
-        db.session.commit()
+
+
+    def tearDown(self):
+        self.base.metadata.drop_all(self.engine)
 
     def test_Character1(self, character):
+        name = 'batman'
+        image_url ='batman.com'
         self.assertEqual(character.id, 1)
 
     def test_Character2(self, character):
@@ -127,20 +124,10 @@ class MyTest(TestCase):
     def test_Query1(self):
     	t = Volume()
     	db.session.add(t)
-    	q = db.query.filter_by(volume=0).first(); 
+    	q = db.query.filter_by(volume=0).first();
     	assertEqual(t.publisher, "");
 
-    def test_Query2(self):
-        t = Publisher()
-    	db.session.add(t)
-        q = db.query.filter_by(publisher="").first(); 
-    	assertEqual(t.publisher, "");    
 
-    def test_Query3(self):
-    	t = Volume()
-    	db.session.add(t)
-    	q = db.query.filter_by(volume=0).all(); 
-    	assertEqual(q.size(), 0);
 
 # your test cases
 

@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-17807/",
+    "name": "Deuce",
+    "gender": 1,
+    "id": 171,
+    "creator": {
+        "name": "J. Scott Campbell"
+    },
+    "birth": null
+}

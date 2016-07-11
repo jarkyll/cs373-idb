@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-5991/",
+    "name": "Agent Graves",
+    "gender": 1,
+    "id": 70,
+    "creator": {
+        "name": "Eduardo Risso"
+    },
+    "birth": null
+}

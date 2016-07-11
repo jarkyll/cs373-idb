@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Agen Kolar",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-56843/",
+    "name": "Agen Kolar",
+    "gender": 1,
+    "id": 262,
     "creator": {
         "name": "George Lucas"
     },
-    "id": 262
+    "birth": null
 }

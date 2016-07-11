@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41602/",
+    "name": "Eccarius",
+    "gender": 1,
+    "id": 51,
+    "creator": {
+        "name": "Steve Dillon"
+    },
+    "birth": null
+}

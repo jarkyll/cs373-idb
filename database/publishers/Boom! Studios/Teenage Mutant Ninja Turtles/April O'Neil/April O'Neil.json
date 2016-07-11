@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-44968/",
+    "name": "April O'Neil",
+    "gender": 2,
+    "id": 140,
+    "creator": {
+        "name": "Peter Laird"
+    },
+    "birth": null
+}

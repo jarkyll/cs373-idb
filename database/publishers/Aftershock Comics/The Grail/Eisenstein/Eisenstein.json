@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-10543/",
+    "name": "Eisenstein",
+    "gender": 1,
+    "id": 43,
+    "creator": {
+        "name": "Peter Snejbjerg"
+    },
+    "birth": null
+}

@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-70810/",
+    "name": "Agent Helix",
+    "gender": 2,
+    "id": 122,
+    "creator": {
+        "name": "Brian Reed"
+    },
+    "birth": null
+}

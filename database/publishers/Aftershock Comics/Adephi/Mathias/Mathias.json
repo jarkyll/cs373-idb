@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41266/",
+    "name": "Mathias",
+    "gender": 1,
+    "id": 91,
+    "creator": {
+        "name": "Steve Dillon"
+    },
+    "birth": null
+}

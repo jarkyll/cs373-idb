@@ -1,8 +1,8 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Logray",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-16170/",
+    "name": "Logray",
+    "gender": 1,
+    "id": 204,
     "creator": {},
-    "id": 204
+    "birth": null
 }

@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Crocodile Alien",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-91536/",
+    "name": "Crocodile Alien",
+    "gender": 1,
+    "id": 224,
     "creator": {
         "name": "Ron Marz"
     },
-    "id": 224
+    "birth": null
 }

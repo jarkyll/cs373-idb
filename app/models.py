@@ -1,12 +1,5 @@
-from sqlalchemy import create_engine, Table, ForeignKey, Column, Integer, String, Boolean
-from sqlalchemy.orm import relationship
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.engine.url import URL
-from core import db
-
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
-
-
+from app import db
 
 
 
@@ -45,8 +38,8 @@ class Character(db.Model):
     gender = db.Column(db.String(10))
     creator = db.Column(db.String(50), unique=False)
     publisher = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
-    volumes = relationship("Volume", secondary=characters_volumes, backref=db.backref("volumes_character", lazy='dynamic'))
-    teams = relationship("Team", secondary=characters_teams, backref=db.backref("teams_character", lazy='dynamic'))
+    volumes = db.relationship("Volume", secondary=characters_volumes, backref=db.backref("volumes_character", lazy='dynamic'))
+    teams = db.relationship("Team", secondary=characters_teams, backref=db.backref("teams_character", lazy='dynamic'))
 
 
 
@@ -76,12 +69,12 @@ class Publisher(db.Model):
         volumes: volumes character has worked with
     """
     __tablename__ = "Publisher"
-    name = db.Column(String(50), unique=True, primary_key=True)
-    address = db.Column(String(100), unique=False)  # maybe this one?
-    city = db.Column(String(20), unique=False)
-    state = db.Column(String(2), unique=False)
-    deck = db.Column(String, unique=False)
-    image = db.Column(String)  # image url
+    name = db.Column(db.String(50), unique=True, primary_key=True)
+    address = db.Column(db.String(100), unique=False)  # maybe this one?
+    city = db.Column(db.String(20), unique=False)
+    state = db.Column(db.String(20), unique=False)
+    deck = db.Column(db.String, unique=False)
+    image = db.Column(db.String)  # image url
     characters = db.relationship("Character", backref="character_publisher", lazy='dynamic')
     volumes = db.relationship("Volume", backref="volume_publisher", lazy='dynamic')
     teams = db.relationship("Team", backref="team_publisher", lazy='dynamic')
@@ -111,13 +104,14 @@ class Volume(db.Model):
     """
     __tablename__ = "Volume"
     image = db.Column(db.String)  # image url
-    description = db.Column(String(200), unique=False)
+    description = db.Column(db.String(200), unique=False)
     count_of_issues = db.Column(db.Integer, unique=False)
     start_year = db.Column(db.Integer, unique=False)
     publisher = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
     characters = db.relationship("Volume", secondary=characters_volumes, backref=db.backref("characters_volume", lazy='dynamic'))
     teams = db.relationship("Team", secondary=volumes_teams, backref=db.backref('teams_volume', lazy='dynamic'))
-    name = db.Column(String, unique=True, primary_key=True)
+    name = db.Column(db.String, unique=True, primary_key=True)
+
     def __repr__(self):
         return 'Volume(image={}, description={}, count_of_issues={},  start_year={}, publisher={}, teams={}'.format(
             self.image,

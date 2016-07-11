@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41374/",
+    "name": "Mako",
+    "gender": 1,
+    "id": 54,
+    "creator": {
+        "name": "Steve Dillon"
+    },
+    "birth": null
+}

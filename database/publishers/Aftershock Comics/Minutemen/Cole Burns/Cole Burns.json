@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-5986/",
+    "name": "Cole Burns",
+    "gender": 1,
+    "id": 11,
+    "creator": {
+        "name": "Eduardo Risso"
+    },
+    "birth": null
+}

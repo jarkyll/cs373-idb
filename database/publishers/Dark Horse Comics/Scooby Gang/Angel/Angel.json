@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Angel",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-20094/",
+    "name": "Angel",
+    "gender": 1,
+    "id": 250,
     "creator": {
         "name": "Joss Whedon"
     },
-    "id": 250
+    "birth": null
 }

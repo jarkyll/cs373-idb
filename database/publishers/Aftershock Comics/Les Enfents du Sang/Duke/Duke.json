@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41373/",
+    "name": "Duke",
+    "gender": 1,
+    "id": 50,
+    "creator": {
+        "name": "Steve Dillon"
+    },
+    "birth": null
+}

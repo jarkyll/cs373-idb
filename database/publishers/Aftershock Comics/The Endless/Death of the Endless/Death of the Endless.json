@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-7280/",
+    "name": "Death of the Endless",
+    "gender": 2,
+    "id": 21,
+    "creator": {
+        "name": "Neil Gaiman"
+    },
+    "birth": null
+}

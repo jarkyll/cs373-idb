@@ -1,0 +1,10 @@
+{
+    "name": "Decibel",
+    "creator": {
+        "name": "Brian Murray"
+    },
+    "gender": 1,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-27157/",
+    "birth": null,
+    "id": 740
+}

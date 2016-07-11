@@ -1,6 +1,6 @@
 {
     "id": 23,
-    "api_url": "http://comicvine.gamespot.com/api/team/4060-40436/",
     "name": "Bureau for Paranormal Research and Defense",
-    "image": "http://static4.comicvine.com/uploads/scale_small/0/462/79445-99481-bureau-for-paranorma.jpg"
+    "image": "http://static4.comicvine.com/uploads/scale_small/0/462/79445-99481-bureau-for-paranorma.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-40436/"
 }

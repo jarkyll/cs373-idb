@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41344/",
+    "name": "Allfather D'Aronique",
+    "gender": 1,
+    "id": 40,
+    "creator": {
+        "name": "Steve Dillon"
+    },
+    "birth": null
+}

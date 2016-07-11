@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41394/",
+    "name": "Eddie Peck",
+    "gender": 1,
+    "id": 42,
+    "creator": {
+        "name": "Steve Dillon"
+    },
+    "birth": null
+}

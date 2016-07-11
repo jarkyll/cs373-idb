@@ -1,0 +1,10 @@
+{
+    "name": "Battlestone",
+    "creator": {
+        "name": "Rob Liefeld"
+    },
+    "gender": 1,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-5248/",
+    "birth": null,
+    "id": 701
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Babette",
+    "creator": {
+        "name": "Clive Barker"
+    },
+    "gender": 2,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-102923/",
+    "birth": null,
+    "id": 933
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Emp",
+    "creator": {
+        "name": "Jim Lee"
+    },
+    "gender": 1,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-21970/",
+    "birth": null,
+    "id": 752
+}

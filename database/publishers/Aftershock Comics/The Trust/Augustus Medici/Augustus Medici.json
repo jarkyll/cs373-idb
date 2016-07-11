@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-6000/",
+    "name": "Augustus Medici",
+    "gender": 1,
+    "id": 73,
+    "creator": {
+        "name": "Eduardo Risso"
+    },
+    "birth": null
+}

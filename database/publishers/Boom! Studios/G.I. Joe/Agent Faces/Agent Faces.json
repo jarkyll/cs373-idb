@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-63576/",
+    "name": "Agent Faces",
+    "gender": 1,
+    "id": 121,
+    "creator": {
+        "name": "Mark Powers"
+    },
+    "birth": null
+}

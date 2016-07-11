@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41049/",
+    "name": "The Professor",
+    "gender": 1,
+    "id": 354,
+    "creator": {
+        "name": "Mark Millar"
+    },
+    "birth": null
+}

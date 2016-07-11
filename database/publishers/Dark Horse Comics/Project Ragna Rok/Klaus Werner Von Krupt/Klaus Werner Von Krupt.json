@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-5499/",
+    "name": "Klaus Werner Von Krupt",
+    "gender": 1,
+    "id": 294,
+    "creator": {
+        "name": "Mike Mignola"
+    },
+    "birth": null
+}

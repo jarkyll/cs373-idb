@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-24232/",
+    "name": "Lucifer Morningstar",
+    "gender": 1,
+    "id": 31,
+    "creator": {
+        "name": "Scott Hampton"
+    },
+    "birth": null
+}

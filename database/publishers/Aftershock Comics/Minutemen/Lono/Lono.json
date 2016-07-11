@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-5994/",
+    "name": "Lono",
+    "gender": 1,
+    "id": 14,
+    "creator": {
+        "name": "Eduardo Risso"
+    },
+    "birth": null
+}

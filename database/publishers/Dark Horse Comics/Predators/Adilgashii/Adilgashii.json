@@ -1,8 +1,8 @@
 {
-    "birth": null,
-    "gender": 1,
-    "name": "Adilgashii",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-87307/",
+    "name": "Adilgashii",
+    "gender": 1,
+    "id": 210,
     "creator": {},
-    "id": 210
+    "birth": null
 }

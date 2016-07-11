@@ -1,0 +1,10 @@
+{
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-1668/",
+    "name": "Eternal Warrior",
+    "gender": 1,
+    "id": 431,
+    "creator": {
+        "name": "Robert Venditti"
+    },
+    "birth": null
+}

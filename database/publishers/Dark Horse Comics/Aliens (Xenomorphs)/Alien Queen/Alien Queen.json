@@ -1,10 +1,10 @@
 {
-    "birth": null,
-    "gender": 2,
-    "name": "Alien Queen",
     "api_url": "http://comicvine.gamespot.com/api/character/4005-52594/",
+    "name": "Alien Queen",
+    "gender": 2,
+    "id": 220,
     "creator": {
         "name": "Randy Stradley"
     },
-    "id": 220
+    "birth": null
 }
