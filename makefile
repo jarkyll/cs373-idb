@@ -1,14 +1,16 @@
 
 FILES :=                       \
+	.gitignore 				   \
     models.html                \
-    IDB1.log                   \
+    .travis.yml				   \
+    makefile				   \
+    apiary.apib 			   \
     app/models.py              \
 	app/tests.py 			   \
 	dn_init.sql				   \
     manage.py                  \
-    IDB1.log                   \
+    IDB2.log                   \
     app/demo/__init__.py       \
-	app/tests.py 			   \
     UML.pdf                    \
     unit_models.py
 
@@ -28,11 +30,11 @@ models.html: app/models.py
 	pydoc3 -w app/models.py
 
 IDB2.log:
-git log > IDB2.log
+	git log > IDB2.log
 
 pylint_mtests: .pylintrc 
--$(PYLINT) app/models.py
--$(PYLINT) app/tests.py
+	-$(PYLINT) app/models.py
+	-$(PYLINT) app/tests.py
 
 
 TestModels.tmp:
