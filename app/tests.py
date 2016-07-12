@@ -1,135 +1,21 @@
-# from OurModel import Character, Publisher, Volume, Team
 import json
-import unittest
+from unittest import main, TestCase
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy import *
 from sqlalchemy.ext.declarative import declarative_base
-db = SQLAlchemy()
-
 from models import *
 
-
-
-class MyTest(unittest.TestCase):
-
-    def setUp(self):
-
-
-    def tearDown(self):
-        self.base.metadata.drop_all(self.engine)
-
-    def test_Character1(self, character):
-        name = 'batman'
-        image_url ='batman.com'
-        self.assertEqual(character.id, 1)
-
-    def test_Character2(self, character):
-        self.assertEqual(character.name, 'cha')
-
-    def test_Character3(self, character):
-        self.assertEqual(character.birth, 'Austin')
-
-    def test_Publisher1(self, publisher):
-        self.assertEqual(publisher.id, 2)
-
-    def test_Publisher2(self, publisher):
-        self.assertEqual(publisher.name, 'pub')
-
-    def test_Publisher3(self, publisher):
-        self.assertEqual(publisher.locAd, 'Houston')
-
-    def test_Volume1(self, volume):
-        self.assertEqual(volume.id, 3)
-
-    def test_Volume2(self, volume):
-        self.assertEqual(volume.image, 'sfdfdkk.jpg')
-
-    def test_Volume3(self, volume):
-        self.assertEqual(volume.description, 'description')
-
-    def test_Team1(self, team):
-        self.assertEqual(team.id, 4)
-
-    def test_Team2(self, team):
-        self.assertEqual(team.name, 'team')
-
-    def test_Team3(self, team):
-        self.assertEqual(team.publisher, 'publisher')
-
-    def tearDown(self):
-        db.session.remove()
-        db.drop_all()
-
-    def test_Character_setup1(self):
-    	character_test = Character()
-    	db.session.add(character_test)
-    	db.session.commit()
-
-    def test_Character_setup2(self):
-    	character_test2 = Character()
-    	db.session.add(character_test2)
-    	db.session.commit()
-
-    def test_Character_setup3(self):
-    	character_test3 = Character()
-    	db.session.add(character_test3)
-    	db.session.commit()
-
-    def test_Publisher_setup1(self):
-        pub_test_1 = Publisher()
-        db.session.add(pub_test_1)
-        db.session.commit()
-
-    def test_Publisher_setup2(self):
-        data_test_2 = Publisher()
-        db.session.add(data_test_2)
-        db.session.commit()
-
-    def test_Publisher_setup3(self):
-        data_test_3 = Publisher()
-        db.session.add(data_test_3)
-        db.session.commit()
-
-    def test_Volume_setup1(self):
-    	volume_test1 = Volume()
-    	db.session.add(volume_test1)
-    	db.session.commit()
-
-    def test_Volume_setup2(self):
-    	volume_test2 = Volume()
-    	db.session.add(volume_test2)
-    	db.session.commit()
-
-    def test_Volume_setup3(self):
-    	volume_test3 = Volume()
-    	db.session.add(volume_test3)
-    	db.session.commit()
-
-    def test_Team_setup1(self):
-    	team_test1 = Team()
-    	db.session.add(Team_test1)
-    	db.session.commit()
-
-    def test_Team_setup2(self):
-    	team_test2 = Team()
-    	db.session.add(Team_test2)
-    	db.session.commit()
-
-    def test_Team_setup3(self):
-    	team_test3 = Team()
-    	db.session.add(Team_test3)
-    	db.session.commit()
-
-    def test_Query1(self):
-    	t = Volume()
-    	db.session.add(t)
-    	q = db.query.filter_by(volume=0).first();
-    	assertEqual(t.publisher, "");
+class MyTests(TestCase):
 
 
 
-# your test cases
+    def test_artist_id(self):
+        a = Publisher.query.filter_by(name='Image').first()
+        self.assertEqual('Image', a.name)
+        #print("Artist Test 1\nExpected: Chon\nActual: "+artist['name'])
 
-if __name__ == '__main__':
-    unittest.main()
+    def test_artist_id(self):
+
+if __name__ == "__main__":
+    main()
