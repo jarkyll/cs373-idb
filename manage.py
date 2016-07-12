@@ -3,7 +3,7 @@ import json
 import os
 import urllib.request
 from pprint import pprint
-from app.models import *
+from unit_models import *
 from app.demo import *
 
 PublisherName = ['Vertigo', 'IDW Publishing', 'Dark Horse Comics', 'Top Cow', 'Valiant', 'Dell', 'Aftershock Comics',
