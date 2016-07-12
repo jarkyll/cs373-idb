@@ -1,0 +1,570 @@
+{
+    "130": {
+        "name": "Battle",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1423/",
+        "description": null,
+        "id": 130,
+        "count_of_issues": 70,
+        "start_year": "1951"
+    },
+    "131": {
+        "name": "Forbidden Worlds",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1446/",
+        "description": null,
+        "id": 131,
+        "count_of_issues": 145,
+        "start_year": "1951"
+    },
+    "1800": {
+        "name": "Irredeemable",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26096/",
+        "description": null,
+        "id": 1800,
+        "count_of_issues": 37,
+        "start_year": "2009"
+    },
+    "1801": {
+        "name": "Irredeemable Special",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-32576/",
+        "description": " ",
+        "id": 1801,
+        "count_of_issues": 1,
+        "start_year": "2010"
+    },
+    "140": {
+        "name": "Super Friends",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2847/",
+        "description": null,
+        "id": 140,
+        "count_of_issues": 47,
+        "start_year": "1976"
+    },
+    "141": {
+        "name": "Tarzan",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5842/",
+        "description": null,
+        "id": 141,
+        "count_of_issues": 20,
+        "start_year": "1996"
+    },
+    "1201": {
+        "name": "Muppet Babies",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3494/",
+        "description": null,
+        "id": 1201,
+        "count_of_issues": 26,
+        "start_year": "1985"
+    },
+    "1040": {
+        "name": "Hellraiser Nightbreed: Jihad",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21597/",
+        "description": null,
+        "id": 1040,
+        "count_of_issues": 2,
+        "start_year": "1991"
+    },
+    "1041": {
+        "name": "Clive Barker's Hellraiser",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21636/",
+        "description": null,
+        "id": 1041,
+        "count_of_issues": 20,
+        "start_year": "1989"
+    },
+    "1810": {
+        "name": "Irredeemable",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26096/",
+        "description": null,
+        "id": 1810,
+        "count_of_issues": 37,
+        "start_year": "2009"
+    },
+    "1811": {
+        "name": "Irredeemable Special",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-32576/",
+        "description": " ",
+        "id": 1811,
+        "count_of_issues": 1,
+        "start_year": "2010"
+    },
+    "1300": {
+        "name": "Epic",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4788/",
+        "description": null,
+        "id": 1300,
+        "count_of_issues": 4,
+        "start_year": "1992"
+    },
+    "1301": {
+        "name": "Hellraiser Nightbreed: Jihad",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21597/",
+        "description": null,
+        "id": 1301,
+        "count_of_issues": 2,
+        "start_year": "1991"
+    },
+    "1820": {
+        "name": "Irredeemable",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26096/",
+        "description": null,
+        "id": 1820,
+        "count_of_issues": 37,
+        "start_year": "2009"
+    },
+    "1310": {
+        "name": "Clive Barker's Night Breed",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-23595/",
+        "description": null,
+        "id": 1310,
+        "count_of_issues": 26,
+        "start_year": "1990"
+    },
+    "1200": {
+        "name": "Marvel Comics Super Special",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2909/",
+        "description": null,
+        "id": 1200,
+        "count_of_issues": 41,
+        "start_year": "1977"
+    },
+    "1700": {
+        "name": "Farscape",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25243/",
+        "description": null,
+        "id": 1700,
+        "count_of_issues": 4,
+        "start_year": "2008"
+    },
+    "1701": {
+        "name": "Farscape: Strange Detractors",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2298/",
+        "description": null,
+        "id": 1701,
+        "count_of_issues": 4,
+        "start_year": "2009"
+    },
+    "1830": {
+        "name": "Irredeemable",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26096/",
+        "description": null,
+        "id": 1830,
+        "count_of_issues": 37,
+        "start_year": "2009"
+    },
+    "1831": {
+        "name": "Irredeemable",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-48746/",
+        "description": "Series of trade paperbacks collecting the series of the same name.",
+        "id": 1831,
+        "count_of_issues": 10,
+        "start_year": "2009"
+    },
+    "1320": {
+        "name": "Clive Barker's Nightbreed",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-74338/",
+        "description": null,
+        "id": 1320,
+        "count_of_issues": 12,
+        "start_year": "2014"
+    },
+    "1710": {
+        "name": "Farscape: D'Argo's Trial",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27714/",
+        "description": null,
+        "id": 1710,
+        "count_of_issues": 4,
+        "start_year": "2009"
+    },
+    "1711": {
+        "name": "Farscape",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-29919/",
+        "description": null,
+        "id": 1711,
+        "count_of_issues": 24,
+        "start_year": "2009"
+    },
+    "1840": {
+        "name": "Irredeemable",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26096/",
+        "description": null,
+        "id": 1840,
+        "count_of_issues": 37,
+        "start_year": "2009"
+    },
+    "1841": {
+        "name": "Irredeemable _ Incorruptible Free Comic Book Day Edition",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-32866/",
+        "description": "Vol 1",
+        "id": 1841,
+        "count_of_issues": 1,
+        "start_year": "2010"
+    },
+    "1330": {
+        "name": "Hellraiser Nightbreed: Jihad",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21597/",
+        "description": null,
+        "id": 1330,
+        "count_of_issues": 2,
+        "start_year": "1991"
+    },
+    "1331": {
+        "name": "Clive Barker's Night Breed",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-23595/",
+        "description": null,
+        "id": 1331,
+        "count_of_issues": 26,
+        "start_year": "1990"
+    },
+    "121": {
+        "name": "Rough Riders",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-89383/",
+        "description": null,
+        "id": 121,
+        "count_of_issues": 3,
+        "start_year": "2016"
+    },
+    "1720": {
+        "name": "Farscape",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25243/",
+        "description": null,
+        "id": 1720,
+        "count_of_issues": 4,
+        "start_year": "2008"
+    },
+    "1721": {
+        "name": "Farscape: Gone and Back",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-7394/",
+        "description": null,
+        "id": 1721,
+        "count_of_issues": 4,
+        "start_year": "2009"
+    },
+    "1210": {
+        "name": "Marvel Comics Super Special",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2909/",
+        "description": null,
+        "id": 1210,
+        "count_of_issues": 41,
+        "start_year": "1977"
+    },
+    "1211": {
+        "name": "The Muppets Take Manhattan",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3355/",
+        "description": null,
+        "id": 1211,
+        "count_of_issues": 3,
+        "start_year": "1984"
+    },
+    "1340": {
+        "name": "Hellraiser Nightbreed: Jihad",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21597/",
+        "description": null,
+        "id": 1340,
+        "count_of_issues": 2,
+        "start_year": "1991"
+    },
+    "1341": {
+        "name": "Clive Barker's Night Breed",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-23595/",
+        "description": null,
+        "id": 1341,
+        "count_of_issues": 26,
+        "start_year": "1990"
+    },
+    "1600": {
+        "name": "Farscape",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25243/",
+        "description": null,
+        "id": 1600,
+        "count_of_issues": 4,
+        "start_year": "2008"
+    },
+    "1601": {
+        "name": "Farscape: Strange Detractors",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2298/",
+        "description": null,
+        "id": 1601,
+        "count_of_issues": 4,
+        "start_year": "2009"
+    },
+    "1220": {
+        "name": "Marvel Comics Super Special",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2909/",
+        "description": null,
+        "id": 1220,
+        "count_of_issues": 41,
+        "start_year": "1977"
+    },
+    "1221": {
+        "name": "The Muppets Take Manhattan",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3355/",
+        "description": null,
+        "id": 1221,
+        "count_of_issues": 3,
+        "start_year": "1984"
+    },
+    "1610": {
+        "name": "Farscape",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25243/",
+        "description": null,
+        "id": 1610,
+        "count_of_issues": 4,
+        "start_year": "2008"
+    },
+    "1611": {
+        "name": "Farscape: Strange Detractors",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2298/",
+        "description": null,
+        "id": 1611,
+        "count_of_issues": 4,
+        "start_year": "2009"
+    },
+    "1100": {
+        "name": "Mighty Morphin Power Rangers: The Movie",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19519/",
+        "description": null,
+        "id": 1100,
+        "count_of_issues": 2,
+        "start_year": "1995"
+    },
+    "1101": {
+        "name": "Masked Rider",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27925/",
+        "description": null,
+        "id": 1101,
+        "count_of_issues": 1,
+        "start_year": "1996"
+    },
+    "1230": {
+        "name": "Marvel Comics Super Special",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2909/",
+        "description": null,
+        "id": 1230,
+        "count_of_issues": 41,
+        "start_year": "1977"
+    },
+    "1231": {
+        "name": "The Muppets Take Manhattan",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3355/",
+        "description": null,
+        "id": 1231,
+        "count_of_issues": 3,
+        "start_year": "1984"
+    },
+    "120": {
+        "name": "The Original Johnson",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-54887/",
+        "description": null,
+        "id": 120,
+        "count_of_issues": 1,
+        "start_year": "2009"
+    },
+    "1620": {
+        "name": "Farscape",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-29919/",
+        "description": null,
+        "id": 1620,
+        "count_of_issues": 24,
+        "start_year": "2009"
+    },
+    "1110": {
+        "name": "Mighty Morphin Power Rangers: The Movie",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19519/",
+        "description": null,
+        "id": 1110,
+        "count_of_issues": 2,
+        "start_year": "1995"
+    },
+    "1111": {
+        "name": "Masked Rider",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27925/",
+        "description": null,
+        "id": 1111,
+        "count_of_issues": 1,
+        "start_year": "1996"
+    },
+    "1240": {
+        "name": "Muppet Snow White",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-33187/",
+        "description": null,
+        "id": 1240,
+        "count_of_issues": 4,
+        "start_year": "2010"
+    },
+    "1241": {
+        "name": "Muppet King Arthur",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-58561/",
+        "description": null,
+        "id": 1241,
+        "count_of_issues": 1,
+        "start_year": "2010"
+    },
+    "1500": {
+        "name": "Unthinkable",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26379/",
+        "description": null,
+        "id": 1500,
+        "count_of_issues": 5,
+        "start_year": "2009"
+    },
+    "1630": {
+        "name": "Farscape",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25243/",
+        "description": null,
+        "id": 1630,
+        "count_of_issues": 4,
+        "start_year": "2008"
+    },
+    "1631": {
+        "name": "Farscape: Strange Detractors",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2298/",
+        "description": null,
+        "id": 1631,
+        "count_of_issues": 4,
+        "start_year": "2009"
+    },
+    "1120": {
+        "name": "Mighty Morphin Power Rangers: The Movie",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19519/",
+        "description": null,
+        "id": 1120,
+        "count_of_issues": 2,
+        "start_year": "1995"
+    },
+    "1121": {
+        "name": "Disney Adventures",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4511/",
+        "description": null,
+        "id": 1121,
+        "count_of_issues": 150,
+        "start_year": "1990"
+    },
+    "100": {
+        "name": "Cowboy Western",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1609/",
+        "description": null,
+        "id": 100,
+        "count_of_issues": 45,
+        "start_year": "1948"
+    },
+    "101": {
+        "name": "Annie Oakley",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-1699/",
+        "description": null,
+        "id": 101,
+        "count_of_issues": 11,
+        "start_year": "1948"
+    },
+    "1510": {
+        "name": "Unthinkable",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26379/",
+        "description": null,
+        "id": 1510,
+        "count_of_issues": 5,
+        "start_year": "2009"
+    },
+    "1000": {
+        "name": "Clive Barker's Book of the Damned: A Hellraiser Companion",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19932/",
+        "description": null,
+        "id": 1000,
+        "count_of_issues": 4,
+        "start_year": "1991"
+    },
+    "1641": {
+        "name": "Farscape: Strange Detractors",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2298/",
+        "description": null,
+        "id": 1641,
+        "count_of_issues": 4,
+        "start_year": "2009"
+    },
+    "1130": {
+        "name": "Power Rangers Turbo vs. Beetleborgs Metallix",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-31174/",
+        "description": null,
+        "id": 1130,
+        "count_of_issues": 1,
+        "start_year": "1997"
+    },
+    "110": {
+        "name": "Ghosts",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2503/",
+        "description": null,
+        "id": 110,
+        "count_of_issues": 112,
+        "start_year": "1971"
+    },
+    "111": {
+        "name": "Eerie",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2300/",
+        "description": null,
+        "id": 111,
+        "count_of_issues": 139,
+        "start_year": "1966"
+    },
+    "1640": {
+        "name": "Farscape",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25243/",
+        "description": null,
+        "id": 1640,
+        "count_of_issues": 4,
+        "start_year": "2008"
+    },
+    "1010": {
+        "name": "Hellraiser Nightbreed: Jihad",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21597/",
+        "description": null,
+        "id": 1010,
+        "count_of_issues": 2,
+        "start_year": "1991"
+    },
+    "1011": {
+        "name": "Pinhead",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21723/",
+        "description": null,
+        "id": 1011,
+        "count_of_issues": 6,
+        "start_year": "1993"
+    },
+    "1140": {
+        "name": "Power Rangers",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-50927/",
+        "description": null,
+        "id": 1140,
+        "count_of_issues": 4,
+        "start_year": "2012"
+    },
+    "1001": {
+        "name": "Hellraiser Nightbreed: Jihad",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21597/",
+        "description": null,
+        "id": 1001,
+        "count_of_issues": 2,
+        "start_year": "1991"
+    },
+    "1400": {
+        "name": "Hero Squared",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18658/",
+        "description": null,
+        "id": 1400,
+        "count_of_issues": 6,
+        "start_year": "2006"
+    },
+    "1401": {
+        "name": "Hero Squared",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-23467/",
+        "description": null,
+        "id": 1401,
+        "count_of_issues": 3,
+        "start_year": "2005"
+    },
+    "1020": {
+        "name": "Hellraiser Nightbreed: Jihad",
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21597/",
+        "description": null,
+        "id": 1020,
+        "count_of_issues": 2,
+        "start_year": "1991"
+    }
+}

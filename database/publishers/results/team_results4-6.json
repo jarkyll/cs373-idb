@@ -1,0 +1,270 @@
+{
+    "30": {
+        "appear": "Woody Woodpecker's Back to School",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-47541/",
+        "name": "Mouse Musketeers",
+        "id": 30,
+        "description": "Sometimes Jerry and Tuffy team up to form the Mouse Musketeers to defeat Tom. Touche, pussy cat!",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1044725-mm.jpg"
+    },
+    "31": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-47791/",
+        "name": "Buzzards",
+        "id": 31,
+        "description": "\"Funny animal\" vultures.",
+        "num_appearances": 0,
+        "image": null
+    },
+    "32": {
+        "appear": "The Webs of Arrack",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56310/",
+        "name": "Brothers of the Spear",
+        "id": 32,
+        "description": "They were the first intergrated hero team",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/728849-broothespear.jpg"
+    },
+    "33": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56624/",
+        "name": "Mod Squad",
+        "id": 33,
+        "description": "A group of young hipster criminals that turned into under cover cops.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1594158-modsquad.jpg"
+    },
+    "34": {
+        "appear": "Family Fun For Everyone",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56651/",
+        "name": "The Brady Bunch",
+        "id": 34,
+        "description": "A family with six children, two parents, and a maid.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/913852-brady_bunch1.jpg"
+    },
+    "35": {
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56708/",
+        "name": "Claw Gang",
+        "id": 35,
+        "description": "Mighty Mouse's greatest enemies. They are really only a bunch of cats!",
+        "num_appearances": 0,
+        "image": null
+    },
+    "36": {
+        "appear": "War Stories",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58000/",
+        "name": "The Night Devils",
+        "id": 36,
+        "description": "The best at getting behind the lines",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1593502-nightdevils2.jpg"
+    },
+    "37": {
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58811/",
+        "name": "Pithecanthropus tribe",
+        "id": 37,
+        "description": "They are the enemy of Kona and his Neanderthal tribe. They kidnap Mary Dodd and plan to sacrifice her.",
+        "num_appearances": 0,
+        "image": null
+    },
+    "38": {
+        "appear": "The Beverly HillBillies #1",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-59058/",
+        "name": "Beverly Hillbillies",
+        "id": 38,
+        "description": "The TV show characters who was a family of rural poor folk who struck oil and became very rich.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2578557-veverly_hillbillies1.jpg"
+    },
+    "39": {
+        "appear": "Vacationing in the Florida Everglades...",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-60031/",
+        "name": "Rocket Boys",
+        "id": 39,
+        "description": "Frank and Mac.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3250853-22%20frank%20and%20mack%20rocket%20boys%20in%20space%20dell.jpg"
+    },
+    "40": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-56995/",
+        "name": "Space Rangers",
+        "id": 40,
+        "description": "The Space Rangers",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2181282-spacerangers.jpg"
+    },
+    "41": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58036/",
+        "name": "Rangers of Freedom",
+        "id": 41,
+        "description": "Fiction house Heroes.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1616179-rangers_of_freedom.jpg"
+    },
+    "42": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58037/",
+        "name": "Royal Watch",
+        "id": 42,
+        "description": "Fiction House Team",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1616246-royal_watch_rangers_comics_1.jpg"
+    },
+    "43": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58038/",
+        "name": "Defense Patrol",
+        "id": 43,
+        "description": "Fiction House kid gang.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1616251-defense_patrol.jpg"
+    },
+    "44": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58040/",
+        "name": "Phantom Falcons",
+        "id": 44,
+        "description": "Fiction House Team.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1617886-phantom_falcons.jpg"
+    },
+    "45": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58041/",
+        "name": "Captain Morgan's US Rangers",
+        "id": 45,
+        "description": "Fiction House Military team.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1618095-captain_morgans_us_rangers.jpg"
+    },
+    "46": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58042/",
+        "name": "Captain Morgans Sky Rangers",
+        "id": 46,
+        "description": "Fiction House Military Team.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1618131-captain_morgans_sky_rangers.jpg"
+    },
+    "47": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58044/",
+        "name": "Crusoe Island",
+        "id": 47,
+        "description": "The Crusoe Island 3, or dealing with the horror of being stranded on a lost island with two babes.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1619465-crusoe_island.jpg"
+    },
+    "48": {
+        "appear": "Prey of the Slavers",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58184/",
+        "name": "Congo Lancers",
+        "id": 48,
+        "description": "Led by Captain Thunder.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1699404-captain_thunder_and_his_congo_lancers.jpg"
+    },
+    "49": {
+        "appear": "Prey of the Slavers",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-58185/",
+        "name": "White Hunters of the African Safari",
+        "id": 49,
+        "description": "Fiction House Team",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1699406-white_hunters_of_the_african_safari.jpg"
+    },
+    "50": {
+        "appear": "Operation: Lady Doomsday; ...Hot Potato!",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-7417/",
+        "name": "COBRA",
+        "id": 50,
+        "description": "Cobra (also called Cobra Command or Cobra Organization) is the nemesis of the G.I. Joe team.   Along with battling G.I. Joe, the members of Cobra are dealing with numerous internal power struggles.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/964808-cobra.jpg"
+    },
+    "51": {
+        "appear": "Zartan!",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-7715/",
+        "name": "Dreadnoks",
+        "id": 51,
+        "description": "The Dreadnoks are Zartan's mercenary team.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/90339-2626-dreadnoks.jpg"
+    },
+    "52": {
+        "appear": "William M. Gaines' Utterly Mad",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-12206/",
+        "name": "G.I. Joe",
+        "id": 52,
+        "description": "G.I. Joe is America's elite fighting force. They are the best trained counter-terrorist team. The only defense against the villainous terrorist organization, Cobra.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2596436-gi.jpg"
+    },
+    "53": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-23900/",
+        "name": "Romulans",
+        "id": 53,
+        "description": "Romulas are an alien race on in the Star Trek Universe. They are descended from another alien race called Vulcans. They are usually enemies of the Federation.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/879941-romulan_symbols.jpg"
+    },
+    "54": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-26934/",
+        "name": "Teenage Mutant Ninja Turtles",
+        "id": 54,
+        "description": "Four baby turtles mutated by toxic goo called mutagen and trained in the art of ninjutsu by fellow mutant Master Splinter. The Turtles different fighting styles and personalities build off one another making them a formidable team.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2710732-teenage_mutant_ninja_turtles_by_tpollockjr.jpg"
+    },
+    "55": {
+        "appear": "Battle For Cybertron",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40489/",
+        "name": "Autobots",
+        "id": 55,
+        "description": "The Autobots, led by Optimus Prime, are a benevolent race of living machines. They are the protagonists of the hit cartoon and comic book, The Transformers. They always fight the evil Decepticons to prevent them from taking over the Universe.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/141241-195921-autobots.jpg"
+    },
+    "56": {
+        "appear": "Battle For Cybertron",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40490/",
+        "name": "Decepticons",
+        "id": 56,
+        "description": "Decepticons are the arch-enemies of the Autobots.  Decepticons -- as their name implies -- use deception and villainy to advance their own cause.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/77601-102027-decepticons.jpg"
+    },
+    "57": {
+        "appear": "Prelude to Danger",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-40975/",
+        "name": "Danger Girl",
+        "id": 57,
+        "description": "A top secret, covert combat force consisting of the best female operatives in the world.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2293538-dgr.jpg"
+    },
+    "58": {
+        "appear": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41249/",
+        "name": "C.T.U.",
+        "id": 58,
+        "description": "Counter Terrorist Unit, a United States counter-terrorist agency set to defend America from foreign and domestic terrorists.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/497959-24_cast.jpg"
+    },
+    "59": {
+        "appear": "The Last Stand; part 1",
+        "api_url": "http://comicvine.gamespot.com/api/team/4060-41692/",
+        "name": "Dinobots",
+        "id": 59,
+        "description": "A team of independent minded Autobot dinosaur robots that give the Autobots the muscle to match the threat of the more dangerous and powerful Decepticons. In the IDW universe they are known as the Dynobots.",
+        "num_appearances": 0,
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2466082-rage_of_the_dinobots.jpg"
+    }
+}

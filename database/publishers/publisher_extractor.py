@@ -14,7 +14,7 @@ for data in glob.glob('*.json'):
     extracted = {}
     f = open(data, 'r')
     test = json.load(f)
-
+    
     extracted['id'] =  id
     extracted['name'] = test['results']['name']
     extracted['location'] = {}
