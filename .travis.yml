@@ -3,15 +3,25 @@ language: python
 python:
    - "3.5"
 
-sudo: false
+sudo: true
 
 install:
     - pip install --upgrade pip
     - pip --version
+    - pip install requests
     - pip install coverage
-    - pip install numpy
     - pip install pylint
+    - pip install flask
+    - pip install flask-sqlalchemy
+    - pip install psycopg2
+    - pip install autopep8
+    - sudo apt-get install postgresql postgresql-contrib
 
+script:
+    - psql -d postgres -f db_init.sql
+    - nosetests nose_tests/
+    - date
+    - ls -lah
 before_script:
     - uname -a
     - printenv
@@ -23,3 +33,10 @@ script:
     - date
     - ls -al
     - make test
+
+
+
+
+    have tehm install flask
+    have them install flask-sqlalchemy
+    hve them install psycopg2
