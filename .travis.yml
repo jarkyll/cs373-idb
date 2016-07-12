@@ -19,9 +19,8 @@ install:
 
 script:
     - psql -d postgres -f db_init.sql
-    - nosetests nose_tests/
-    - date
-    - ls -lah
+
+
 before_script:
     - uname -a
     - printenv
@@ -36,7 +35,3 @@ script:
 
 
 
-
-    have tehm install flask
-    have them install flask-sqlalchemy
-    hve them install psycopg2

@@ -1,12 +1,44 @@
-FILES :=        	\
-    .gitignore  	\
-    makefile    	\
-    apiary.apib 	\
-    IDB2.log    	\
-    models.html 	\
-    app/models.py   \
-    app/tests.py    \
-    UML.pdf
+
+FILES :=                       \
+    models.html                \
+    IDB1.log                   \
+    app/models.py              \
+	app/tests.py 			   \
+	dn_init.sql				   \
+    manage.py                  \
+    IDB1.log                   \
+    app/demo/__init__.py       \
+	app/tests.py 			   \
+    UML.pdf                    \
+    unit_models.py
+
+
+ifeq ($(CI), true)
+    COVERAGE := coverage
+    PYLINT   := pylint
+else
+    COVERAGE := coverage-3.5
+	PYLINT   := pylint
+endif
+
+.pylintrc:
+	$(PYLINT) --disable=bad-whitespace,missing-docstring,pointless-string-statement --reports=n --generate-rcfile > $@
+
+models.html: app/models.py
+	pydoc3 -w app/models.py
+
+IDB2.log:
+git log > IDB2.log
+
+pylint_mtests: .pylintrc 
+-$(PYLINT) app/models.py
+-$(PYLINT) app/tests.py
+
+
+TestModels.tmp:
+	$(COVERAGE) run --omit='*sqlalchemy*' --branch app/tests.py > TestModels.tmp 2>&1
+	$(COVERAGE) report -m                 >> TestModels.tmp
+	cat TestModels.tmp
 
 check:
 		@not_found=0;                             \
@@ -27,18 +59,31 @@ check:
     fi;                                           \
 	echo "success";
 
+
 clean:
+	rm -f  .pylintrc
 	rm -f  *.pyc
 	rm -f  models.html
-	rm -f  IDB1.log
+	rm -f  models.log
 	rm -rf __pycache__
+
 
 format:
 	autopep8 -i app/models.py
+	autopep8 -i app/tests.py
+	autopep8 -i app/demo/__init__.py
+	autopep8 -i manage.py
+	autopep8 -i unit_models.py
 
-models.html: app/models.py
-	pydoc3 -w models
 
-IDB2.log:
-	git log > IDB2.log
+status:
+	make clean
+	@echo
+	git branch
+	git remote -v
+	git status
+
+test: models.html IDB2.log format pylint_mtests check TestModels.tmp
+
+
 
