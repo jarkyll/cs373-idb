@@ -1,0 +1,14 @@
+{
+    "num_appearances": 2,
+    "creator": {
+        "name": "Ron Marz"
+    },
+    "id": 224,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-91536/",
+    "appear": "Book Two",
+    "gender": 1,
+    "birth": null,
+    "name": "Crocodile Alien",
+    "real_name": "Crocodile Xenomorph",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3298587-crocodile_alien-batman-aliens%232-after_batman.jpg"
+}

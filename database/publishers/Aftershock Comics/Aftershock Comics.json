@@ -1,25 +1,25 @@
 {
-    "image": "http://static4.comicvine.com/uploads/scale_small/0/40/4505179-aftershock1.jpg?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json",
+    "deck": null,
+    "name": "Aftershock Comics",
     "teams": [
         {
-            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-62497/",
             "name": "Black-Eyed Children",
+            "site_detail_url": "http://comicvine.gamespot.com/black-eyed-children/4060-62497/",
             "id": 62497,
-            "site_detail_url": "http://comicvine.gamespot.com/black-eyed-children/4060-62497/"
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-62497/"
         },
         {
-            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-62532/",
             "name": "Rough Riders",
+            "site_detail_url": "http://comicvine.gamespot.com/rough-riders/4060-62532/",
             "id": 62532,
-            "site_detail_url": "http://comicvine.gamespot.com/rough-riders/4060-62532/"
+            "api_detail_url": "http://comicvine.gamespot.com/api/team/4060-62532/"
         }
     ],
-    "name": "Aftershock Comics",
     "location": {
-        "state": "California",
+        "address": null,
         "city": "Los Angeles, CA",
-        "address": null
+        "state": "California"
     },
-    "id": 6,
-    "deck": null
+    "id": 0,
+    "image": "http://static4.comicvine.com/uploads/scale_small/0/40/4505179-aftershock1.jpg?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json"
 }

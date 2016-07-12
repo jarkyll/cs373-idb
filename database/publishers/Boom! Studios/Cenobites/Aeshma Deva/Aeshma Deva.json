@@ -1,0 +1,14 @@
+{
+    "num_appearances": 3,
+    "creator": {
+        "name": "Clive Barker"
+    },
+    "id": 101,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-102986/",
+    "appear": "As Above...",
+    "gender": 2,
+    "birth": null,
+    "name": "Aeshma Deva",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3858658-aeshma%20deva.jpg"
+}

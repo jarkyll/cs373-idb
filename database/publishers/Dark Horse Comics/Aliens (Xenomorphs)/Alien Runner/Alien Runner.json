@@ -1,0 +1,14 @@
+{
+    "num_appearances": 3,
+    "creator": {
+        "name": "H.R. Giger"
+    },
+    "id": 221,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-91389/",
+    "appear": "1 (of 3)",
+    "gender": 1,
+    "birth": null,
+    "name": "Alien Runner",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3221701-runner-toy_model-alien3.jpg"
+}

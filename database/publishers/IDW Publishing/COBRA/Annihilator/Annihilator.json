@@ -1,0 +1,12 @@
+{
+    "name": "Annihilator",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3228469-annihilator.jpeg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-63614/",
+    "gender": null,
+    "id": 501,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 2,
+    "appear": "Thunderclap"
+}

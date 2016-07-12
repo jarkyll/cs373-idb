@@ -1,0 +1,12 @@
+{
+    "name": "Oil Can Harry",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1528157-images__16_.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-64424/",
+    "gender": 1,
+    "id": 350,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 14,
+    "appear": "Paul Terry's Mighty Mouse Album"
+}

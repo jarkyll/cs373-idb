@@ -1,0 +1,14 @@
+{
+    "name": "Silicon Valerie",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2556488-valerie.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-17826/",
+    "gender": 2,
+    "id": 574,
+    "creator": {
+        "name": "J. Scott Campbell"
+    },
+    "real_name": "Valerie Evans",
+    "num_appearances": 44,
+    "appear": "Prelude to Danger"
+}

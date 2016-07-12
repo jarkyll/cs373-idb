@@ -1,0 +1,13 @@
+{
+    "num_appearances": 6,
+    "creator": {
+        "name": "Jim Henson"
+    },
+    "id": 124,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-113378/",
+    "gender": 1,
+    "birth": null,
+    "name": "Lips",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/4357790-lipscloseup.jpg"
+}

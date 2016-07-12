@@ -1,0 +1,9 @@
+{
+    "name": "Elephantmen",
+    "description": "The Elephantmen are a group of Human/Animal hybrids created by the MAPPO corporation.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-41176/",
+    "num_appearances": 0,
+    "appear": "Unnatural Selection",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/556632-elephantmen_promo01.jpg",
+    "id": 67
+}

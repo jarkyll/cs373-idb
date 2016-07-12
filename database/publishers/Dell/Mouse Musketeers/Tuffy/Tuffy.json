@@ -1,0 +1,11 @@
+{
+    "name": "Tuffy",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/242019-34144-tuffy.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-39632/",
+    "gender": 1,
+    "id": 301,
+    "creator": {},
+    "real_name": "Nibbles",
+    "num_appearances": 809
+}

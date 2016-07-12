@@ -1,0 +1,12 @@
+{
+    "name": "Aimless",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/952725-aimless.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-65843/",
+    "gender": 1,
+    "id": 562,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 2,
+    "appear": "Brothers in Armor!!"
+}

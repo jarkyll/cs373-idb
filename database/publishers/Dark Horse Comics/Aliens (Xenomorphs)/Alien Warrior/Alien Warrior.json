@@ -1,0 +1,14 @@
+{
+    "num_appearances": 208,
+    "creator": {
+        "name": "H.R. Giger"
+    },
+    "id": 222,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-61046/",
+    "appear": "GN",
+    "gender": 1,
+    "birth": null,
+    "name": "Alien Warrior",
+    "real_name": "Alien Warrior",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/877170-alien.jpg"
+}

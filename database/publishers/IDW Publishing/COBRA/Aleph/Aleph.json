@@ -1,0 +1,12 @@
+{
+    "name": "Aleph",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3228474-aleph.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-45517/",
+    "gender": 1,
+    "id": 500,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 2,
+    "appear": "Enter the Night Creepers"
+}

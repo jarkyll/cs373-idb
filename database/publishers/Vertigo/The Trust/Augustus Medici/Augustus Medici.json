@@ -1,0 +1,14 @@
+{
+    "id": 973,
+    "creator": {
+        "name": "Eduardo Risso"
+    },
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1140723-augustus.jpg",
+    "appear": "Shot, Water Back, Part 2",
+    "real_name": "Augustus Medici",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-6000/",
+    "birth": null,
+    "num_appearances": 50,
+    "name": "Augustus Medici",
+    "gender": 1
+}

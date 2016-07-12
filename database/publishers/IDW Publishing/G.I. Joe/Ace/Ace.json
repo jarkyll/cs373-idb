@@ -1,0 +1,12 @@
+{
+    "name": "Ace",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1791699-ace.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-7729/",
+    "gender": 1,
+    "id": 520,
+    "creator": {},
+    "real_name": "Brad J. Armbruster",
+    "num_appearances": 81,
+    "appear": "Destro Attacks"
+}

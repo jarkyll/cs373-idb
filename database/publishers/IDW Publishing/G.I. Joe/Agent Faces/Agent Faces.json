@@ -1,0 +1,14 @@
+{
+    "name": "Agent Faces",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/879523-agentfaces.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-63576/",
+    "gender": 1,
+    "id": 521,
+    "creator": {
+        "name": "Mark Powers"
+    },
+    "real_name": "Michelino J. Paolino",
+    "num_appearances": 1,
+    "appear": "World War III, Part : Havoc!"
+}

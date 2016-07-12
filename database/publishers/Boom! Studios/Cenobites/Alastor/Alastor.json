@@ -1,0 +1,14 @@
+{
+    "num_appearances": 2,
+    "creator": {
+        "name": "Clive Barker"
+    },
+    "id": 102,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-102987/",
+    "appear": "As Above...",
+    "gender": 1,
+    "birth": null,
+    "name": "Alastor",
+    "real_name": "Alastor",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3858640-alastor.jpg"
+}

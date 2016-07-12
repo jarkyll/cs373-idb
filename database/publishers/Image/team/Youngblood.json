@@ -1,0 +1,9 @@
+{
+    "name": "Youngblood",
+    "description": "Youngblood is a team of superheroes hired by the United States government.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-5196/",
+    "num_appearances": 0,
+    "appear": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2439091-youngblood_74.jpg",
+    "id": 60
+}

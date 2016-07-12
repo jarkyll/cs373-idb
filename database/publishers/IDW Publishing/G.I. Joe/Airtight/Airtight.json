@@ -1,0 +1,14 @@
+{
+    "name": "Airtight",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1791710-airtight.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-7702/",
+    "gender": 1,
+    "id": 524,
+    "creator": {
+        "name": "Mike Zeck"
+    },
+    "real_name": "Kurt Schnurr",
+    "num_appearances": 51,
+    "appear": "Improvision On A Theme"
+}

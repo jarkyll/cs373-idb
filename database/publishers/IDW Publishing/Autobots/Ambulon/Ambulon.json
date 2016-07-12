@@ -1,0 +1,12 @@
+{
+    "name": "Ambulon",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2912150-ambulon.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-87914/",
+    "gender": 1,
+    "id": 554,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 15,
+    "appear": "TPB"
+}

@@ -1,0 +1,14 @@
+{
+    "num_appearances": 16,
+    "creator": {
+        "name": "David Mack"
+    },
+    "id": 241,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41515/",
+    "appear": "Fear The Reaper",
+    "gender": 2,
+    "birth": null,
+    "name": "Ice",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/88018-108338-ice.jpg"
+}

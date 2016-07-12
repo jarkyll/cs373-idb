@@ -1,0 +1,12 @@
+{
+    "name": "Billy Bob",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2971930-billybob-card.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-45520/",
+    "gender": 1,
+    "id": 510,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 1,
+    "appear": "World War III, Part : Havoc!"
+}

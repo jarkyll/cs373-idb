@@ -2,134 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31ec4c0-5bbb-4ea8-acce-b7e1ddd64254" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/core.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/publishers/volume_extractor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Aftershock Comics/Aftershock Comics.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Aftershock Comics/Black-Eyed Children/Black-Eyed Children.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Aftershock Comics/Rough Riders/Annie Oakley/Annie Oakley.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Aftershock Comics/Rough Riders/Harry Houdini/Harry Houdini.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Aftershock Comics/Rough Riders/Jack Johnson/Jack Johnson.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Aftershock Comics/Rough Riders/Rough Riders.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Aftershock Comics/Rough Riders/Theodore Roosevelt/Theodore Roosevelt.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Aftershock Comics/Rough Riders/Thomas Alva Edison/Thomas Alva Edison.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Boom! Studios.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Cenobites/Abigor/Abigor.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Cenobites/Aeshma Deva/Aeshma Deva.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Cenobites/Alastor/Alastor.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Cenobites/Angelique/Angelique.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Cenobites/Atkins/Atkins.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Cenobites/Cenobites.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Doctor Teeth and the Electric Mayhem/Animal/Animal.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Doctor Teeth and the Electric Mayhem/Doctor Teeth and the Electric Mayhem.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Doctor Teeth and the Electric Mayhem/Dr. Teeth/Dr. Teeth.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Doctor Teeth and the Electric Mayhem/Floyd/Floyd.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Doctor Teeth and the Electric Mayhem/Janice/Janice.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Doctor Teeth and the Electric Mayhem/Lips/Lips.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Moya's Crew/Aeryn Sun/Aeryn Sun.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Moya's Crew/Chiana/Chiana.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Moya's Crew/Deke Crichton/Deke Crichton.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Moya's Crew/John Crichton/John Crichton.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Moya's Crew/Jothee/Jothee.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Moya's Crew/Moya's Crew.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Nightbreed/Aaron Boone/Aaron Boone.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Nightbreed/Aello/Aello.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Nightbreed/Annastajia/Annastajia.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Nightbreed/Babette/Babette.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Nightbreed/Baphomet/Baphomet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Nightbreed/Nightbreed.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Paradigm/Bette Noir/Bette Noir.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Paradigm/Charybdis/Charybdis.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Paradigm/Citadel/Citadel.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Paradigm/Gazer/Gazer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Paradigm/Gilgamos/Gilgamos.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Paradigm/Paradigm.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Peacekeepers/Aeryn Sun/Aeryn Sun.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Peacekeepers/Bialar Crais/Bialar Crais.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Peacekeepers/Peacekeepers.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Peacekeepers/Scorpius/Scorpius.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Planetary Brigade/Captain Valor/Captain Valor.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Planetary Brigade/Planetary Brigade.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Power Rangers/Alpha 5/Alpha 5.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Power Rangers/Black Power Ranger/Black Power Ranger.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Power Rangers/Blue Power Ranger/Blue Power Ranger.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Power Rangers/Dimitria/Dimitria.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Power Rangers/Gold Power Ranger/Gold Power Ranger.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Power Rangers/Power Rangers.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/The Think Tank/Alan Ripley/Alan Ripley.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/The Think Tank/The Operator/The Operator.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/The Think Tank/The Think Tank.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Dark Horse Comics.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Dell/Dell.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Fiction House/Fiction House.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/IDW Publishing/IDW Publishing.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Image/Image.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Top Cow/Top Cow.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Valiant/Valiant.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/publishers/Vertigo/Vertigo.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/results/character_results.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/results/character_results1-3.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/results/publisher_results.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/results/team_results.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database/results/team_results1-3.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/characters/character_extractor.py" afterPath="$PROJECT_DIR$/database/publishers/character_extractor.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/teams/team_extractor.py" afterPath="$PROJECT_DIR$/database/publishers/team_extractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/__init__.py" afterPath="$PROJECT_DIR$/app/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models.py" afterPath="$PROJECT_DIR$/app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tests.py" afterPath="$PROJECT_DIR$/app/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Aliens (Xenomorphs)/Alien Queen/Alien Queen.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Aliens (Xenomorphs)/Alien Queen/Alien Queen.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Aliens (Xenomorphs)/Alien Runner/Alien Runner.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Aliens (Xenomorphs)/Alien Runner/Alien Runner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Aliens (Xenomorphs)/Alien Warrior/Alien Warrior.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Aliens (Xenomorphs)/Alien Warrior/Alien Warrior.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Aftershock Comics/Aftershock Comics.json" afterPath="$PROJECT_DIR$/database/publishers/Aftershock Comics/Aftershock Comics.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Boom! Studios/Boom! Studios.json" afterPath="$PROJECT_DIR$/database/publishers/Boom! Studios/Boom! Studios.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Aliens (Xenomorphs)/Aliens (Xenomorphs).json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Aliens (Xenomorphs)/Aliens (Xenomorphs).json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Aliens (Xenomorphs)/Bodyburster/Bodyburster.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Aliens (Xenomorphs)/Bodyburster/Bodyburster.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Aliens (Xenomorphs)/Crocodile Alien/Crocodile Alien.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Aliens (Xenomorphs)/Crocodile Alien/Crocodile Alien.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Bureau for Paranormal Research and Defense/Abe Sapien/Abe Sapien.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Bureau for Paranormal Research and Defense/Abe Sapien/Abe Sapien.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Bureau for Paranormal Research and Defense/Agent Enos/Agent Enos.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Bureau for Paranormal Research and Defense/Agent Enos/Agent Enos.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Bureau for Paranormal Research and Defense/Agent Gervesh/Agent Gervesh.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Bureau for Paranormal Research and Defense/Agent Gervesh/Agent Gervesh.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Bureau for Paranormal Research and Defense/Agent Hampton/Agent Hampton.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Bureau for Paranormal Research and Defense/Agent Hampton/Agent Hampton.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Bureau for Paranormal Research and Defense/Agent Nichols/Agent Nichols.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Bureau for Paranormal Research and Defense/Agent Nichols/Agent Nichols.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Bureau for Paranormal Research and Defense/Bureau for Paranormal Research and Defense.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Bureau for Paranormal Research and Defense/Bureau for Paranormal Research and Defense.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Ewoks/Chief Chirpa/Chief Chirpa.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Ewoks/Chief Chirpa/Chief Chirpa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Ewoks/Ebab/Ebab.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Ewoks/Ebab/Ebab.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Dark Horse Comics.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Dark Horse Comics.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Ewoks/Ewoks.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Ewoks/Ewoks.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Ewoks/Graak/Graak.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Ewoks/Graak/Graak.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Ewoks/Latara/Latara.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Ewoks/Latara/Latara.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Ewoks/Logray/Logray.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Ewoks/Logray/Logray.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Excelsior/Excelsior.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Excelsior/Excelsior.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Excelsior/Fat Momma/Fat Momma.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Excelsior/Fat Momma/Fat Momma.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Excelsior/Feedback/Feedback.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Excelsior/Feedback/Feedback.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Excelsior/The Defuser/The Defuser.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Excelsior/The Defuser/The Defuser.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Jedi Order/Aayla Secura/Aayla Secura.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Jedi Order/Aayla Secura/Aayla Secura.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Jedi Order/Adi Gallia/Adi Gallia.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Jedi Order/Adi Gallia/Adi Gallia.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Jedi Order/Agen Kolar/Agen Kolar.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Jedi Order/Agen Kolar/Agen Kolar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Jedi Order/Ahsoka Tano/Ahsoka Tano.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Jedi Order/Ahsoka Tano/Ahsoka Tano.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Jedi Order/Allara/Allara.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Jedi Order/Allara/Allara.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Jedi Order/Jedi Order.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Jedi Order/Jedi Order.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Predators/Adilgashii/Adilgashii.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Predators/Adilgashii/Adilgashii.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Predators/Aquaman Predator/Aquaman Predator.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Predators/Aquaman Predator/Aquaman Predator.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Predators/Atom Predator/Atom Predator.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Predators/Atom Predator/Atom Predator.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Predators/Batman Predator/Batman Predator.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Predators/Batman Predator/Batman Predator.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Predators/Big Momma/Big Momma.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Predators/Big Momma/Big Momma.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Predators/Predators.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Predators/Predators.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Scooby Gang/Angel/Angel.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Scooby Gang/Angel/Angel.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Scooby Gang/Anya/Anya.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Scooby Gang/Anya/Anya.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Scooby Gang/Billy Lane/Billy Lane.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Scooby Gang/Billy Lane/Billy Lane.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Scooby Gang/Buffy/Buffy.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Scooby Gang/Buffy/Buffy.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Scooby Gang/Buffybot/Buffybot.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Scooby Gang/Buffybot/Buffybot.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Project Ragna Rok/Project Ragna Rok.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Project Ragna Rok/Project Ragna Rok.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Scooby Gang/Scooby Gang.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Scooby Gang/Scooby Gang.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Serenity/Book/Book.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Serenity/Book/Book.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Serenity/Inara Serra/Inara Serra.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Serenity/Inara Serra/Inara Serra.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Serenity/Jayne Cobb/Jayne Cobb.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Serenity/Jayne Cobb/Jayne Cobb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Serenity/Kaylee Frye/Kaylee Frye.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Serenity/Kaylee Frye/Kaylee Frye.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Serenity/Malcolm Reynolds/Malcolm Reynolds.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Serenity/Malcolm Reynolds/Malcolm Reynolds.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Serenity/Serenity.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/Serenity/Serenity.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/The Noh/Butoh/Butoh.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/The Noh/Butoh/Butoh.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/The Noh/Ice/Ice.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/The Noh/Ice/Ice.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/The Noh/Kabuki/Kabuki.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/The Noh/Kabuki/Kabuki.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/The Noh/Scarab/Scarab.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/The Noh/Scarab/Scarab.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/The Noh/Siamese/Siamese.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/The Noh/Siamese/Siamese.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/The Noh/The Noh.json" afterPath="$PROJECT_DIR$/database/publishers/Dark Horse Comics/The Noh/The Noh.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/publisher_extractor.py" afterPath="$PROJECT_DIR$/database/publishers/publisher_extractor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Dell/Dell.json" afterPath="$PROJECT_DIR$/database/publishers/Dell/Dell.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Fiction House/Fiction House.json" afterPath="$PROJECT_DIR$/database/publishers/Fiction House/Fiction House.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/IDW Publishing/Autobots/Autobots.json" afterPath="$PROJECT_DIR$/database/publishers/IDW Publishing/Autobots/Autobots.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/IDW Publishing/C.T.U./C.T.U..json" afterPath="$PROJECT_DIR$/database/publishers/IDW Publishing/C.T.U./C.T.U..json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/IDW Publishing/COBRA/COBRA.json" afterPath="$PROJECT_DIR$/database/publishers/IDW Publishing/COBRA/COBRA.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/IDW Publishing/Danger Girl/Danger Girl.json" afterPath="$PROJECT_DIR$/database/publishers/IDW Publishing/Danger Girl/Danger Girl.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/IDW Publishing/Decepticons/Decepticons.json" afterPath="$PROJECT_DIR$/database/publishers/IDW Publishing/Decepticons/Decepticons.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/IDW Publishing/Dinobots/Dinobots.json" afterPath="$PROJECT_DIR$/database/publishers/IDW Publishing/Dinobots/Dinobots.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/IDW Publishing/Dreadnoks/Dreadnoks.json" afterPath="$PROJECT_DIR$/database/publishers/IDW Publishing/Dreadnoks/Dreadnoks.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/IDW Publishing/G.I. Joe/G.I. Joe.json" afterPath="$PROJECT_DIR$/database/publishers/IDW Publishing/G.I. Joe/G.I. Joe.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/IDW Publishing/IDW Publishing.json" afterPath="$PROJECT_DIR$/database/publishers/IDW Publishing/IDW Publishing.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/IDW Publishing/Romulans/Romulans.json" afterPath="$PROJECT_DIR$/database/publishers/IDW Publishing/Romulans/Romulans.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/IDW Publishing/Teenage Mutant Ninja Turtles/Teenage Mutant Ninja Turtles.json" afterPath="$PROJECT_DIR$/database/publishers/IDW Publishing/Teenage Mutant Ninja Turtles/Teenage Mutant Ninja Turtles.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Image/Image.json" afterPath="$PROJECT_DIR$/database/publishers/Image/Image.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Top Cow/Aggressive Solutions International/Aggressive Solutions International.json" afterPath="$PROJECT_DIR$/database/publishers/Top Cow/Aggressive Solutions International/Aggressive Solutions International.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Top Cow/Arachnos/Arachnos.json" afterPath="$PROJECT_DIR$/database/publishers/Top Cow/Arachnos/Arachnos.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Top Cow/Council of Five/Council of Five.json" afterPath="$PROJECT_DIR$/database/publishers/Top Cow/Council of Five/Council of Five.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Top Cow/Cyber Force/Cyber Force.json" afterPath="$PROJECT_DIR$/database/publishers/Top Cow/Cyber Force/Cyber Force.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Top Cow/Freedom Phalanx/Freedom Phalanx.json" afterPath="$PROJECT_DIR$/database/publishers/Top Cow/Freedom Phalanx/Freedom Phalanx.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Top Cow/Freshmen/Freshmen.json" afterPath="$PROJECT_DIR$/database/publishers/Top Cow/Freshmen/Freshmen.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Top Cow/Hunter-Killer/Hunter-Killer.json" afterPath="$PROJECT_DIR$/database/publishers/Top Cow/Hunter-Killer/Hunter-Killer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Top Cow/Strykeforce/Strykeforce.json" afterPath="$PROJECT_DIR$/database/publishers/Top Cow/Strykeforce/Strykeforce.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Top Cow/The Fraternity/The Fraternity.json" afterPath="$PROJECT_DIR$/database/publishers/Top Cow/The Fraternity/The Fraternity.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Top Cow/Top Cow.json" afterPath="$PROJECT_DIR$/database/publishers/Top Cow/Top Cow.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Top Cow/Weapon Zero/Weapon Zero.json" afterPath="$PROJECT_DIR$/database/publishers/Top Cow/Weapon Zero/Weapon Zero.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Valiant/H.A.R.D. Corps/H.A.R.D. Corps.json" afterPath="$PROJECT_DIR$/database/publishers/Valiant/H.A.R.D. Corps/H.A.R.D. Corps.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Valiant/Psi Lords/Psi Lords.json" afterPath="$PROJECT_DIR$/database/publishers/Valiant/Psi Lords/Psi Lords.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Valiant/Secret Weapons/Secret Weapons.json" afterPath="$PROJECT_DIR$/database/publishers/Valiant/Secret Weapons/Secret Weapons.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Valiant/The Sect/The Sect.json" afterPath="$PROJECT_DIR$/database/publishers/Valiant/The Sect/The Sect.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Valiant/Valiant.json" afterPath="$PROJECT_DIR$/database/publishers/Valiant/Valiant.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Vertigo/Adephi/Adephi.json" afterPath="$PROJECT_DIR$/database/publishers/Vertigo/Adephi/Adephi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Vertigo/Honor Guard/Honor Guard.json" afterPath="$PROJECT_DIR$/database/publishers/Vertigo/Honor Guard/Honor Guard.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Vertigo/Les Enfents du Sang/Les Enfents du Sang.json" afterPath="$PROJECT_DIR$/database/publishers/Vertigo/Les Enfents du Sang/Les Enfents du Sang.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Vertigo/Minutemen/Minutemen.json" afterPath="$PROJECT_DIR$/database/publishers/Vertigo/Minutemen/Minutemen.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Vertigo/Recipients of the Attaché/Recipients of the Attaché.json" afterPath="$PROJECT_DIR$/database/publishers/Vertigo/Recipients of the Attaché/Recipients of the Attaché.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Vertigo/The Endless/The Endless.json" afterPath="$PROJECT_DIR$/database/publishers/Vertigo/The Endless/The Endless.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Vertigo/The Grail/The Grail.json" afterPath="$PROJECT_DIR$/database/publishers/Vertigo/The Grail/The Grail.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Vertigo/The Losers/The Losers.json" afterPath="$PROJECT_DIR$/database/publishers/Vertigo/The Losers/The Losers.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Vertigo/The Trust/The Trust.json" afterPath="$PROJECT_DIR$/database/publishers/Vertigo/The Trust/The Trust.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Vertigo/Vertigo.json" afterPath="$PROJECT_DIR$/database/publishers/Vertigo/Vertigo.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/publishers/Vertigo/Yahweh's Children/Yahweh's Children.json" afterPath="$PROJECT_DIR$/database/publishers/Vertigo/Yahweh's Children/Yahweh's Children.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
     </list>
     <ignored path="cs373-idb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -153,8 +81,8 @@
       <file leaf-file-name="manage.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="232">
+              <caret line="251" column="23" selection-start-line="251" selection-start-column="23" selection-end-line="251" selection-end-column="23" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -162,52 +90,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vertigo.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/publishers/Vertigo/Vertigo.json">
+      <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-              <folding>
-                <element signature="e#15#35752#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="publisher_extractor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/publisher_extractor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#23#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="character_extractor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/publishers/character_extractor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-              <folding>
-                <marker date="1468219520904" expanded="false" signature="23:98" ph="import ..." />
-                <marker date="1468219520904" expanded="true" signature="121:526" ph="..." />
-                <marker date="1468219520904" expanded="true" signature="334:373" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -215,8 +103,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="83">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -225,12 +113,43 @@
       <file leaf-file-name="team_extractor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/publishers/team_extractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            <state relative-caret-position="218">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
-                <marker date="1468219520900" expanded="false" signature="23:98" ph="import ..." />
-                <marker date="1468219520900" expanded="true" signature="121:444" ph="..." />
+                <element signature="e#23#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Valiant.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/publishers/Valiant.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publisher_results.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/publishers/results/publisher_results.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129438">
+              <caret line="7191" column="0" selection-start-line="7191" selection-start-column="0" selection-end-line="7191" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#9#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="character_extractor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/publishers/character_extractor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -250,18 +169,8 @@
       <file leaf-file-name="publisher_extractor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/publishers/publisher_extractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Boom! Studios.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/publishers/Boom! Studios/Boom! Studios.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -330,8 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -363,6 +272,20 @@
               <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs373-idb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs373-idb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="publishers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -378,7 +301,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publishers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aftershock Comics" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -466,6 +397,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cs373-idb" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="models (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="cs373-idb" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -604,18 +552,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.core" />
       <item index="1" class="java.lang.String" itemvalue="Python.models" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in MyTest" />
       <item index="3" class="java.lang.String" itemvalue="Python.manage" />
+      <item index="4" class="java.lang.String" itemvalue="Python.models (1)" />
     </list>
     <recent_temporary>
-      <list size="4">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.manage" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in MyTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.models" />
-        <item index="3" class="java.lang.String" itemvalue="Python.core" />
+        <item index="1" class="java.lang.String" itemvalue="Python.models (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in MyTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.models" />
+        <item index="4" class="java.lang.String" itemvalue="Python.core" />
       </list>
     </recent_temporary>
   </component>
@@ -638,27 +588,46 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2777778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12441315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6743827" sideWeight="0.121283256" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38734567" sideWeight="0.86384976" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39969134" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35185185" sideWeight="0.87871677" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6743827" sideWeight="0.121283256" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.9058642" sideWeight="0.86384976" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12441315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5910494" sideWeight="0.87871677" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -668,8 +637,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/manage.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="2" />
+          <line>249</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/manage.py</url>
+          <line>247</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -679,11 +653,194 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="10" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="db.session.query(Volume).filter_by(name='100 Bullets').one()" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4835">
+          <caret line="460" column="0" selection-start-line="460" selection-start-column="0" selection-end-line="460" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="827" column="0" selection-start-line="827" selection-start-column="0" selection-end-line="827" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/sqlalchemy/engine/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="449" column="0" selection-start-line="449" selection-start-column="0" selection-end-line="449" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/publisher_results.json" />
+    <entry file="file://$PROJECT_DIR$/database/results/character_results.json" />
+    <entry file="file://$PROJECT_DIR$/database/results/character_results1-3.json" />
+    <entry file="file://$PROJECT_DIR$/database/results/team_results.json" />
+    <entry file="file://$PROJECT_DIR$/database/publishers/volume_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-776">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/Aftershock Comics/Aftershock Comics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/Boom! Studios/Boom! Studios.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/Vertigo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="0" column="50092" selection-start-line="0" selection-start-column="50092" selection-end-line="0" selection-end-column="50092" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/Aftershock Comics/Adephi/Adephi.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/Aftershock Comics/team.json" />
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/Vertigo/Vertigo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="837" column="43" selection-start-line="837" selection-start-column="43" selection-end-line="837" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/publisher_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publisher_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/character_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/results/publisher_results.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129456">
+          <caret line="7192" column="0" selection-start-line="7192" selection-start-column="0" selection-end-line="7192" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#9#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/Valiant.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/team_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="99" column="99" selection-start-line="99" selection-start-column="99" selection-end-line="99" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="241" column="0" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -698,9 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,7 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4835">
           <caret line="460" column="0" selection-start-line="460" selection-start-column="0" selection-end-line="460" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="827" column="0" selection-start-line="827" selection-start-column="0" selection-end-line="827" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="449" column="0" selection-start-line="449" selection-start-column="0" selection-end-line="449" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,47 +883,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/publishers/publisher_results.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/results/character_results.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/results/character_results1-3.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/results/team_results.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/publisher_results.json" />
+    <entry file="file://$PROJECT_DIR$/database/results/character_results.json" />
+    <entry file="file://$PROJECT_DIR$/database/results/character_results1-3.json" />
+    <entry file="file://$PROJECT_DIR$/database/results/team_results.json" />
     <entry file="file://$PROJECT_DIR$/database/publishers/results/publisher_results.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="129438">
+          <caret line="7191" column="0" selection-start-line="7191" selection-start-column="0" selection-end-line="7191" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#9#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -780,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-776">
           <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,26 +925,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="0" column="50092" selection-start-line="0" selection-start-column="50092" selection-end-line="0" selection-end-column="50092" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/publishers/character_extractor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-          <folding>
-            <marker date="1468219520904" expanded="false" signature="23:98" ph="import ..." />
-            <marker date="1468219520904" expanded="true" signature="121:526" ph="..." />
-            <marker date="1468219520904" expanded="true" signature="334:373" ph="..." />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/publishers/publisher_extractor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="18">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -838,32 +954,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/publishers/team_extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-          <folding>
-            <marker date="1468219520900" expanded="false" signature="23:98" ph="import ..." />
-            <marker date="1468219520900" expanded="true" signature="121:444" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,9 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -881,16 +972,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/publishers/team_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
-            <element signature="e#15#35752#0" expanded="false" />
+            <element signature="e#23#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="232">
+          <caret line="251" column="23" selection-start-line="251" selection-start-column="23" selection-end-line="251" selection-end-column="23" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>

@@ -1,0 +1,12 @@
+{
+    "name": "Afterburner",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2559738-afterburner.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41956/",
+    "gender": 1,
+    "id": 550,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 28,
+    "appear": "Ring of Hate!"
+}

@@ -1,0 +1,9 @@
+{
+    "name": "The Atomics",
+    "description": "A Super Hero team that consists of Madman and his most trusted friends.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-17865/",
+    "num_appearances": 0,
+    "appear": "Frank Einstein's Holi-daze Adventure",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/79331-144986-atomics.jpg",
+    "id": 62
+}

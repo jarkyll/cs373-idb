@@ -1,0 +1,8 @@
+{
+    "name": "Marvel Comics Super Special",
+    "id": 2000,
+    "api_url": "http://comicvine.gamespot.com/api/volume/4050-2909/",
+    "description": null,
+    "count_of_issues": 41,
+    "start_year": "1977"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Donatello",
+    "birth": "May 1, 1984",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2986160-tumblr_m9way1u5x51r7rdaz.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-44709/",
+    "gender": 1,
+    "id": 542,
+    "creator": {
+        "name": "Peter Laird"
+    },
+    "real_name": "Donatello",
+    "num_appearances": 623,
+    "appear": "Modesty Blaise (+ the final Batman Sunday strips)"
+}

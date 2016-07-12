@@ -1,0 +1,13 @@
+{
+    "id": 633,
+    "creator": {
+        "name": "Erik Larsen"
+    },
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1093883-badaxe2.jpg",
+    "real_name": "Unknown",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-68280/",
+    "birth": null,
+    "num_appearances": 4,
+    "name": "Bad Axe",
+    "gender": 1
+}

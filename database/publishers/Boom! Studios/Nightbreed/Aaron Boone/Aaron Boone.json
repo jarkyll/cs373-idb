@@ -1,0 +1,14 @@
+{
+    "num_appearances": 34,
+    "creator": {
+        "name": "Clive Barker"
+    },
+    "id": 130,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-55067/",
+    "appear": "...Where the Monsters Go",
+    "gender": 1,
+    "birth": null,
+    "name": "Aaron Boone",
+    "real_name": "Aaron Boone",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/4367064-aaron_boone-hellraiser-nightbreed-jihad%232-back_cover.jpg"
+}

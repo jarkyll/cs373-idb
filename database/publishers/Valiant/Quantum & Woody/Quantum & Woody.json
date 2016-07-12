@@ -1,0 +1,9 @@
+{
+    "name": "Quantum & Woody",
+    "description": "The World's Worst Superhero Team",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-56288/",
+    "num_appearances": 0,
+    "appear": "Quantum and Woody: The Director's Cut",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3309794-qw_006_cover_crain.jpg",
+    "id": 88
+}

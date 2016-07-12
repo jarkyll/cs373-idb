@@ -1,0 +1,14 @@
+{
+    "num_appearances": 17,
+    "creator": {
+        "name": "David Mack"
+    },
+    "id": 244,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41508/",
+    "appear": "Fear The Reaper",
+    "gender": 2,
+    "birth": null,
+    "name": "Siamese",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/87189-72577-siamese.jpg"
+}
