@@ -7,7 +7,7 @@ FILES :=                       \
     apiary.apib 			   \
     app/models.py              \
 	app/tests.py 			   \
-	dn_init.sql				   \
+	db_init.sql				   \
     manage.py                  \
     IDB2.log                   \
     app/demo/__init__.py       \
