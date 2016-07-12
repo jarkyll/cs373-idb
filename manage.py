@@ -240,12 +240,12 @@ def fetch_json(url):
     return data
 
 if __name__ == '__main__':
-    test = db.session.query(Publisher).filter_by(name='Vertigo').one()
-    print(test.publisher_characters)
-    for character in test.publisher_characters:
-        print(character.name)
-    test = db.session.query(Character).filter_by(name='The Sandman')
-    test = db.session.query(Volume).filter_by(name='100 Bullets')
+    #test = db.session.query(Publisher).filter_by(name='Vertigo').one()
+    #print(test.publisher_characters)
+    #for character in test.publisher_characters:
+    #    print(character.name)
+    #test = db.session.query(Character).filter_by(name='The Sandman')
+    #test = db.session.query(Volume).filter_by(name='100 Bullets')
 
     add_publishers()
     add_teams()
