@@ -1,6 +1,8 @@
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
 from cs373-idb import db
 
+
+
 characters_volumes = db.Table('characters_volumes',
     db.Column('character_name', db.String(150), db.ForeignKey('Character.name')),
     db.Column('volume_name', db.String(100), db.ForeignKey('Volume.name'))
