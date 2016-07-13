@@ -74,6 +74,9 @@ class MyTests(TestCase):
         res = fetch_json('http://downing.rocks/api/volume/Preacher')
         self.assertEqual(66, int(res["result"]["num_issues"]))
 
+    def test_invalid_URL(self):
+        res = fetch_json('http://downing.rocks/api')
+        self.assertEqual(None, res)
 
 if __name__ == "__main__":
     main()
