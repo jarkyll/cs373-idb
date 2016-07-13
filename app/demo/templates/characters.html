@@ -16,27 +16,12 @@
       </thead>
       <tbody>
          <tr ng-repeat="character in characters">
-            <td class="image"><a id="inner" href="http://downing.rocks/character/2"><img id="publishers" src=[[ character.image ]] class="img-rounded" alt="Teams"></a></td>
-            <td class="name">[[ character.name ]]</td>
+            <td class="image"><a id="inner" href="http://downing.rocks/character/2"><img id="publishers" src="[[ formatjson(character.image) ]]" class="img-rounded" alt="Teams"></a></td>
+            <td class="name">[[ formatjson(character.name) ]]</td>
             <td class="real_name">[[ character.real_name ]]</td>
-            <td class="publisher"><a href="http://downing.rocks/publisher/2">[[ character.publisher ]]</a></td>
-            <td class="gender">[[ character.gender ]]</td>
+            <td class="publisher"><a href="http://downing.rocks/publisher/2">[[ formatjson(character.publisher) ]]</a></td>
+            <td class="gender">[[ formatjson(character.gender) ]]</td>
          </tr>
-         <tr>
-            <td class=" "><a id="inner" href="http://downing.rocks/character/3"><img id="publishers" src="http://static4.comicvine.com/uploads/square_avatar/1/12483/277673-175026-jerry.jpg" class="img-rounded" alt="Teams"></a></td>
-            <td class=" ">Jerry</td>
-            <td class=" ">Unknown</td>
-            <td class=""><a href="http://downing.rocks/publisher/3">Dell</a></td>
-            <td class="">1438</td>
-         </tr>
-         <tr>
-            <td class=" "><a id="inner" href="http://downing.rocks/character/1"><img id="publishers" src="http://static4.comicvine.com/uploads/square_avatar/1/15317/319977-72031-chief-chirpa.jpg" class="img-rounded" alt="Teams"></a></td>
-            <td class=" ">Chief Chirpa</td>
-            <td class=" ">Conan</td>
-            <td class=" "><a href="http://downing.rocks/publisher/1">Dark Horse Comics</a></td>
-            <td class=" ">14</td>
-         </tr>
-
       </tbody>
    </table>
 </div>

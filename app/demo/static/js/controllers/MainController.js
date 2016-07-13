@@ -7,12 +7,20 @@ app.controller('MainController', ['$scope', 'tests', 'characters', function($sco
 	$scope.runTests = function() {
 		console.log("Pressed run tests button");
     };
-    tests.success(function(data) { 
+  tests.success(function(data) { 
     	$scope.tests = data; 
     	console.log(JSON.stringify(data));
   });
-    characters.success(function(data) { 
+  characters.success(function(data) { 
     	$scope.characters = data['result']; 
     	console.log(JSON.stringify(data));
   });
+  $scope.formatjson = function(a){
+     a = a.map(function(x){
+        return x.replace(/^[a-z]\[\]/,function(m){
+            return m.toUpperCase()
+        });
+     });
+    return a.join();
+  };
 }]);
