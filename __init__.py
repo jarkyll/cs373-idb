@@ -280,7 +280,7 @@ class Publisher(db.Model):
 @app.route("/")
 def homepage():
     return render_template("index.html")
-
+'''
 @app.route('/runtests')
 def runtests():
     stream = StringIO()
@@ -288,7 +288,7 @@ def runtests():
     result = runner.run(unittest.makeSuite(MyTests))
     print(result, file=sys.stderr)
     return result
-
+'''
 @app.route("/about")
 def about():
     return render_template("about.html")
