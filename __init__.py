@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify
 import jinja2
-from test_suite import *
+#from test_suite import *
 import unittest, sys
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.engine.url import URL
@@ -14,7 +14,7 @@ BASE_URL = '/api'
 
 PublisherName = ['Vertigo', 'IDW Publishing', 'Dark Horse Comics', 'Top Cow', 'Valiant', 'Dell', 'Aftershock Comics',
                  'Image', 'Fiction House', 'Boom! Studios']
-dir = os.getcwd() + '/'
+#dir = os.getcwd() + '/'
 
 
 characters_volumes = db.Table('characters_volumes',
