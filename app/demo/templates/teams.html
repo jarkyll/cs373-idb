@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-		<div id="content" class="container">
+		<div id="content" class="container" ng-controller="MainController">
       <table id="table" class="display nowrap" cellspacing="0" width="100%">
         <thead>
           <tr>
@@ -13,25 +13,11 @@
         </thead>
         <tbody>
           <tr ng-repeat="team in teams">
-            <td><a id="inner" href="http://downing.rocks/team/1"><img id="publishers" src="http://static1.comicvine.com/uploads/square_avatar/1/19151/367187-154544-ewoks.JPG"></a></td>
-            <td>Ewoks</td>
-            <td><a href="http://downing.rocks/publisher/1">Dark Horse Comics</a></td>
-            <td>Mad 176-179</td>
-            <td>Unknown</td>
-          </tr>
-          <tr>
-            <td><a id="inner" href="http://downing.rocks/team/2"><img id="publishers" src="http://static1.comicvine.com/uploads/square_avatar/0/3125/1044725-mm.jpg"</a></td>
-            <td>Mouse Musketeers</td>
-            <td><a href="http://downing.rocks/publisher/3">Dell</a></td>
-            <td>Woody Woodpecker's Back to School</td>
-            <td>Unknown</td>
-          </tr>
-          <tr>
-            <td><a id="inner" href="http://downing.rocks/team/3"><img id="publishers" src="http://static4.comicvine.com/uploads/square_avatar/2/27783/2181282-spacerangers.jpg"></a></td>
-            <td>Space Ranger</td>
-            <td><a href="http://downing.rocks/publisher/2">Fiction House</a></td>
-            <td>Unknown</td>
-            <td>Unknown</td>
+            <td><a id="inner" href="http://downing.rocks/team/1"><img id="publishers" src="[[ formatjson(team.image) ]]" ></a></td>
+            <td>[[ formatjson(team.name) ]]</td>
+            <td><a href="http://downing.rocks/publisher/1">[[ formatjson(team.publisher) ]]</a></td>
+            <td>[[ formatjson(team.appear) ]]</td>
+            <td>[[ formatjson(team.num_appearances) ]]</td>
           </tr>
         </tbody>
       </table>
