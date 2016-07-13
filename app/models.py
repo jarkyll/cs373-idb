@@ -1,5 +1,5 @@
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
-from demo import db
+from app.demo import db
 
 
 class Characters_Volumes(db.Model):

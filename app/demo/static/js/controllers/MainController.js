@@ -9,6 +9,6 @@ app.controller('MainController', ['$scope', 'tests', function($scope, tests) {
     };
     tests.success(function(data) { 
     	$scope.tests = data; 
-    	console.log(JSON.stringify(data));
+    	    	console.log(JSON.stringify(data));
   });
 }]);

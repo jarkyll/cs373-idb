@@ -7,7 +7,14 @@ from unit_models import *
 from app.demo import *
 import jinja2
 from pprint import pprint
-import pickle
+import pickle 
+from test_suite import *
+import unittest, sys
+
+try:
+    from StringIO import StringIO
+except ImportError:
+    from io import StringIO
 
 loader = jinja2.FileSystemLoader('templates')
 PublisherName = ['Vertigo', 'IDW Publishing', 'Dark Horse Comics', 'Top Cow', 'Valiant', 'Dell', 'Aftershock Comics',
@@ -21,9 +28,43 @@ def jdefault(o):
     return o.__dict__
 
 
+json_example = """
+{
+    "glossary": {
+        "title": "example glossary",
+        "GlossDiv": {
+            "title": "S",
+            "GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+                    "SortAs": "SGML",
+                    "GlossTerm": "Standard Generalized Markup Language",
+                    "Acronym": "SGML",
+                    "Abbrev": "ISO 8879:1986",
+                    "GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+                        "GlossSeeAlso": ["GML", "XML"]
+                    },
+                    "GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
+
+"""
+
 @app.route("/")
 def homepage():
     return render_template("index.html")
+
+@app.route('/runtests')
+def runtests():
+    stream = StringIO()
+    runner = unittest.TextTestRunner(stream=stream)
+    result = runner.run(unittest.makeSuite(MyTests))
+    print(result, file=sys.stderr)
+    return result
 
 @app.route("/about")
 def about():
@@ -496,4 +537,4 @@ if __name__ == '__main__':
     #add_teams_volumes()
     test = db.session.query(Publisher).filter_by(name='Vertigo')
     # update_publisher_teams()
-    app.run()
+    app.run(debug=True)

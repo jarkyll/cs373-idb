@@ -1,0 +1,117 @@
+EEEEEEEEEEEEEE
+======================================================================
+ERROR: test_character_name (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 24, in test_character_name
+    res = fetch_json('http://downing.rocks/api/character/DeBlanc')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_character_name2 (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 32, in test_character_name2
+    res = fetch_json('http://downing.rocks/api/character/Granny')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_character_real_name (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 28, in test_character_real_name
+    res = fetch_json('http://downing.rocks/api/character/DeBlanc')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_publisher_city (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 16, in test_publisher_city
+    res = fetch_json('http://downing.rocks/api/publisher/Vertigo')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_publisher_image (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 12, in test_publisher_image
+    res = fetch_json('http://downing.rocks/api/publisher/Vertigo')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_publisher_name (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 7, in test_publisher_name
+    res = fetch_json('http://downing.rocks/api/publisher/Vertigo')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_publisher_teams (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 20, in test_publisher_teams
+    res = fetch_json('http://downing.rocks/api/publisher/Vertigo')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_team_description (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 40, in test_team_description
+    res = fetch_json('http://downing.rocks/api/teams/Adephi')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_team_image (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 48, in test_team_image
+    res = fetch_json('http://downing.rocks/api/teams/Adephi')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_team_name (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 36, in test_team_name
+    res = fetch_json('http://downing.rocks/api/teams/Adephi')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_team_num_appear (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 44, in test_team_num_appear
+    res = fetch_json('http://downing.rocks/api/teams/Adephi')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_volume_description (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 56, in test_volume_description
+    res = fetch_json('http://downing.rocks/api/volumes/Preacher')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_volume_name (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 52, in test_volume_name
+    res = fetch_json('http://downing.rocks/api/volumes/Preacher')
+NameError: name 'fetch_json' is not defined
+
+======================================================================
+ERROR: test_volume_num_issues (__main__.MyTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_suite.py", line 60, in test_volume_num_issues
+    res = fetch_json('http://downing.rocks/api/volumes/Preacher')
+NameError: name 'fetch_json' is not defined
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.002s
+
+FAILED (errors=14)

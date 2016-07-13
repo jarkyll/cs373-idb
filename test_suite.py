@@ -1,18 +1,12 @@
-from unittest import main, TestCase
+from app.demo import db
+from unittest import main, TestCase, TextTestRunner
 import os, glob
 
-from app.models import *
-
-
 class MyTests(TestCase):
-
-
-
     def test_publisher_name(self):
         res = fetch_json('http://downing.rocks/api/publisher/Vertigo')
         self.assertEqual('Vertigo', res["name"])
 
-    
     def test_publisher_image(self):
         res = fetch_json('http://downing.rocks/api/publisher/Vertigo')
         self.assertEqual("http://static3.comicvine.com/uploads/scale_small/6/67663/4717683-logo.jpg?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json", res["image"])
@@ -75,6 +69,11 @@ class MyTests(TestCase):
         data = json.loads(content)
         assert isinstance(data, dict), "response was not a json"
         return data
-        
+
 if __name__ == "__main__":
+    log_file = 'log_file.json'
+    f = open(log_file, "w")
+    runner = TextTestRunner(f)
+    main(testRunner=runner)
+    f.close()
     main()
