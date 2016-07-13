@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	 <!-- Latest compiled and minified CSS -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	 <!-- Optional theme -->
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	 <!-- Latest compiled and minified JavaScript -->
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+		 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+		 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/rowreorder/1.1.2/css/rowReorder.dataTables.min.css">
+		 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css">
+		 <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js">
+		 </script>
+		 <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/rowreorder/1.1.2/js/dataTables.rowReorder.min.js">
+		 </script>
+		 <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js">
+		 </script>
+		 <link rel="stylesheet" type="text/css" href="../static/tables.css">
+		 <link rel="stylesheet" type="text/css" href="../static/styles.css">
+		 <script type="text/javascript" class="init">
+
+
+
+	 $(document).ready(function() {
+		 var table = $('#volumes').DataTable( {
+			 rowReorder: {
+				 selector: 'td:nth-child(2)'
+			 },
+			 responsive: true
+		 } );
+	 } );
+
+
+
+		 </script>
+	 <!-- TESTING SORTING ABOVE-->
+	 <!-- Navigation -->
+	 <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				 <div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="http://downing.rocks/">Komixx</a>
+				 </div>
+				 <div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav navbar-right">
+							 <li>
+									<a href="http://downing.rocks/characters">Characters</a>
+							 </li>
+							 <li>
+									<a href="http://downing.rocks/teams">Teams</a>
+							 </li>
+							 <li>
+									<a href="http://downing.rocks/volumes">Volumes</a>
+							 </li>
+							 <li>
+									<a href="http://downing.rocks/publishers">Publishers</a>
+							 </li>
+							 <li>
+									<a href="http://downing.rocks/about">About</a>
+							 </li>
+						</ul>
+				 </div>
+			</div>
+	 </nav>
+</head>
+	<body>
+
+		<div id="content" class="container">
+      <table id="volumes"  class="display nowrap" cellspacing="0" width="100%">
+        <thead>
+          <tr>
+            <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
+            <th>Title</th>        <!--Title Link should take them to Volume page-->
+            <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
+            <th>Start Year</th>
+            <th># of Issues</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a id="inner" href="http://downing.rocks/volume/1"><img id="publishers" src="http://static1.comicvine.com/uploads/square_avatar/6/67663/3754499-01.jpg"></a></td>
+            <td>Star Wars: Dark Force Rising</td>
+            <td><a href="http://downing.rocks/publisher/1">Dark Horse Comics</a></td>
+            <td>1998</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td><a id="inner" href="http://downing.rocks/volume/2"><img id="publishers" src="http://static1.comicvine.com/uploads/square_avatar/0/4/1148-1622-1230-1-tom-amp-jerry-summ.jpg"></a></td>
+            <td>Tom and Jerry's Summer Fun</td>
+            <td><a href="http://downing.rocks/publisher/3">Dell</a></td>
+            <td>1954</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td><a id="inner" href="http://downing.rocks/volume/3"><img id="publishers" src="http://static4.comicvine.com/uploads/square_avatar/11114/111149159/4641116-1441336221-0.jpg.jpg"></a></td>
+            <td>Planet Comics</td>
+            <td><a href="http://downing.rocks/publisher/2">Fiction House</a></td>
+            <td>1940</td>
+            <td>70</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+	</body>
+</html>
