@@ -55,9 +55,9 @@ class Character(db.Model):
     publisher_name = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
     character_publisher = db.relationship("Publisher", back_populates="publisher_characters")
 
-    character_volumes = db.relationship("Volume", secondary=CHARACTERS_VOLUMES, back_populates="volume_characters")
+    character_volumes = db.relationship("Volume", secondary="CHARACTERS_VOLUMES", back_populates="volume_characters")
 
-    character_teams = db.relationship("Team", secondary=CHARACTERS_TEAMS, back_populates="team_characters")
+    character_teams = db.relationship("Team", secondary="CHARACTERS_TEAMS", back_populates="team_characters")
 
     def json_it(self):
         t = []
@@ -117,9 +117,9 @@ class Volume(db.Model):
     publisher_name = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
     volume_publisher = db.relationship("Publisher", back_populates="publisher_volumes")
 
-    volume_characters = db.relationship("Character", secondary=CHARACTERS_VOLUMES, back_populates="character_volumes")
+    volume_characters = db.relationship("Character", secondary="CHARACTERS_VOLUMES", back_populates="character_volumes")
 
-    volume_teams = db.relationship("Team", secondary=CHARACTERS_TEAMS, back_populates='team_volumes')
+    volume_teams = db.relationship("Team", secondary="CHARACTERS_TEAMS", back_populates='team_volumes')
 
     def json_it(self):
         t = []
@@ -173,8 +173,8 @@ class Team(db.Model):
     publisher_name = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
     team_publisher = db.relationship("Publisher", back_populates="publisher_teams")
 
-    team_characters = db.relationship("Character", secondary=CHARACTERS_TEAMS, back_populates='character_teams')
-    team_volumes = db.relationship("Volume", secondary=VOLUME_TEAMS, back_populates='volume_teams')
+    team_characters = db.relationship("Character", secondary="CHARACTERS_TEAMS", back_populates='character_teams')
+    team_volumes = db.relationship("Volume", secondary="VOLUME_TEAMS", back_populates='volume_teams')
 
     def __repr__(self):
         return 'Team(name={}, description={}, image={}, publisher={}, appear={}, num_appearances={}'.format(
