@@ -1,7 +1,7 @@
 from unittest import main, TestCase
 import urllib
 import json
-
+from app.models import *
 
 def fetch_json(url):
     assert isinstance(url, str), "the URL must be a string"

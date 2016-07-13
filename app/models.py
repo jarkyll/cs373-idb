@@ -1,5 +1,5 @@
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
-from cs373-idb import db
+from manage import db
 
 
 
