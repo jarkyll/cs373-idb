@@ -288,7 +288,7 @@ def homepage():
 @app.route('/runtests', methods=['GET'])
 def runtests():
     try:
-        result = subprocess.check_output(['python3', 'test_suite'])
+        result = subprocess.check_output(['python3', 'test_suite.py'])
         return result
     except Exception as e:
         return str(e)
