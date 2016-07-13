@@ -11,20 +11,24 @@ db.create_all()
 
 PublisherName = ['Vertigo', 'IDW Publishing', 'Dark Horse Comics', 'Top Cow', 'Valiant', 'Dell', 'Aftershock Comics',
                  'Image', 'Fiction House', 'Boom! Studios']
+#dir = os.getcwd() + '/'
 
 
+characters_volumes = db.Table('characters_volumes',
+    db.Column('character_name', db.String(150), db.ForeignKey('Character.name')),
+    db.Column('volume_name', db.String(100), db.ForeignKey('Volume.name'))
+)
 
-CHARACTERS_VOLUMES = db.Table('characters_volumes',
-                              db.Column('character_name', db.String(150), db.ForeignKey('Character.name')),
-                              db.Column('volume_name', db.String(100), db.ForeignKey('Volume.name')))
 
-CHARACTERS_TEAMS = db.Table('characters_teams',
-                            db.Column('character_name', db.String(200), db.ForeignKey('Character.name')),
-                            db.Column('team_name', db.String(250), db.ForeignKey('Team.name')))
+characters_teams = db.Table('characters_teams',
+    db.Column('character_name', db.String(200), db.ForeignKey('Character.name')),
+    db.Column('team_name', db.String(250), db.ForeignKey('Team.name'))
+)
 
-VOLUME_TEAMS = db.Table('volumes_teams',
-                         db.Column('volume_name', db.String(200), db.ForeignKey('Volume.name')),
-                         db.Column('team_name', db.String(150), db.ForeignKey('Team.name')))
+volumes_teams = db.Table('volumes_teams',
+    db.Column('volume_name', db.String(200), db.ForeignKey('Volume.name')),
+    db.Column('team_name', db.String(150), db.ForeignKey('Team.name'))
+)
 
 
 class Character(db.Model):
@@ -55,9 +59,9 @@ class Character(db.Model):
     publisher_name = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
     character_publisher = db.relationship("Publisher", back_populates="publisher_characters")
 
-    character_volumes = db.relationship("Volume", secondary="CHARACTERS_VOLUMES", back_populates="volume_characters")
+    character_volumes = db.relationship("Volume", secondary=characters_volumes, back_populates="volume_characters")
 
-    character_teams = db.relationship("Team", secondary="CHARACTERS_TEAMS", back_populates="team_characters")
+    character_teams = db.relationship("Team", secondary=characters_teams, back_populates="team_characters")
 
     def json_it(self):
         t = []
@@ -93,8 +97,7 @@ class Character(db.Model):
             self.appear,
             self.real,
             self.num_appearances
-        ) + ")"
-
+            ) + ")"
 
 class Volume(db.Model):
     """
@@ -117,9 +120,9 @@ class Volume(db.Model):
     publisher_name = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
     volume_publisher = db.relationship("Publisher", back_populates="publisher_volumes")
 
-    volume_characters = db.relationship("Character", secondary="CHARACTERS_VOLUMES", back_populates="character_volumes")
+    volume_characters = db.relationship("Character", secondary='characters_volumes', back_populates="character_volumes")
 
-    volume_teams = db.relationship("Team", secondary="CHARACTERS_TEAMS", back_populates='team_volumes')
+    volume_teams = db.relationship("Team", secondary=volumes_teams, back_populates='team_volumes')
 
     def json_it(self):
         t = []
@@ -151,7 +154,7 @@ class Volume(db.Model):
             self.publisher_name,
             self.name,
             self.num_issues
-        ) + ")"
+            ) + ")"
 
 
 class Team(db.Model):
@@ -173,8 +176,8 @@ class Team(db.Model):
     publisher_name = db.Column(db.String(150), db.ForeignKey('Publisher.name'))
     team_publisher = db.relationship("Publisher", back_populates="publisher_teams")
 
-    team_characters = db.relationship("Character", secondary="CHARACTERS_TEAMS", back_populates='character_teams')
-    team_volumes = db.relationship("Volume", secondary="VOLUME_TEAMS", back_populates='volume_teams')
+    team_characters = db.relationship("Character", secondary=characters_teams, back_populates='character_teams')
+    team_volumes = db.relationship("Volume", secondary=volumes_teams, back_populates='volume_teams')
 
     def __repr__(self):
         return 'Team(name={}, description={}, image={}, publisher={}, appear={}, num_appearances={}'.format(
@@ -184,7 +187,7 @@ class Team(db.Model):
             self.team_publisher,
             self.appear,
             self.num_appearances,
-        ) + ")"
+            ) + ")"
 
     def json_it(self):
         c = []
@@ -208,7 +211,6 @@ class Team(db.Model):
             'team_volumes': v
         }
         return ans
-
 
 class Publisher(db.Model):
     """
@@ -247,7 +249,7 @@ class Publisher(db.Model):
             self.publisher_characters,
             self.publisher_volumes,
             self.publisher_teams,
-        ) + ")"
+            ) + ")"
 
     def json_it(self):
         list_t = []
@@ -274,7 +276,6 @@ class Publisher(db.Model):
             'publisher_volumes': list_vol
         }
         return ans
-
 
 
 
