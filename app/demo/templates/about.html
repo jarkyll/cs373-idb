@@ -17,6 +17,12 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../static/tables.css">
   <link rel="stylesheet" type="text/css" href="../static/styles.css">
+
+      <!-- Angular -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script type="text/javascript" src="static/js/app.js"></script>
+  <script type="text/javascript" src="static/js/controllers/MainController.js"></script>
+  <script type="text/javascript" src="static/js/controllers/Service.js"></script>
   <!-- Navigation -->
         <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
            <div class="container">
@@ -50,7 +56,7 @@
            </div>
         </nav>
 </head>
-	<body>
+	<body ng-app="myApp">
 
 		<div  id="content" class="container">
 			<div class="jumbotron">
@@ -187,12 +193,13 @@
 						    						<li><a href="http://github.com/jarkyll/cs373-idb/wiki">GitHub Wiki</a></li>
 				    					</ul>
                 </div>
-                <div id="inner" class="col-md-4">
+                <div id="inner" class="col-md-4" ng-controller="MainController">
                     <h2 id="inner">Project Data</h2>
                     <ul id="inner">
                           <li><a href="http://comicvine.gamespot.com/api/">Comic Vine API</a></li>
 						  <li id="inner">We used urllib2 and it's request call to scrape data from the corresponding type</li>
 				    </ul>
+                                <button type="button" class="btn btn-info" ng-click="runTests()">Run Test</button>
                 </div>
                 <div id="inner" class="col-md-4">
                     <h2 id="inner">Project Tools</h2>
