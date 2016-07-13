@@ -3,12 +3,16 @@ app.config(function($interpolateProvider) {
   $interpolateProvider.endSymbol(']]');
 });
 
-app.controller('MainController', ['$scope', 'tests', function($scope, tests) { 
+app.controller('MainController', ['$scope', 'tests', 'characters', function($scope, tests, characters) { 
 	$scope.runTests = function() {
 		console.log("Pressed run tests button");
     };
     tests.success(function(data) { 
     	$scope.tests = data; 
-    	    	console.log(JSON.stringify(data));
+    	console.log(JSON.stringify(data));
+  });
+    characters.success(function(data) { 
+    	$scope.characters = data['result']; 
+    	console.log(JSON.stringify(data));
   });
 }]);

@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-<div id="content" class="container">
+<div id="content" class="container" ng-controller="MainController">
    <table id="table" class="display nowrap" cellspacing="0" width="100%">
       <thead>
          <tr>
@@ -11,16 +11,16 @@
             <th class=" ">Real Name</th>
             <!--Publisher Link should take them to Publisher page-->
             <th class=" ">Publisher</th>
-            <th class=" "># of Appreances</th>
-         </tr >
+            <th class=" ">Gender</th>
+         </tr>
       </thead>
       <tbody>
-         <tr>
-            <td class=" "><a id="inner" href="http://downing.rocks/character/2"><img id="publishers" src="http://static1.comicvine.com/uploads/square_avatar/6/69951/1387237-reef_ryan.jpg" class="img-rounded" alt="Teams"></a></td>
-            <td class=" ">Reef Ryan</td>
-            <td class=" ">Unknown</td>
-            <td class=" "><a href="http://downing.rocks/publisher/2">Fiction House</a></td>
-            <td class=" ">17</td>
+         <tr ng-repeat="character in characters">
+            <td class="image"><a id="inner" href="http://downing.rocks/character/2"><img id="publishers" src=[[ character.image ]] class="img-rounded" alt="Teams"></a></td>
+            <td class="name">[[ character.name ]]</td>
+            <td class="real_name">[[ character.real_name ]]</td>
+            <td class="publisher"><a href="http://downing.rocks/publisher/2">[[ character.publisher ]]</a></td>
+            <td class="gender">[[ character.gender ]]</td>
          </tr>
          <tr>
             <td class=" "><a id="inner" href="http://downing.rocks/character/3"><img id="publishers" src="http://static4.comicvine.com/uploads/square_avatar/1/12483/277673-175026-jerry.jpg" class="img-rounded" alt="Teams"></a></td>
@@ -36,6 +36,7 @@
             <td class=" "><a href="http://downing.rocks/publisher/1">Dark Horse Comics</a></td>
             <td class=" ">14</td>
          </tr>
+
       </tbody>
    </table>
 </div>
