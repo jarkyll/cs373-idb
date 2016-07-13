@@ -3,7 +3,7 @@ app.config(function($interpolateProvider) {
   $interpolateProvider.endSymbol(']]');
 });
 
-app.controller('MainController', ['$scope', 'tests', 'characters', function($scope, tests, characters) { 
+app.controller('MainController', ['$scope', 'tests', 'characters', 'teams', 'volumes', 'publishers' function($scope, tests, characters, teams, volumes, publishers) { 
 	$scope.runTests = function() {
 		console.log("Pressed run tests button");
     };
@@ -14,6 +14,18 @@ app.controller('MainController', ['$scope', 'tests', 'characters', function($sco
   characters.success(function(data) { 
     	$scope.characters = data['result']; 
     	console.log(JSON.stringify(data));
+  });
+  teams.success(function(data) { 
+      $scope.teams = data['result']; 
+      console.log(JSON.stringify(data));
+  });
+  volumes.success(function(data) { 
+      $scope.volumes = data['result']; 
+      console.log(JSON.stringify(data));
+  });
+  publishers.success(function(data) { 
+      $scope.publishers = data['result']; 
+      console.log(JSON.stringify(data));
   });
   $scope.formatjson = function(a){
      a = a.map(function(x){
