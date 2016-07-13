@@ -1,23 +1,17 @@
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
 from manage import db
 
+CHARACTERS_VOLUMES = db.Table('characters_volumes',
+                              db.Column('character_name', db.String(150), db.ForeignKey('Character.name')),
+                              db.Column('volume_name', db.String(100), db.ForeignKey('Volume.name')))
 
+CHARACTER_TEAMS = db.Table('characters_teams',
+                            db.Column('character_name', db.String(200), db.ForeignKey('Character.name')),
+                            db.Column('team_name', db.String(250), db.ForeignKey('Team.name')))
 
-characters_volumes = db.Table('characters_volumes',
-    db.Column('character_name', db.String(150), db.ForeignKey('Character.name')),
-    db.Column('volume_name', db.String(100), db.ForeignKey('Volume.name'))
-)
-
-
-characters_teams = db.Table('characters_teams',
-    db.Column('character_name', db.String(200), db.ForeignKey('Character.name')),
-    db.Column('team_name', db.String(250), db.ForeignKey('Team.name'))
-)
-
-volumes_teams = db.Table('volumes_teams',
-    db.Column('volume_name', db.String(200), db.ForeignKey('Volume.name')),
-    db.Column('team_name', db.String(150), db.ForeignKey('Team.name'))
-)
+VOLUME_TEAMS = db.Table('volumes_teams',
+                         db.Column('volume_name', db.String(200), db.ForeignKey('Volume.name')),
+                         db.Column('team_name', db.String(150), db.ForeignKey('Team.name')))
 
 
 class Character(db.Model):
@@ -86,7 +80,8 @@ class Character(db.Model):
             self.appear,
             self.real,
             self.num_appearances
-            ) + ")"
+        ) + ")"
+
 
 class Volume(db.Model):
     """
@@ -143,7 +138,7 @@ class Volume(db.Model):
             self.publisher_name,
             self.name,
             self.num_issues
-            ) + ")"
+        ) + ")"
 
 
 class Team(db.Model):
@@ -176,7 +171,7 @@ class Team(db.Model):
             self.team_publisher,
             self.appear,
             self.num_appearances,
-            ) + ")"
+        ) + ")"
 
     def json_it(self):
         c = []
@@ -200,6 +195,7 @@ class Team(db.Model):
             'team_volumes': v
         }
         return ans
+
 
 class Publisher(db.Model):
     """
@@ -238,7 +234,7 @@ class Publisher(db.Model):
             self.publisher_characters,
             self.publisher_volumes,
             self.publisher_teams,
-            ) + ")"
+        ) + ")"
 
     def json_it(self):
         list_t = []
@@ -265,5 +261,3 @@ class Publisher(db.Model):
             'publisher_volumes': list_vol
         }
         return ans
-
-
