@@ -16,30 +16,18 @@ Komixx provides an interactive experience in exploring the comic book world. Use
             [   
                 {
                     "name": "Jerry",
-                    "birth": NULL,
-                    "volumes": ["name1", "name2", "name3"],
                     "publisher": "Dell",
                     "image": "url to image",
-                    "volume_credits": ["Volume1","Volume2","Volume3"],
                     "gender": 1,
-                    "creator": "Creator"
-                    "teams": [{"name": "Team Name", "image": "Image URL"},{"name": "Team Name", "image": "Image URL"}],
-                    "appear": "July 6, 1979",
-                    "real": "Unknown"
+                    "real_name": "Unknown"
                 },
                 
                 {   
                     "name": "Terry",
-                    "birth": NULL,
-                    "volumes": ["name1", "name2", "name3"],
-                    "primary_publisher": "Dell",
+                    "publisher": "Dell",
                     "image": "url to image",
-                    "volume_credits": ["Volume1","Volume2","Volume3"],
                     "gender": 1,
-                    "creator": "Creator"
-                    "teams": [{"name": "Team Name", "image": "Image URL"},{"name": "Team Name", "image": "Image URL"}],
-                    "appear": "June 9, 1979",
-                    "real": "Unknown"
+                    "real_name": "Unknown"
                 }
             ]    
         }
@@ -51,16 +39,10 @@ Komixx provides an interactive experience in exploring the comic book world. Use
 
         {
             "name": "Jerry",
-            "birth": NULL,
-            "volumes": ["name1", "name2", "name3"],
             "publisher": "Dell",
             "image": "url to image",
-            "volume_credits": ["Volume1","Volume2","Volume3"],
             "gender": 1,
-            "creator": "Creator"
-            "teams": [{"name": "Team Name", "image": "Image URL"},{"name": "Team Name", "image": "Image URL"},{"name": "Team Name", "image": "Image URL"}],
-            "appear": "July 6, 1979",
-            "real": "Unknown"
+            "real_name": "Unknown"
         }
 ## Teams [/api/teams]
 ### List All Teams [GET]
@@ -72,20 +54,14 @@ Komixx provides an interactive experience in exploring the comic book world. Use
                 {
                     "name": "Space Ranger",
                     "publisher": "Fiction House",
-                    "description": "blah blah blah",
                     "image": "imageurl.com",
-                    "volumes": ["name1", "name2", "name3"],
-                    "characters": ["Reef Ryan", "another person"],
                     "appear": "April 3, 1876",
                     "num_appearances": 345
                 },
                 {
                     "name": "Space Ranger",
                     "publisher": "Fiction House",
-                    "description": "blah blah blah",
                     "image": "imageurl.com",
-                    "volumes": ["name1", "name2", "name3"],
-                    "characters": ["Reef Ryan", "another person"],
                     "appear": "April 7, 1976",
                     "num_appearances": 400
                 }
@@ -105,10 +81,7 @@ Komixx provides an interactive experience in exploring the comic book world. Use
         {
             "name": "Space Ranger",
             "publisher": "Fiction House",
-            "description": "blah blah blah",
             "image": "imageurl.com",
-            "volumes": ["name1", "name2", "name3"],
-            "characters": ["Reef Ryan", "another person"],
             "appear": "April 3, 1876",
             "num_appearances": 345
         }
@@ -124,23 +97,17 @@ Komixx provides an interactive experience in exploring the comic book world. Use
         {
             [
                 {
-                    "image": "url_to_string",
-                    "publisher": "Fiction House",
-                    "description": "blah blah blah",
-                    "num_issues": 23,
-                    "aliases": ["name1","name2","name3"],
-                    "start_year":  "1919",
-                    "teams": ["Team1", "Team2"],
-                    "name": "Volume Name"
+                    *"image": "url_to_string",
+                    *"publisher": "Fiction House",
+                    *"num_issues": 23,
+                    *"start_year":  "1919",
+                    *"name": "Volume Name"
                 },
                 {
                     "image": "url_to_string",
                     "publisher": "Fiction House",
-                    "description": "blah blah blah",
                     "num_issues": 23,
-                    "aliases": ["name1","name2","name3"],
                     "start_year":  "1919",
-                    "teams": ["Team1", "Team2"],
                     "name": "Volume Name"
                 }
             ]
@@ -155,11 +122,8 @@ Komixx provides an interactive experience in exploring the comic book world. Use
         {
             "image": "url_to_string",
             "publisher": "Fiction House",
-            "description": "blah blah blah",
             "num_issues": 23,
-            "aliases": ["name1","name2","name3"],
             "start_year":  "1919",
-            "teams": ["Team1", "Team2"],
             "name": "Volume Name"
         }
 
@@ -173,25 +137,17 @@ Komixx provides an interactive experience in exploring the comic book world. Use
         {
             {
                 "name": "Dark Horse Comics",
-                "characters": ["Chief Chirpa", " Char 2"],
-                "locAd": "10956 SE Main Street",
+                "address": "10956 SE Main Street",
                 "city": "Milwaukie",
                 "state": "Oregon",
-                "deck": "Dark Horse Comics is one of...",
-                "image": "url_to_string",
-                "volumes": ["Star Wars: Dark Rising", "Volume 2"],
-                "teams": ["Ewoks", "Char 2"]
+                "image": "url_to_string"
             },
             {
                 "name": "Fiction House",
-                "characters": ["Reef Ryan", " Char 2"],
-                "locAd": "Unknown",
+                "address": "Unknown",
                 "city": "Unknown",
                 "state": "Unknown",
-                "deck": "A pulp magazine and comic book publisher in the Golden Age of Comics.",
-                "image": "url_to_string",
-                "volumes": ["Planet Comics", "Volume 2"],
-                "teams": ["Space Rangers", "Char 2"]
+                "image": "url_to_string"
             }
         }
 
@@ -202,12 +158,8 @@ Komixx provides an interactive experience in exploring the comic book world. Use
 
         {
                 "name": "Dark Horse Comics",
-                "characters": ["Chief Chirpa", "Char 2"],
-                "locAd": "10956 SE Main Street",
+                "address": "10956 SE Main Street",
                 "city": "Milwaukie",
                 "state": "Oregon",
-                "deck": "Dark Horse Comics is one of...",
-                "image": "url_to_string",
-                "volumes": ["Star Wars: Dark Rising", "Volume 2"],
-                "teams": ["Ewoks", "Team 2"]
+                "image": "url_to_string"
         }
