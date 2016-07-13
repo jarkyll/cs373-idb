@@ -1,9 +1,15 @@
 from flask import Flask, render_template, jsonify
-from app.demo import *
 import jinja2
 from test_suite import *
 import unittest, sys
-
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy.engine.url import URL
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:batman@localhost/donn"
+db = SQLAlchemy(app)
+db.create_all()
+### BASE URL ###
+BASE_URL = '/api'
 
 
 PublisherName = ['Vertigo', 'IDW Publishing', 'Dark Horse Comics', 'Top Cow', 'Valiant', 'Dell', 'Aftershock Comics',
