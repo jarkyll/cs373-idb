@@ -1,5 +1,5 @@
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
-from manage import db
+from demo import db
 
 CHARACTERS_VOLUMES = db.Table('characters_volumes',
                               db.Column('character_name', db.String(150), db.ForeignKey('Character.name')),
