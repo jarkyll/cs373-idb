@@ -11,8 +11,7 @@ FILES :=                       \
     manage.py                  \
     IDB2.log                   \
     app/demo/__init__.py       \
-    UML.pdf                    \
-    unit_models.py
+    UML.pdf
 
 
 ifeq ($(CI), true)
