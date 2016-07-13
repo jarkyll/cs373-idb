@@ -1,63 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" style="text-align:center">
-<head>
-  <title>Chief Chirpa</title>
-
-  <meta charset="utf-8">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="static/tables.css">
-  <link rel="stylesheet" type="text/css" href="static/styles.css">
-
-      <!-- Angular -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-  <script type="text/javascript" src="static/js/app.js"></script>
-  <script type="text/javascript" src="static/js/controllers/MainController.js"></script>
-  <script type="text/javascript" src="static/js/controllers/Service.js"></script>
-  <!-- Navigation -->
-        <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
-           <div class="container">
-              <div class="navbar-header">
-                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-                 </button>
-                 <a class="navbar-brand" href="http://downing.rocks/">Komixx</a>
-              </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                       <a href="http://downing.rocks/characters">Characters</a>
-                    </li>
-                    <li>
-                       <a href="http://downing.rocks/teams">Teams</a>
-                    </li>
-                    <li>
-                       <a href="http://downing.rocks/volumes">Volumes</a>
-                    </li>
-                    <li>
-                       <a href="http://downing.rocks/publishers">Publishers</a>
-                    </li>
-                    <li>
-                       <a href="http://downing.rocks/about">About</a>
-                    </li>
-                 </ul>
-              </div>
-           </div>
-        </nav>
-</head>
-	<body ng-app="myApp">
-
+{% extends "base.html" %}
+{% block content %}
 		<div  id="content" class="container">
 			<div class="jumbotron">
 				<h1 id="inner">The One Punch Men</h1>
@@ -219,5 +161,4 @@
             </div>
 		  </div>
     </div>
-  </body>
-</html>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+<script type="text/javascript" class="init">
+$(document).ready(function() {
+   var table = $('#characters').DataTable( {
+      rowReorder: {
+         selector: 'td:nth-child(2)'
+      },
+      responsive: true
+   } );
+} );
+</script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/rowreorder/1.1.2/css/rowReorder.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css">
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js">
+</script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/rowreorder/1.1.2/js/dataTables.rowReorder.min.js">
+</script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js">
+</script>
+{% block content %}
+{% endblock %}
