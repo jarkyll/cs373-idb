@@ -12,6 +12,8 @@ install:
     - pip install coverage
     - pip install pylint
     - pip install autopep8
+    - pip install urllib
+
 
 script:
     - psql -d postgres -f db_init.sql

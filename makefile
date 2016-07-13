@@ -32,8 +32,7 @@ models.html: app/models.py
 IDB2.log:
 	git log > IDB2.log
 
-pylint_mtests: .pylintrc 
-	-$(PYLINT) app/models.py
+pylint_mtests: .pylintrc
 	-$(PYLINT) app/tests.py
 
 
