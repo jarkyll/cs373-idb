@@ -285,10 +285,10 @@ class Publisher(db.Model):
 def homepage():
     return render_template("index.html")
 
-@app.route('/runtests')
+@app.route('/runtests', methods=['GET'])
 def runtests():
     try:
-        result = subprocess.check_output("python3 test_suite.py", stderr=subprocess.STDOUT, shell=True)
+        result = subprocess.check_output("python test_suite.py", stderr=subprocess.STDOUT, shell=True)
         return result
     except Exception as e:
         return str(e)
@@ -331,19 +331,19 @@ def publisher(name):
 @app.route("/character/<name>")
 def character(name):
     char = db.session.query(Character).filter_by(name=name).first()
-    return render_template("publisher.html", character=char)
+    return render_template("character.html", character=char)
 
 
 @app.route("/volume/<name>")
 def volume(name):
     v = db.session.query(Volume).filter_by(name=name).first()
-    return render_template("planet.html", volume=v)
+    return render_template("volume.html", volume=v)
 
 
 @app.route("/team/<name>")
 def team(name):
     t = db.session.query(Team).filter_by(name=name).first()
-    return render_template("space.html", team=t)
+    return render_template("team.html", team=t)
 
 
 @app.route('/api/characters', methods=['GET'])
