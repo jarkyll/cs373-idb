@@ -8,7 +8,7 @@ from app.demo import *
 import jinja2
 from pprint import pprint
 import pickle
-
+#
 loader = jinja2.FileSystemLoader('templates')
 PublisherName = ['Vertigo', 'IDW Publishing', 'Dark Horse Comics', 'Top Cow', 'Valiant', 'Dell', 'Aftershock Comics',
                  'Image', 'Fiction House', 'Boom! Studios']
@@ -24,6 +24,7 @@ def jdefault(o):
 @app.route("/")
 def homepage():
     return render_template("index.html")
+
 
 @app.route("/about")
 def about():
@@ -491,9 +492,9 @@ if __name__ == '__main__':
     # test = db.session.query(Character).filter_by(name='The Sandman')
     # test = db.session.query(Volume).filter_by(name='100 Bullets')
 
-    #add_publishers()
-    #add_teams()
-    #add_teams_volumes()
+    add_publishers()
+    add_teams()
+    add_teams_volumes()
     test = db.session.query(Publisher).filter_by(name='Vertigo')
     # update_publisher_teams()
     app.run()
