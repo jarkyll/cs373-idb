@@ -1,4 +1,5 @@
 from flask import Flask, render_template, jsonify
+import subprocess
 import jinja2
 import unittest, sys
 from flask_sqlalchemy import SQLAlchemy
@@ -283,15 +284,13 @@ class Publisher(db.Model):
 @app.route("/")
 def homepage():
     return render_template("index.html")
-'''
+
 @app.route('/runtests')
 def runtests():
-    stream = StringIO()
-    runner = unittest.TextTestRunner(stream=stream)
-    result = runner.run(unittest.makeSuite(MyTests))
-    print(result, file=sys.stderr)
+
+    result = subprocess.check_output("python3 testsuite.py", stderr=subprocess.STDOUT, shell=True)
     return result
-'''
+
 @app.route("/about")
 def about():
     return render_template("about.html")
