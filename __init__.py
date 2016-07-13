@@ -287,9 +287,11 @@ def homepage():
 
 @app.route('/runtests')
 def runtests():
-
-    result = subprocess.check_output("python3 test_suite.py", stderr=subprocess.STDOUT, shell=True)
-    return result
+    try:
+        result = subprocess.check_output("python3 test_suite.py", stderr=subprocess.STDOUT, shell=True)
+        return result
+    except Exception as e:
+        return str(e)
 
 @app.route("/about")
 def about():
