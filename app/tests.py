@@ -14,16 +14,18 @@ def fetch_json(url):
     assert isinstance(data, dict), "response was not a json"
     return data
 
-class MyTests(TestCase):
 
+class MyTests(TestCase):
     def test_publisher_name(self):
         res = fetch_json('http://downing.rocks/api/publisher/Vertigo')
         self.assertEqual('Vertigo', res["result"]["name"])
-   
+
     def test_publisher_image(self):
         res = fetch_json('http://downing.rocks/api/publisher/Vertigo')
-        self.assertEqual("http://static3.comicvine.com/uploads/scale_small/6/67663/4717683-logo.jpg?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json", res["result"]["image"])
-    
+        self.assertEqual(
+            "http://static3.comicvine.com/uploads/scale_small/6/67663/4717683-logo.jpg?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json",
+            res["result"]["image"])
+
     def test_publisher_city(self):
         res = fetch_json('http://downing.rocks/api/publisher/Vertigo')
         self.assertEqual("New York City", res["result"]["city"])
@@ -51,7 +53,7 @@ class MyTests(TestCase):
     def test_team_description(self):
         res = fetch_json('http://downing.rocks/api/team/Adephi')
         self.assertEqual(" ", res["result"]["description"])
-    
+
     def test_team_num_appear(self):
         res = fetch_json('http://downing.rocks/api/team/Adephi')
         self.assertEqual(0, int(res["result"]["num_appearances"]))
@@ -73,6 +75,5 @@ class MyTests(TestCase):
         self.assertEqual(66, int(res["result"]["num_issues"]))
 
 
-        
 if __name__ == "__main__":
     main()
