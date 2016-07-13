@@ -288,7 +288,7 @@ def homepage():
 @app.route('/runtests')
 def runtests():
 
-    result = subprocess.check_output("python3 testsuite.py", stderr=subprocess.STDOUT, shell=True)
+    result = subprocess.check_output("python3 test_suite.py", stderr=subprocess.STDOUT, shell=True)
     return result
 
 @app.route("/about")
