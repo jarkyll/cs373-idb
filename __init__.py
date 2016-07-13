@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify
+import subprocess
 import jinja2
-#from test_suite import *
 import unittest, sys
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.engine.url import URL
@@ -8,8 +8,6 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:batman@localhost/donn"
 db = SQLAlchemy(app)
 db.create_all()
-### BASE URL ###
-BASE_URL = '/api'
 
 
 PublisherName = ['Vertigo', 'IDW Publishing', 'Dark Horse Comics', 'Top Cow', 'Valiant', 'Dell', 'Aftershock Comics',
@@ -286,15 +284,15 @@ class Publisher(db.Model):
 @app.route("/")
 def homepage():
     return render_template("index.html")
-'''
-@app.route('/runtests')
+
+@app.route('/runtests', methods=['GET'])
 def runtests():
-    stream = StringIO()
-    runner = unittest.TextTestRunner(stream=stream)
-    result = runner.run(unittest.makeSuite(MyTests))
-    print(result, file=sys.stderr)
-    return result
-'''
+    try:
+        result = subprocess.check_output(['python3', 'tests.py'])
+        return result
+    except Exception as e:
+        return str(e)
+
 @app.route("/about")
 def about():
     return render_template("about.html")
@@ -333,19 +331,19 @@ def publisher(name):
 @app.route("/character/<name>")
 def character(name):
     char = db.session.query(Character).filter_by(name=name).first()
-    return render_template("publisher.html", character=char)
+    return render_template("character.html", character=char)
 
 
 @app.route("/volume/<name>")
 def volume(name):
     v = db.session.query(Volume).filter_by(name=name).first()
-    return render_template("planet.html", volume=v)
+    return render_template("volume.html", volume=v)
 
 
 @app.route("/team/<name>")
 def team(name):
     t = db.session.query(Team).filter_by(name=name).first()
-    return render_template("space.html", team=t)
+    return render_template("team.html", team=t)
 
 
 @app.route('/api/characters', methods=['GET'])

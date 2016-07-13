@@ -13,6 +13,7 @@ install:
     - pip install pylint
     - pip install autopep8
 
+
 script:
     - psql -d postgres -f db_init.sql
 
