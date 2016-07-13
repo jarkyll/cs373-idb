@@ -1,0 +1,69 @@
+/*
+ * General
+*/
+
+
+/*
+ * Navigation
+*/
+
+
+
+
+/*
+ * Carousel
+*/
+
+
+
+html,body{
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  height:100%;
+  text-align: center;
+}
+
+.item,.active{
+    height: 50%;
+}
+
+#the-carousel {
+    padding-right: 0;
+    padding-left: 0;
+    height: inherit;
+}
+
+
+
+#myCarousel{
+  z-index: -90;
+  height: 100%;
+  position: fixed;
+}
+.carousel-inner{
+    height: 100%;
+}
+.carousel{
+    padding-top: 50px;
+}
+
+/* for rows */
+tr {
+    height: 5%;
+}
+
+
+
+/* for about page */
+#abouts > div{
+   display: inline-block;
+}
+#abouts{
+  text-align: center;
+  margin: 0px auto;
+}
+#info{
+  text-align: center;
+}

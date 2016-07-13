@@ -1,21 +1,25 @@
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
 from demo import db
 
-characters_volumes = db.Table('characters_volumes',
-    db.Column('character_name', db.String(150), db.ForeignKey('Character.name')),
-    db.Column('volume_name', db.String(100), db.ForeignKey('Volume.name'))
-)
+
+class Characters_Volumes(db.Model):
+    __tablename__ = 'characters_volumes'
+    db.Column('character_name', db.String(150), db.ForeignKey('Character.name'), primary_key=True),
+    db.Column('volume_name', db.String(100), db.ForeignKey('Volume.name'), primary_key=True)
 
 
-characters_teams = db.Table('characters_teams',
+
+class Characters_Teams(db.Model):
+    __tablename__ = 'characters_teams'
     db.Column('character_name', db.String(200), db.ForeignKey('Character.name')),
     db.Column('team_name', db.String(250), db.ForeignKey('Team.name'))
-)
 
-volumes_teams = db.Table('volumes_teams',
+
+class Volumes_Teams:
+    __tablename__ = 'volumes_teams',
     db.Column('volume_name', db.String(200), db.ForeignKey('Volume.name')),
     db.Column('team_name', db.String(150), db.ForeignKey('Team.name'))
-)
+
 
 
 class Character(db.Model):
@@ -63,6 +67,28 @@ class Character(db.Model):
             self.num_appearances
             ) + ")"
 
+    def json_it(self):
+        t = []
+        for team in self.character_teams:
+            t += {'name': team.name, 'image': team.image}
+        v = []
+        for volume in self.character_volumes:
+            v += {'name': volume.name, 'image': volume.image}
+
+        ans = {
+            'name': self.name,
+            'appear': self.appear,
+            'birth': self.birth,
+            'character_publisher': self.character_publisher,
+            'creator': self.creator,
+            'gender': self.gender,
+            'image': self.image,
+            'num_appearances': self.num_appearances,
+            'real': self.real,
+            'character_teams': t,
+            'character_volumes': v
+        }
+        return ans
 class Volume(db.Model):
     """
     image: image url
@@ -88,7 +114,25 @@ class Volume(db.Model):
 
     volume_teams = db.relationship("Team", secondary=volumes_teams, back_populates='team_volumes')
 
+    def json_it(self):
+        t = []
+        for team in self.character_teams:
+            t += {'name': team.name, 'image': team.image}
+        c = []
+        for character in self.character_volumes:
+            c += {'name': character.name, 'image': character.image}
 
+        ans = {
+            'description': self.description,
+            'image': self.image,
+            'name': self.name,
+            'num_issues': self.num_issues,
+            'publisher_name': self.publisher_name,
+            'start_year': self.start_year,
+            'volume_teams': t,
+            'volume_characters': c
+        }
+        return ans
 
     def __repr__(self):
         return 'Volume(image={}, description={}, start_year={}, publisher={}, name={}, num_issues={}'.format(
@@ -133,6 +177,28 @@ class Team(db.Model):
             self.num_appearances,
             ) + ")"
 
+    def json_it(self):
+        c = []
+        for char in self.team_characters:
+            c += {'name': char.name, 'image': char.image}
+        v = []
+        for volume in self.team_volumes:
+            v += {'name': volume.name, 'image': volume.image}
+
+        ans = {
+            'appear': self.appear,
+            'description': self.description,
+            'image': self.image,
+            'name': self.name,
+            'num_appearances': self.num_appearances,
+            'publisher_name': self.publisher_name,
+            'image': self.image,
+            'num_appearances': self.num_appearances,
+            'team_characters': c,
+            'team_volumes': v
+        }
+        return ans
+
 class Publisher(db.Model):
     """
         name: the name of the publisher
@@ -171,3 +237,27 @@ class Publisher(db.Model):
             self.publisher_volumes,
             self.publisher_teams,
             ) + ")"
+
+    def json_it(self):
+        list_t = []
+        for team in self.publisher_teams:
+            list_t += {'name': team.name, 'image': team.image}
+        list_vol = []
+        for volume in self.publisher_volumes:
+            list_vol += {'name': volume.name, 'image': volume.image}
+        list_char = []
+        for character in self.publisher_characters:
+            print(character)
+            list_char += {'name': character.name, 'image': character.image}
+        ans = {
+            'name': self.name,
+            'city': self.city,
+            'deck': self.deck,
+            'address': self.address,
+            'image': self.image,
+            'state': self.state,
+            'publisher_characters': list_char,
+            'publisher_teams': list_t,
+            'publisher_volumes': list_vol
+        }
+        return ans

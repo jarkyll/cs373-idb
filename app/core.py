@@ -1,5 +1,5 @@
-from app.models import Volume
-from app import db
+from flask_app import Volume
+from flask_app import db
 
 
 def create_db():
