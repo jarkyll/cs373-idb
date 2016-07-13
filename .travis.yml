@@ -12,7 +12,6 @@ install:
     - pip install coverage
     - pip install pylint
     - pip install autopep8
-    - pip install urllib
 
 
 script:
