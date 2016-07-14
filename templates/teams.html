@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,6 +78,12 @@
 
 		<div id="content" class="container">
       <table id="teams" class="display nowrap" cellspacing="0" width="100%">
+=======
+{% extends "base.html" %}
+{% block content %}
+		<div id="content" class="container" ng-controller="MainController">
+      <table id="table" class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+>>>>>>> master
         <thead>
           <tr>
             <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
@@ -87,6 +94,7 @@
           </tr>
         </thead>
         <tbody>
+<<<<<<< HEAD
           <tr>
             <td><a id="inner" href="http://downing.rocks/team/1"><img id="publishers" src="http://static1.comicvine.com/uploads/square_avatar/1/19151/367187-154544-ewoks.JPG"></a></td>
             <td>Ewoks</td>
@@ -107,9 +115,16 @@
             <td><a href="http://downing.rocks/publisher/2">Fiction House</a></td>
             <td>Unknown</td>
             <td>Unknown</td>
+=======
+          <tr ng-repeat="team in teams">
+            <td><a id="inner" href="/team/[[ formatjson(team.name) ]]"><img id="publishers" src="[[ formatjson(team.image) ]]" ></a></td>
+            <td>[[ formatjson(team.name) ]]</td>
+            <td><a href="/publisher/[[formatjson(team.publisher)]]">[[ formatjson(team.publisher) ]]</a></td>
+            <td>[[ formatjson(team.appear) ]]</td>
+            <td>[[ formatjson(team.num_appearances) ]]</td>
+>>>>>>> master
           </tr>
         </tbody>
       </table>
     </div>
-	</body>
-</html>
+{% endblock %}

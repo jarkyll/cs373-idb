@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,6 +76,12 @@
    <body>
       <div id="content" class="container">
          <table id="characters" class="display nowrap" cellspacing="0" width="100%">
+=======
+{% extends "base.html" %}
+{% block content %}
+      <div id="content" class="container" ng-controller="MainController">
+         <table id="table" class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+>>>>>>> master
             <thead>
                <tr>
                   <th>Thumbnail</th>
@@ -88,6 +95,7 @@
                </tr>
             </thead>
             <tbody>
+<<<<<<< HEAD
                <tr>
                   <td><a id="inner" href="http://downing.rocks/publisher/1"><img id="publishers" src="http://static3.comicvine.com/uploads/square_avatar/1/19151/412843-dkhlogo.gif" class="img-responsive img-thumbnail" alt="Dell"></a></td>
                   <td>Comics</td>
@@ -108,9 +116,16 @@
                   <td>1920</td>
                   <td>Unknown</td>
                   <td>Unknown</td>
+=======
+               <tr ng-repeat="publisher in publishers">
+                  <td><a id="inner" href="http://downing.rocks/publisher/1"><img id="publishers" src="[[ formatjson(publisher.image) ]]" class="img-responsive img-thumbnail" alt="Dell"></a></td>
+                  <td>[[ formatjson(publisher.name) ]]</td>
+                  <td>[[ formatjson(publisher.address) ]]</td>
+                  <td>[[ formatjson(publisher.city) ]]</td>
+                  <td>[[ formatjson(publisher.state) ]]</td>
+>>>>>>> master
                </tr>
             </tbody>
          </table>
       </div>
-   </body>
-</html>
+{% endblock %}

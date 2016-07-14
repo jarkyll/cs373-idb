@@ -3,14 +3,15 @@ HOST: http://downing.rocks/
 
 # Komixx
 
-Komixx is provides an interactive experience in exploring the comic book world. Users can search through Characters, Teams Volumes, and Publishers through the comic book world.
+Komixx provides an interactive experience in exploring the comic book world. Users can search through Characters, Teams, Volumes, and Publishers through the comic book world.
 
 
-## Characters [/characters]
+## Characters [/api/characters]
 ### List All Characters [GET]
 
 + Response 200 (application/json)
 
+<<<<<<< HEAD
           
     {
         "result": [
@@ -66,8 +67,65 @@ Komixx is provides an interactive experience in exploring the comic book world. 
             }
         ]
     }
+=======
         
-## Characters [/characters/id]
+        {
+            "result": [
+                {
+                    "gender": [
+                        "Female"
+                    ],
+                    "image": [
+                        "http://comicvine.gamespot.com/api/image/scale_small/1044725-mm.jpg"
+                    ],
+                    "name": "Jerry",
+                    "publisher": [
+                        "Dell"
+                    ],
+                    "real_name": [
+                        null
+                    ],
+                    "teams": [
+                        {
+                            "image": [
+                                "http://comicvine.gamespot.com/api/image/scale_small/1044725-mm.jpg"
+                            ],
+                            "name": "Mouse Musketeers"
+                        }
+                    ],
+                    "volumes": [
+                        {
+                            "image": [
+                                "http://comicvine.gamespot.com/api/image/scale_small/1148-1622-1230-1-tom-amp-jerry-summ.jpg"
+                            ],
+                            "name": "Tom and Jerry's Summer Fun"
+                        },
+                        {
+                            "image": [
+                                "http://comicvine.gamespot.com/api/image/scale_small/2827033-fourcolor1.jpg"
+                            ],
+                            "name": "Four Color"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "result": [
+                {
+                    "gender": null,
+                    "image": null,
+                    "name": "Terry",
+                    "publisher": null,
+                    "real_name": null,
+                    "teams": [ ],
+                    "volumes": [ ]
+                }
+            ]
+        }
+>>>>>>> master
+        
+## Characters [/api/characters/id]
 ### List a Single Character [GET]
 
 + Response 200 (application/json)
@@ -86,11 +144,29 @@ Komixx is provides an interactive experience in exploring the comic book world. 
         ]
     }
 
+<<<<<<< HEAD
 ## Teams [/teams]
+=======
+        {
+            "result": [
+                {
+                    "gender": null,
+                    "image": null,
+                    "name": "Terry",
+                    "publisher": null,
+                    "real_name": null,
+                    "teams": [ ],
+                    "volumes": [ ]
+                }
+            ]
+        }
+## Teams [/api/teams]
+>>>>>>> master
 ### List All Teams [GET]
 
 + Response 200 (application/json)
 
+<<<<<<< HEAD
     {
         "result": {
             "appear": "Mad 176-179",
@@ -131,6 +207,91 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                     "name": "Marvel Comics Super Special"
                 }
             ]
+=======
+        {
+            "result": {
+                "appear": "Mad 176-179",
+                "description": "Ewoks are a small teddy bear like species that is native to the planet Endor.",
+                "image": "http://comicvine.gamespot.com/api/image/scale_small/367187-154544-ewoks.JPG",
+                "name": "Ewoks",
+                "num_appearances": "0",
+                "publisher_name": "Dark Horse Comics",
+                "team_characters": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/319977-72031-chief-chirpa.jpg",
+                        "name": "Chief Chirpa"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/904017-graak.jpg",
+                        "name": "Graak"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/319979-130542-logray.jpg",
+                        "name": "Logray"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/903914-ebab.jpg",
+                        "name": "Ebab"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/903926-latara.jpg",
+                        "name": "Latara"
+                    }
+                ],
+                "team_volumes": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/15811-2914-17616-1-star-wars.jpg",
+                        "name": "Star Wars"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/15258-2909-17010-1-marvel-comics-super-.jpg",
+                        "name": "Marvel Comics Super Special"
+                    }
+                ]
+            }
+        },
+        {
+            "result": {
+                "appear": "Season of Mists: Prologue",
+                "description": "The Endless are seven siblings that embody seven different fundamental forces of existence itself. Ageless, immortal and nigh-omnipotent, these siblings were the central characters of the landmark Vertigo series \"The Sandman\".",
+                "image": "http://comicvine.gamespot.com/api/image/scale_small/94443-54950-the-endless.jpg",
+                "name": "The Endless",
+                "num_appearances": "0",
+                "publisher_name": "Vertigo",
+                "team_characters": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1291971-ac894.jpg",
+                        "name": "Death of the Endless"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/81662-181730-delirium.jpg",
+                        "name": "Delirium of the Endless"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/447795-danielhall.jpg",
+                        "name": "Daniel Hall"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/749044-2_desire.jpg",
+                        "name": "Desire of the Endless"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/438765-thesandman_despair_4_11_07.jpg",
+                        "name": "Despair of the Endless"
+                    }
+                ],
+                "team_volumes": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/2199272-01.jpg",
+                        "name": "The Sandman"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/2083740-01.jpg",
+                        "name": "The Books of Magic"
+                    }
+                ]
+            }
+>>>>>>> master
         }
     },
     {
@@ -176,11 +337,12 @@ Komixx is provides an interactive experience in exploring the comic book world. 
         }
     }
 
-## Teams [/teams/id]
+## Teams [/api/teams/id]
 ### List a Single Team [GET]
 
 + Response 200 (application/json)
 
+<<<<<<< HEAD
     {
         "result": {
             "appear": "And The Horse You Rode In On",
@@ -209,14 +371,46 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                     "name": "Preacher: Gone to Texas"
                 }
             ]
+=======
+        {
+            "result": {
+                "appear": "And The Horse You Rode In On",
+                "description": " ",
+                "image": null,
+                "name": "Adephi",
+                "num_appearances": "0",
+                "publisher_name": "Vertigo",
+                "team_characters": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/667207-002.jpg",
+                        "name": "DeBlanc"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/85587-48659-mathias.jpg",
+                        "name": "Mathias"
+                    }
+                ],
+                "team_volumes": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/2032970-01.jpg",
+                        "name": "Preacher"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/990379-vol1.jpg",
+                        "name": "Preacher: Gone to Texas"
+                    }
+                ]
+            }
+>>>>>>> master
         }
     }
 
-## Volumes [/volumes]
+## Volumes [/api/volumes]
 ### List All Volumes [GET]
 
 + Response 200 (application/json)
 
+<<<<<<< HEAD
     {
         "result": {
             "description": "None",
@@ -323,15 +517,125 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                     "name": "The Endless"
                 }
             ]
+=======
+        {
+            "result": {
+                "description": "None",
+                "image": "http://comicvine.gamespot.com/api/image/scale_small/777681-1.jpg",
+                "name": "100 Bullets",
+                "num_issues": "100",
+                "publisher_name": "Vertigo",
+                "start_year": 1999,
+                "volume_characters": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/3891560-lono.png",
+                        "name": "Lono"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/2054049-graves.png",
+                        "name": "Agent Graves"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/2151071-colecover2.png",
+                        "name": "Cole Burns"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/2176506-100b_99.jpg",
+                        "name": "Dizzy Cordova"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/2241040-window.jpg",
+                        "name": "Jack Daw"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/155718-102570-axel-nagel.jpg",
+                        "name": "Axel Nagel"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/100803-59256-anwar-madrid.JPG",
+                        "name": "Anwar Madrid"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1140723-augustus.jpg",
+                        "name": "Augustus Medici"
+                    },
+                    {
+                        "image": null,
+                        "name": "Anna Nagel"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/2241044-16alta.jpg",
+                        "name": "Curtis Hughes"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/3877733-chucky%20spinks.png",
+                        "name": "Chucky Spinks"
+                    }
+                ],
+                "volume_teams": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/2152183-graves2.png",
+                        "name": "Minutemen"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/101628-186628-recipients-of-the-at.JPG",
+                        "name": "Recipients of the Attaché"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/93239-172496-the-trust.jpg",
+                        "name": "The Trust"
+                    }
+                ]
+            }
+        },
+        {
+            "result": {
+                "description": "None",
+                "image": "http://comicvine.gamespot.com/api/image/scale_small/2199272-01.jpg",
+                "name": "The Sandman",
+                "num_issues": "75",
+                "publisher_name": "Vertigo",
+                "start_year": 1989,
+                "volume_characters": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1291971-ac894.jpg",
+                        "name": "Death of the Endless"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/81662-181730-delirium.jpg",
+                        "name": "Delirium of the Endless"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/447795-danielhall.jpg",
+                        "name": "Daniel Hall"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/749044-2_desire.jpg",
+                        "name": "Desire of the Endless"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/438765-thesandman_despair_4_11_07.jpg",
+                        "name": "Despair of the Endless"
+                    }
+                ],
+                "volume_teams": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/94443-54950-the-endless.jpg",
+                        "name": "The Endless"
+                    }
+                ]
+            }
+>>>>>>> master
         }
     }
 
 
-## Volumes [/volumes/id]
+## Volumes [/api/volumes/id]
 ### List a Single Volume [GET]
 
 + Response 200 (application/json)
 
+<<<<<<< HEAD
    {
         "result": {
             "description": "None",
@@ -368,16 +672,59 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                     "name": "The Endless"
                 }
             ]
+=======
+        {
+            "result": {
+                "description": "None",
+                "image": "http://comicvine.gamespot.com/api/image/scale_small/2199272-01.jpg",
+                "name": "The Sandman",
+                "num_issues": "75",
+                "publisher_name": "Vertigo",
+                "start_year": 1989,
+                "volume_characters": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1291971-ac894.jpg",
+                        "name": "Death of the Endless"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/81662-181730-delirium.jpg",
+                        "name": "Delirium of the Endless"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/447795-danielhall.jpg",
+                        "name": "Daniel Hall"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/749044-2_desire.jpg",
+                        "name": "Desire of the Endless"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/438765-thesandman_despair_4_11_07.jpg",
+                        "name": "Despair of the Endless"
+                    }
+                ],
+                "volume_teams": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/94443-54950-the-endless.jpg",
+                        "name": "The Endless"
+                    }
+                ]
+            }
+>>>>>>> master
         }
     }
 
 
-## Publishers Collection [/publishers]
+## Publishers Collection [/api/publishers]
 ### List All Publishers [GET]
 
 + Response 200 (application/json)
 
+<<<<<<< HEAD
     {
+=======
+        {
+>>>>>>> master
         "result": {
             "address": "1745 Broadwa",
             "city": "New York",
@@ -555,6 +902,7 @@ Komixx is provides an interactive experience in exploring the comic book world. 
                 }
             ],
             "state": "New York"
+<<<<<<< HEAD
         }
     },
     {
@@ -636,13 +984,97 @@ Komixx is provides an interactive experience in exploring the comic book world. 
             ],
             "state": null
         }
+=======
+        }
+    },
+    {
+        "result": {
+            "address": null,
+            "city": null,
+            "deck": "A pulp magazine and comic book publisher in the Golden Age of Comics.",
+            "image": "http://static4.comicvine.com/uploads/scale_small/6/69951/1387073-fiction_house.jpg?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json",
+            "name": "Fiction House",
+            "publisher_characters": [
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/1387237-reef_ryan.jpg",
+                    "name": "Reef Ryan"
+                }
+            ],
+            "publisher_teams": [
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/1617886-phantom_falcons.jpg",
+                    "name": "Phantom Falcons"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/1616246-royal_watch_rangers_comics_1.jpg",
+                    "name": "Royal Watch"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/1618095-captain_morgans_us_rangers.jpg",
+                    "name": "Captain Morgan's US Rangers"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/2181282-spacerangers.jpg",
+                    "name": "Space Rangers"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/1616251-defense_patrol.jpg",
+                    "name": "Defense Patrol"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/1616179-rangers_of_freedom.jpg",
+                    "name": "Rangers of Freedom"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/1618131-captain_morgans_sky_rangers.jpg",
+                    "name": "Captain Morgans Sky Rangers"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/1699406-white_hunters_of_the_african_safari.jpg",
+                    "name": "White Hunters of the African Safari"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/1699404-captain_thunder_and_his_congo_lancers.jpg",
+                    "name": "Congo Lancers"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/1619465-crusoe_island.jpg",
+                    "name": "Crusoe Island"
+                }
+            ],
+            "publisher_volumes": [
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/225367-19564-116993-1-jungle-comics.jpg",
+                    "name": "Jungle Comics"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/1618484-8.jpg",
+                    "name": "Rangers Comics"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/1618451-1.jpg",
+                    "name": "Rangers of Freedom Comics"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/3424103-01.jpg",
+                    "name": "Roy Thomas Presents Planet Comics"
+                },
+                {
+                    "image": "http://comicvine.gamespot.com/api/image/scale_small/4641116-1441336221-0.jpg.jpg",
+                    "name": "Planet Comics"
+                }
+            ],
+            "state": null
+        }
+>>>>>>> master
     }
 
-## Publishers Collection [/publishers/id]
+## Publishers Collection [/api/publishers/id]
 ### List a Single Publisher [GET]
 
 + Response 200 (application/json)
 
+<<<<<<< HEAD
     {
         "result": {
             "address": null,
@@ -723,3 +1155,85 @@ Komixx is provides an interactive experience in exploring the comic book world. 
             "state": null
         }
     }
+=======
+        {
+            "result": {
+                "address": null,
+                "city": null,
+                "deck": "A pulp magazine and comic book publisher in the Golden Age of Comics.",
+                "image": "http://static4.comicvine.com/uploads/scale_small/6/69951/1387073-fiction_house.jpg?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json",
+                "name": "Fiction House",
+                "publisher_characters": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1387237-reef_ryan.jpg",
+                        "name": "Reef Ryan"
+                    }
+                ],
+                "publisher_teams": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1617886-phantom_falcons.jpg",
+                        "name": "Phantom Falcons"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1616246-royal_watch_rangers_comics_1.jpg",
+                        "name": "Royal Watch"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1618095-captain_morgans_us_rangers.jpg",
+                        "name": "Captain Morgan's US Rangers"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/2181282-spacerangers.jpg",
+                        "name": "Space Rangers"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1616251-defense_patrol.jpg",
+                        "name": "Defense Patrol"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1616179-rangers_of_freedom.jpg",
+                        "name": "Rangers of Freedom"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1618131-captain_morgans_sky_rangers.jpg",
+                        "name": "Captain Morgans Sky Rangers"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1699406-white_hunters_of_the_african_safari.jpg",
+                        "name": "White Hunters of the African Safari"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1699404-captain_thunder_and_his_congo_lancers.jpg",
+                        "name": "Congo Lancers"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1619465-crusoe_island.jpg",
+                        "name": "Crusoe Island"
+                    }
+                ],
+                "publisher_volumes": [
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/225367-19564-116993-1-jungle-comics.jpg",
+                        "name": "Jungle Comics"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1618484-8.jpg",
+                        "name": "Rangers Comics"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/1618451-1.jpg",
+                        "name": "Rangers of Freedom Comics"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/3424103-01.jpg",
+                        "name": "Roy Thomas Presents Planet Comics"
+                    },
+                    {
+                        "image": "http://comicvine.gamespot.com/api/image/scale_small/4641116-1441336221-0.jpg.jpg",
+                        "name": "Planet Comics"
+                    }
+                ],
+                "state": null
+            }
+        }
+>>>>>>> master

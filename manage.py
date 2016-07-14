@@ -2,7 +2,11 @@ from flask import Flask, render_template, jsonify
 from app.demo import *
 import jinja2
 from test_suite import *
+<<<<<<< HEAD
 import unittest, sys, os, subprocess
+=======
+import unittest, sys, os
+>>>>>>> master
 
 
 
@@ -283,11 +287,19 @@ def homepage():
 
 @app.route('/runtests')
 def runtests():
+<<<<<<< HEAD
     try:
         result = subprocess.check_output("python3 tests.py", stderr=subprocess.STDOUT, shell=True)
         return result
     except Exception as e:
         return str(e)
+=======
+    stream = StringIO()
+    runner = unittest.TextTestRunner(stream=stream)
+    result = runner.run(unittest.makeSuite(MyTests))
+    print(result, file=sys.stderr)
+    return result
+>>>>>>> master
 
 @app.route("/about")
 def about():
@@ -321,25 +333,41 @@ def publishers():
 @app.route("/publisher/<name>")
 def publisher(name):
     pub = db.session.query(Publisher).filter_by(name=name).first()
+<<<<<<< HEAD
     return render_template("publisher_template.html", publisher=pub)
+=======
+    return render_template("publisher.html", publisher=pub)
+>>>>>>> master
 
 
 @app.route("/character/<name>")
 def character(name):
     char = db.session.query(Character).filter_by(name=name).first()
+<<<<<<< HEAD
     return render_template("character_template.html", character=char)
+=======
+    return render_template("publisher.html", character=char)
+>>>>>>> master
 
 
 @app.route("/volume/<name>")
 def volume(name):
     v = db.session.query(Volume).filter_by(name=name).first()
+<<<<<<< HEAD
     return render_template("volumes_template.html", volume=v)
+=======
+    return render_template("planet.html", volume=v)
+>>>>>>> master
 
 
 @app.route("/team/<name>")
 def team(name):
     t = db.session.query(Team).filter_by(name=name).first()
+<<<<<<< HEAD
     return render_template("teams_template.html", team=t)
+=======
+    return render_template("space.html", team=t)
+>>>>>>> master
 
 
 @app.route('/api/characters', methods=['GET'])

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en" style="text-align:center">
 <head>
@@ -52,6 +53,10 @@
 </head>
 	<body>
 
+=======
+{% extends "base.html" %}
+{% block content %}
+>>>>>>> master
 		<div  id="content" class="container">
 			<div class="jumbotron">
 				<h1 id="inner">The One Punch Men</h1>
@@ -187,12 +192,13 @@
 						    						<li><a href="http://github.com/jarkyll/cs373-idb/wiki">GitHub Wiki</a></li>
 				    					</ul>
                 </div>
-                <div id="inner" class="col-md-4">
+                <div id="inner" class="col-md-4" ng-controller="MainController">
                     <h2 id="inner">Project Data</h2>
                     <ul id="inner">
                           <li><a href="http://comicvine.gamespot.com/api/">Comic Vine API</a></li>
 						  <li id="inner">We used urllib2 and it's request call to scrape data from the corresponding type</li>
 				    </ul>
+                                <button type="button" class="btn btn-info" ng-click="runTests()">Run Test</button>
                 </div>
                 <div id="inner" class="col-md-4">
                     <h2 id="inner">Project Tools</h2>
@@ -212,5 +218,9 @@
             </div>
 		  </div>
     </div>
+<<<<<<< HEAD
   </body>
 </html>
+=======
+{% endblock %}
+>>>>>>> master

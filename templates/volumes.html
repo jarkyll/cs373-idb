@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -76,6 +77,12 @@
 
 		<div id="content" class="container">
       <table id="volumes"  class="display nowrap" cellspacing="0" width="100%">
+=======
+{% extends "base.html" %}
+{% block content %}
+		<div id="content" class="container" ng-controller="MainController">
+      <table id="table"  class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+>>>>>>> master
         <thead>
           <tr>
             <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
@@ -86,6 +93,7 @@
           </tr>
         </thead>
         <tbody>
+<<<<<<< HEAD
           <tr>
             <td><a id="inner" href="http://downing.rocks/volume/1"><img id="publishers" src="http://static1.comicvine.com/uploads/square_avatar/6/67663/3754499-01.jpg"></a></td>
             <td>Star Wars: Dark Force Rising</td>
@@ -106,9 +114,16 @@
             <td><a href="http://downing.rocks/publisher/2">Fiction House</a></td>
             <td>1940</td>
             <td>70</td>
+=======
+          <tr ng-repeat="volume in volumes">
+            <td><a id="inner" href="/volume/[[ formatjson(volume.name) ]]"><img id="publishers" src="[[ formatjson(volume.image) ]]"></a></td>
+            <td>[[ formatjson(volume.name) ]]</td>
+            <td><a href="/publisher/[[ formatjson(volume.publisher) ]]">[[ formatjson(volume.publisher) ]]</a></td>
+            <td>[[ volume.start_year ]]</td>
+            <td>[[ formatjson(volume.num_issues) ]]</td>
+>>>>>>> master
           </tr>
         </tbody>
       </table>
     </div>
-	</body>
-</html>
+{% endblock %}
