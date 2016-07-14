@@ -26,7 +26,7 @@ app.controller('MainController', ['$scope', 'characters', 'teams', 'volumes', 'p
   });
   publishers.success(function(data) { 
       $scope.publishers = data['result']; 
-      console.log(JSON.stringify(data));
+      //console.log(JSON.stringify(data));
   });
   $scope.formatjson = function(a){
 

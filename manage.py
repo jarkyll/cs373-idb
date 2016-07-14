@@ -327,7 +327,7 @@ def publisher(name):
 @app.route("/character/<name>")
 def character(name):
     char = db.session.query(Character).filter_by(name=name).first()
-    return render_template("publisher.html", character=char)
+    return render_template("character_template.html", character=char)
 
 
 @app.route("/volume/<name>")
