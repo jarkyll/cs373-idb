@@ -1,510 +1,140 @@
-commit 3b6f208daeb7d05382d9cc89079c9aec3c999eca
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Wed Jul 13 17:40:54 2016 -0500
-
-    update apiary
-
-commit f6474789501ee078e96891626e4fc30b21433c6e
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 17:39:33 2016 -0500
-
-    changed init
-
-commit c9ddc7b5118f18bc301e272e142f5a1aa584ab33
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 17:36:03 2016 -0500
-
-    fixing error status 2
-
-commit bf92045ef27c839ffcd828f925eb25a9f260c74f
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 17:33:36 2016 -0500
-
-    added method to call
-
-commit e58e7be8dfc696caebc794f5430531cf84d0ff33
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 17:22:45 2016 -0500
-
-    fixing the run tests call
-
-commit 4e807763addb65c8898dab081ac75324beca029d
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 17:17:50 2016 -0500
-
-    test_suite not testsuite
-
-commit cdbf204490a4b81b0fc220ac162665342381795c
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 17:15:54 2016 -0500
-
-    unit tests code
-
-commit dcffa81ba8143ccaba484bcf80af6f482792b914
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Wed Jul 13 17:10:56 2016 -0500
-
-    improve coverage for unit tests~
-
-commit 61a9c6d3eb05efa699f373cc41797c1fbcd9035c
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Wed Jul 13 17:05:57 2016 -0500
-
-    improve coverage for unit tests~
-
-commit c2df78ff0f66ba156bf5f8c8e531b71653fa757f
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 17:00:05 2016 -0500
-
-    reset names
-
-commit db1f47fe223cc0cf6ecdd40a1e381100492b4ee4
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 16:57:30 2016 -0500
-
-    changed models naming
-
-commit 3054db5b09c9ae7247c27bc2115c5a9a10119844
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Wed Jul 13 16:54:02 2016 -0500
-
-    improve coverage for unit tests
-
-commit fa62e6a38a900c5d0753759f6192999f2d068648
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 16:52:59 2016 -0500
-
-    changed models struct
-
-commit 5e191b3728dd1fbb1f1edf21187fc17d90d59532
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 16:40:13 2016 -0500
-
-    autopep8 of tests
-
-commit 82a8894359202d751ee56805da2b68028198061a
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 16:31:01 2016 -0500
-
-    fixing tests
-
-commit 734a700b803a2dfbad21c2052db09367f7636226
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Wed Jul 13 16:25:43 2016 -0500
-
-    fix unit tests
-
-commit cf61c1c6f002915c19e8f9286cb8f4b0db7578ac
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 16:22:17 2016 -0500
-
-    can't instal urllib
-
-commit 1ba7491de4b7583e3cd7c7f5860c61701c020447
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 16:13:40 2016 -0500
-
-    changed travis and makefile
-
-commit 7210e5e60b0f0b0cccc079e8965cc458b0a3a958
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 16:11:41 2016 -0500
-
-    fixing python syntax
-
-commit 1ea7f4eef2816cc636b412e570d435800570ed01
-Merge: 5762e44 fea9ef2
-Author: Pradeep Kumar <pradeep.kumar@utexas.edu>
-Date:   Wed Jul 13 16:02:18 2016 -0500
-
-    Merge branch 'dev' of https://github.com/jarkyll/cs373-idb into dev
-
-commit 5762e441b05d53ec8e7adc66e06caa41db23be09
-Author: Pradeep Kumar <pradeep.kumar@utexas.edu>
-Date:   Wed Jul 13 16:01:55 2016 -0500
-
-    applied jinja2 templates
-
-commit fea9ef2c7888532948334f73686e25dbced7ef51
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 16:01:25 2016 -0500
-
-    testing travis again for models and test
-
-commit d7d61b687d8cc097700fd26c9fb1a65925a3be92
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 15:53:23 2016 -0500
-
-    fixing imports
-
-commit 4e66791e12e538a45596ca0d95ca3ca4d18a2132
-Author: Pradeep Kumar <pradeep.kumar@utexas.edu>
-Date:   Wed Jul 13 15:48:26 2016 -0500
-
-    implemented base.html for jinja2
-
-commit a70300fd75ecaf2664e9dc4ba79976f983ccb599
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 15:45:55 2016 -0500
-
-    fixing models
-
-commit 13a00b39ddc69616c9c21703bf6852232d3fde6f
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 15:44:26 2016 -0500
-
-    changing models
-
-commit 0e3ae0b0e7a5f900e32c00ecf3ac803905ef9776
-Author: Pradeep Kumar <pradeep.kumar@utexas.edu>
-Date:   Wed Jul 13 15:40:09 2016 -0500
-
-    removed abort git
-
-commit 249d8cc9dbdb19cdc68b927d81f1294013480bbe
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 16:34:18 2016 -0400
-
-    working server
-
-commit 37ca7c0995dff26f00424e08fff32593a3b84828
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 15:27:40 2016 -0500
-
-    reorganized our init
-
-commit e600a8ad24428833d88ed7404245e421a91ed5ba
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 15:24:14 2016 -0500
-
-    removed abortgit
-
-commit 8f57ca3ddd2cfdc324b455e167e2eb19c1791601
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 15:22:11 2016 -0500
-
-    commented the unit tests
-
-commit 9162194028b06596269cc1bef3533309e39bc406
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 15:20:15 2016 -0500
-
-    apache wants init not manage
-
-commit 241de48f187242dfd629420789058ff13797493e
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 15:14:28 2016 -0500
-
-    removed unneccessary stuff from manage
-
-commit 8cd9e95d017b04893e7cfaeb35e2cd4f8ec07bbc
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Wed Jul 13 15:10:45 2016 -0500
-
-    fixed single character
-
-commit c0d7f0c755e2559e84bf0e4a01200b9d4563152d
-Author: Pradeep Kumar <pradeep.kumar@utexas.edu>
-Date:   Tue Jul 12 22:00:27 2016 -0500
-
-    trying to get test suite imported
-
-commit 0631a10fa4fcdff3ffbfc8883dcba19978e3be1f
-Merge: d81da8c aacbc69
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Tue Jul 12 21:31:22 2016 -0500
-
-    Merge branch 'dev' of http://github.com/jarkyll/cs373-idb into dev
-
-commit d81da8c2944aa9bddab66a33d383b5e3b8808717
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Tue Jul 12 21:30:52 2016 -0500
-
-    testing templates
-
-commit aacbc69e779ce48e672a39cb147a3b8f4d515ff5
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Tue Jul 12 22:26:24 2016 -0400
-
-    fixing server
-
-commit 316cd7263c79ada3c081101cbe7999d2a4d97ab2
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Tue Jul 12 21:10:24 2016 -0500
-
-    update UML
-
-commit abb1995619cb8a112343b57130bb8702a78a6d29
-Author: Pradeep Kumar <pradeep.kumar@utexas.edu>
-Date:   Tue Jul 12 21:09:18 2016 -0500
-
-    added angular files
-
-commit d1f6a0270531e1bc0a514634a8899099f2f8f608
-Author: Pradeep Kumar <pradeep.kumar@utexas.edu>
-Date:   Tue Jul 12 21:07:14 2016 -0500
-
-    added run tests button to about me
-
-commit 3119912e2e08b4fa11b4024431332de8c1126a0a
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Tue Jul 12 20:56:17 2016 -0500
-
-    working app
-
-commit 64c9ded86276a314ef44b447cba7e01da7f28107
+commit d481d40d20eedded6c605cab93d0aa5ce446c973
 Author: asb26 <adidan26@yahoo.com>
-Date:   Tue Jul 12 18:12:47 2016 -0500
+Date:   Thu Jul 14 13:11:22 2016 -0500
 
-    Corrected makefile
+    Updated volume template following nabeel's instructions
 
-commit 79e5ab847110e00a182f1296c90948d359578546
-Author: asb26 <adidan26@yahoo.com>
-Date:   Tue Jul 12 18:09:29 2016 -0500
+commit 9e416d382852cd7075b9078d2de40a283a423ab6
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 08:29:01 2016 -0500
 
-    updated travis file
+    added css for about page and changed navbar
 
-commit 0893b0b2be8d2c338e2e364836015a5c829a6945
-Author: asb26 <adidan26@yahoo.com>
-Date:   Tue Jul 12 15:18:56 2016 -0500
+commit 389cfb94232aded9485826bc75406073b138679a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 07:00:30 2016 -0500
 
-    New tests
+    changed start year col to first appearance
 
-commit defa403f91c1d6e66c5108ff444c576fc4ceb44c
+commit 2e4cfc7b0098517e2273b472ecd1083ab422e95a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 06:57:47 2016 -0500
+
+    if image is unavailable, another image is shown
+
+commit 09ae4296f43036812f4ff290fc8252cda6807da4
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 06:52:52 2016 -0500
+
+    clicking on character now leads to character
+
+commit ff843e7e571fc603ff2efc3265a1a9c6d31e776f
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 06:01:14 2016 -0500
+
+    updated about html
+
+commit 6aaee46bec1fc755e72e1d0f94e2f460287582b5
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 05:52:19 2016 -0500
+
+    changed image if image src is none
+
+commit d7e165cbba708fb430b4a7b49fbf86b7f6d5f950
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 05:45:37 2016 -0500
+
+    changed the templates, they work
+
+commit 743aaf2e40bc2236b8bd0b38863f5d2d34a89851
 Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Tue Jul 12 14:06:25 2016 -0500
+Date:   Wed Jul 13 21:02:10 2016 -0500
 
-    update makefile
+    update server templates
 
-commit 96a8581f8ef4926e4633354b8625869fd360b7b2
+commit cdd72f959085e5d3fa5060a43bccec1fbeec2fbd
 Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Tue Jul 12 13:45:27 2016 -0500
+Date:   Wed Jul 13 20:56:18 2016 -0500
+
+    add to master
+
+commit c84e4b92d7c331173a312ae0cdfbbfadacb026bb
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Wed Jul 13 20:21:40 2016 -0500
 
     remove unnecessary files
 
-commit cf96ff1980333c4e8bedb24fb3971804077911bf
-Author: asb26 <adidan26@yahoo.com>
-Date:   Tue Jul 12 13:44:42 2016 -0500
-
-    added travis and makefile
-
-commit 1c4f84adaf5f850778478032344366cdf8a51c8e
-Author: asb26 <adidan26@yahoo.com>
-Date:   Tue Jul 12 13:34:32 2016 -0500
-
-    intializes our db in travis
-
-commit 51862d6e780dfb312408fa29cfa39403398863dd
-Merge: 797b279 7942dbb
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Tue Jul 12 13:32:08 2016 -0500
-
-    Merge branch 'dev' of http://github.com/jarkyll/cs373-idb into dev
-
-commit 7942dbb04c3d49483b2293b9e8e73fb76f30af75
-Author: asb26 <adidan26@yahoo.com>
-Date:   Tue Jul 12 13:31:21 2016 -0500
-
-    Adding travis
-
-commit 797b279104652da9ab1329c04f501c5a00a58b97
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Tue Jul 12 13:29:29 2016 -0500
-
-    made tests
-
-commit 1d113c7957a99d1b72c5f4b6e0f8338f62d1ed8f
+commit 238b72e5be1ee7a9fd4bc913fe66a8ad9a532184
 Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Tue Jul 12 13:12:44 2016 -0500
+Date:   Wed Jul 13 20:02:58 2016 -0500
 
-    update UML
+    add to master
 
-commit a2d9f621598474630d6ecf8ae4a31aa8dcc6b071
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Tue Jul 12 09:05:08 2016 -0500
-
-    wrote one test and the skeleton for the tests
-
-commit dce339e457296548fb207401abe5f9c4fdc0919c
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Tue Jul 12 08:52:14 2016 -0500
-
-    we can make tests now
-
-commit f08702f5bc5e15fb9fae23f5e128909d3cb47bd6
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Tue Jul 12 08:01:31 2016 -0500
-
-    removed .idea from repo and update gitignore
-
-commit 7d39b52645a32522b17db279ae89090646f7ba7e
-Merge: 75741f7 77f0484
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Tue Jul 12 07:49:19 2016 -0500
-
-    Merge branch 'dev' of http://github.com/jarkyll/cs373-idb into dev
-
-commit 75741f76019492a7226512c9f3ea19d56b981d5b
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Tue Jul 12 07:47:49 2016 -0500
-
-    working database with working relationships
-
-commit 77f0484f1e75803eb2e7494ffded3934db96ddf5
+commit aaec086a814a17ea46c68e8da20c89d32a220688
 Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Mon Jul 11 19:08:48 2016 -0500
+Date:   Wed Jul 13 20:00:23 2016 -0500
 
-    change the size of one picture
+    add to master
 
-commit 0d4cec2642468c977182aa3c08058302098b5916
+commit 08736e4dc5307af1572181be4d1e35b9f821f03a
 Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Mon Jul 11 18:52:56 2016 -0500
+Date:   Wed Jul 13 19:57:40 2016 -0500
 
-    extract all info
+    add to master
 
-commit df5c68d557e537f98c4d2d528ea9c1e2ca760502
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Mon Jul 11 17:22:56 2016 -0500
+commit f7409d2e194c4c4ad252ae57f72cab871083adbd
+Author: asb26 <adan_briones@outlook.com>
+Date:   Wed Jul 13 19:36:26 2016 -0500
 
-    extract characters and volumes info
+    Transferring API Description file from Apiary.io
 
-commit 56fc5f5230226f5687907074bb6925397305bc0c
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Mon Jul 11 16:07:19 2016 -0500
+commit dae360e72952297e6cec97256080b687ffcdf7b5
+Author: PradeepKumar-23 <pradeep.kumar@utexas.edu>
+Date:   Tue Jul 12 20:46:21 2016 -0500
 
-    fixed models publisher repr
+    updated api responses on Tuesday July 12
 
-commit 7cb3ec8cad0442ca8bfc6fcb2a078efd9e89879c
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Mon Jul 11 15:49:12 2016 -0500
+commit 6aec1f68c9c80c2f84c67b549a1cbb0a83f3f4a5
+Author: asb26 <adan_briones@outlook.com>
+Date:   Tue Jul 12 15:46:30 2016 -0500
 
-    extracted all info about teams
+    Updated Character team to be dictionary
 
-commit 5567a03f1c873e3d2faa113a84cdba5285b634fd
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Mon Jul 11 15:10:36 2016 -0500
+commit 43e18a372ce81ffcf6b10450bb9135dd495eb6be
+Author: asb26 <adan_briones@outlook.com>
+Date:   Tue Jul 12 15:21:33 2016 -0500
 
-    fixing extractors
+    Updated gender to int
 
-commit 3112f53110d99575b4bf7ea41e904e018107b127
-Merge: 211718e ee263c8
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Mon Jul 11 01:47:31 2016 -0500
+commit 3fbe7a1b5a4a0738ab5adc0da4380c99f713a8bc
+Author: asb26 <adan_briones@outlook.com>
+Date:   Tue Jul 12 15:12:25 2016 -0500
 
-    fixing merge
+    Changed start year to string
 
-commit 211718e06739b892274c09bdbaaaeded15bdec76
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Mon Jul 11 01:44:49 2016 -0500
+commit 8055853622baa4b13049df5fdf2196b0c07736d0
+Author: asb26 <adan_briones@outlook.com>
+Date:   Tue Jul 12 15:06:18 2016 -0500
 
-    postgres works and just need to add data
+    Removed Powers
 
-commit ee263c87dd2a660575ffa50f44a29acb3bfe5608
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Sun Jul 10 21:48:58 2016 -0500
+commit 3e7894f02ed30e18d92e96a4528adf411cf15c62
+Author: asb26 <adan_briones@outlook.com>
+Date:   Tue Jul 12 14:27:39 2016 -0500
 
-    split more info
+    Fixed paths
 
-commit 5dc774a479173ecad9bbb82752947546edffc52b
-Merge: 53e2326 3df7ea9
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Sun Jul 10 21:23:02 2016 -0500
+commit 6749bd207484d94b8539fdfc143fa2dadb822502
+Author: asb26 <adan_briones@outlook.com>
+Date:   Tue Jul 12 14:21:22 2016 -0500
 
-    another commit
+    Fixed Typos
 
-commit 53e23269c8c7d932498306ce01a621d4590c581f
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Sun Jul 10 21:17:38 2016 -0500
+commit 9005d6949f6e3016b338f56c4cb2f20cd9be84a3
+Author: asb26 <adan_briones@outlook.com>
+Date:   Mon Jul 11 16:27:11 2016 -0500
 
-    split info into json files
-
-commit 3df7ea9137d9d18dff6198635e13d0cfe01b4b6a
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Sun Jul 10 20:12:45 2016 -0500
-
-    removed some sql modules
-
-commit 6ef3e89cd4e6323789a26e09fa7b29667b217e26
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Sun Jul 10 18:30:48 2016 -0500
-
-    models works and can be added to by using flasksql
-
-commit 56217176ef13639f77638391b86ac1807e6eba65
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Sun Jul 10 17:59:07 2016 -0500
-
-    update extractors
-
-commit 7bf8bb6184e0dc75daefdacc6432330511ac9c39
-Merge: fe41da9 865792a
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Sun Jul 10 14:19:07 2016 -0500
-
-    add info extractors
-
-commit fe41da9247cabc63df01dd7a9bc421f48f6d3998
-Author: Chuqi Zhou <cz4792@utexas.edu>
-Date:   Sun Jul 10 14:16:55 2016 -0500
-
-    add info extractors
-
-commit 865792aa77c10ca0db540ef7f02c5f9005ec9c8c
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Sat Jul 9 21:02:09 2016 -0400
-
-    character and volume issue
-
-commit 29c9dfc2a4ab5734e32fedfaec8165cdc2a34afb
-Merge: 86ef815 9c3a4c3
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Sat Jul 9 17:32:53 2016 -0400
-
-    Merge branch 'dev' of https://github.com/jarkyll/cs373-idb into dev
-
-commit 9c3a4c305d3b92b09bf5e341e06dd6ef2a055c63
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Sat Jul 9 16:32:39 2016 -0500
-
-    db_connect can't read dict error
-
-commit 86ef8153acad81eb3bf887fe675fe210b2a25f12
-Merge: eef495b 7981aaa
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Sat Jul 9 17:30:37 2016 -0400
-
-    Merge branch 'dev' of https://github.com/jarkyll/cs373-idb into dev
-
-commit eef495b44dfba76148b009914177c8d7090b149a
-Merge: f35bec7 3732962
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Sat Jul 9 17:30:11 2016 -0400
-
-    Merge branch 'master' of https://github.com/jarkyll/cs373-idb into dev
-
-commit 7981aaaea4cbe1481645052db6a076e4bbafefb0
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Sat Jul 9 16:29:55 2016 -0500
-
-    db connects to set Database
-
-commit f35bec7a2f773e07f0c64d36de7bb34c99906db3
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Sat Jul 9 16:27:21 2016 -0500
-
-    moved init and removed extra models html
-
-commit 42426ac858993e8c25fae916ca8963c80029fb95
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Sat Jul 9 16:09:46 2016 -0500
-
-    removed flask_sqlalchemy
-
-commit df96a62c454bef968c0d6d8aff9030018926c2de
-Author: Nabeel Virani <nabeelvirani@gmail.com>
-Date:   Sat Jul 9 16:07:44 2016 -0500
-
-    front-end is mobile friendly and db
+    Updated models to match current state in models.py
 
 commit 3732962c395d6b6fafb8cad02dee0d0dd693d7b3
 Author: Chuqi <cz4792@utexas.edu>
