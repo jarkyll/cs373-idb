@@ -86,9 +86,9 @@
                <h2 id="title"> Characters </h2>
                {% for character in volume.volume_characters %}
                    {% if character.image != None %}
-                        <a id="inner" href="http://downing.rocks/team/{{character.name}}"><img id='publishers' src="{{character.image}}" class="img-rounded" alt="Teams"></a>
+                        <a id="inner" href="http://downing.rocks/character/{{character.name}}"><img id='publishers' src="{{character.image}}" class="img-rounded" alt="Teams"></a>
                    {% else %}
-                        <a id="inner" href="http://downing.rocks/team/{{character.name}}">{{character.name}}</a>
+                        <a id="inner" href="http://downing.rocks/character/{{character.name}}">{{character.name}}</a>
                    {% endif %}
                         </br>
                {% endfor %}
