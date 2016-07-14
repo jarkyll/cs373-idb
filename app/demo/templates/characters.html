@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="content" class="container" ng-controller="MainController">
+   <table id="table" class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+      <thead>
+         <tr>
+            <th class=" ">Thumbnail</th>
+            <!--Thumbnail Link should take them to Char page-->
+            <th class=" ">Super Name</th>
+            <!--Title Link should take them to Char page-->
+            <th class=" ">Real Name</th>
+            <!--Publisher Link should take them to Publisher page-->
+            <th class=" ">Publisher</th>
+            <th class=" ">Gender</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr ng-repeat="character in characters">
+            <td class="image"><a id="inner" href="http://downing.rocks/character/2"><img id="publishers" src="[[ formatjson(character.image) ]]" class="img-rounded" alt="Teams"></a></td>
+            <td class="name">[[ formatjson(character.name) ]]</td>
+            <td class="real_name">[[ formatjson(character.real_name) ]]</td>
+            <td class="publisher"><a href="http://downing.rocks/publisher/2">[[ formatjson(character.publisher) ]]</a></td>
+            <td class="gender">[[ formatjson(character.gender) ]]</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+{% endblock %}

@@ -2,16 +2,20 @@
 from demo import db
 
 characters_volumes = db.Table('characters_volumes',
-                              db.Column('character_name', db.String(150), db.ForeignKey('Character.name')),
-                              db.Column('volume_name', db.String(100), db.ForeignKey('Volume.name')))
+    db.Column('character_name', db.String(150), db.ForeignKey('Character.name')),
+    db.Column('volume_name', db.String(100), db.ForeignKey('Volume.name'))
+)
+
 
 characters_teams = db.Table('characters_teams',
-                            db.Column('character_name', db.String(200), db.ForeignKey('Character.name')),
-                            db.Column('team_name', db.String(250), db.ForeignKey('Team.name')))
+    db.Column('character_name', db.String(200), db.ForeignKey('Character.name')),
+    db.Column('team_name', db.String(250), db.ForeignKey('Team.name'))
+)
 
 volumes_teams = db.Table('volumes_teams',
-                         db.Column('volume_name', db.String(200), db.ForeignKey('Volume.name')),
-                         db.Column('team_name', db.String(150), db.ForeignKey('Team.name')))
+    db.Column('volume_name', db.String(200), db.ForeignKey('Volume.name')),
+    db.Column('team_name', db.String(150), db.ForeignKey('Team.name'))
+)
 
 
 class Character(db.Model):
@@ -46,6 +50,19 @@ class Character(db.Model):
 
     character_teams = db.relationship("Team", secondary=characters_teams, back_populates="team_characters")
 
+    def __repr__(self):
+        return 'Character(name={}, image={}, birth={}, gender={}, creator={}, publisher={}, appear={}, real={}, num_appearances={}'.format(
+            self.name,
+            self.image,
+            self.birth,
+            self.gender,
+            self.creator,
+            self.publisher_name,
+            self.appear,
+            self.real,
+            self.num_appearances
+            ) + ")"
+
     def json_it(self):
         t = []
         for team in self.character_teams:
@@ -68,21 +85,6 @@ class Character(db.Model):
             'character_volumes': v
         }
         return ans
-
-    def __repr__(self):
-        return 'Character(name={}, image={}, birth={}, gender={}, creator={}, publisher={}, appear={}, real={}, num_appearances={}'.format(
-            self.name,
-            self.image,
-            self.birth,
-            self.gender,
-            self.creator,
-            self.publisher_name,
-            self.appear,
-            self.real,
-            self.num_appearances
-        ) + ")"
-
-
 class Volume(db.Model):
     """
     image: image url
@@ -110,13 +112,11 @@ class Volume(db.Model):
 
     def json_it(self):
         t = []
-        for team in self.volume_teams:
-            temp = {'name': team.name, 'image': team.image}
-            t.append(temp)
+        for team in self.character_teams:
+            t += {'name': team.name, 'image': team.image}
         c = []
-        for character in self.volume_characters:
-            temp = {'name': character.name, 'image': character.image}
-            c.append(temp)
+        for character in self.character_volumes:
+            c += {'name': character.name, 'image': character.image}
 
         ans = {
             'description': self.description,
@@ -138,7 +138,7 @@ class Volume(db.Model):
             self.publisher_name,
             self.name,
             self.num_issues
-        ) + ")"
+            ) + ")"
 
 
 class Team(db.Model):
@@ -171,17 +171,16 @@ class Team(db.Model):
             self.team_publisher,
             self.appear,
             self.num_appearances,
-        ) + ")"
+            ) + ")"
 
     def json_it(self):
         c = []
         for char in self.team_characters:
-            temp = {'name': char.name, 'image': char.image}
-            c.append(temp)
+            c += {'name': char.name, 'image': char.image}
         v = []
         for volume in self.team_volumes:
-            temp = {'name': volume.name, 'image': volume.image}
-            v.append(temp)
+            v += {'name': volume.name, 'image': volume.image}
+
         ans = {
             'appear': self.appear,
             'description': self.description,
@@ -195,7 +194,6 @@ class Team(db.Model):
             'team_volumes': v
         }
         return ans
-
 
 class Publisher(db.Model):
     """
@@ -234,21 +232,19 @@ class Publisher(db.Model):
             self.publisher_characters,
             self.publisher_volumes,
             self.publisher_teams,
-        ) + ")"
+            ) + ")"
 
     def json_it(self):
         list_t = []
         for team in self.publisher_teams:
-            temp = {'name': team.name, 'image': team.image}
-            list_t.append(temp)
+            list_t += {'name': team.name, 'image': team.image}
         list_vol = []
         for volume in self.publisher_volumes:
-            temp = {'name': volume.name, 'image': volume.image}
-            list_vol.append(temp)
+            list_vol += {'name': volume.name, 'image': volume.image}
         list_char = []
         for character in self.publisher_characters:
-            temp = {'name': character.name, 'image': character.image}
-            list_char.append(temp)
+            print(character)
+            list_char += {'name': character.name, 'image': character.image}
         ans = {
             'name': self.name,
             'city': self.city,

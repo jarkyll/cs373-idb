@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+		<div id="content" class="container" ng-controller="MainController">
+      <table id="table"  class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+        <thead>
+          <tr>
+            <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
+            <th>Title</th>        <!--Title Link should take them to Volume page-->
+            <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
+            <th>Start Year</th>
+            <th># of Issues</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="volume in volumes">
+            <td><a id="inner" href="http://downing.rocks/volume/1"><img id="publishers" src="[[ formatjson(volume.image) ]]"></a></td>
+            <td>[[ formatjson(volume.name) ]]</td>
+            <td><a href="http://downing.rocks/publisher/1">[[ formatjson(volume.publisher) ]]</a></td>
+            <td>[[ volume.start_year ]]</td>
+            <td>[[ formatjson(volume.num_issues) ]]</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+{% endblock %}

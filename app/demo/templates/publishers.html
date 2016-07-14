@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+      <div id="content" class="container" ng-controller="MainController">
+         <table id="table" class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+            <thead>
+               <tr>
+                  <th>Thumbnail</th>
+                  <!--Thumbnail Link should take them to Pub page-->
+                  <th>Name</th>
+                  <!--Title Link should take them to Pub page-->
+                  <th>Yr Started</th>
+                  <!--Publisher Link should take them to Publisher page-->
+                  <th>Abbr.</th>
+                  <th>Ctry</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr ng-repeat="publisher in publishers">
+                  <td><a id="inner" href="http://downing.rocks/publisher/1"><img id="publishers" src="[[ formatjson(publisher.image) ]]" class="img-responsive img-thumbnail" alt="Dell"></a></td>
+                  <td>[[ formatjson(publisher.name) ]]</td>
+                  <td>[[ formatjson(publisher.address) ]]</td>
+                  <td>[[ formatjson(publisher.city) ]]</td>
+                  <td>[[ formatjson(publisher.state) ]]</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+{% endblock %}

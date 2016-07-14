@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+		<div id="content" class="container" ng-controller="MainController">
+      <table id="table" class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+        <thead>
+          <tr>
+            <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
+            <th>Team Name</th>        <!--Title Link should take them to Volume page-->
+            <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
+            <th>First Appearance</th>
+            <th># of Appreances</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="team in teams">
+            <td><a id="inner" href="http://downing.rocks/team/1"><img id="publishers" src="[[ formatjson(team.image) ]]" ></a></td>
+            <td>[[ formatjson(team.name) ]]</td>
+            <td><a href="http://downing.rocks/publisher/1">[[ formatjson(team.publisher) ]]</a></td>
+            <td>[[ formatjson(team.appear) ]]</td>
+            <td>[[ formatjson(team.num_appearances) ]]</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+{% endblock %}
