@@ -2,7 +2,7 @@ from flask import Flask, render_template, jsonify
 from app.demo import *
 import jinja2
 from test_suite import *
-import unittest, sys, os
+import unittest, sys, os, subprocess
 
 
 
@@ -283,11 +283,11 @@ def homepage():
 
 @app.route('/runtests')
 def runtests():
-    stream = StringIO()
-    runner = unittest.TextTestRunner(stream=stream)
-    result = runner.run(unittest.makeSuite(MyTests))
-    print(result, file=sys.stderr)
-    return result
+    try:
+        result = subprocess.check_output("python3 tests.py", stderr=subprocess.STDOUT, shell=True)
+        return result
+    except Exception as e:
+        return str(e)
 
 @app.route("/about")
 def about():
