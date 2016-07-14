@@ -1,0 +1,14 @@
+{
+    "num_appearances": 22,
+    "creator": {
+        "name": "Mike Mignola"
+    },
+    "id": 292,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-43048/",
+    "appear": "Chapter Three",
+    "gender": 1,
+    "birth": null,
+    "name": "Herman Von Klempt",
+    "real_name": "Herman Von Klempt",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/104752-51019-herman-von-klempt.gif"
+}

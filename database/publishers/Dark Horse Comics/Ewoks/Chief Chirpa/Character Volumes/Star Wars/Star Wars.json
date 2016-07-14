@@ -1,0 +1,8 @@
+{
+    "name": "Star Wars",
+    "id": 2001,
+    "api_url": "http://comicvine.gamespot.com/api/volume/4050-2914/",
+    "description": "A long time ago...",
+    "count_of_issues": 107,
+    "start_year": "1977"
+}

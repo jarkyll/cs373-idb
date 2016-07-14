@@ -1,0 +1,12 @@
+{
+    "name": "Acid Storm",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2934709-acidstorm.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-63503/",
+    "gender": 1,
+    "id": 561,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 14,
+    "appear": "All His Engines"
+}

@@ -1,0 +1,690 @@
+{
+    "5120": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3632/",
+        "name": "G.I. Joe and the Transformers",
+        "description": null,
+        "id": 5120,
+        "count_of_issues": 4,
+        "start_year": "1986"
+    },
+    "5121": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-9112/",
+        "name": "G.I. Joe: A Real American Hero",
+        "description": null,
+        "id": 5121,
+        "count_of_issues": 25,
+        "start_year": "2001"
+    },
+    "5640": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27066/",
+        "name": "Transformers: Micromasters",
+        "description": null,
+        "id": 5640,
+        "count_of_issues": 4,
+        "start_year": "2004"
+    },
+    "5641": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27869/",
+        "name": "Transformers: More than Meets the Eye",
+        "description": null,
+        "id": 5641,
+        "count_of_issues": 8,
+        "start_year": "2003"
+    },
+    "5130": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18418/",
+        "name": "G.I. Joe: America's Elite",
+        "description": null,
+        "id": 5130,
+        "count_of_issues": 37,
+        "start_year": "2005"
+    },
+    "5900": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3370/",
+        "name": "The Transformers",
+        "description": null,
+        "id": 5900,
+        "count_of_issues": 80,
+        "start_year": "1984"
+    },
+    "5901": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5058/",
+        "name": "Transformers: Generation 2",
+        "description": null,
+        "id": 5901,
+        "count_of_issues": 12,
+        "start_year": "1993"
+    },
+    "5140": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-59190/",
+        "name": "G.I. Joe Special Missions",
+        "description": null,
+        "id": 5140,
+        "count_of_issues": 14,
+        "start_year": "2013"
+    },
+    "5910": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-58417/",
+        "name": "The Transformers: Monstrosity",
+        "description": null,
+        "id": 5910,
+        "count_of_issues": 12,
+        "start_year": "2013"
+    },
+    "5911": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-63723/",
+        "name": "The Transformers: Monstrosity",
+        "description": null,
+        "id": 5911,
+        "count_of_issues": 4,
+        "start_year": "2013"
+    },
+    "5400": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4135/",
+        "name": "Flaming Carrot Comics",
+        "description": null,
+        "id": 5400,
+        "count_of_issues": 15,
+        "start_year": "1984"
+    },
+    "5401": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-9318/",
+        "name": "MAD",
+        "description": null,
+        "id": 5401,
+        "count_of_issues": 539,
+        "start_year": "1952"
+    },
+    "5920": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3370/",
+        "name": "The Transformers",
+        "description": null,
+        "id": 5920,
+        "count_of_issues": 80,
+        "start_year": "1984"
+    },
+    "5921": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25410/",
+        "name": "Transformers: Generation 1",
+        "description": null,
+        "id": 5921,
+        "count_of_issues": 11,
+        "start_year": "2004"
+    },
+    "5410": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11889/",
+        "name": "Teenage Mutant Ninja Turtles",
+        "description": null,
+        "id": 5410,
+        "count_of_issues": 23,
+        "start_year": "1996"
+    },
+    "5411": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18763/",
+        "name": "TMNT Movie Prequel",
+        "description": null,
+        "id": 5411,
+        "count_of_issues": 5,
+        "start_year": "2007"
+    },
+    "5930": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3370/",
+        "name": "The Transformers",
+        "description": null,
+        "id": 5930,
+        "count_of_issues": 80,
+        "start_year": "1984"
+    },
+    "5931": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5058/",
+        "name": "Transformers: Generation 2",
+        "description": null,
+        "id": 5931,
+        "count_of_issues": 12,
+        "start_year": "1993"
+    },
+    "5420": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3716/",
+        "name": "Pre-Teen Dirty-Gene Kung-Fu Kangaroos",
+        "description": null,
+        "id": 5420,
+        "count_of_issues": 3,
+        "start_year": "1986"
+    },
+    "5421": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3425/",
+        "name": "Grimjack",
+        "description": null,
+        "id": 5421,
+        "count_of_issues": 81,
+        "start_year": "1984"
+    },
+    "5940": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3370/",
+        "name": "The Transformers",
+        "description": null,
+        "id": 5940,
+        "count_of_issues": 80,
+        "start_year": "1984"
+    },
+    "5941": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5058/",
+        "name": "Transformers: Generation 2",
+        "description": null,
+        "id": 5941,
+        "count_of_issues": 12,
+        "start_year": "1993"
+    },
+    "5430": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20278/",
+        "name": "Teenage Mutant Ninja Turtles Adventures",
+        "description": null,
+        "id": 5430,
+        "count_of_issues": 72,
+        "start_year": "1989"
+    },
+    "5431": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20903/",
+        "name": "Teenage Mutant Ninja Turtles Mutant Universe Sourcebook",
+        "description": null,
+        "id": 5431,
+        "count_of_issues": 3,
+        "start_year": "1993"
+    },
+    "5440": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20278/",
+        "name": "Teenage Mutant Ninja Turtles Adventures",
+        "description": null,
+        "id": 5440,
+        "count_of_issues": 72,
+        "start_year": "1989"
+    },
+    "5441": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20903/",
+        "name": "Teenage Mutant Ninja Turtles Mutant Universe Sourcebook",
+        "description": null,
+        "id": 5441,
+        "count_of_issues": 3,
+        "start_year": "1993"
+    },
+    "5700": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6841/",
+        "name": "Danger Girl",
+        "description": null,
+        "id": 5700,
+        "count_of_issues": 8,
+        "start_year": "1998"
+    },
+    "5701": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18433/",
+        "name": "Danger Girl: Body Shots",
+        "description": null,
+        "id": 5701,
+        "count_of_issues": 4,
+        "start_year": "2007"
+    },
+    "5710": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6841/",
+        "name": "Danger Girl",
+        "description": null,
+        "id": 5710,
+        "count_of_issues": 8,
+        "start_year": "1998"
+    },
+    "5711": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18433/",
+        "name": "Danger Girl: Body Shots",
+        "description": null,
+        "id": 5711,
+        "count_of_issues": 4,
+        "start_year": "2007"
+    },
+    "5200": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3632/",
+        "name": "G.I. Joe and the Transformers",
+        "description": null,
+        "id": 5200,
+        "count_of_issues": 4,
+        "start_year": "1986"
+    },
+    "5201": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3138/",
+        "name": "G.I. Joe: A Real American Hero",
+        "description": null,
+        "id": 5201,
+        "count_of_issues": 155,
+        "start_year": "1982"
+    },
+    "5720": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6841/",
+        "name": "Danger Girl",
+        "description": null,
+        "id": 5720,
+        "count_of_issues": 8,
+        "start_year": "1998"
+    },
+    "5210": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18418/",
+        "name": "G.I. Joe: America's Elite",
+        "description": null,
+        "id": 5210,
+        "count_of_issues": 37,
+        "start_year": "2005"
+    },
+    "5730": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6841/",
+        "name": "Danger Girl",
+        "description": null,
+        "id": 5730,
+        "count_of_issues": 8,
+        "start_year": "1998"
+    },
+    "5731": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19766/",
+        "name": "Danger Girl Special",
+        "description": null,
+        "id": 5731,
+        "count_of_issues": 1,
+        "start_year": "2000"
+    },
+    "5220": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-28375/",
+        "name": "G.I. Joe: Rise of Cobra: Helix Special - EA Edition",
+        "description": null,
+        "id": 5220,
+        "count_of_issues": 1,
+        "start_year": "2009"
+    },
+    "5221": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-23490/",
+        "name": "G.I. Joe",
+        "description": null,
+        "id": 5221,
+        "count_of_issues": 28,
+        "start_year": "2008"
+    },
+    "5740": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6841/",
+        "name": "Danger Girl",
+        "description": null,
+        "id": 5740,
+        "count_of_issues": 8,
+        "start_year": "1998"
+    },
+    "5741": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18433/",
+        "name": "Danger Girl: Body Shots",
+        "description": null,
+        "id": 5741,
+        "count_of_issues": 4,
+        "start_year": "2007"
+    },
+    "5230": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5330/",
+        "name": "Spider-Man and X-Factor: Shadowgames",
+        "description": null,
+        "id": 5230,
+        "count_of_issues": 3,
+        "start_year": "1994"
+    },
+    "5231": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3138/",
+        "name": "G.I. Joe: A Real American Hero",
+        "description": null,
+        "id": 5231,
+        "count_of_issues": 155,
+        "start_year": "1982"
+    },
+    "5240": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3138/",
+        "name": "G.I. Joe: A Real American Hero",
+        "description": null,
+        "id": 5240,
+        "count_of_issues": 155,
+        "start_year": "1982"
+    },
+    "5241": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3634/",
+        "name": "The G.I. Joe Order of Battle",
+        "description": null,
+        "id": 5241,
+        "count_of_issues": 4,
+        "start_year": "1986"
+    },
+    "5500": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3864/",
+        "name": "The Transformers: Headmasters",
+        "description": null,
+        "id": 5500,
+        "count_of_issues": 4,
+        "start_year": "1987"
+    },
+    "5501": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3370/",
+        "name": "The Transformers",
+        "description": null,
+        "id": 5501,
+        "count_of_issues": 80,
+        "start_year": "1984"
+    },
+    "5510": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3632/",
+        "name": "G.I. Joe and the Transformers",
+        "description": null,
+        "id": 5510,
+        "count_of_issues": 4,
+        "start_year": "1986"
+    },
+    "5511": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3370/",
+        "name": "The Transformers",
+        "description": null,
+        "id": 5511,
+        "count_of_issues": 80,
+        "start_year": "1984"
+    },
+    "5000": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3138/",
+        "name": "G.I. Joe: A Real American Hero",
+        "description": null,
+        "id": 5000,
+        "count_of_issues": 155,
+        "start_year": "1982"
+    },
+    "5001": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18418/",
+        "name": "G.I. Joe: America's Elite",
+        "description": null,
+        "id": 5001,
+        "count_of_issues": 37,
+        "start_year": "2005"
+    },
+    "5520": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-45397/",
+        "name": "The Transformers: Robots in Disguise",
+        "description": null,
+        "id": 5520,
+        "count_of_issues": 34,
+        "start_year": "2012"
+    },
+    "5521": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-78066/",
+        "name": "The Transformers",
+        "description": null,
+        "id": 5521,
+        "count_of_issues": 19,
+        "start_year": "2014"
+    },
+    "5010": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18418/",
+        "name": "G.I. Joe: America's Elite",
+        "description": null,
+        "id": 5010,
+        "count_of_issues": 37,
+        "start_year": "2005"
+    },
+    "5011": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3138/",
+        "name": "G.I. Joe: A Real American Hero",
+        "description": null,
+        "id": 5011,
+        "count_of_issues": 155,
+        "start_year": "1982"
+    },
+    "5530": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19594/",
+        "name": "Transformers: Megatron Origin",
+        "description": null,
+        "id": 5530,
+        "count_of_issues": 4,
+        "start_year": "2007"
+    },
+    "5531": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-23344/",
+        "name": "Transformers Spotlight: Wheelie",
+        "description": null,
+        "id": 5531,
+        "count_of_issues": 1,
+        "start_year": "2008"
+    },
+    "5020": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11071/",
+        "name": "G.I. Joe: A Real American Hero",
+        "description": null,
+        "id": 5020,
+        "count_of_issues": 18,
+        "start_year": "2004"
+    },
+    "5021": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18418/",
+        "name": "G.I. Joe: America's Elite",
+        "description": null,
+        "id": 5021,
+        "count_of_issues": 37,
+        "start_year": "2005"
+    },
+    "5540": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-42798/",
+        "name": "Transformers: Last Stand Of The Wreckers",
+        "description": null,
+        "id": 5540,
+        "count_of_issues": 2,
+        "start_year": "2010"
+    },
+    "5541": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-45154/",
+        "name": "The Transformers: More Than Meets the Eye",
+        "description": null,
+        "id": 5541,
+        "count_of_issues": 53,
+        "start_year": "2012"
+    },
+    "5030": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3632/",
+        "name": "G.I. Joe and the Transformers",
+        "description": null,
+        "id": 5030,
+        "count_of_issues": 4,
+        "start_year": "1986"
+    },
+    "5031": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-9112/",
+        "name": "G.I. Joe: A Real American Hero",
+        "description": null,
+        "id": 5031,
+        "count_of_issues": 25,
+        "start_year": "2001"
+    },
+    "5800": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-22586/",
+        "name": "24: Cold Warriors",
+        "description": null,
+        "id": 5800,
+        "count_of_issues": 1,
+        "start_year": "2008"
+    },
+    "5040": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3138/",
+        "name": "G.I. Joe: A Real American Hero",
+        "description": null,
+        "id": 5040,
+        "count_of_issues": 155,
+        "start_year": "1982"
+    },
+    "5041": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3634/",
+        "name": "The G.I. Joe Order of Battle",
+        "description": null,
+        "id": 5041,
+        "count_of_issues": 4,
+        "start_year": "1986"
+    },
+    "5810": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18061/",
+        "name": "24: One Shot",
+        "description": null,
+        "id": 5810,
+        "count_of_issues": 1,
+        "start_year": "2004"
+    },
+    "5811": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18062/",
+        "name": "24 Stories",
+        "description": null,
+        "id": 5811,
+        "count_of_issues": 1,
+        "start_year": "2005"
+    },
+    "5300": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20699/",
+        "name": "Star Trek: Alien Spotlight: Romulans",
+        "description": null,
+        "id": 5300,
+        "count_of_issues": 1,
+        "start_year": "2008"
+    },
+    "5301": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-22976/",
+        "name": "Star Trek Romulans: The Hollow Crown",
+        "description": null,
+        "id": 5301,
+        "count_of_issues": 2,
+        "start_year": "2008"
+    },
+    "5310": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-83115/",
+        "name": "Star Trek_Green Lantern",
+        "description": null,
+        "id": 5310,
+        "count_of_issues": 5,
+        "start_year": "2015"
+    },
+    "5311": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-89138/",
+        "name": "Star Trek_Green Lantern: The Spectrum War",
+        "description": null,
+        "id": 5311,
+        "count_of_issues": null,
+        "start_year": "2016"
+    },
+    "5320": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20699/",
+        "name": "Star Trek: Alien Spotlight: Romulans",
+        "description": null,
+        "id": 5320,
+        "count_of_issues": 1,
+        "start_year": "2008"
+    },
+    "5321": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-22976/",
+        "name": "Star Trek Romulans: The Hollow Crown",
+        "description": null,
+        "id": 5321,
+        "count_of_issues": 2,
+        "start_year": "2008"
+    },
+    "5330": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20699/",
+        "name": "Star Trek: Alien Spotlight: Romulans",
+        "description": null,
+        "id": 5330,
+        "count_of_issues": 1,
+        "start_year": "2008"
+    },
+    "5340": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-42972/",
+        "name": "Star Trek",
+        "description": null,
+        "id": 5340,
+        "count_of_issues": 57,
+        "start_year": "2011"
+    },
+    "5341": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-53942/",
+        "name": "Star Trek",
+        "description": null,
+        "id": 5341,
+        "count_of_issues": 11,
+        "start_year": "2012"
+    },
+    "5600": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3864/",
+        "name": "The Transformers: Headmasters",
+        "description": null,
+        "id": 5600,
+        "count_of_issues": 4,
+        "start_year": "1987"
+    },
+    "5601": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27472/",
+        "name": "Transformers in 3-D",
+        "description": null,
+        "id": 5601,
+        "count_of_issues": 3,
+        "start_year": "1987"
+    },
+    "5610": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-29903/",
+        "name": "The Transformers",
+        "description": null,
+        "id": 5610,
+        "count_of_issues": 31,
+        "start_year": "2009"
+    },
+    "5611": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-45397/",
+        "name": "The Transformers: Robots in Disguise",
+        "description": null,
+        "id": 5611,
+        "count_of_issues": 34,
+        "start_year": "2012"
+    },
+    "5100": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18418/",
+        "name": "G.I. Joe: America's Elite",
+        "description": null,
+        "id": 5100,
+        "count_of_issues": 37,
+        "start_year": "2005"
+    },
+    "5620": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3864/",
+        "name": "The Transformers: Headmasters",
+        "description": null,
+        "id": 5620,
+        "count_of_issues": 4,
+        "start_year": "1987"
+    },
+    "5621": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27869/",
+        "name": "Transformers: More than Meets the Eye",
+        "description": null,
+        "id": 5621,
+        "count_of_issues": 8,
+        "start_year": "2003"
+    },
+    "5110": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-9112/",
+        "name": "G.I. Joe: A Real American Hero",
+        "description": null,
+        "id": 5110,
+        "count_of_issues": 25,
+        "start_year": "2001"
+    },
+    "5111": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-9767/",
+        "name": "G.I. Joe: Frontline",
+        "description": null,
+        "id": 5111,
+        "count_of_issues": 18,
+        "start_year": "2002"
+    },
+    "5630": {
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-44140/",
+        "name": "Transformers: Prime",
+        "description": null,
+        "id": 5630,
+        "count_of_issues": 20,
+        "start_year": "2011"
+    }
+}

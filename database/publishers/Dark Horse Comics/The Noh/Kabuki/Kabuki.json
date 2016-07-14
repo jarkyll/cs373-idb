@@ -1,0 +1,14 @@
+{
+    "num_appearances": 63,
+    "creator": {
+        "name": "David Mack"
+    },
+    "id": 242,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-40753/",
+    "appear": "Madame October",
+    "gender": 2,
+    "birth": null,
+    "name": "Kabuki",
+    "real_name": "Ukiko Kai",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/81580-165726-kabuki.jpg"
+}

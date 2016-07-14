@@ -1,0 +1,14 @@
+{
+    "num_appearances": 18,
+    "creator": {
+        "name": "Mike Mignola"
+    },
+    "id": 293,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-5500/",
+    "appear": "Chapter One",
+    "gender": 2,
+    "birth": "Jun 7, 1919",
+    "name": "Ilsa Haupstein",
+    "real_name": "Ilsa Haupstein",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/104085-107212-ilsa-haupstein.png"
+}

@@ -1,0 +1,9 @@
+{
+    "appear": "Battle For Cybertron",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-40489/",
+    "name": "Autobots",
+    "id": 55,
+    "description": "The Autobots, led by Optimus Prime, are a benevolent race of living machines. They are the protagonists of the hit cartoon and comic book, The Transformers. They always fight the evil Decepticons to prevent them from taking over the Universe.",
+    "num_appearances": 0,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/141241-195921-autobots.jpg"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Casey Jones",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/4619664-casey%20flats.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-44890/",
+    "gender": 1,
+    "id": 541,
+    "creator": {
+        "name": "Peter Laird"
+    },
+    "real_name": "Arnold Bernid Jones",
+    "num_appearances": 211
+}

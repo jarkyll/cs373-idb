@@ -1,0 +1,330 @@
+{
+    "0": {
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-89765/",
+        "start_year": "2016",
+        "id": 0,
+        "name": "Black-Eyed Kids",
+        "description": null
+    },
+    "1600": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25243/",
+        "start_year": "2008",
+        "id": 1600,
+        "name": "Farscape",
+        "description": null
+    },
+    "2700": {
+        "count_of_issues": 3,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18135/",
+        "start_year": "2005",
+        "id": 2700,
+        "name": "Serenity",
+        "description": null
+    },
+    "2500": {
+        "count_of_issues": 64,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6239/",
+        "start_year": "1998",
+        "id": 2500,
+        "name": "Buffy the Vampire Slayer",
+        "description": null
+    },
+    "2501": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6368/",
+        "start_year": "1999",
+        "id": 2501,
+        "name": "Buffy the Vampire Slayer: Angel",
+        "description": null
+    },
+    "2600": {
+        "count_of_issues": 107,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2914/",
+        "start_year": "1977",
+        "id": 2600,
+        "name": "Star Wars",
+        "description": "A long time ago..."
+    },
+    "1800": {
+        "count_of_issues": 37,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26096/",
+        "start_year": "2009",
+        "id": 1800,
+        "name": "Irredeemable",
+        "description": null
+    },
+    "1801": {
+        "count_of_issues": 30,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-30514/",
+        "start_year": "2009",
+        "id": 1801,
+        "name": "Incorruptible",
+        "description": null
+    },
+    "1200": {
+        "count_of_issues": 41,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2909/",
+        "start_year": "1977",
+        "id": 1200,
+        "name": "Marvel Comics Super Special",
+        "description": null
+    },
+    "1100": {
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19519/",
+        "start_year": "1995",
+        "id": 1100,
+        "name": "Mighty Morphin Power Rangers: The Movie",
+        "description": null
+    },
+    "1101": {
+        "count_of_issues": 539,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-9318/",
+        "start_year": "1952",
+        "id": 1101,
+        "name": "MAD",
+        "description": null
+    },
+    "2701": {
+        "count_of_issues": 3,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20901/",
+        "start_year": "2008",
+        "id": 2701,
+        "name": "Serenity Better Days",
+        "description": null
+    },
+    "2000": {
+        "count_of_issues": 41,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2909/",
+        "start_year": "1977",
+        "id": 2000,
+        "name": "Marvel Comics Super Special",
+        "description": null
+    },
+    "2001": {
+        "count_of_issues": 107,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2914/",
+        "start_year": "1977",
+        "id": 2001,
+        "name": "Star Wars",
+        "description": "A long time ago..."
+    },
+    "1300": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4788/",
+        "start_year": "1992",
+        "id": 1300,
+        "name": "Epic",
+        "description": null
+    },
+    "1301": {
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21597/",
+        "start_year": "1991",
+        "id": 1301,
+        "name": "Hellraiser Nightbreed: Jihad",
+        "description": null
+    },
+    "1601": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2298/",
+        "start_year": "2009",
+        "id": 1601,
+        "name": "Farscape: Strange Detractors",
+        "description": null
+    },
+    "1401": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-55720/",
+        "start_year": "2007",
+        "id": 1401,
+        "name": "Planetary Brigade",
+        "description": null
+    },
+    "2200": {
+        "count_of_issues": 130,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2101/",
+        "start_year": "1956",
+        "id": 2200,
+        "name": "Turok, Son of Stone",
+        "description": null
+    },
+    "100": {
+        "count_of_issues": 3,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-89383/",
+        "start_year": "2016",
+        "id": 100,
+        "name": "Rough Riders",
+        "description": null
+    },
+    "2201": {
+        "count_of_issues": 31,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2091/",
+        "start_year": "1962",
+        "id": 2201,
+        "name": "Doctor Solar, Man of the Atom",
+        "description": null
+    },
+    "1500": {
+        "count_of_issues": 5,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26379/",
+        "start_year": "2009",
+        "id": 1500,
+        "name": "Unthinkable",
+        "description": null
+    },
+    "2400": {
+        "count_of_issues": 7,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5642/",
+        "start_year": "1995",
+        "id": 2400,
+        "name": "Kabuki: Circle Of Blood",
+        "description": null
+    },
+    "2401": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5858/",
+        "start_year": "1996",
+        "id": 2401,
+        "name": "Kabuki: Masks of the Noh",
+        "description": null
+    },
+    "1700": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-2298/",
+        "start_year": "2009",
+        "id": 1700,
+        "name": "Farscape: Strange Detractors",
+        "description": null
+    },
+    "1701": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25243/",
+        "start_year": "2008",
+        "id": 1701,
+        "name": "Farscape",
+        "description": null
+    },
+    "1201": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26056/",
+        "start_year": "2009",
+        "id": 1201,
+        "name": "Muppet Show Comic Book",
+        "description": null
+    },
+    "1000": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19932/",
+        "start_year": "1991",
+        "id": 1000,
+        "name": "Clive Barker's Book of the Damned: A Hellraiser Companion",
+        "description": null
+    },
+    "2601": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4861/",
+        "start_year": "1992",
+        "id": 2601,
+        "name": "Classic Star Wars",
+        "description": null
+    },
+    "1900": {
+        "count_of_issues": 37,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-26096/",
+        "start_year": "2009",
+        "id": 1900,
+        "name": "Irredeemable",
+        "description": null
+    },
+    "1901": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-57813/",
+        "start_year": "2011",
+        "id": 1901,
+        "name": "Definitive Irredeemable",
+        "description": null
+    },
+    "2800": {
+        "count_of_issues": 5,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-30002/",
+        "start_year": "2005",
+        "id": 2800,
+        "name": "Weapon X: Days of Future Now",
+        "description": null
+    },
+    "2801": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-33997/",
+        "start_year": "2005",
+        "id": 2801,
+        "name": "Runaways: True Believers",
+        "description": "The Runaways are a group of teenagers who discover their parents are part of an evil society known as the Pride. They join together and vow to bring their parents to justice."
+    },
+    "2100": {
+        "count_of_issues": 162,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3739/",
+        "start_year": "1986",
+        "id": 2100,
+        "name": "Dark Horse Presents",
+        "description": "Volume I"
+    },
+    "2101": {
+        "count_of_issues": 3,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-4692/",
+        "start_year": "1991",
+        "id": 2101,
+        "name": "Batman versus Predator",
+        "description": null
+    },
+    "1001": {
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21597/",
+        "start_year": "1991",
+        "id": 1001,
+        "name": "Hellraiser Nightbreed: Jihad",
+        "description": null
+    },
+    "1400": {
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-24009/",
+        "start_year": "2006",
+        "id": 1400,
+        "name": "Planetary Brigade",
+        "description": null
+    },
+    "2900": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5388/",
+        "start_year": "1994",
+        "id": 2900,
+        "name": "Hellboy: Seed of Destruction",
+        "description": null
+    },
+    "2300": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5388/",
+        "start_year": "1994",
+        "id": 2300,
+        "name": "Hellboy: Seed of Destruction",
+        "description": null
+    },
+    "2301": {
+        "count_of_issues": 162,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-3739/",
+        "start_year": "1986",
+        "id": 2301,
+        "name": "Dark Horse Presents",
+        "description": "Volume I"
+    },
+    "2901": {
+        "count_of_issues": 5,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5835/",
+        "start_year": "1996",
+        "id": 2901,
+        "name": "Hellboy: Wake the Devil",
+        "description": null
+    }
+}

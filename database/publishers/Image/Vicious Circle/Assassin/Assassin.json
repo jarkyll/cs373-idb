@@ -1,0 +1,13 @@
+{
+    "id": 632,
+    "creator": {
+        "name": "Erik Larsen"
+    },
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1093901-assassin1.jpg",
+    "real_name": "Unknown",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-68613/",
+    "birth": null,
+    "num_appearances": 5,
+    "name": "Assassin",
+    "gender": 1
+}

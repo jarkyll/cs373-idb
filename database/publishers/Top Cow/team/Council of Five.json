@@ -1,0 +1,9 @@
+{
+    "name": "Council of Five",
+    "description": "The Council of Five is the group of supervillains that control the world.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-41073/",
+    "num_appearances": 0,
+    "appear": "Supergangbang",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/83770-146030-council-of-five.jpg",
+    "id": 75
+}

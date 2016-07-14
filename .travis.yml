@@ -3,14 +3,20 @@ language: python
 python:
    - "3.5"
 
-sudo: false
+sudo: true
 
 install:
     - pip install --upgrade pip
     - pip --version
+    - pip install requests
     - pip install coverage
-    - pip install numpy
     - pip install pylint
+    - pip install autopep8
+
+
+script:
+    - psql -d postgres -f db_init.sql
+
 
 before_script:
     - uname -a
@@ -23,3 +29,6 @@ script:
     - date
     - ls -al
     - make test
+
+
+

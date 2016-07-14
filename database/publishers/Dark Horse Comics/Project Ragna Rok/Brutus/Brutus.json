@@ -1,0 +1,14 @@
+{
+    "num_appearances": 2,
+    "creator": {
+        "name": "Mike Mignola"
+    },
+    "id": 290,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-82541/",
+    "appear": "Chapter Three",
+    "gender": 1,
+    "birth": null,
+    "name": "Brutus",
+    "real_name": "Kriegsaffe #9",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/174751-144649-kriegsaffe.jpg"
+}

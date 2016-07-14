@@ -1,0 +1,14 @@
+{
+    "num_appearances": 11,
+    "creator": {
+        "name": "Clive Barker"
+    },
+    "id": 134,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-102925/",
+    "appear": "... Down Among the Dead Men",
+    "gender": 1,
+    "birth": null,
+    "name": "Baphomet",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3862095-baphomet.jpg"
+}

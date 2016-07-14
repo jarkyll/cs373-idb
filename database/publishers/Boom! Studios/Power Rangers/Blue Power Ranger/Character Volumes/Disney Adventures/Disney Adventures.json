@@ -1,0 +1,8 @@
+{
+    "name": "Disney Adventures",
+    "api_url": "http://comicvine.gamespot.com/api/volume/4050-4511/",
+    "description": null,
+    "id": 1121,
+    "count_of_issues": 150,
+    "start_year": "1990"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Jerry",
+    "birth": "Feb 10, 1940",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/277673-175026-jerry.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-39850/",
+    "gender": 1,
+    "id": 300,
+    "creator": {
+        "name": "William Hanna"
+    },
+    "real_name": "Unknown",
+    "num_appearances": 1438
+}

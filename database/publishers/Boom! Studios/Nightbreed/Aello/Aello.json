@@ -1,0 +1,14 @@
+{
+    "num_appearances": 6,
+    "creator": {
+        "name": "Clive Barker"
+    },
+    "id": 131,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-102934/",
+    "appear": "The Blasphemers: Prelude - Scattering Seeds of Damnation",
+    "gender": 2,
+    "birth": null,
+    "name": "Aello",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3855461-aello.jpg"
+}

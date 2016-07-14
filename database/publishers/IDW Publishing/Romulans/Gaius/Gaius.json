@@ -1,0 +1,13 @@
+{
+    "name": "Gaius",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/799865-000000000000000000000000000.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-62017/",
+    "gender": 1,
+    "id": 532,
+    "creator": {
+        "name": "John Byrne"
+    },
+    "real_name": "Gaius",
+    "num_appearances": 4
+}

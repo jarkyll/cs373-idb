@@ -1,0 +1,14 @@
+{
+    "name": "Airborne",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/920471-393px_airborne_talltree_rah.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-12262/",
+    "gender": 1,
+    "id": 523,
+    "creator": {
+        "name": "Mike Vosburg"
+    },
+    "real_name": "Franklin E. Talltree",
+    "num_appearances": 41,
+    "appear": "The Pipeline Ploy!"
+}

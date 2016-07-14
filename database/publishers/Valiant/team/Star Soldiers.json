@@ -1,0 +1,9 @@
+{
+    "name": "Star Soldiers",
+    "description": "Star Soldiers are Characters in the Valiant Universe. \nThey have space armors to guard Toyo Harada's holdings. ",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-56182/",
+    "num_appearances": 0,
+    "appear": "The Trouble With Midnight",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/696072-picstarsoldiers01.jpg",
+    "id": 85
+}

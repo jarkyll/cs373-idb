@@ -1,0 +1,12 @@
+{
+    "name": "Abominus",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/90207-1100-abominus.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-41904/",
+    "gender": 1,
+    "id": 560,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 7,
+    "appear": "Love and Steel"
+}

@@ -1,0 +1,9 @@
+{
+    "appear": "Zartan!",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-7715/",
+    "name": "Dreadnoks",
+    "id": 51,
+    "description": "The Dreadnoks are Zartan's mercenary team.",
+    "num_appearances": 0,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/90339-2626-dreadnoks.jpg"
+}

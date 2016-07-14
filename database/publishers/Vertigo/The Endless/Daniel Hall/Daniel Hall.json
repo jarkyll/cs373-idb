@@ -1,0 +1,14 @@
+{
+    "id": 920,
+    "creator": {
+        "name": "Neil Gaiman"
+    },
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/447795-danielhall.jpg",
+    "appear": "Season of Mists: Chapter 1",
+    "real_name": "Daniel Hall",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-55718/",
+    "birth": null,
+    "num_appearances": 52,
+    "name": "Daniel Hall",
+    "gender": 1
+}

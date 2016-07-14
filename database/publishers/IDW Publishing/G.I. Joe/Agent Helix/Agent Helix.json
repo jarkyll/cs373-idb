@@ -1,0 +1,14 @@
+{
+    "name": "Agent Helix",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1690455-gi_joe_26_02_1296574939.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-70810/",
+    "gender": 2,
+    "id": 522,
+    "creator": {
+        "name": "Brian Reed"
+    },
+    "real_name": "Classified",
+    "num_appearances": 45,
+    "appear": "Helix"
+}

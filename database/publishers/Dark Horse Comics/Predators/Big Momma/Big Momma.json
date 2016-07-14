@@ -1,0 +1,14 @@
+{
+    "num_appearances": 2,
+    "creator": {
+        "name": "Chris Claremont"
+    },
+    "id": 214,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-87276/",
+    "appear": "The Hunt",
+    "gender": 2,
+    "birth": null,
+    "name": "Big Momma",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2823755-bigmomma_3.jpg"
+}

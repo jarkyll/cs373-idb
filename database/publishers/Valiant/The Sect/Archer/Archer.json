@@ -1,0 +1,14 @@
+{
+    "id": 810,
+    "creator": {
+        "name": "Jim Shooter"
+    },
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2556999-archer.jpg",
+    "appear": "Lifelines Part 1: Revival",
+    "real_name": "Obadiah Archer",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-12469/",
+    "birth": null,
+    "num_appearances": 114,
+    "name": "Archer",
+    "gender": 1
+}

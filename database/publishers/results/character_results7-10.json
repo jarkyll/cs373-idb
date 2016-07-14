@@ -1,0 +1,2287 @@
+{
+    "600": {
+        "id": 600,
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/82967-76961-badrock.jpg",
+        "real_name": "Thomas John McCall",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5187/",
+        "birth": null,
+        "num_appearances": 165,
+        "name": "Badrock",
+        "gender": 1
+    },
+    "601": {
+        "id": 601,
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/5262096-99328-152079-battlestone.jpg",
+        "real_name": "John Annex Stone",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5248/",
+        "birth": null,
+        "num_appearances": 76,
+        "name": "Battlestone",
+        "gender": 1
+    },
+    "602": {
+        "id": 602,
+        "creator": {
+            "name": "Alan Moore"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/415561-Big%20Brother.jpg",
+        "appear": "A Brief History of Twilight; Youngblood Prologue featuring Shaft",
+        "real_name": "Leonard Doyle",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-55130/",
+        "birth": null,
+        "num_appearances": 14,
+        "name": "Big Brother",
+        "gender": 1
+    },
+    "603": {
+        "id": 603,
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2064959-bloodwulf_002___avengelyne_4.jpg",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-26951/",
+        "birth": null,
+        "num_appearances": 16,
+        "name": "Bloodwulf",
+        "gender": 1
+    },
+    "604": {
+        "id": 604,
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/188304-53473-brahma.jpg",
+        "real_name": "Jeff Kessler",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5278/",
+        "birth": null,
+        "num_appearances": 21,
+        "name": "Brahma",
+        "gender": 1
+    },
+    "610": {
+        "id": 610,
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/83454-184366-atlas.jpg",
+        "appear": "Sabotage!",
+        "real_name": "Sean Welch",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5294/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Atlas",
+        "gender": 1
+    },
+    "611": {
+        "id": 611,
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/82967-76961-badrock.jpg",
+        "real_name": "Thomas John McCall",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5187/",
+        "birth": null,
+        "num_appearances": 165,
+        "name": "Badrock",
+        "gender": 1
+    },
+    "612": {
+        "id": 612,
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/5262096-99328-152079-battlestone.jpg",
+        "real_name": "John Annex Stone",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5248/",
+        "birth": null,
+        "num_appearances": 76,
+        "name": "Battlestone",
+        "gender": 1
+    },
+    "613": {
+        "id": 613,
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/409306-117775-boone.jpg",
+        "appear": "Blood Brothers, Part 1: A Sort of Homecoming",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5273/",
+        "birth": null,
+        "num_appearances": 24,
+        "name": "Boone",
+        "gender": 1
+    },
+    "614": {
+        "id": 614,
+        "creator": {
+            "name": "Rob Liefeld"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1180758-2.jpg",
+        "appear": "Sabotage!",
+        "real_name": "Alex Barros",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5264/",
+        "birth": null,
+        "num_appearances": 35,
+        "name": "Coldsnap",
+        "gender": 1
+    },
+    "620": {
+        "id": 620,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/247039-186349-black-crystal.jpg",
+        "appear": "Frank Einstein's Holi-daze Adventure",
+        "real_name": "Phillip LePew",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-48967/",
+        "birth": null,
+        "num_appearances": 40,
+        "name": "Black Crystal",
+        "gender": 1
+    },
+    "621": {
+        "id": 621,
+        "creator": {
+            "name": "Mike Allred"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2588065-2588063-xstatix1.jpg",
+        "appear": "We Are Atomic!",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-48970/",
+        "birth": null,
+        "num_appearances": 8,
+        "name": "Carla",
+        "gender": 2
+    },
+    "622": {
+        "id": 622,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/247041-153203-horn.jpg",
+        "appear": "We Are Atomic!",
+        "real_name": "Charlie Poitier",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-48968/",
+        "birth": null,
+        "num_appearances": 4,
+        "name": "Horn",
+        "gender": 1
+    },
+    "623": {
+        "id": 623,
+        "creator": {
+            "name": "Mike Allred"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2410631-itgirl2b_darwyn.jpg",
+        "appear": "The Zeitgeist of Snap City",
+        "real_name": "Luna Romy",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-17868/",
+        "birth": null,
+        "num_appearances": 56,
+        "name": "It Girl",
+        "gender": 2
+    },
+    "624": {
+        "id": 624,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/652012-lava_lass_picture_1.jpg",
+        "appear": "Frank Einstein's Holi-daze Adventure",
+        "real_name": "Nana Romy",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-48966/",
+        "birth": null,
+        "num_appearances": 19,
+        "name": "Lava Lass",
+        "gender": 2
+    },
+    "630": {
+        "id": 630,
+        "creator": {
+            "name": "Erik Larsen"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1088976-cadaver4.jpg",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-21841/",
+        "birth": null,
+        "num_appearances": 21,
+        "name": "Abner Cadaver",
+        "gender": 1
+    },
+    "631": {
+        "id": 631,
+        "creator": {
+            "name": "Erik Larsen"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/950012-arachnid1.jpg",
+        "appear": "Born Again Patriot",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-21847/",
+        "birth": null,
+        "num_appearances": 12,
+        "name": "Arachnid",
+        "gender": 1
+    },
+    "632": {
+        "id": 632,
+        "creator": {
+            "name": "Erik Larsen"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1093901-assassin1.jpg",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-68613/",
+        "birth": null,
+        "num_appearances": 5,
+        "name": "Assassin",
+        "gender": 1
+    },
+    "633": {
+        "id": 633,
+        "creator": {
+            "name": "Erik Larsen"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1093883-badaxe2.jpg",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-68280/",
+        "birth": null,
+        "num_appearances": 4,
+        "name": "Bad Axe",
+        "gender": 1
+    },
+    "634": {
+        "id": 634,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1080192-basher1.jpg",
+        "appear": "Baptism of Fire",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-68330/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Basher",
+        "gender": 1
+    },
+    "640": {
+        "id": 640,
+        "creator": {
+            "name": "Brian Murray"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/321362-17682-decibel.JPG",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-27157/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Decibel",
+        "gender": 1
+    },
+    "641": {
+        "id": 641,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/323421-121082-godspeed.JPG",
+        "appear": "Khrome the Conqueror",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-26761/",
+        "birth": null,
+        "num_appearances": 4,
+        "name": "Godspeed",
+        "gender": 1
+    },
+    "642": {
+        "id": 642,
+        "creator": {
+            "name": "Brian Murray"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/328434-95763-menagerie.JPG",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-27156/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Menagerie",
+        "gender": 1
+    },
+    "643": {
+        "id": 643,
+        "creator": {
+            "name": "Brian Murray"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/332147-154055-riot.JPG",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-52425/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Riot",
+        "gender": 1
+    },
+    "644": {
+        "id": 644,
+        "creator": {
+            "name": "Brian Murray"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/334463-81492-skyraker.JPG",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-52554/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Skyraker",
+        "gender": 1
+    },
+    "650": {
+        "id": 650,
+        "creator": {
+            "name": "Sean Ruffner"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/5098116-backlash.png",
+        "real_name": "Marc S'lyton",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-25978/",
+        "birth": null,
+        "num_appearances": 169,
+        "name": "Backlash",
+        "gender": 1
+    },
+    "651": {
+        "id": 651,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/91931-162984-despot.jpg",
+        "real_name": "Isaiah King",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-25874/",
+        "birth": null,
+        "num_appearances": 20,
+        "name": "Despot",
+        "gender": 1
+    },
+    "652": {
+        "id": 652,
+        "creator": {
+            "name": "Jim Lee"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/378571-102308-emp.jpg",
+        "appear": "Resurrection Day",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-21970/",
+        "birth": null,
+        "num_appearances": 126,
+        "name": "Emp",
+        "gender": 1
+    },
+    "653": {
+        "id": 653,
+        "creator": {
+            "name": "Warren Ellis"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/355326-34329-henry-bendix.jpg",
+        "real_name": "Henry Bendix",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-2199/",
+        "birth": null,
+        "num_appearances": 107,
+        "name": "Henry Bendix",
+        "gender": 1
+    },
+    "654": {
+        "id": 654,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/91938-56135-mason.jpg",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42169/",
+        "birth": null,
+        "num_appearances": 4,
+        "name": "Mason",
+        "gender": 1
+    },
+    "660": {
+        "id": 660,
+        "creator": {
+            "name": "Robert Kirkman"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/5175847-inv128cvrcol.jpg",
+        "real_name": "Allen",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-40950/",
+        "birth": null,
+        "num_appearances": 57,
+        "name": "Allen",
+        "gender": 1
+    },
+    "661": {
+        "id": 661,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/4674400-battle_beast_by_ryanottley-d7p0241.jpg",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41126/",
+        "birth": null,
+        "num_appearances": 28,
+        "name": "Battle Beast",
+        "gender": 1
+    },
+    "662": {
+        "id": 662,
+        "creator": {
+            "name": "Ryan Ottley"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1782206-1781954_inv_04_super.jpg",
+        "appear": "Tech Jacket",
+        "real_name": "Markus Sebastian Grayson",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5210/",
+        "birth": null,
+        "num_appearances": 266,
+        "name": "Invincible",
+        "gender": 1
+    },
+    "663": {
+        "id": 663,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/4534824-012.jpg",
+        "real_name": "Oliver Grayson",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-49063/",
+        "birth": null,
+        "num_appearances": 77,
+        "name": "Oliver Grayson",
+        "gender": 1
+    },
+    "664": {
+        "id": 664,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/78794-161573-omni-man.jpg",
+        "real_name": "Nolan",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-40550/",
+        "birth": null,
+        "num_appearances": 113,
+        "name": "Omni-Man",
+        "gender": 1
+    },
+    "670": {
+        "id": 670,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2134843-img_0806.jpg",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-81618/",
+        "birth": null,
+        "num_appearances": 10,
+        "name": "Casbah Joe",
+        "gender": 1
+    },
+    "671": {
+        "id": 671,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/557896-elephantmen1.jpg",
+        "real_name": "Ebenezer Hide",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41175/",
+        "birth": null,
+        "num_appearances": 43,
+        "name": "Ebony Hide",
+        "gender": 1
+    },
+    "672": {
+        "id": 672,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1940344-elephantmen_02.jpg",
+        "real_name": "Elijah Delaney ",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-76492/",
+        "birth": null,
+        "num_appearances": 5,
+        "name": "Elijah Delaney",
+        "gender": 1
+    },
+    "673": {
+        "id": 673,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1701945-hippaint.jpg",
+        "appear": "Unnatural Selection",
+        "real_name": "Hieronymous Flask",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-40869/",
+        "birth": null,
+        "num_appearances": 73,
+        "name": "Hip Flask",
+        "gender": 1
+    },
+    "674": {
+        "id": 674,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1421580-granger1.jpg",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-46827/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Jeremiah Granger",
+        "gender": 1
+    },
+    "680": {
+        "id": 680,
+        "creator": {
+            "name": "Kurt Busiek"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/97336-39316-demolitia.jpg",
+        "appear": "Safeguards",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42363/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Demolitia",
+        "gender": 2
+    },
+    "681": {
+        "id": 681,
+        "creator": {
+            "name": "Kurt Busiek"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/97340-129512-flamethrower.jpg",
+        "appear": "Safeguards",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42364/",
+        "birth": null,
+        "num_appearances": 4,
+        "name": "Flamethrower",
+        "gender": 1
+    },
+    "682": {
+        "id": 682,
+        "creator": {
+            "name": "Kurt Busiek"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/97344-163976-glowworm.jpg",
+        "appear": "Safeguards",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42365/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Glowworm",
+        "gender": 1
+    },
+    "683": {
+        "id": 683,
+        "creator": {
+            "name": "Kurt Busiek"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/97346-42588-slamburger.jpg",
+        "appear": "Safeguards",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42366/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Slamburger",
+        "gender": 1
+    },
+    "684": {
+        "id": 684,
+        "creator": {
+            "name": "Kurt Busiek"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/97348-2526-spice.jpg",
+        "appear": "Safeguards",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42367/",
+        "birth": null,
+        "num_appearances": 4,
+        "name": "Spice",
+        "gender": 2
+    },
+    "690": {
+        "id": 690,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/215383-75846-alea.jpg",
+        "appear": ".",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42434/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Alea",
+        "gender": 2
+    },
+    "691": {
+        "id": 691,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/310227-96747-azrum.JPG",
+        "real_name": "Paul Weissman",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-51318/",
+        "birth": null,
+        "num_appearances": 14,
+        "name": "Azrum",
+        "gender": 1
+    },
+    "692": {
+        "id": 692,
+        "creator": {
+            "name": "Sean Ruffner"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/5098116-backlash.png",
+        "real_name": "Marc S'lyton",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-25978/",
+        "birth": null,
+        "num_appearances": 169,
+        "name": "Backlash",
+        "gender": 1
+    },
+    "693": {
+        "id": 693,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/346042-49208-black-halo.jpg",
+        "real_name": "Quentin",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-53097/",
+        "birth": null,
+        "num_appearances": 16,
+        "name": "Black Halo",
+        "gender": 1
+    },
+    "694": {
+        "id": 694,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/96042-30176-brawl.jpg",
+        "real_name": "Drake Jones",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42428/",
+        "birth": null,
+        "num_appearances": 18,
+        "name": "Brawl",
+        "gender": 1
+    },
+    "700": {
+        "id": 700,
+        "creator": {
+            "name": "Troy Peteri"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2875655-aprhrodite5.jpg",
+        "real_name": "Aphrodite V",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-86103/",
+        "birth": null,
+        "num_appearances": 12,
+        "name": "Aphrodite V",
+        "gender": 2
+    },
+    "701": {
+        "id": 701,
+        "creator": {
+            "name": "Matt Hawkins"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2700282-ares_prime.jpg",
+        "real_name": "Mark Matthews",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-86409/",
+        "birth": null,
+        "num_appearances": 12,
+        "name": "Ares Prime",
+        "gender": 1
+    },
+    "702": {
+        "id": 702,
+        "creator": {
+            "name": "Michael Turner"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2876717-ballistic2.jpg",
+        "real_name": "Cassandra Lane",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41824/",
+        "birth": null,
+        "num_appearances": 100,
+        "name": "Ballistic",
+        "gender": 2
+    },
+    "703": {
+        "id": 703,
+        "creator": {
+            "name": "Marc Silvestri"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/985356-barricade.jpg",
+        "appear": "Chapter One; Haunt",
+        "real_name": " ",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-66673/",
+        "birth": null,
+        "num_appearances": 4,
+        "name": "Barricade",
+        "gender": 1
+    },
+    "704": {
+        "id": 704,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/333203-39797-c-c.jpg",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-52444/",
+        "birth": null,
+        "num_appearances": 12,
+        "name": "C.C.",
+        "gender": 3
+    },
+    "710": {
+        "id": 710,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/460339-backalleybrawler.jpg",
+        "appear": "Dread Carnivale Part 1",
+        "real_name": "Michael White",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-48100/",
+        "birth": null,
+        "num_appearances": 9,
+        "name": "Back Alley Brawler",
+        "gender": 1
+    },
+    "711": {
+        "id": 711,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/668445-citadel1.jpg",
+        "appear": "Smoke And Mirrors (Part 1)",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-48210/",
+        "birth": null,
+        "num_appearances": 9,
+        "name": "Citadel",
+        "gender": 1
+    },
+    "712": {
+        "id": 712,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/400751-148037-manticore.jpg",
+        "real_name": "Justin Sinclair",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-40818/",
+        "birth": null,
+        "num_appearances": 19,
+        "name": "Manticore",
+        "gender": 1
+    },
+    "713": {
+        "id": 713,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/668442-numina1.jpg",
+        "real_name": "Tammy Arcanus",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-48031/",
+        "birth": null,
+        "num_appearances": 8,
+        "name": "Numina",
+        "gender": 2
+    },
+    "714": {
+        "id": 714,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/460343-positron.jpg",
+        "real_name": "Raymond Keyes",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41491/",
+        "birth": null,
+        "num_appearances": 17,
+        "name": "Positron",
+        "gender": 1
+    },
+    "720": {
+        "id": 720,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/460713-barracuda.jpg",
+        "appear": "Trading Places (Part 3)",
+        "real_name": "Kelli Forston",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-56491/",
+        "birth": null,
+        "num_appearances": 2,
+        "name": "Barracuda",
+        "gender": 2
+    },
+    "721": {
+        "id": 721,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1306908-black_scorpion.jpg",
+        "real_name": "Ernesto Rodriguez",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-47949/",
+        "birth": null,
+        "num_appearances": 4,
+        "name": "Black Scorpion",
+        "gender": 1
+    },
+    "722": {
+        "id": 722,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1306840-captain_mako.jpg",
+        "real_name": "Gideon Ray",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-47941/",
+        "birth": null,
+        "num_appearances": 3,
+        "name": "Captain Mako",
+        "gender": 1
+    },
+    "723": {
+        "id": 723,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/668433-widow2.jpg",
+        "real_name": "Belladonna Vetrano",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41452/",
+        "birth": null,
+        "num_appearances": 5,
+        "name": "Ghost Widow",
+        "gender": 2
+    },
+    "724": {
+        "id": 724,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/460714-icemistral.jpg",
+        "appear": "Trading Places (Part 3)",
+        "real_name": "Irena Rudenko",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-56492/",
+        "birth": null,
+        "num_appearances": 2,
+        "name": "Ice Mistral",
+        "gender": 2
+    },
+    "730": {
+        "id": 730,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2959904-img_5187.png",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-61805/",
+        "birth": null,
+        "num_appearances": 10,
+        "name": "Architect",
+        "gender": 1
+    },
+    "731": {
+        "id": 731,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1849598-hunterkiller_10.jpg",
+        "appear": "Dossier",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41120/",
+        "birth": null,
+        "num_appearances": 6,
+        "name": "Cassandra",
+        "gender": 2
+    },
+    "732": {
+        "id": 732,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/84087-12029-cloaker.jpg",
+        "real_name": "John Bradley Seals",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41088/",
+        "birth": null,
+        "num_appearances": 22,
+        "name": "Cloaker",
+        "gender": 1
+    },
+    "733": {
+        "id": 733,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/789319-damper1.jpg",
+        "real_name": "Dunstan Donald",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-61804/",
+        "birth": null,
+        "num_appearances": 8,
+        "name": "Damper",
+        "gender": 1
+    },
+    "734": {
+        "id": 734,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1048168-ellis1.jpg",
+        "real_name": "Ellis Baker",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-40980/",
+        "birth": null,
+        "num_appearances": 32,
+        "name": "Ellis",
+        "gender": 1
+    },
+    "740": {
+        "id": 740,
+        "creator": {
+            "name": "Mark Millar"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/83789-112859-adam-one.jpg",
+        "appear": "Special Preview",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41051/",
+        "birth": null,
+        "num_appearances": 8,
+        "name": "Adam One",
+        "gender": 1
+    },
+    "741": {
+        "id": 741,
+        "creator": {
+            "name": "Mark Millar"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/611060-untitled.jpg",
+        "appear": "Supergangbang",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-10315/",
+        "birth": null,
+        "num_appearances": 5,
+        "name": "Deadly Nightshade",
+        "gender": 2
+    },
+    "742": {
+        "id": 742,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/83745-135265-doll-master.jpg",
+        "appear": "Bring on the Bad Guys",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41056/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Doll-Master",
+        "gender": 1
+    },
+    "743": {
+        "id": 743,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/83786-151243-emperor.jpg",
+        "appear": "Supergangbang",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41071/",
+        "birth": null,
+        "num_appearances": 5,
+        "name": "Emperor",
+        "gender": 1
+    },
+    "744": {
+        "id": 744,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/81416-2265-fox.jpg",
+        "appear": "Bring on the Bad Guys",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-40810/",
+        "birth": null,
+        "num_appearances": 13,
+        "name": "Fox",
+        "gender": 2
+    },
+    "750": {
+        "id": 750,
+        "creator": {
+            "name": "Mark Millar"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/83789-112859-adam-one.jpg",
+        "appear": "Special Preview",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41051/",
+        "birth": null,
+        "num_appearances": 8,
+        "name": "Adam One",
+        "gender": 1
+    },
+    "751": {
+        "id": 751,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/83786-151243-emperor.jpg",
+        "appear": "Supergangbang",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41071/",
+        "birth": null,
+        "num_appearances": 5,
+        "name": "Emperor",
+        "gender": 1
+    },
+    "752": {
+        "id": 752,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/83785-95401-mister-rictus.jpg",
+        "appear": "Fuck You",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41048/",
+        "birth": null,
+        "num_appearances": 10,
+        "name": "Mister Rictus",
+        "gender": 1
+    },
+    "753": {
+        "id": 753,
+        "creator": {
+            "name": "Mark Millar"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/670774-future1.jpg",
+        "appear": "Supergangbang",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41070/",
+        "birth": null,
+        "num_appearances": 6,
+        "name": "The Future",
+        "gender": 1
+    },
+    "754": {
+        "id": 754,
+        "creator": {
+            "name": "Mark Millar"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/83729-40929-the-professor.jpg",
+        "appear": "Bring on the Bad Guys",
+        "real_name": "Solomon Seltzer",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41049/",
+        "birth": null,
+        "num_appearances": 8,
+        "name": "The Professor",
+        "gender": 1
+    },
+    "760": {
+        "id": 760,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/750981-beaner.jpg",
+        "real_name": "Dominique Beaner",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-21926/",
+        "birth": null,
+        "num_appearances": 9,
+        "name": "Beaner",
+        "gender": 2
+    },
+    "761": {
+        "id": 761,
+        "creator": {
+            "name": "Marc Silvestri"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/676461-blackanvil1.jpg",
+        "appear": "The Tin Men of War: Part Four",
+        "real_name": "Percival Wainwright III",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-21924/",
+        "birth": null,
+        "num_appearances": 33,
+        "name": "Black Anvil",
+        "gender": 1
+    },
+    "762": {
+        "id": 762,
+        "creator": {
+            "name": "Eric Silvestri"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1582364-bloodbow23.jpg",
+        "appear": "The Tin Men of War: Part Four",
+        "real_name": "Trace O'Donnell",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-21937/",
+        "birth": null,
+        "num_appearances": 12,
+        "name": "Bloodbow",
+        "gender": 1
+    },
+    "763": {
+        "id": 763,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/4482780-icarus.png",
+        "real_name": "Jack",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-77327/",
+        "birth": null,
+        "num_appearances": 2,
+        "name": "Icarus",
+        "gender": 1
+    },
+    "764": {
+        "id": 764,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1582603-tia_katana23.jpg",
+        "appear": "Marc Silvestri Sketchbook",
+        "real_name": "Tia Katana",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-52020/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Katana",
+        "gender": 2
+    },
+    "770": {
+        "id": 770,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/661899-ansh_r5.jpg",
+        "appear": "T-4: Prologue Part 1",
+        "real_name": "Ansh'r",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59047/",
+        "birth": null,
+        "num_appearances": 8,
+        "name": "Ansh'r",
+        "gender": 1
+    },
+    "771": {
+        "id": 771,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/662070-fist2.jpg",
+        "real_name": "James Tarleton",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-51827/",
+        "birth": null,
+        "num_appearances": 25,
+        "name": "Fist",
+        "gender": 1
+    },
+    "772": {
+        "id": 772,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/660699-janus2.jpg",
+        "appear": "T-3: Prologue Part 2",
+        "real_name": "Janus",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-52746/",
+        "birth": null,
+        "num_appearances": 24,
+        "name": "Janus",
+        "gender": 1
+    },
+    "773": {
+        "id": 773,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/662482-leviathan2.jpg",
+        "real_name": "Valaria",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-52737/",
+        "birth": null,
+        "num_appearances": 26,
+        "name": "Leviathan",
+        "gender": 2
+    },
+    "774": {
+        "id": 774,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/661166-lilith3.jpg",
+        "appear": "A Tale from Deep Time!A Tale from Deep Time!",
+        "real_name": "Lilith",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59046/",
+        "birth": null,
+        "num_appearances": 12,
+        "name": "Lilith",
+        "gender": 2
+    },
+    "780": {
+        "id": 780,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/615705-cacophony.jpg",
+        "appear": "Introduction to Superpowers 101",
+        "real_name": "Lisa Rohr",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-58540/",
+        "birth": null,
+        "num_appearances": 3,
+        "name": "Cacophony",
+        "gender": 2
+    },
+    "781": {
+        "id": 781,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/234528-107307-green-thumb.jpg",
+        "appear": "Introduction to Superpowers 101",
+        "real_name": "Charles Levy",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-43764/",
+        "birth": null,
+        "num_appearances": 14,
+        "name": "Green Thumb",
+        "gender": 1
+    },
+    "782": {
+        "id": 782,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/672287-long1.jpg",
+        "appear": "Introduction to Superpowers 101",
+        "real_name": "Ray McFarland ",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-58548/",
+        "birth": null,
+        "num_appearances": 8,
+        "name": "Long-Dong",
+        "gender": 1
+    },
+    "783": {
+        "id": 783,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/672283-post1.jpg",
+        "appear": "Introduction to Superpowers 101",
+        "real_name": "Jimmy",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-55509/",
+        "birth": null,
+        "num_appearances": 10,
+        "name": "Post-It",
+        "gender": 1
+    },
+    "784": {
+        "id": 784,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/615670-pull.jpg",
+        "appear": "Introduction to Superpowers 101",
+        "real_name": "Renee Bellochio",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-55514/",
+        "birth": null,
+        "num_appearances": 14,
+        "name": "Puller",
+        "gender": 2
+    },
+    "790": {
+        "id": 790,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/255667-52685-coyle.JPG",
+        "appear": "Fade In",
+        "real_name": "Abraham Coyle",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-49313/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Abraham Coyle",
+        "gender": 1
+    },
+    "791": {
+        "id": 791,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/255659-100018-aphrodisiac.JPG",
+        "appear": "The Gauntlet",
+        "real_name": "Gwen Summers",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-49308/",
+        "birth": null,
+        "num_appearances": 3,
+        "name": "Aphrodisiac",
+        "gender": 2
+    },
+    "792": {
+        "id": 792,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/556615-dsc01631.jpg",
+        "appear": "Girl Talk",
+        "real_name": "Lisa Gonzalez",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-49988/",
+        "birth": null,
+        "num_appearances": 2,
+        "name": "Brown Recluse",
+        "gender": 2
+    },
+    "793": {
+        "id": 793,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/255662-19648-cotton-eyed-joe.JPG",
+        "appear": "The Gauntlet",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-49309/",
+        "birth": null,
+        "num_appearances": 3,
+        "name": "Cotton-Eyed Joe",
+        "gender": 1
+    },
+    "794": {
+        "id": 794,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/255666-133453-dude.JPG",
+        "appear": "Fade In",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-49311/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Dude",
+        "gender": 1
+    },
+    "800": {
+        "id": 800,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/714846-picaesha02.jpg",
+        "appear": "Postcard From Olympus",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-20309/",
+        "birth": null,
+        "num_appearances": 10,
+        "name": "Aesha",
+        "gender": 2
+    },
+    "801": {
+        "id": 801,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/714876-picboaz01.jpg",
+        "appear": "Postcard From Olympus",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-20306/",
+        "birth": null,
+        "num_appearances": 10,
+        "name": "Boaz",
+        "gender": 1
+    },
+    "802": {
+        "id": 802,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/714856-picgraal01.jpg",
+        "appear": "Postcard From Olympus",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-20304/",
+        "birth": null,
+        "num_appearances": 10,
+        "name": "Graal",
+        "gender": 1
+    },
+    "803": {
+        "id": 803,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/714858-picgryffen01.jpg",
+        "appear": "Postcard From Olympus",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-20305/",
+        "birth": null,
+        "num_appearances": 5,
+        "name": "Gryffen",
+        "gender": 1
+    },
+    "804": {
+        "id": 804,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/714799-picravenrok01.jpg",
+        "appear": "Destroyers - The Chaos Effect Epsilon -- Part Two",
+        "real_name": "Ravenrok",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-20313/",
+        "birth": null,
+        "num_appearances": 6,
+        "name": "Ravenrok",
+        "gender": 1
+    },
+    "810": {
+        "id": 810,
+        "creator": {
+            "name": "Jim Shooter"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2556999-archer.jpg",
+        "appear": "Lifelines Part 1: Revival",
+        "real_name": "Obadiah Archer",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-12469/",
+        "birth": null,
+        "num_appearances": 114,
+        "name": "Archer",
+        "gender": 1
+    },
+    "811": {
+        "id": 811,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3327881-constantino.jpg",
+        "appear": "... And Then There Were Nuns",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-62642/",
+        "birth": null,
+        "num_appearances": 4,
+        "name": "Constantino",
+        "gender": 1
+    },
+    "812": {
+        "id": 812,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/673503-picduersta_a_01.jpg",
+        "appear": "Housewreckers",
+        "real_name": "Wilson Haverford Duerst",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59309/",
+        "birth": null,
+        "num_appearances": 5,
+        "name": "Duerst",
+        "gender": 1
+    },
+    "813": {
+        "id": 813,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3369051-james%20earl.jpg",
+        "appear": "Lifelines Part 1: Revival",
+        "real_name": "Joseph Earl Archer",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59301/",
+        "birth": null,
+        "num_appearances": 14,
+        "name": "Joe Earl Archer",
+        "gender": 1
+    },
+    "814": {
+        "id": 814,
+        "creator": {
+            "name": "Jim Shooter"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/672360-picmahmud01.jpg",
+        "appear": "Lifelines Part 1: Revival",
+        "real_name": "Mahmud",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-27603/",
+        "birth": null,
+        "num_appearances": 10,
+        "name": "Mahmud",
+        "gender": 1
+    },
+    "820": {
+        "id": 820,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/4976451-bad%20planet.png",
+        "appear": "Broken Angels Part 2: Go Down Fighting",
+        "real_name": "Sasha Solomon",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-123523/",
+        "birth": null,
+        "num_appearances": 0,
+        "name": "Bad Planet",
+        "gender": 2
+    },
+    "821": {
+        "id": 821,
+        "creator": {},
+        "image": null,
+        "appear": "Things to do in Denver when you're Deadly!",
+        "real_name": "Basilisk",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-7148/",
+        "birth": null,
+        "num_appearances": 2,
+        "name": "Basilisk",
+        "gender": 3
+    },
+    "822": {
+        "id": 822,
+        "creator": {
+            "name": "Kevin VanHook"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2316233-2011.jpg",
+        "appear": "Evil Reincarnate",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5569/",
+        "birth": null,
+        "num_appearances": 188,
+        "name": "Bloodshot",
+        "gender": 1
+    },
+    "823": {
+        "id": 823,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/700336-picbrainsmash01.jpg",
+        "appear": "Generation Gap - Part 1 Of 4",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59869/",
+        "birth": null,
+        "num_appearances": 4,
+        "name": "Brainsmash",
+        "gender": 1
+    },
+    "824": {
+        "id": 824,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1374458-citadel.jpg",
+        "appear": "Heart of a Warrior",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-7140/",
+        "birth": null,
+        "num_appearances": 12,
+        "name": "Citadel",
+        "gender": 1
+    },
+    "830": {
+        "id": 830,
+        "creator": {
+            "name": "Kevin VanHook"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2316233-2011.jpg",
+        "appear": "Evil Reincarnate",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5569/",
+        "birth": null,
+        "num_appearances": 188,
+        "name": "Bloodshot",
+        "gender": 1
+    },
+    "831": {
+        "id": 831,
+        "creator": {
+            "name": "Robert Venditti"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3406380-last%20man%20standing.jpg",
+        "appear": "The Man Who Killed The World / Alpha And Omega Part 10",
+        "real_name": "Gilad Anni-Padda",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-1668/",
+        "birth": null,
+        "num_appearances": 203,
+        "name": "Eternal Warrior",
+        "gender": 1
+    },
+    "832": {
+        "id": 832,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1785463-53geoffmchenry.jpg",
+        "appear": "The Man Who Killed The World / Alpha And Omega Part 10",
+        "real_name": "Geoff McHenry",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-12473/",
+        "birth": null,
+        "num_appearances": 63,
+        "name": "Geoff McHenry",
+        "gender": 1
+    },
+    "833": {
+        "id": 833,
+        "creator": {
+            "name": "Jim Shooter"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/4965273-image.jpeg",
+        "appear": "Dream Child",
+        "real_name": "Amanda McKee",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-1665/",
+        "birth": null,
+        "num_appearances": 70,
+        "name": "Livewire",
+        "gender": 2
+    },
+    "834": {
+        "id": 834,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/676103-picmach01.jpg",
+        "appear": "Project: Secret Weapons",
+        "real_name": "Andre Dubois",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-1659/",
+        "birth": null,
+        "num_appearances": 13,
+        "name": "Mach",
+        "gender": 1
+    },
+    "860": {
+        "id": 860,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/665178-picelzy01.jpg",
+        "appear": "Steel Nation Part 3: Traitor",
+        "real_name": "Elzy",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59163/",
+        "birth": null,
+        "num_appearances": 30,
+        "name": "Elzy",
+        "gender": 2
+    },
+    "861": {
+        "id": 861,
+        "creator": {
+            "name": "Robert Venditti"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3406380-last%20man%20standing.jpg",
+        "appear": "The Man Who Killed The World / Alpha And Omega Part 10",
+        "real_name": "Gilad Anni-Padda",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-1668/",
+        "birth": null,
+        "num_appearances": 203,
+        "name": "Eternal Warrior",
+        "gender": 1
+    },
+    "862": {
+        "id": 862,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/669194-picizak01.jpg",
+        "appear": "The Asylum Saga Part 2: Reckonings",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59229/",
+        "birth": null,
+        "num_appearances": 14,
+        "name": "Izak",
+        "gender": 1
+    },
+    "863": {
+        "id": 863,
+        "creator": {
+            "name": "Russ Manning"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/4207658-leeja-magnus_robot_fighter%232-edited.jpg",
+        "appear": "From the sea comes Magnus to fight the evil robots who are the masters of men!",
+        "real_name": "Leeja Clane",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59149/",
+        "birth": null,
+        "num_appearances": 133,
+        "name": "Leeja",
+        "gender": 2
+    },
+    "864": {
+        "id": 864,
+        "creator": {
+            "name": "Russ Manning"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3575572-0000827252-Magnu.jpg",
+        "appear": "From the sea comes Magnus to fight the evil robots who are the masters of men!",
+        "real_name": "Magnus",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-12457/",
+        "birth": null,
+        "num_appearances": 223,
+        "name": "Magnus",
+        "gender": 1
+    },
+    "880": {
+        "id": 880,
+        "creator": {
+            "name": "Mark Bright"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3038683-qw_001_cover_sook.jpeg",
+        "appear": "Klang",
+        "real_name": "Eric Henderson",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-1908/",
+        "birth": null,
+        "num_appearances": 81,
+        "name": "Quantum",
+        "gender": 1
+    },
+    "881": {
+        "id": 881,
+        "creator": {
+            "name": "Mark Bright"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/811697-tempestsheridan.jpg",
+        "appear": "KYAG",
+        "real_name": "Tempest Sheridan",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-1914/",
+        "birth": null,
+        "num_appearances": 11,
+        "name": "Tempest Sheridan",
+        "gender": 2
+    },
+    "882": {
+        "id": 882,
+        "creator": {
+            "name": "Mark Bright"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2993793-goat.jpg",
+        "appear": "Yet Another Story",
+        "real_name": "Derek Henderson",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-1910/",
+        "birth": null,
+        "num_appearances": 51,
+        "name": "Vincent Van Goat",
+        "gender": 1
+    },
+    "883": {
+        "id": 883,
+        "creator": {
+            "name": "Mark Bright"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3038681-qw_001_cover_sook-1.jpeg",
+        "appear": "Klang",
+        "real_name": "Woodrow Van Chelton",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-1909/",
+        "birth": null,
+        "num_appearances": 82,
+        "name": "Woody",
+        "gender": 1
+    },
+    "890": {
+        "id": 890,
+        "creator": {
+            "name": "Jim Shooter"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/669263-pic0_1x_01.jpg",
+        "appear": "Steel Nation Part 1: Protector",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59233/",
+        "birth": null,
+        "num_appearances": 6,
+        "name": "0-1X",
+        "gender": null
+    },
+    "891": {
+        "id": 891,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/663875-pic1_a_magnus.jpg",
+        "appear": "From the sea comes Magnus to fight the evil robots who are the masters of men!",
+        "real_name": "1-A",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59152/",
+        "birth": null,
+        "num_appearances": 55,
+        "name": "1-A",
+        "gender": null
+    },
+    "892": {
+        "id": 892,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/669104-pice_7rob01.jpg",
+        "appear": "Steel Nation Part 4: Savior",
+        "real_name": "E-7",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59228/",
+        "birth": null,
+        "num_appearances": 10,
+        "name": "E-7",
+        "gender": 3
+    },
+    "893": {
+        "id": 893,
+        "creator": {
+            "name": "Jim Shooter"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/669277-picgrandone01.jpg",
+        "appear": "Invasion Part 5: The Ballad Of East Of West  /  Invasion Part 6: Small Sacrifice",
+        "real_name": "Kimi/1-A",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59234/",
+        "birth": null,
+        "num_appearances": 3,
+        "name": "Grand One",
+        "gender": null
+    },
+    "894": {
+        "id": 894,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/669285-picgrandmother02.jpg",
+        "appear": "Invasion Part 1: Goph Rules  /  Invasion Part 2: Spirit Against The Flesh",
+        "real_name": "Kimi",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-59235/",
+        "birth": null,
+        "num_appearances": 16,
+        "name": "Grandmother",
+        "gender": 2
+    },
+    "900": {
+        "id": 900,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1150024-untitled.png",
+        "appear": "Dead Man's Hand",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5657/",
+        "birth": null,
+        "num_appearances": 43,
+        "name": "Aisha",
+        "gender": 2
+    },
+    "901": {
+        "id": 901,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/130816-32306-clay.jpg",
+        "appear": "Dead Man's Hand",
+        "real_name": "Franklin Clay",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5654/",
+        "birth": null,
+        "num_appearances": 44,
+        "name": "Clay",
+        "gender": 1
+    },
+    "902": {
+        "id": 902,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/130813-115450-cougar.jpg",
+        "appear": "Dead Man's Hand",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5655/",
+        "birth": null,
+        "num_appearances": 44,
+        "name": "Cougar",
+        "gender": 1
+    },
+    "903": {
+        "id": 903,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1261679-jensen_boink.png",
+        "appear": "Dead Man's Hand",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5656/",
+        "birth": null,
+        "num_appearances": 44,
+        "name": "Jensen",
+        "gender": 1
+    },
+    "904": {
+        "id": 904,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/130818-9649-pooch.jpg",
+        "appear": "Dead Man's Hand",
+        "real_name": "Linwood Porteous",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5658/",
+        "birth": null,
+        "num_appearances": 41,
+        "name": "Pooch",
+        "gender": 1
+    },
+    "910": {
+        "id": 910,
+        "creator": {
+            "name": "Eduardo Risso"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2054049-graves.png",
+        "appear": "100 Bullets",
+        "real_name": "Philip Graves",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5991/",
+        "birth": null,
+        "num_appearances": 98,
+        "name": "Agent Graves",
+        "gender": 1
+    },
+    "911": {
+        "id": 911,
+        "creator": {
+            "name": "Eduardo Risso"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2151071-colecover2.png",
+        "appear": "The Right Ear, Left In The Cold, Part 1",
+        "real_name": "Cole Burns",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5986/",
+        "birth": null,
+        "num_appearances": 58,
+        "name": "Cole Burns",
+        "gender": 1
+    },
+    "912": {
+        "id": 912,
+        "creator": {
+            "name": "Eduardo Risso"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2176506-100b_99.jpg",
+        "appear": "100 Bullets",
+        "real_name": "Isabelle Cordova",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5988/",
+        "birth": null,
+        "num_appearances": 75,
+        "name": "Dizzy Cordova",
+        "gender": 2
+    },
+    "913": {
+        "id": 913,
+        "creator": {
+            "name": "Eduardo Risso"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2241040-window.jpg",
+        "appear": "The Right Ear, Left in the Cold, Part Two",
+        "real_name": "Jack Daw",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5992/",
+        "birth": null,
+        "num_appearances": 48,
+        "name": "Jack Daw",
+        "gender": 1
+    },
+    "914": {
+        "id": 914,
+        "creator": {
+            "name": "Eduardo Risso"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3891560-lono.png",
+        "appear": "Shot, Water Back, Part 2",
+        "real_name": "Lono",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5994/",
+        "birth": null,
+        "num_appearances": 83,
+        "name": "Lono",
+        "gender": 1
+    },
+    "920": {
+        "id": 920,
+        "creator": {
+            "name": "Neil Gaiman"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/447795-danielhall.jpg",
+        "appear": "Season of Mists: Chapter 1",
+        "real_name": "Daniel Hall",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-55718/",
+        "birth": null,
+        "num_appearances": 52,
+        "name": "Daniel Hall",
+        "gender": 1
+    },
+    "921": {
+        "id": 921,
+        "creator": {
+            "name": "Neil Gaiman"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1291971-ac894.jpg",
+        "appear": "Death - Die Zeit deines Lebens",
+        "real_name": "Death",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-7280/",
+        "birth": null,
+        "num_appearances": 174,
+        "name": "Death of the Endless",
+        "gender": 2
+    },
+    "922": {
+        "id": 922,
+        "creator": {
+            "name": "Neil Gaiman"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/81662-181730-delirium.jpg",
+        "appear": "Season of Mists: Prologue",
+        "real_name": "Delight",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-40852/",
+        "birth": null,
+        "num_appearances": 62,
+        "name": "Delirium of the Endless",
+        "gender": 2
+    },
+    "923": {
+        "id": 923,
+        "creator": {
+            "name": "Neil Gaiman"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/749044-2_desire.jpg",
+        "appear": "The Doll's House, Part 1: The Doll's House",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-40832/",
+        "birth": null,
+        "num_appearances": 57,
+        "name": "Desire of the Endless",
+        "gender": null
+    },
+    "924": {
+        "id": 924,
+        "creator": {
+            "name": "Neil Gaiman"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/438765-thesandman_despair_4_11_07.jpg",
+        "appear": "The Doll's House, Part 1: The Doll's House",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-40851/",
+        "birth": null,
+        "num_appearances": 45,
+        "name": "Despair of the Endless",
+        "gender": 2
+    },
+    "930": {
+        "id": 930,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/592003-untitled.jpg",
+        "appear": "Born with the Dead",
+        "real_name": "Elaine Belloc",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-21000/",
+        "birth": null,
+        "num_appearances": 73,
+        "name": "Elaine Belloc",
+        "gender": 2
+    },
+    "931": {
+        "id": 931,
+        "creator": {
+            "name": "Scott Hampton"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/522360-lucifer16.jpg",
+        "appear": "Master of Dreams, Part 4 : A Hope in Hell",
+        "real_name": "Samael",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-24232/",
+        "birth": null,
+        "num_appearances": 195,
+        "name": "Lucifer Morningstar",
+        "gender": 1
+    },
+    "932": {
+        "id": 932,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/691654-lucifer44.png",
+        "appear": "The Invisible Labyrinth",
+        "real_name": "Michael Demiurgos",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-12656/",
+        "birth": null,
+        "num_appearances": 62,
+        "name": "Michael Demiurgos",
+        "gender": 1
+    },
+    "940": {
+        "id": 940,
+        "creator": {
+            "name": "Steve Dillon"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1519154-preacher21.jpg",
+        "appear": "Stormbringers (Crusaders Part 3)",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41344/",
+        "birth": null,
+        "num_appearances": 11,
+        "name": "Allfather D'Aronique",
+        "gender": 1
+    },
+    "941": {
+        "id": 941,
+        "creator": {
+            "name": "Peter Snejbjerg"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/658401-preacher_one_mans_war__03_.jpg",
+        "appear": "One Man's War",
+        "real_name": "Brendel Hauptmann",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41968/",
+        "birth": null,
+        "num_appearances": 2,
+        "name": "Brendel Hauptmann",
+        "gender": 1
+    },
+    "942": {
+        "id": 942,
+        "creator": {
+            "name": "Steve Dillon"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/86611-78241-eddie-peck.jpg",
+        "appear": "Smile Like the Gates of Hell",
+        "real_name": "Edward Peck",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41394/",
+        "birth": null,
+        "num_appearances": 3,
+        "name": "Eddie Peck",
+        "gender": 1
+    },
+    "943": {
+        "id": 943,
+        "creator": {
+            "name": "Peter Snejbjerg"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/671238-trinity__32_001.jpg",
+        "appear": "One Man's War",
+        "real_name": "Eisenstein",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-10543/",
+        "birth": null,
+        "num_appearances": 9,
+        "name": "Eisenstein",
+        "gender": 1
+    },
+    "944": {
+        "id": 944,
+        "creator": {
+            "name": "Steve Dillon"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/669106-4861_20080219215927_large.jpg",
+        "appear": "Came A Pale Rider (Hunters Part 1)",
+        "real_name": "Sarah Featherstone",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-10536/",
+        "birth": null,
+        "num_appearances": 36,
+        "name": "Featherstone",
+        "gender": 2
+    },
+    "950": {
+        "id": 950,
+        "creator": {
+            "name": "Steve Dillon"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/86155-80157-duke.jpg",
+        "appear": "Good Times Rolling",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41373/",
+        "birth": null,
+        "num_appearances": 3,
+        "name": "Duke",
+        "gender": 1
+    },
+    "951": {
+        "id": 951,
+        "creator": {
+            "name": "Steve Dillon"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/88174-27638-eccarius.jpg",
+        "appear": "Blood and Whiskey",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41602/",
+        "birth": null,
+        "num_appearances": 2,
+        "name": "Eccarius",
+        "gender": 1
+    },
+    "952": {
+        "id": 952,
+        "creator": {
+            "name": "Steve Dillon"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/668768-4857_20080217094301_large.jpg",
+        "appear": "Good Times Rolling",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41370/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Jonathan",
+        "gender": 1
+    },
+    "953": {
+        "id": 953,
+        "creator": {
+            "name": "Steve Dillon"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/659123-26001_20080221084249_large.jpg",
+        "appear": "Good Times Rolling",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41367/",
+        "birth": null,
+        "num_appearances": 7,
+        "name": "Lili",
+        "gender": 2
+    },
+    "954": {
+        "id": 954,
+        "creator": {
+            "name": "Steve Dillon"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/659128-26001_20080221084249_large.jpg",
+        "appear": "Underworld",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41374/",
+        "birth": null,
+        "num_appearances": 5,
+        "name": "Mako",
+        "gender": 1
+    },
+    "960": {
+        "id": 960,
+        "creator": {
+            "name": "Kurt Busiek"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/4862689-screen%20shot%202015-10-18%20at%209.33.12%20pm.png",
+        "appear": "Through Open Doors, Part One",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-122654/",
+        "birth": null,
+        "num_appearances": 0,
+        "name": "American Chibi",
+        "gender": 2
+    },
+    "961": {
+        "id": 961,
+        "creator": {
+            "name": "Kurt Busiek"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/5011406-5730103136-Assem.jpg",
+        "appear": "Mistakes",
+        "real_name": "Ken",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-125779/",
+        "birth": null,
+        "num_appearances": 0,
+        "name": "Assemblyman",
+        "gender": 1
+    },
+    "962": {
+        "id": 962,
+        "creator": {
+            "name": "Kurt Busiek"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/304199-148467-beautie.jpg",
+        "appear": "In Dreams",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42309/",
+        "birth": null,
+        "num_appearances": 28,
+        "name": "Beautie",
+        "gender": 2
+    },
+    "963": {
+        "id": 963,
+        "creator": {
+            "name": "Kurt Busiek"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/91702-38182-black-rapier.jpg",
+        "appear": "In Dreams",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42116/",
+        "birth": null,
+        "num_appearances": 27,
+        "name": "Black Rapier",
+        "gender": 1
+    },
+    "964": {
+        "id": 964,
+        "creator": {
+            "name": "Kurt Busiek"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/712088-acda_bk3_cv1.jpg",
+        "appear": "In Dreams",
+        "real_name": "Sarah Brandes",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42066/",
+        "birth": null,
+        "num_appearances": 37,
+        "name": "Cleopatra",
+        "gender": 2
+    },
+    "970": {
+        "id": 970,
+        "creator": {
+            "name": "Eduardo Risso"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2054049-graves.png",
+        "appear": "100 Bullets",
+        "real_name": "Philip Graves",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5991/",
+        "birth": null,
+        "num_appearances": 98,
+        "name": "Agent Graves",
+        "gender": 1
+    },
+    "971": {
+        "id": 971,
+        "creator": {},
+        "image": null,
+        "appear": "A Wake, Part One",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-65693/",
+        "birth": null,
+        "num_appearances": 9,
+        "name": "Anna Nagel",
+        "gender": 2
+    },
+    "972": {
+        "id": 972,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/100803-59256-anwar-madrid.JPG",
+        "appear": "Red Prince Blues, Conclusion",
+        "real_name": "Anwar Madrid",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5990/",
+        "birth": null,
+        "num_appearances": 15,
+        "name": "Anwar Madrid",
+        "gender": 1
+    },
+    "973": {
+        "id": 973,
+        "creator": {
+            "name": "Eduardo Risso"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/1140723-augustus.jpg",
+        "appear": "Shot, Water Back, Part 2",
+        "real_name": "Augustus Medici",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-6000/",
+        "birth": null,
+        "num_appearances": 50,
+        "name": "Augustus Medici",
+        "gender": 1
+    },
+    "974": {
+        "id": 974,
+        "creator": {},
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/155718-102570-axel-nagel.jpg",
+        "appear": "Red Prince Blues, Conclusion",
+        "real_name": "Axel Nagel",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-6003/",
+        "birth": null,
+        "num_appearances": 13,
+        "name": "Axel Nagel",
+        "gender": 1
+    },
+    "980": {
+        "id": 980,
+        "creator": {
+            "name": "Eduardo Risso"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/3877733-chucky%20spinks.png",
+        "appear": "Short Con, Long Odds, Part 1",
+        "real_name": "Chucky Spinks",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-42148/",
+        "birth": null,
+        "num_appearances": 6,
+        "name": "Chucky Spinks",
+        "gender": 1
+    },
+    "981": {
+        "id": 981,
+        "creator": {
+            "name": "Eduardo Risso"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2151071-colecover2.png",
+        "appear": "The Right Ear, Left In The Cold, Part 1",
+        "real_name": "Cole Burns",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5986/",
+        "birth": null,
+        "num_appearances": 58,
+        "name": "Cole Burns",
+        "gender": 1
+    },
+    "982": {
+        "id": 982,
+        "creator": {
+            "name": "Eduardo Risso"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2241044-16alta.jpg",
+        "appear": "Hang Up On The Hang Low, Part 1",
+        "real_name": "Curtis Hughes",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-15859/",
+        "birth": null,
+        "num_appearances": 13,
+        "name": "Curtis Hughes",
+        "gender": 1
+    },
+    "983": {
+        "id": 983,
+        "creator": {
+            "name": "Eduardo Risso"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2176506-100b_99.jpg",
+        "appear": "100 Bullets",
+        "real_name": "Isabelle Cordova",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5988/",
+        "birth": null,
+        "num_appearances": 75,
+        "name": "Dizzy Cordova",
+        "gender": 2
+    },
+    "984": {
+        "id": 984,
+        "creator": {
+            "name": "Eduardo Risso"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/2241040-window.jpg",
+        "appear": "The Right Ear, Left in the Cold, Part Two",
+        "real_name": "Jack Daw",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-5992/",
+        "birth": null,
+        "num_appearances": 48,
+        "name": "Jack Daw",
+        "gender": 1
+    },
+    "990": {
+        "id": 990,
+        "creator": {
+            "name": "Steve Dillon"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/667207-002.jpg",
+        "appear": "The Time of the Preacher",
+        "real_name": "DeBlanc",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-10540/",
+        "birth": null,
+        "num_appearances": 19,
+        "name": "DeBlanc",
+        "gender": 1
+    },
+    "991": {
+        "id": 991,
+        "creator": {
+            "name": "Steve Dillon"
+        },
+        "image": "http://comicvine.gamespot.com/api/image/scale_small/85587-48659-mathias.jpg",
+        "appear": "And The Horse You Rode In On",
+        "real_name": "Unknown",
+        "api_url": "http://comicvine.gamespot.com/api/character/4005-41266/",
+        "birth": null,
+        "num_appearances": 3,
+        "name": "Mathias",
+        "gender": 1
+    }
+}

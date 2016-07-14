@@ -1,0 +1,9 @@
+{
+    "name": "The Losers",
+    "description": "Ex-CIA team who seek revenge against their handler Max after he betrayed them.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-30927/",
+    "num_appearances": 0,
+    "appear": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2136897-losers.jpg",
+    "id": 90
+}

@@ -1,0 +1,14 @@
+{
+    "num_appearances": 9,
+    "creator": {
+        "name": "Clive Barker"
+    },
+    "id": 133,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-102923/",
+    "appear": "... Down Among the Dead Men",
+    "gender": 2,
+    "birth": null,
+    "name": "Babette",
+    "real_name": "Babette",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/3855167-babette.jpg"
+}

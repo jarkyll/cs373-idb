@@ -1,0 +1,14 @@
+{
+    "num_appearances": 1,
+    "creator": {
+        "name": "John Ostrander"
+    },
+    "id": 212,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-56749/",
+    "appear": "JLA vs Predator",
+    "gender": 1,
+    "birth": null,
+    "name": "Atom Predator",
+    "real_name": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/482897-atom_predator_1_.jpg"
+}

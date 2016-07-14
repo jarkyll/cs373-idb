@@ -1,0 +1,12 @@
+{
+    "name": "Grimlock",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/4684357-cjrrb9awcaaz_vn.jpg_large.jpeg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-6449/",
+    "gender": 1,
+    "id": 590,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 328,
+    "appear": "The Last Stand; part 1"
+}

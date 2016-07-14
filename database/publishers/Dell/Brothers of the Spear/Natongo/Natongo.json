@@ -1,0 +1,12 @@
+{
+    "name": "Natongo",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1028262-natongo.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-18122/",
+    "gender": 1,
+    "id": 321,
+    "creator": {},
+    "real_name": "Natango",
+    "num_appearances": 30,
+    "appear": "The Webs of Arrack"
+}

@@ -1,0 +1,746 @@
+{
+    "7940": {
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18746/",
+        "id": 7940,
+        "name": "Madame Mirage",
+        "description": null,
+        "start_year": "2007"
+    },
+    "7941": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-34707/",
+        "id": 7941,
+        "name": "Madame Mirage",
+        "description": "Collects Madame Mirage #1-6. Also includes an Introduction by Jim McLaughlin; From the Desk of Paul Dini; and a Cover Gallery.",
+        "start_year": "2008"
+    },
+    "7430": {
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18009/",
+        "id": 7430,
+        "name": "Wanted",
+        "description": null,
+        "start_year": "2003"
+    },
+    "7431": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27356/",
+        "id": 7431,
+        "name": "Wanted Dossier",
+        "description": null,
+        "start_year": "2004"
+    },
+    "7440": {
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18009/",
+        "id": 7440,
+        "name": "Wanted",
+        "description": null,
+        "start_year": "2003"
+    },
+    "7441": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27356/",
+        "id": 7441,
+        "name": "Wanted Dossier",
+        "description": null,
+        "start_year": "2004"
+    },
+    "7700": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18379/",
+        "id": 7700,
+        "name": "Weapon Zero_Silver Surfer",
+        "description": null,
+        "start_year": "1997"
+    },
+    "7701": {
+        "count_of_issues": 4,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19915/",
+        "id": 7701,
+        "name": "Weapon Zero",
+        "description": null,
+        "start_year": "1995"
+    },
+    "7710": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18379/",
+        "id": 7710,
+        "name": "Weapon Zero_Silver Surfer",
+        "description": null,
+        "start_year": "1997"
+    },
+    "7711": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18393/",
+        "id": 7711,
+        "name": "Elektra _ Cyblade",
+        "description": null,
+        "start_year": "1997"
+    },
+    "7200": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19266/",
+        "id": 7200,
+        "name": "City of Heroes",
+        "description": "Volume 2.",
+        "start_year": "2005"
+    },
+    "7720": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5870/",
+        "id": 7720,
+        "name": "Gen 13 Bootleg",
+        "description": null,
+        "start_year": "1996"
+    },
+    "7721": {
+        "count_of_issues": 9,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6085/",
+        "id": 7721,
+        "name": "Arcanum",
+        "description": null,
+        "start_year": "1997"
+    },
+    "7210": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19266/",
+        "id": 7210,
+        "name": "City of Heroes",
+        "description": "Volume 2.",
+        "start_year": "2005"
+    },
+    "7730": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5870/",
+        "id": 7730,
+        "name": "Gen 13 Bootleg",
+        "description": null,
+        "start_year": "1996"
+    },
+    "7731": {
+        "count_of_issues": 9,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6085/",
+        "id": 7731,
+        "name": "Arcanum",
+        "description": null,
+        "start_year": "1997"
+    },
+    "7220": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19266/",
+        "id": 7220,
+        "name": "City of Heroes",
+        "description": "Volume 2.",
+        "start_year": "2005"
+    },
+    "7740": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5870/",
+        "id": 7740,
+        "name": "Gen 13 Bootleg",
+        "description": null,
+        "start_year": "1996"
+    },
+    "7741": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18379/",
+        "id": 7741,
+        "name": "Weapon Zero_Silver Surfer",
+        "description": null,
+        "start_year": "1997"
+    },
+    "7230": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19266/",
+        "id": 7230,
+        "name": "City of Heroes",
+        "description": "Volume 2.",
+        "start_year": "2005"
+    },
+    "7231": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20529/",
+        "id": 7231,
+        "name": "You Are Cordially Invited",
+        "description": null,
+        "start_year": "2008"
+    },
+    "7240": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19266/",
+        "id": 7240,
+        "name": "City of Heroes",
+        "description": "Volume 2.",
+        "start_year": "2005"
+    },
+    "7500": {
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18009/",
+        "id": 7500,
+        "name": "Wanted",
+        "description": null,
+        "start_year": "2003"
+    },
+    "7501": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27356/",
+        "id": 7501,
+        "name": "Wanted Dossier",
+        "description": null,
+        "start_year": "2004"
+    },
+    "7510": {
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18009/",
+        "id": 7510,
+        "name": "Wanted",
+        "description": null,
+        "start_year": "2003"
+    },
+    "7511": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27356/",
+        "id": 7511,
+        "name": "Wanted Dossier",
+        "description": null,
+        "start_year": "2004"
+    },
+    "7000": {
+        "count_of_issues": 11,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-53102/",
+        "id": 7000,
+        "name": "Cyber Force",
+        "description": "TOP COW'S TOP-SELLING SERIES RETURNS IN A GROUND-BREAKING WAY!\n\nTop Cow celebrates its 20th anniversary with the return of the series that started it all: CYBER FORCE!",
+        "start_year": "2012"
+    },
+    "7001": {
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-67751/",
+        "id": 7001,
+        "name": "Cyber Force: Rebirth",
+        "description": null,
+        "start_year": "2013"
+    },
+    "7520": {
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18009/",
+        "id": 7520,
+        "name": "Wanted",
+        "description": null,
+        "start_year": "2003"
+    },
+    "7521": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27356/",
+        "id": 7521,
+        "name": "Wanted Dossier",
+        "description": null,
+        "start_year": "2004"
+    },
+    "7010": {
+        "count_of_issues": 11,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-53102/",
+        "id": 7010,
+        "name": "Cyber Force",
+        "description": "TOP COW'S TOP-SELLING SERIES RETURNS IN A GROUND-BREAKING WAY!\n\nTop Cow celebrates its 20th anniversary with the return of the series that started it all: CYBER FORCE!",
+        "start_year": "2012"
+    },
+    "7011": {
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-67751/",
+        "id": 7011,
+        "name": "Cyber Force: Rebirth",
+        "description": null,
+        "start_year": "2013"
+    },
+    "7530": {
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18009/",
+        "id": 7530,
+        "name": "Wanted",
+        "description": null,
+        "start_year": "2003"
+    },
+    "7531": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27356/",
+        "id": 7531,
+        "name": "Wanted Dossier",
+        "description": null,
+        "start_year": "2004"
+    },
+    "7020": {
+        "count_of_issues": 9,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5165/",
+        "id": 7020,
+        "name": "Deathmate",
+        "description": "Crossover event between Valiant Comics and Image Comics.",
+        "start_year": "1993"
+    },
+    "7021": {
+        "count_of_issues": 3,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-5677/",
+        "id": 7021,
+        "name": "Velocity",
+        "description": null,
+        "start_year": "1995"
+    },
+    "7540": {
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18009/",
+        "id": 7540,
+        "name": "Wanted",
+        "description": null,
+        "start_year": "2003"
+    },
+    "7541": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27356/",
+        "id": 7541,
+        "name": "Wanted Dossier",
+        "description": null,
+        "start_year": "2004"
+    },
+    "7030": {
+        "count_of_issues": 5,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-30023/",
+        "id": 7030,
+        "name": "Image United",
+        "description": null,
+        "start_year": "2009"
+    },
+    "7031": {
+        "count_of_issues": 5,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-33009/",
+        "id": 7031,
+        "name": "ShadowHawk",
+        "description": "A new ShadowHawk series spinning out of Image United featuring the original back-breaker, Paul Johnstone.",
+        "start_year": "2010"
+    },
+    "7800": {
+        "count_of_issues": 7,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-23842/",
+        "id": 7800,
+        "name": "Freshmen: Introduction to Superpowers",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7801": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-25399/",
+        "id": 7801,
+        "name": "Freshmen Yearbook",
+        "description": null,
+        "start_year": "2006"
+    },
+    "7040": {
+        "count_of_issues": 35,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18361/",
+        "id": 7040,
+        "name": "Cyber Force",
+        "description": null,
+        "start_year": "1993"
+    },
+    "7041": {
+        "count_of_issues": 5,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18360/",
+        "id": 7041,
+        "name": "Cyber Force",
+        "description": null,
+        "start_year": "1992"
+    },
+    "7810": {
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18745/",
+        "id": 7810,
+        "name": "Freshmen II: Fundamentals of Fear",
+        "description": null,
+        "start_year": "2006"
+    },
+    "7811": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21925/",
+        "id": 7811,
+        "name": "Freshmen Summer Vacation Special",
+        "description": null,
+        "start_year": "2008"
+    },
+    "7300": {
+        "count_of_issues": 13,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-17995/",
+        "id": 7300,
+        "name": "Hunter-Killer",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7301": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21363/",
+        "id": 7301,
+        "name": "Hunter-Killer: Dossier",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7820": {
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18745/",
+        "id": 7820,
+        "name": "Freshmen II: Fundamentals of Fear",
+        "description": null,
+        "start_year": "2006"
+    },
+    "7821": {
+        "count_of_issues": 7,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-23842/",
+        "id": 7821,
+        "name": "Freshmen: Introduction to Superpowers",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7310": {
+        "count_of_issues": 13,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-17995/",
+        "id": 7310,
+        "name": "Hunter-Killer",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7311": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21363/",
+        "id": 7311,
+        "name": "Hunter-Killer: Dossier",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7830": {
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18745/",
+        "id": 7830,
+        "name": "Freshmen II: Fundamentals of Fear",
+        "description": null,
+        "start_year": "2006"
+    },
+    "7831": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21925/",
+        "id": 7831,
+        "name": "Freshmen Summer Vacation Special",
+        "description": null,
+        "start_year": "2008"
+    },
+    "7320": {
+        "count_of_issues": 13,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-17995/",
+        "id": 7320,
+        "name": "Hunter-Killer",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7321": {
+        "count_of_issues": 186,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-7300/",
+        "id": 7321,
+        "name": "Witchblade",
+        "description": null,
+        "start_year": "1995"
+    },
+    "7840": {
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18745/",
+        "id": 7840,
+        "name": "Freshmen II: Fundamentals of Fear",
+        "description": null,
+        "start_year": "2006"
+    },
+    "7841": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21925/",
+        "id": 7841,
+        "name": "Freshmen Summer Vacation Special",
+        "description": null,
+        "start_year": "2008"
+    },
+    "7330": {
+        "count_of_issues": 13,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-17995/",
+        "id": 7330,
+        "name": "Hunter-Killer",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7331": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21363/",
+        "id": 7331,
+        "name": "Hunter-Killer: Dossier",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7340": {
+        "count_of_issues": 13,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-17995/",
+        "id": 7340,
+        "name": "Hunter-Killer",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7341": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21363/",
+        "id": 7341,
+        "name": "Hunter-Killer: Dossier",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7600": {
+        "count_of_issues": 15,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6637/",
+        "id": 7600,
+        "name": "Codename: Strykeforce",
+        "description": null,
+        "start_year": "1994"
+    },
+    "7601": {
+        "count_of_issues": 2,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20253/",
+        "id": 7601,
+        "name": "Cyber Force _ Strykeforce - Opposing Forces",
+        "description": null,
+        "start_year": "1995"
+    },
+    "7610": {
+        "count_of_issues": 15,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6637/",
+        "id": 7610,
+        "name": "Codename: Strykeforce",
+        "description": null,
+        "start_year": "1994"
+    },
+    "7611": {
+        "count_of_issues": 5,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11279/",
+        "id": 7611,
+        "name": "Strykeforce",
+        "description": null,
+        "start_year": "2004"
+    },
+    "7100": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19266/",
+        "id": 7100,
+        "name": "City of Heroes",
+        "description": "Volume 2.",
+        "start_year": "2005"
+    },
+    "7101": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-20529/",
+        "id": 7101,
+        "name": "You Are Cordially Invited",
+        "description": null,
+        "start_year": "2008"
+    },
+    "7620": {
+        "count_of_issues": 5,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18360/",
+        "id": 7620,
+        "name": "Cyber Force",
+        "description": null,
+        "start_year": "1992"
+    },
+    "7621": {
+        "count_of_issues": 15,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6637/",
+        "id": 7621,
+        "name": "Codename: Strykeforce",
+        "description": null,
+        "start_year": "1994"
+    },
+    "7110": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19266/",
+        "id": 7110,
+        "name": "City of Heroes",
+        "description": "Volume 2.",
+        "start_year": "2005"
+    },
+    "7630": {
+        "count_of_issues": 15,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-6637/",
+        "id": 7630,
+        "name": "Codename: Strykeforce",
+        "description": null,
+        "start_year": "1994"
+    },
+    "7120": {
+        "count_of_issues": 13,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-17995/",
+        "id": 7120,
+        "name": "Hunter-Killer",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7121": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19266/",
+        "id": 7121,
+        "name": "City of Heroes",
+        "description": "Volume 2.",
+        "start_year": "2005"
+    },
+    "7640": {
+        "count_of_issues": 5,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-11279/",
+        "id": 7640,
+        "name": "Strykeforce",
+        "description": null,
+        "start_year": "2004"
+    },
+    "7641": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-21364/",
+        "id": 7641,
+        "name": "Image Comics Summer Special",
+        "description": null,
+        "start_year": "2004"
+    },
+    "7130": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19266/",
+        "id": 7130,
+        "name": "City of Heroes",
+        "description": "Volume 2.",
+        "start_year": "2005"
+    },
+    "7900": {
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18746/",
+        "id": 7900,
+        "name": "Madame Mirage",
+        "description": null,
+        "start_year": "2007"
+    },
+    "7901": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-34707/",
+        "id": 7901,
+        "name": "Madame Mirage",
+        "description": "Collects Madame Mirage #1-6. Also includes an Introduction by Jim McLaughlin; From the Desk of Paul Dini; and a Cover Gallery.",
+        "start_year": "2008"
+    },
+    "7140": {
+        "count_of_issues": 13,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-17995/",
+        "id": 7140,
+        "name": "Hunter-Killer",
+        "description": null,
+        "start_year": "2005"
+    },
+    "7141": {
+        "count_of_issues": 20,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-19266/",
+        "id": 7141,
+        "name": "City of Heroes",
+        "description": "Volume 2.",
+        "start_year": "2005"
+    },
+    "7910": {
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18746/",
+        "id": 7910,
+        "name": "Madame Mirage",
+        "description": null,
+        "start_year": "2007"
+    },
+    "7911": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-34707/",
+        "id": 7911,
+        "name": "Madame Mirage",
+        "description": "Collects Madame Mirage #1-6. Also includes an Introduction by Jim McLaughlin; From the Desk of Paul Dini; and a Cover Gallery.",
+        "start_year": "2008"
+    },
+    "7400": {
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18009/",
+        "id": 7400,
+        "name": "Wanted",
+        "description": null,
+        "start_year": "2003"
+    },
+    "7401": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27356/",
+        "id": 7401,
+        "name": "Wanted Dossier",
+        "description": null,
+        "start_year": "2004"
+    },
+    "7920": {
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18746/",
+        "id": 7920,
+        "name": "Madame Mirage",
+        "description": null,
+        "start_year": "2007"
+    },
+    "7921": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-34707/",
+        "id": 7921,
+        "name": "Madame Mirage",
+        "description": "Collects Madame Mirage #1-6. Also includes an Introduction by Jim McLaughlin; From the Desk of Paul Dini; and a Cover Gallery.",
+        "start_year": "2008"
+    },
+    "7410": {
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18009/",
+        "id": 7410,
+        "name": "Wanted",
+        "description": null,
+        "start_year": "2003"
+    },
+    "7411": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27356/",
+        "id": 7411,
+        "name": "Wanted Dossier",
+        "description": null,
+        "start_year": "2004"
+    },
+    "7930": {
+        "count_of_issues": 6,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18746/",
+        "id": 7930,
+        "name": "Madame Mirage",
+        "description": null,
+        "start_year": "2007"
+    },
+    "7931": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-34707/",
+        "id": 7931,
+        "name": "Madame Mirage",
+        "description": "Collects Madame Mirage #1-6. Also includes an Introduction by Jim McLaughlin; From the Desk of Paul Dini; and a Cover Gallery.",
+        "start_year": "2008"
+    },
+    "7420": {
+        "count_of_issues": 8,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-18009/",
+        "id": 7420,
+        "name": "Wanted",
+        "description": null,
+        "start_year": "2003"
+    },
+    "7421": {
+        "count_of_issues": 1,
+        "api_url": "http://comicvine.gamespot.com/api/volume/4050-27356/",
+        "id": 7421,
+        "name": "Wanted Dossier",
+        "description": null,
+        "start_year": "2004"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Unholy Alliance",
+    "description": "A group of villains led by Demolitia. In 1998, they attacked Detroit as part of the conquistador's grand scheme to discredit america's hero.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-42350/",
+    "num_appearances": 0,
+    "appear": "Safeguards",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1100262-unholyalliance_2.jpg",
+    "id": 68
+}

@@ -1,0 +1,13 @@
+{
+    "num_appearances": 287,
+    "creator": {
+        "name": "Joss Whedon"
+    },
+    "id": 250,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-20094/",
+    "gender": 1,
+    "birth": null,
+    "name": "Angel",
+    "real_name": "Liam",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/895560-cf0c3a56295cee7adb5070ae957c0b5e.jpg"
+}

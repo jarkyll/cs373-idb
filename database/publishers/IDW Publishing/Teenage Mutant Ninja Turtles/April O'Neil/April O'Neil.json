@@ -1,0 +1,13 @@
+{
+    "name": "April O'Neil",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2986152-tmnt%20april.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-44968/",
+    "gender": 2,
+    "id": 540,
+    "creator": {
+        "name": "Peter Laird"
+    },
+    "real_name": "April Gorgana O'Neil",
+    "num_appearances": 279
+}

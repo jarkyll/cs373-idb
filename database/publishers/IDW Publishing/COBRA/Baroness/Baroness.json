@@ -1,0 +1,14 @@
+{
+    "name": "Baroness",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/87079-15916-baroness.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-11022/",
+    "gender": 2,
+    "id": 503,
+    "creator": {
+        "name": "Larry Hama"
+    },
+    "real_name": "Anastasia DeCobray",
+    "num_appearances": 370,
+    "appear": "Operation: Lady Doomsday; ...Hot Potato!"
+}

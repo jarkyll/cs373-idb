@@ -1,0 +1,12 @@
+{
+    "name": "Buzzer",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1792256-buzzer.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-14140/",
+    "gender": 1,
+    "id": 512,
+    "creator": {},
+    "real_name": "Richard Blinken-Smythe",
+    "num_appearances": 106,
+    "appear": "Zartan!"
+}

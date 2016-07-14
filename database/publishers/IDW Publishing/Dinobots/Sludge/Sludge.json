@@ -1,0 +1,12 @@
+{
+    "name": "Sludge",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/89347-72525-sludge.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-6464/",
+    "gender": 1,
+    "id": 594,
+    "creator": {},
+    "real_name": "Sludge",
+    "num_appearances": 169,
+    "appear": "The Last Stand; part 1"
+}

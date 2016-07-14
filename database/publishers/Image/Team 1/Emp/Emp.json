@@ -1,0 +1,14 @@
+{
+    "id": 652,
+    "creator": {
+        "name": "Jim Lee"
+    },
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/378571-102308-emp.jpg",
+    "appear": "Resurrection Day",
+    "real_name": "Unknown",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-21970/",
+    "birth": null,
+    "num_appearances": 126,
+    "name": "Emp",
+    "gender": 1
+}

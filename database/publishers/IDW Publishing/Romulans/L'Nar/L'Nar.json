@@ -1,0 +1,14 @@
+{
+    "name": "L'Nar",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/4743321-9311356093-220",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-121378/",
+    "gender": 1,
+    "id": 534,
+    "creator": {
+        "name": "Mike Johnson"
+    },
+    "real_name": "L'Nar",
+    "num_appearances": 0,
+    "appear": "The Khitomer Conflict, Part 1 of 4"
+}

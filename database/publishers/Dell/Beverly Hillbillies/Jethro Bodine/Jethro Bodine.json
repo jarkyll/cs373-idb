@@ -1,0 +1,12 @@
+{
+    "name": "Jethro Bodine",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/1-male-good-large.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-100163/",
+    "gender": 1,
+    "id": 383,
+    "creator": {},
+    "real_name": "Unknown",
+    "num_appearances": 1,
+    "appear": "The Beverly HillBillies #1"
+}

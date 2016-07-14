@@ -1,0 +1,13 @@
+{
+    "id": 700,
+    "creator": {
+        "name": "Troy Peteri"
+    },
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/2875655-aprhrodite5.jpg",
+    "real_name": "Aphrodite V",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-86103/",
+    "birth": null,
+    "num_appearances": 12,
+    "name": "Aphrodite V",
+    "gender": 2
+}

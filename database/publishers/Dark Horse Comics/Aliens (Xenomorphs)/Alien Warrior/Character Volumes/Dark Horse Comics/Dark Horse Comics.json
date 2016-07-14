@@ -1,0 +1,8 @@
+{
+    "name": "Dark Horse Comics",
+    "id": 2221,
+    "api_url": "http://comicvine.gamespot.com/api/volume/4050-4864/",
+    "description": null,
+    "count_of_issues": 25,
+    "start_year": "1992"
+}

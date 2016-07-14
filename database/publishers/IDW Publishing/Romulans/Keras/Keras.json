@@ -1,0 +1,13 @@
+{
+    "name": "Keras",
+    "birth": null,
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/808632-keras.jpg",
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-62006/",
+    "gender": 1,
+    "id": 533,
+    "creator": {
+        "name": "John Byrne"
+    },
+    "real_name": "Keras",
+    "num_appearances": 1
+}

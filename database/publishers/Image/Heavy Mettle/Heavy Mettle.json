@@ -1,0 +1,9 @@
+{
+    "name": "Heavy Mettle",
+    "description": "Government funded super-team briefly led by Supreme.",
+    "api_url": "http://comicvine.gamespot.com/api/team/4060-26809/",
+    "num_appearances": 0,
+    "appear": "Unknown",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/324660-170371-heavy-mettle.JPG",
+    "id": 64
+}

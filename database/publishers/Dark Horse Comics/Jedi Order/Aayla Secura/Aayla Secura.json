@@ -1,0 +1,14 @@
+{
+    "num_appearances": 62,
+    "creator": {
+        "name": "Rick Magyar"
+    },
+    "id": 260,
+    "api_url": "http://comicvine.gamespot.com/api/character/4005-5389/",
+    "appear": "Twilight, Part One",
+    "gender": 2,
+    "birth": null,
+    "name": "Aayla Secura",
+    "real_name": "Aaylas'ecura",
+    "image": "http://comicvine.gamespot.com/api/image/scale_small/87120-142563-aayla-secura.jpg"
+}
