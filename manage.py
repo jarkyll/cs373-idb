@@ -333,7 +333,7 @@ def character(name):
 @app.route("/volume/<name>")
 def volume(name):
     v = db.session.query(Volume).filter_by(name=name).first()
-    return render_template("planet.html", volume=v)
+    return render_template("volumes_template.html", volume=v)
 
 
 @app.route("/team/<name>")
