@@ -44,3 +44,20 @@ tr {
 #info{
   text-align: center;
 }
+
+#top_ab_row{
+    animation-delay:1.2s;
+    -moz-animation-delay:1.2s;
+    -webkit-animation-delay:1.2s;
+    }
+
+#bot_ab_row{
+    animation-delay:1.2s;
+    -moz-animation-delay:1.2s;
+    -webkit-animation-delay:1.2s;
+    }
+#stats{
+    animation-delay:1.2s;
+    -moz-animation-delay:1.2s;
+    -webkit-animation-delay:1.2s;
+    }
