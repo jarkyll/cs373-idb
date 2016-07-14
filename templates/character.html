@@ -91,17 +91,25 @@
 					<!--some kind of table of the volumes batman has appeared in (1 volume per row? ) -->
 					<div class="row">
                         <div class="col-md-6" style="height: 200px;overflow-y: auto;">
-                            <h2 id="title"> Character </h2>
+                            <h2 id="title"> Teams </h2>
                             {% for team in character.teams %}
-                                <a id="inner" href="http://downing.rocks/volume/{{team.name}}"><img id='publishers' src="{{team.image[0]}}" class="img-rounded" alt="Teams"></a>
-                                </br>
+								{% if character.image != None %}
+                                <a id="inner" href="http://downing.rocks/team/{{team.name}}"><img id='publishers' src="{{team.image[0]}}" class="img-rounded" alt="Teams"></a>
+								{% else %}
+								<a id="inner" href="http://downing.rocks/team/{{team.name}}"><img id='publishers' src="{{team.image[0]}}" class="img-rounded" alt="Teams"></a>
+								{% endif %}
+								</br>
                             {% endfor %}
                         </div>
                         <div class="col-md-6" style="height: 200px;overflow-y: auto;">
                             <h2 id="title"> Volumes </h2>
                             {% for volume in character.volumes %}
-                                <a id="inner" href="http://downing.rocks/team/{{volume.name}}"><img id='publishers' src="{{volume.image[0]}}" class="img-rounded" alt="Volumes"></a>
-                                </br>
+								{% if volume.image != None %}
+                                <a id="inner" href="http://downing.rocks/volume/{{volume.name}}"><img id='publishers' src="{{volume.image[0]}}" class="img-rounded" alt="Volumes"></a>
+                                {% else %}
+								<a id="inner" href="http://downing.rocks/volume/{{volume.name}}"><img id='publishers' src="{{volume.image[0]}}" class="img-rounded" alt="Volumes"></a>
+                                {% endif %}
+								</br>
                             {% endfor %}
                         </div>
                     </div>
