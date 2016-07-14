@@ -13,9 +13,9 @@
         </thead>
         <tbody>
           <tr ng-repeat="volume in volumes">
-            <td><a id="inner" href="http://downing.rocks/volume/1"><img id="publishers" src="[[ formatjson(volume.image) ]]"></a></td>
+            <td><a id="inner" href="/volume/[[ formatjson(volume.name) ]]"><img id="publishers" src="[[ formatjson(volume.image) ]]"></a></td>
             <td>[[ formatjson(volume.name) ]]</td>
-            <td><a href="http://downing.rocks/publisher/1">[[ formatjson(volume.publisher) ]]</a></td>
+            <td><a href="/publisher/[[ formatjson(volume.publisher) ]]">[[ formatjson(volume.publisher) ]]</a></td>
             <td>[[ volume.start_year ]]</td>
             <td>[[ formatjson(volume.num_issues) ]]</td>
           </tr>

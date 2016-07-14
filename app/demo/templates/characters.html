@@ -16,7 +16,7 @@
       </thead>
       <tbody>
          <tr ng-repeat="character in characters">
-            <td class="image"><a id="inner" href="http://downing.rocks/character/2"><img id="publishers" src="[[ formatjson(character.image) ]]" class="img-rounded" alt="Teams"></a></td>
+            <td class="image"><a id="inner" href="/character/[[ formatjson(character.name) ]]" ><img id="publishers" src="[[ formatjson(character.image) ]]" class="img-rounded" alt="Teams"></a></td>
             <td class="name">[[ formatjson(character.name) ]]</td>
             <td class="real_name">[[ formatjson(character.real_name) ]]</td>
             <td class="publisher"><a href="http://downing.rocks/publisher/2">[[ formatjson(character.publisher) ]]</a></td>

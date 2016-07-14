@@ -5,7 +5,9 @@ app.config(function($interpolateProvider) {
 
 app.controller('MainController', ['$scope', 'characters', 'teams', 'volumes', 'publishers', function($scope, characters, teams, volumes, publishers) { 
 	$scope.runTests = function() {
-		console.log("Pressed run tests button");
+		$.get('http://localhost:5000/runtests', function(data,status) {
+        alert(data);
+      },'html');
     };
     /*
   tests.success(function(data) { 
@@ -26,7 +28,7 @@ app.controller('MainController', ['$scope', 'characters', 'teams', 'volumes', 'p
   });
   publishers.success(function(data) { 
       $scope.publishers = data['result']; 
-      console.log(JSON.stringify(data));
+      //console.log(JSON.stringify(data));
   });
   $scope.formatjson = function(a){
 

@@ -1,125 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <title>Batman</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-      <!-- jQuery library -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <!-- Latest compiled JavaScript -->
-      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="..static/styles.css">
-      <!-- Navigation -->
-      <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand" href="#">Komixx</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-               <ul class="nav navbar-nav navbar-right">
-                  <li>
-                     <a href="characters">Characters</a>
-                  </li>
-                  <li>
-                     <a href="teams">Teams</a>
-                  </li>
-                  <li>
-                     <a href="volumes">Volumes</a>
-                  </li>
-                  <li>
-                     <a href="publishers">Publishers</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </nav>
-   </head>
-   <body>
-      <br /><br /><br /><br />
+{% extends "base.html" %}
+{% block content %}
       <div id="content" class="container">
          <div class="row">
             <div class="col-md-4">
-               <img src="static/img/batman.jpg" class="img-responsive img-thumbnail character-image" alt="Batman">
+               <img src="{{character.image}}" class="img-responsive img-thumbnail character-image">
             </div>
             <div class="col-md-8">
-               <h2 class="character-header">Batman</h2>
+               <br><br><br>
+               <h2 class="character-header">{{character.name}}</h2>
                <!-- http://comicvine.gamespot.com/batman/4005-1699/ -->
-               <p>Bruce Wayne, who witnessed the murder of his billionaire parents as a child, swore to avenge their deaths. He trained extensively to achieve mental and physical perfection, mastering martial arts, detective skills, and criminal psychology. Costumed as a bat to prey on criminals' fears, and utilizing a high-tech arsenal, he became the legendary Batman.</p>
                <table class="table">
                   <tbody>
                      <tr>
                         <th>Gender</th>
-                        <td>Male</td>
-                     </tr>
-                     <tr>
-                        <th>Birthday</th>
-                        <td>February 19, 1972</td>
+                        <td>{{character.gender}}</td>
                      </tr>
                      <tr>
                         <th>Publisher</th>
-                        <td>DC Comics</td>
+                        <td>{{character.publisher_name}}</td>
                      </tr>
                      <tr>
-                        <th>Creators</th>
-                        <td>Bob Kane<br />Bill Finger</td>
+                        <th>Volumes</th>
+                        <td>{{character.vol_result}}</td>
+                     </tr>
+                     <tr>
+                        <th>Teams</th>
+                        <td>{{character.team_result}}</td>
                      </tr>
                   </tbody>
                </table>
-            </div>
-         </div>
-         <br />
-         <div class="row">
-            <div class="col-md-12">
-               <h3>Powers</h3>
-               <table class="table">
-                  <tbody>
-                     <tr>
-                        <td>Adaptive</td>
-                        <td>Agility</td>
-                        <td>Attractive Male</td>
-                     </tr>
-                     <tr>
-                        <td>Cosmic Awareness</td>
-                        <td>Escape Artist</td>
-                        <td>Gadgets</td>
-                     </tr>
-                     <tr>
-                        <td>Insanely Rich</td>
-                        <td>Intellect</td>
-                        <td>Leadership</td>
-                     </tr>
-                     <tr>
-                        <td>Marksmanship</td>
-                        <td>Power Suit</td>
-                        <td>Stamina</td>
-                     </tr>
-                     <tr>
-                        <td>Stealth</td>
-                        <td>Swordsmanship</td>
-                        <td>Tracking</td>
-                     </tr>
-                     <tr>
-                        <td>Unarmed Combat</td>
-                        <td>Weapon Master</td>
-                        <td></td>
-                     </tr>
-                  </tbody>
-               </table>
-            </div>
-         </div>
-         <div class="row">
-            <div class="col-md-12">
-               <h3>Volume appearances</h3>
-               <!--some kind of table of the volumes batman has appeared in (1 volume per row? ) -->
             </div>
          </div>
       </div>
-   </body>
-</html>
+{% endblock %}

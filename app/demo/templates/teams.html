@@ -13,9 +13,9 @@
         </thead>
         <tbody>
           <tr ng-repeat="team in teams">
-            <td><a id="inner" href="http://downing.rocks/team/1"><img id="publishers" src="[[ formatjson(team.image) ]]" ></a></td>
+            <td><a id="inner" href="/team/[[ formatjson(team.name) ]]"><img id="publishers" src="[[ formatjson(team.image) ]]" ></a></td>
             <td>[[ formatjson(team.name) ]]</td>
-            <td><a href="http://downing.rocks/publisher/1">[[ formatjson(team.publisher) ]]</a></td>
+            <td><a href="/publisher/[[formatjson(team.publisher)]]">[[ formatjson(team.publisher) ]]</a></td>
             <td>[[ formatjson(team.appear) ]]</td>
             <td>[[ formatjson(team.num_appearances) ]]</td>
           </tr>
