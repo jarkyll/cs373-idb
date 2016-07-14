@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+{% block content %}
 <html lang="en">
    <head>
-      <title>Komixx</title>
+      <title>{{publisher.name}}</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Latest compiled and minified CSS -->
@@ -12,7 +13,7 @@
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="../static/tables.css">
         <link rel="stylesheet" type="text/css" href="../static/styles.css">
-　　  <!-- Navigation -->
+　　　　<!-- Navigation -->
       <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
          <div class="container">
             <div class="navbar-header">
@@ -45,30 +46,30 @@
          </div>
       </nav>
    </head>
-　　</head>
    <body>
       <div id="content" class="container">
          <div class="row">
             <div class="col-md-4">
-               <img id="inner" src="http://static2.comicvine.com/uploads/scale_medium/6/69951/1387447-logo.gif" class="img-responsive img-thumbnail" alt="Dell">
+               <img id="inner" src={{publisher.image}} class="img-responsive img-thumbnail" alt="Dark Horse Comics">
             </div>
             <div class="col-md-8">
-               <h2 id="inner">Dell</h2>
+               <h2 id="inner">{{ publisher.name }}</h2>
+               </br>
                <!-- https://raw.githubusercontent.com/jarkyll/cs373-idb/back-end/dark_horse_comics.json -->
-               <p>Also Known as Dell Comics Group and Dell Super Comics Group was an American publisher of books and comic books, founded in 1921. They would partner with Western Publishing from 1938 to 1962. Dell was bought by Random House and is now part of the "Bantam Dell Publishing Group".</p>
+               <p>{{publisher.deck}}</p>
                <table class="table">
                   <tbody>
                      <tr>
                         <th>Address</th>
-                        <td>1745 Broadway</td>
+                        <td>{{ publisher.address }}</td>
                      </tr>
                      <tr>
                         <th>City</th>
-                        <td>New York</td>
+                        <td>{{ publisher.city }}</td>
                      </tr>
                      <tr>
                         <th>State</th>
-                        <td>New York</td>
+                        <td>{{ publisher.state }}</td>
                      </tr>
                   </tbody>
                </table>
@@ -76,20 +77,41 @@
          </div>
          <br /><br />
          <div class="row">
-            <div class="col-md-4">
-              <h2 id="title"> Characters </h2>
-               <!-- each image will be 300x300 pixels -->
-               <a id="inner" href="http://downing.rocks/character/3"><img src="http://static4.comicvine.com/uploads/square_avatar/1/12483/277673-175026-jerry.jpg" class="img-rounded" alt="Characters"></a>
+            <div class="col-md-4" style="height: 200px;overflow-y: auto;">
+               <h2 id="title"> Characters </h2>
+                  {% for character in publisher.publisher_characters %}
+                      {% if character.image != None %}
+                      <a id="inner" href="http://downing.rocks/character/{{character.name}}"><img id='publishers' src="{{character.image}}" class="img-rounded" alt="Teams"></a>
+                      {% else %}
+                      <a id="inner" href="http://downing.rocks/character/{{character.name}}">{{character.name}}</a>
+                      {% endif %}
+                      </br>
+                {% endfor %}
             </div>
-            <div class="col-md-4">
-              <h2 id="title"> Teams </h2>
-               <a id="inner" href="http://downing.rocks/team/2"><img src="http://static1.comicvine.com/uploads/square_avatar/0/3125/1044725-mm.jpg" class="img-rounded" alt="Teams"></a>
+            <div class="col-md-4" style="height: 200px;overflow-y: auto;">
+                <h2 id="title"> Teams </h2>
+                {% for team in publisher.publisher_teams %}
+                  {% if team.image != None %}
+                  <a id="inner" href="http://downing.rocks/team/{{team.name}}"><img id='publishers' src="{{team.image}}" class="img-rounded" alt="Teams"></a>
+                  {% else %}
+                  <a id="inner" href="http://downing.rocks/team/{{team.name}}">{{team.name}}</a>
+                  {% endif %}
+                  </br>
+                {% endfor %}
             </div>
-            <div class="col-md-4">
-              <h2 id="title"> Volumes </h2>
-               <a id="inner" href="http://downing.rocks/volume/2"><img src="http://static1.comicvine.com/uploads/square_avatar/0/4/1148-1622-1230-1-tom-amp-jerry-summ.jpg" class="img-rounded" alt="Volumes"></a>
+            <div class="col-md-4" style="height: 200px;overflow-y: auto;">
+                <h2 id="title"> Volumes </h2>
+                {% for volume in publisher.publisher_volumes %}
+                   {% if volume.image != None %}
+                   <a id="inner" href="http://downing.rocks/volume/{{volume.name}}"><img id='publishers' src="{{volume.image}}" class="img-rounded" alt="Teams"></a>
+                   {% else %}
+                   <a id="inner" href="http://downing.rocks/volume/{{volume.name}}">{{volume.name}}</a>
+                   {% endif %}
+                  </br>
+                {% endfor %}
             </div>
          </div>
       </div>
    </body>
 </html>
+{% endblock %}

@@ -1,25 +1,37 @@
 {% extends "base.html" %}
 {% block content %}
-		<div id="content" class="container" ng-controller="MainController">
-      <table id="table" class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+<div id="content" class="container" ng-controller="MainController">
+    <table id="table" class="display nowrap" cellspacing="0" width="100%" datatable="ng">
         <thead>
-          <tr>
+        <tr>
             <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
-            <th>Team Name</th>        <!--Title Link should take them to Volume page-->
+            <th>Title</th>        <!--Title Link should take them to Volume page-->
             <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
-            <th>First Appearance</th>
-            <th># of Appreances</th>
-          </tr>
+            <th>Start Year</th>
+            <th># of Issues</th>
+        </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="team in teams">
-            <td><a id="inner" href="/team/[[ formatjson(team.name) ]]"><img id="publishers" src="[[ formatjson(team.image) ]]" ></a></td>
-            <td>[[ formatjson(team.name) ]]</td>
-            <td><a href="/publisher/[[formatjson(team.publisher)]]">[[ formatjson(team.publisher) ]]</a></td>
-            <td>[[ formatjson(team.appear) ]]</td>
-            <td>[[ formatjson(team.num_appearances) ]]</td>
-          </tr>
+        {% for team in teams %}
+        <tr>
+            <td>
+                {% if team.name != None %}
+                <a id="inner" href="http://downing.rocks/team/{{ team.name}}"><img id="publishers"
+                                                                                   src="{{ team.image }}"></a>
+                {% else %}
+                <a id="inner" href="http://downing.rocks/team/{{ team.name}}"><img id="publishers"
+                                                                                   src="{{ team.image }}"></a>
+                {% endif %}
+            </td>
+            <td>{{ team.name }}</td>
+            <td><a href="http://downing.rocks/publisher/{{ team.publisher_name }}">{{ team.publisher_name }}</a></td>
+            <td>{{ team.appear }}</td>
+            <td>{{ team.num_appearances }}</td>
+        </tr>
+        {% endfor %}
         </tbody>
-      </table>
-    </div>
+    </table>
+</div>
 {% endblock %}
+
+

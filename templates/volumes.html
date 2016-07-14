@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-		<div id="content" class="container" ng-controller="MainController">
+                <div id="content" class="container" ng-controller="MainController">
       <table id="table"  class="display nowrap" cellspacing="0" width="100%" datatable="ng">
         <thead>
           <tr>
@@ -12,14 +12,23 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="volume in volumes">
-            <td><a id="inner" href="/volume/[[ formatjson(volume.name) ]]"><img id="publishers" src="[[ formatjson(volume.image) ]]"></a></td>
-            <td>[[ formatjson(volume.name) ]]</td>
-            <td><a href="/publisher/[[ formatjson(volume.publisher) ]]">[[ formatjson(volume.publisher) ]]</a></td>
-            <td>[[ volume.start_year ]]</td>
-            <td>[[ formatjson(volume.num_issues) ]]</td>
+        {% for volume in volumes %}
+          <tr>
+            <td>
+                {% if volume.image != None %}
+                <a id="inner" href="http://downing.rocks/volume/{{ volume.name}}"><img id="publishers" src="{{ volume.image }}"></a></td>
+                {% else %}
+                <a id="inner" href="http://downing.rocks/volume/{{ volume.name}}"><img id="publishers" src="{{ volume.image }}"></a></td>
+                {% endif %}
+            <td>{{ volume.name }} </td>
+            <td><a href="http://downing.rocks/publisher/{{ volume.publisher_name }}">{{ volume.publisher_name }}</a></td>
+            <td>{{ volume.start_year }}</td>
+            <td>{{ volume.num_issues }}</td>
           </tr>
+        {% endfor %}
         </tbody>
       </table>
     </div>
 {% endblock %}
+
+

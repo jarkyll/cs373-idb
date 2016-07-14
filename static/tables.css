@@ -57,3 +57,7 @@ ul{
 /*for stacking */
 .mobilewrapper{width:100%!important; height:auto!important;}
 .colsplit{width:320px!important; float:left!important; display:block !important;}
+/* centers the attribute names */
+.sorting, .sorting_asc, .sorting_desc{
+  text-align: -webkit-auto;
+  }

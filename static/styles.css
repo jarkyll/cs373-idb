@@ -1,19 +1,6 @@
 /*
- * General
-*/
-
-
-/*
- * Navigation
-*/
-
-
-
-
-/*
  * Carousel
 */
-
 
 
 html,body{
@@ -31,8 +18,6 @@ html,body{
     height: inherit;
 }
 
-
-
 #myCarousel{
     height: 100%;
 }
@@ -47,8 +32,6 @@ html,body{
 tr {
     height: 5%;
 }
-
-
 
 /* for about page */
 #abouts > div{

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/styles.css">
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -12,7 +13,6 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="../static/tables.css">
-  <link rel="stylesheet" type="text/css" href="../static/styles.css">
 　　　　<!-- Navigation -->
   <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
      <div class="container">
@@ -54,93 +54,60 @@
   <div id="content" class="container">
 
     <div class="jumbotron">
-        <h1 id="inner">Mouse Musketeers</h1>
+        <h1 id="inner">{{team.name}}</h1>
     </div>
 
     <div class="row">
       <div class="col-md-6">
-        <h3><img id="inner" src="http://static4.comicvine.com/uploads/scale_small/0/3125/1044725-mm.jpg"></a></h3>
-        <p id="inner">Sometimes Jerry and Tuffy team up to form the Mouse Musketeers to defeat Tom. Touche, pussy cat!</p>
+        <h3><img id="inner" src={{team.image}}></a></h3>
       </div>
       <div class="col-md-6">
         <table class="table">
           <tr>
-            <th>Aliases</th>
-            <td>Unknown</td>
+            <th>First Appearance</th>
+            <td>{{ team.appear }}</td>
+          </tr>
+          <tr>
+            <th>Number of Appearances</th>
+            <td>{{ team.num_appearances}}</td>
           </tr>
           <tr>
             <th>Publisher</th>
-            <td> <a href="http://downing.rocks/publisher/3">Dell</a></td>
+            <td><a href="http://downing.rocks/publisher/{{team.publisher_name}}">{{team.publisher_name}}</a></td>
           </tr>
         </table>
       </div>
     </div>
+    <p id="inner">Description: {{team.description}}</p>
 
     <div class="row">
-      <div class="col-md-4">
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th>Team Members</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-      					<a id="inner" href="http://downing.rocks/character/3"><img id="publisher" src="http://static4.comicvine.com/uploads/square_avatar/1/12483/277673-175026-jerry.jpg"></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="col-md-4">
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th>Allies</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="col-md-4">
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th>Enemies</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Commander</td>
-            </tr>
-            <tr>
-              <td>Dr. Krigstein</td>
-            </tr>
-            <tr>
-              <td>Fallout</td>
-            </tr>
-            <tr>
-              <td>Hornet</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+		<div class="col-md-12">
+		    <div class="row">
+                 <div class="col-md-6" style="height: 200px;overflow-y: auto;">
+                       <h2 id="title"> Team Members </h2>
+                            {% for character in team.team_characters %}
+                                {% if character.image != None %}
+                                     <a id="inner" href="http://downing.rocks/character/{{character.name}}"><img id='publishers' src="{{character.image}}" class="img-rounded" alt="Teams"></a>
+                                {% else %}
+                                    <a id="inner" href="http://downing.rocks/character/{{character.name}}">{{character.name}}</a>
+                                {% endif %}
+                      </br>
+                            {% endfor %}
+                        </div>
+                        <div class="col-md-6" style="height: 200px;overflow-y: auto;">
+                            <h2 id="title"> Volumes </h2>
+                            {% for volume in team.team_volumes %}
+                                {% if volume.image != None %}
+                                    <a id="inner" href="http://downing.rocks/volume/{{volume.name}}"><img id='publishers' src="{{volume.image}}" class="img-rounded" alt="Teams"></a>
+                                {% else %}
+                                    <a id="inner" href="http://downing.rocks/volume/{{volume.name}}">{{volume.name}}</a>
+                                {% endif %}
+                                </br>
+                            {% endfor %}
+                        </div>
+                    </div>
+				</div>
+			</div>
 
   </div>
 </body>

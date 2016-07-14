@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+{% block content %}
 <html lang="en">
 	<head>
-		<title>Jerry</title>
+		<title>{{ character.name }} </title>
 
 		<meta charset="utf-8">
 
@@ -15,8 +16,8 @@
 
 		<!-- Latest compiled JavaScript -->
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="../static/tables.css">
-    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+		<link rel="stylesheet" type="text/css" href="http://downing.rocks/static/tables.css">
+    <link rel="stylesheet" type="text/css" href="http://downing.rocks/static/styles.css">
 		<!-- Navigation -->
 		      <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
 		         <div class="container">
@@ -54,17 +55,17 @@
 		<div id="content" class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<img id="inner" src="http://static4.comicvine.com/uploads/scale_small/1/12483/277673-175026-jerry.jpg" alt="Sheena">
+					<img id="publisher" src={{character.image[0]}} class="img-responsive img-thumbnail character-image" alt={{character.name}}>
 				</div>
 
 				<div class="col-md-8">
-					<h2 id="inner" class="character-header">Jerry</h2><!-- http://comicvine.gamespot.com/batman/4005-1699/ -->
-					<p>One of the two titular protagonists of the popular Tom &amp; Jerry cartoons produced by Hanna-Barbera.</p>
-					<table class="table">
+					<h2 id="inner" class="character-header">{{ character.name }}</h2><!-- http://comicvine.gamespot.com/batman/4005-1699/ -->
+                    </br>
+                    <table class="table">
 						<tbody>
 							<tr>
 								<th>Gender</th>
-								<td>Male</td>
+								<td >{{character.gender[0]}}</td>
 							</tr>
 							<tr>
 								<th>Birthday</th>
@@ -72,49 +73,41 @@
 							</tr>
 							<tr>
 								<th>Publisher</th>
-								<td><a href="http://downing.rocks/publisher/3">Dell </a></td>
+                                <td><a href="http://downing.rocks/publisher/{{ character.publisher[0] }}">{{ character.publisher[0] }}</a></td>
+                                <td></td>
 							</tr>
 							<tr>
-								<th>Creators</th>
-								<td>Joseph Barbera <br/>William Hanna</td>
+								<th>Real Name</th>
+								<td>{{character.real_name[0]}}</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 			</div>
-
 			<br />
-
-			<div class="row">
-				<div class="col-md-12">
-					<h3 id="inner">Powers</h3>
-					<table class="table">
-						<tbody>
-							<tr>
-								<td>Intellect</td>
-								<td>Super Eating</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
 
 			<div class="row">
 				<div class="col-md-12">
 					<!--some kind of table of the volumes batman has appeared in (1 volume per row? ) -->
 					<div class="row">
-             <div class="col-md-6">
-               <h2 id="title"> Teams </h2>
-                <a id="inner" href="http://downing.rocks/team/2"><img src="http://static1.comicvine.com/uploads/square_avatar/0/3125/1044725-mm.jpg" class="img-rounded" alt="Teams"></a>
-             </div>
-             <div class="col-md-6">
-               <h2 id="title"> Volumes Appearances </h2>
-                <a id="inner" href="http://downing.rocks/volume/2"><img src="http://static1.comicvine.com/uploads/square_avatar/0/4/1148-1622-1230-1-tom-amp-jerry-summ.jpg" class="img-rounded" alt="Volumes"></a>
-             </div>
-          </div>
+                        <div class="col-md-6" style="height: 200px;overflow-y: auto;">
+                            <h2 id="title"> Character </h2>
+                            {% for team in character.teams %}
+                                <a id="inner" href="http://downing.rocks/volume/{{team.name}}"><img id='publishers' src="{{team.image[0]}}" class="img-rounded" alt="Teams"></a>
+                                </br>
+                            {% endfor %}
+                        </div>
+                        <div class="col-md-6" style="height: 200px;overflow-y: auto;">
+                            <h2 id="title"> Volumes </h2>
+                            {% for volume in character.volumes %}
+                                <a id="inner" href="http://downing.rocks/team/{{volume.name}}"><img id='publishers' src="{{volume.image[0]}}" class="img-rounded" alt="Volumes"></a>
+                                </br>
+                            {% endfor %}
+                        </div>
+                    </div>
 				</div>
 			</div>
-
 		</div>
 	</body>
 </html>
+{% endblock %}

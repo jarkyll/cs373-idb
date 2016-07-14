@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, abort
 import subprocess
 import jinja2
 import unittest, sys
@@ -325,30 +325,77 @@ def publishers():
 @app.route("/publisher/<name>")
 def publisher(name):
     pub = db.session.query(Publisher).filter_by(name=name).first()
+    if pub is None:
+        abort(404)
     return render_template("publisher.html", publisher=pub)
 
 
 @app.route("/character/<name>")
 def character(name):
-    char = db.session.query(Character).filter_by(name=name).first()
-    return render_template("character.html", character=char)
+    result = []
+    image = db.session.query(Character.image).filter_by(name=name).first()
+    real = db.session.query(Character.real).filter_by(name=name).first()
+    gender = db.session.query(Character.gender).filter_by(name=name).first()
+    publisher_name = db.session.query(Character.publisher_name).filter_by(name=name).first()
+    if publisher_name is None:
+        abort(404)
+    team_sets = db.session.query(characters_teams).filter_by(character_name=name).all()
+    vol_sets = db.session.query(characters_volumes).filter_by(character_name=name).all()
+    vol_result = []
+    for set in vol_sets:
+        volume = set[1]
+        vol_image = db.session.query(Volume.image).filter_by(name=volume).first()
+        temp = {
+            'name': volume,
+            'image': vol_image
+        }
+        print(temp)
+        vol_result.append(temp)
+    team_result = []
+    for set in team_sets:
+        team = set[1]
+        team_image = db.session.query(Team.image).filter_by(name=team).first()
+        temp = {
+            'name': team,
+            'image': team_image
+        }
+        print(temp)
+        team_result.append(temp)
+
+    temp = {
+        'name': name,
+        'real_name': real,
+        'image': image,
+        'gender': gender,
+        'publisher': publisher_name,
+        'teams': team_result,
+        'volumes': vol_result
+    }
+    # print(temp)
+    return render_template("character.html", character=temp)
 
 
 @app.route("/volume/<name>")
 def volume(name):
     v = db.session.query(Volume).filter_by(name=name).first()
+    if v is None:
+        abort(404)
     return render_template("volume.html", volume=v)
 
 
 @app.route("/team/<name>")
 def team(name):
     t = db.session.query(Team).filter_by(name=name).first()
+    if t is None:
+        abort(404)
     return render_template("team.html", team=t)
 
 
 @app.route('/api/characters', methods=['GET'])
 def characters_api():
     character_name = db.session.query(Character.name).all()
+    if character_name is None:
+        abort(404)
     result = []
     character_name = list(character_name)
     for character in character_name:
@@ -439,37 +486,34 @@ def teams_api():
 @app.route('/api/character/<string:name>', methods=['GET'])
 def character_api(name):
     result = []
-    image = db.session.query(Character.image).filter_by(name=name).first()
     real = db.session.query(Character.real).filter_by(name=name).first()
     gender = db.session.query(Character.gender).filter_by(name=name).first()
     publisher_name = db.session.query(Character.publisher_name).filter_by(name=name).first()
     team_sets = db.session.query(characters_teams).filter_by(character_name=name).all()
     vol_sets = db.session.query(characters_volumes).filter_by(character_name=name).all()
     vol_result = []
+    #print(db.session.query(Character.image).filter_by(name=name).first())
     for set in vol_sets:
         volume = set[1]
-        image = db.session.query(Volume.image).filter_by(name=volume).first()
+        vol_image = db.session.query(Volume.image).filter_by(name=volume).first()
         temp = {
             'name': volume,
-            'image': image
+            'image': vol_image
         }
-        print(temp)
         vol_result.append(temp)
     team_result = []
     for set in team_sets:
         team = set[1]
-        image = db.session.query(Team.image).filter_by(name=team).first()
+        team_image = db.session.query(Team.image).filter_by(name=team).first()
         temp = {
             'name': team,
-            'image': image
+            'image': team_image
         }
-        print(temp)
         team_result.append(temp)
-
     temp = {
         'name': name,
         'real_name': real,
-        'image': image,
+        'image': db.session.query(Character.image).filter_by(name=name).first(),
         'gender': gender,
         'publisher': publisher_name,
         'teams': team_result,
@@ -534,18 +578,7 @@ def add_publishers():
             raise
         finally:
             db.session.close()
-    '''
-    pub = (**DEMO)
 
-    try:
-        db.session.add(pub)
-        db.session.commit()
-    except:
-        db.session.rollback()
-        raise
-    finally:
-        db.session.close()
-    '''
 
 
 def add_teams():
@@ -661,9 +694,9 @@ def assign_character_publisherteamsandvolumes(character, publisher, team, volume
     print(character)
     # temp = fetch_json(volume['api_url'] + '?api_key=d1fcd2dc19ac4cbac24fd26d5161210b150cbaed&format=json')
     if character['gender'] is 1:
-        character['gender'] = 'Female'
-    elif character['gender'] is 1:
         character['gender'] = 'Male'
+    elif character['gender'] is 2:
+        character['gender'] = 'Female'
     else:
         character['gender'] = 'Other'
     if character['birth'] is None:
@@ -708,17 +741,7 @@ def assign_character_publisherteamsandvolumes(character, publisher, team, volume
             db.session.add(result)
     db.session.commit()
     db.session.close()
-    '''
-    try:
-        db.session.add(result)
-        db.session.commit()
-    except:
-        db.session.rollback()
-        raise
-    finally:
-        db.session.close()
 
-    '''
 
 
 def fetch_json(url):

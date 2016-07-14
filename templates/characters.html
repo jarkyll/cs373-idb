@@ -1,28 +1,35 @@
 {% extends "base.html" %}
 {% block content %}
 <div id="content" class="container" ng-controller="MainController">
-   <table id="table" class="display nowrap" cellspacing="0" width="100%" datatable="ng">
-      <thead>
-         <tr>
-            <th class=" ">Thumbnail</th>
-            <!--Thumbnail Link should take them to Char page-->
-            <th class=" ">Super Name</th>
-            <!--Title Link should take them to Char page-->
-            <th class=" ">Real Name</th>
-            <!--Publisher Link should take them to Publisher page-->
-            <th class=" ">Publisher</th>
-            <th class=" ">Gender</th>
-         </tr>
-      </thead>
-      <tbody>
-         <tr ng-repeat="character in characters">
-            <td class="image"><a id="inner" href="/character/[[ formatjson(character.name) ]]" ><img id="publishers" src="[[ formatjson(character.image) ]]" class="img-rounded" alt="Teams"></a></td>
-            <td class="name">[[ formatjson(character.name) ]]</td>
-            <td class="real_name">[[ formatjson(character.real_name) ]]</td>
-            <td class="publisher"><a href="http://downing.rocks/publisher/2">[[ formatjson(character.publisher) ]]</a></td>
-            <td class="gender">[[ formatjson(character.gender) ]]</td>
-         </tr>
-      </tbody>
-   </table>
+    <table id="table" class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+        <thead>
+        <tr>
+            <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
+            <th>Title</th>        <!--Title Link should take them to Volume page-->
+            <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
+            <th>First Appearance</th>
+            <th># of Issues</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for character in characters %}
+        <tr>
+            <td>
+                {% if character.image != None %}
+                <a id="inner" href="http://downing.rocks/character/{{ character.name}}"><img id="publishers"
+                                                                                   src="{{ character.image }}"></a>
+                {% else %}
+                <a id="inner" href="http://downing.rocks/character/{{ character.name}}"><img id="publishers"
+                                                                                   src="../static/img/image.gif"></a>
+                {% endif %}
+            </td>
+            <td>{{ character.name }}</td>
+            <td><a href="http://downing.rocks/publisher/{{ character.publisher_name }}">{{ character.publisher_name }}</a></td>
+            <td>{{ character.appear }}</td>
+            <td>{{ character.num_appearances }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 </div>
 {% endblock %}

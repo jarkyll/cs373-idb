@@ -52,41 +52,57 @@
   <div id="content" class="container">
 
     <div class="jumbotron">
-        <h1 id="title">Star Wars: Dark Force Rising</h1>
+        <h1 id="title">{{volume.name}}</h1>
     </div>
 
     <div class="row">
       <div class="col-md-6">
-        <img id="inner" src="http://static1.comicvine.com/uploads/scale_small/6/67663/3754499-01.jpg">
+        <img id="inner" src={{volume.image}}>
       </div>
       <div class="col-md-6">
         <table class="table">
           <tr>
-            <th>Aliases</th>
-            <td>Unknown</td>
+            <th>Num Issues</th>
+            <td>{{volume.num_issues}}</td>
+          </tr>
+          <tr>
+            <th>Start Year</th>
+            <td>{{volume.start_year}}</td>
           </tr>
           <tr>
             <th>Publisher</th>
-            <td><a href="http://downing.rocks/publisher/1">Dark Horse Comics</a></td>
+            <td><a href="http://downing.rocks/publisher/{{volume.publisher_name}}">{{volume.publisher_name}}</a></td>
           </tr>
         </table>
       </div>
     </div>
+    <div class="row">
+        <div class="col-md-12">
+        <br/>
+    	<!--some kind of table of the volumes batman has appeared in (1 volume per row? ) -->
 
-
-    			<div class="row">
-    				<div class="col-md-12">
-              <br/>
-    					<!--some kind of table of the volumes batman has appeared in (1 volume per row? ) -->
-              <h2 id="title" > Characters </h2>
-    					<div class="row">
-                 <div class="col-md-4">
-                    <a id="inner" id="publisher" href="http://downing.rocks/character/1"><img src="http://static4.comicvine.com/uploads/square_avatar/1/15317/319977-72031-chief-chirpa.jpg" class="img-rounded" alt="Teams"></a>
-                 </div>
-                 <div class="col-md-4">
-                 </div>
-              </div>
-    				</div>
-    			</div>
-  </div>
+         <div class="row">
+            <div class="col-md-6" style="height: 200px;overflow-y: auto;">
+               <h2 id="title"> Characters </h2>
+               {% for character in volume.volume_characters %}
+                   {% if character.image != None %}
+                        <a id="inner" href="http://downing.rocks/team/{{character.name}}"><img id='publishers' src="{{character.image}}" class="img-rounded" alt="Teams"></a>
+                   {% else %}
+                        <a id="inner" href="http://downing.rocks/team/{{character.name}}">{{character.name}}</a>
+                   {% endif %}
+                        </br>
+               {% endfor %}
+            </div>
+            <div class="col-md-6" style="height: 200px;overflow-y: auto;">
+                <h2 id="title"> Teams </h2>
+                {% for team in volume.volume_teams %}
+                    {% if team.image != None %}
+                        <a id="inner" href="http://downing.rocks/team/{{team.name}}"><img id='publishers' src="{{team.image}}" class="img-rounded" alt="Teams"></a>
+                    {% else %}
+                        <a id="inner" href="http://downing.rocks/team/{{team.name}}">{{team.name}}</a>
+                    {% endif %}
+                        </br>
+                {% endfor %}
+            </div>
+         </div>
 </body>
