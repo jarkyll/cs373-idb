@@ -339,7 +339,7 @@ def volume(name):
 @app.route("/team/<name>")
 def team(name):
     t = db.session.query(Team).filter_by(name=name).first()
-    return render_template("space.html", team=t)
+    return render_template("teams_template.html", team=t)
 
 
 @app.route('/api/characters', methods=['GET'])
