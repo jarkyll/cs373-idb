@@ -1,51 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <title>Comic Books</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" type="text/css" href="../static/styles.css">
-
-      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-      <!-- jQuery library -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <!-- Latest compiled JavaScript -->
-      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-      <!-- Navigation -->
-      <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
-         <div class="container">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </button>
-               <a class="navbar-brand" href="http://downing.rocks/">Komixx</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-               <ul class="nav navbar-nav navbar-right">
-                  <li>
-                     <a href="http://downing.rocks/characters">Characters</a>
-                  </li>
-                  <li>
-                     <a href="http://downing.rocks/teams">Teams</a>
-                  </li>
-                  <li>
-                     <a href="http://downing.rocks/volumes">Volumes</a>
-                  </li>
-                  <li>
-                     <a href="http://downing.rocks/publishers">Publishers</a>
-                  </li>
-                  <li>
-                     <a href="http://downing.rocks/about">About</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </nav>
-   </head>
-   <body>
+{% extends "base.html" %}
+{% block content %}
       <div class="container-fluid" id="the-carousel">
          <!-- Carousel -->
          <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
@@ -66,5 +20,4 @@
             </div>
          </div>
       </div>
-   </body>
-</html>
+{% endblock %}

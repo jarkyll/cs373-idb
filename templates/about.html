@@ -1,62 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" style="text-align:center">
-	<head>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-		<link rel="stylesheet" type="text/css" href="../static/tables.css">
-		<link rel="stylesheet" type="text/css" href="../static/styles.css">
-
-
-		<!-- Navigation -->
-					<nav id="navbar" class="navbar navbar-default navbar-fixed-top">
-						 <div class="container">
-								<div class="navbar-header">
-									 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-									 <span class="icon-bar"></span>
-									 <span class="icon-bar"></span>
-									 <span class="icon-bar"></span>
-									 </button>
-									 <a class="navbar-brand" href="http://downing.rocks/">Komixx</a>
-								</div>
-								<div class="collapse navbar-collapse" id="myNavbar">
-									 <ul class="nav navbar-nav navbar-right">
-											<li>
-												 <a href="http://downing.rocks/characters">Characters</a>
-											</li>
-											<li>
-												 <a href="http://downing.rocks/teams">Teams</a>
-											</li>
-											<li>
-												 <a href="http://downing.rocks/volumes">Volumes</a>
-											</li>
-											<li>
-												 <a href="http://downing.rocks/publishers">Publishers</a>
-											</li>
-											<li>
-												 <a href="http://downing.rocks/about">About</a>
-											</li>
-									 </ul>
-								</div>
-						 </div>
-					</nav>
-	</head>
-	<body>
-
+{% extends "base.html" %}
+{% block content %}
 		<div  id="content" class="container">
 			<div class="jumbotron">
 				<h1 id="inner">The One Punch Men</h1>
 			</div>
-		</div>
-		<div  id="content" class="container">
 			<div class="row" style="padding-top:5%">
-				<div id="inner_about" class="col-md-4" height:50%>
+				<div id="inner" class="col-md-4" height:50%>
 					<h2 id="inner">Nabeel Virani</h2>
 					<div id="abouts">
 						<div id="inner">
@@ -186,12 +135,13 @@
 						    						<li><a href="http://github.com/jarkyll/cs373-idb/wiki">GitHub Wiki</a></li>
 				    					</ul>
                 </div>
-                <div id="inner" class="col-md-4">
+                <div id="inner" class="col-md-4" ng-controller="MainController">
                     <h2 id="inner">Project Data</h2>
                     <ul id="inner">
                           <li><a href="http://comicvine.gamespot.com/api/">Comic Vine API</a></li>
 						  <li id="inner">We used urllib2 and it's request call to scrape data from the corresponding type</li>
 				    </ul>
+                                <button type="button" class="btn btn-info" ng-click="runTests()">Run Test</button>
                 </div>
                 <div id="inner" class="col-md-4">
                     <h2 id="inner">Project Tools</h2>
@@ -210,5 +160,5 @@
                 </div>
             </div>
 		  </div>
-	</body>
-</html>
+    </div>
+{% endblock %}
