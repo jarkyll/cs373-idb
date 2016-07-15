@@ -50,7 +50,7 @@ $(document).ready(function() {
 </script>
 
 
-  <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+<nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
    <div class="container">
       <div class="navbar-header">
          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -77,9 +77,26 @@ $(document).ready(function() {
             <li>
                <a href="http://downing.rocks/about">About</a>
             </li>
-         </ul>
-      </div>
-   </div>
+            <li>
+               <form class="form-inline" role="form">
+                  <input type="textbox" id="userInput" class="form-control" placeholder="Search">
+                  <input type="button" value="Submit" onclick="changeText2()"/>
+               </form>
+
+               <script type="text/javascript">
+               function changeText2(){
+                 var userInput = document.getElementById('userInput').value;
+                 var lnk = document.getElementById('lnk');
+                 console.log(lnk);
+                 window.location = "http://downing.rocks/search/" + userInput;
+              }
+              </script>
+
+           </script>
+        </li>
+     </ul>
+  </div>
+</div>
 </nav>
 </head>
 <body ng-app="myApp">
