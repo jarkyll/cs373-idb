@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% block content %}
+                <div id="content" class="container" ng-controller="MainController">
+
+      <!-- Volume Table -->
+      <table id="table"  class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+        <thead>
+          <tr>
+            <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
+            <th>Title</th>        <!--Title Link should take them to Volume page-->
+            <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
+            <th>Start Year</th>
+            <th># of Issues</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for volume in volumes %}
+          <tr>
+            <td>
+                {% if volume.image != None %}
+                <a id="inner" href="http://downing.rocks/volume/{{ volume.name}}"><img id="publishers" src="{{ volume.image }}"></a></td>
+                {% else %}
+                <a id="inner" href="http://downing.rocks/volume/{{ volume.name}}"><img id="publishers" src="http://downing.rocks/static/img/image.gif"></a></td>
+                {% endif %}
+            <td>{{ volume.name }} </td>
+            <td><a href="http://downing.rocks/publisher/{{ volume.publisher_name }}">{{ volume.publisher_name }}</a></td>
+            <td>{{ volume.start_year }}</td>
+            <td>{{ volume.num_issues }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+
+      <!-- Character Table -->
+      <table id="table"  class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+        <thead>
+          <tr>
+            <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
+            <th>Title</th>        <!--Title Link should take them to Volume page-->
+            <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
+            <th>First Appearance</th>
+            <th># of Issues</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for character in characters %}
+          <tr>
+            <td>
+                {% if character.image != None %}
+                <a id="inner" href="http://downing.rocks/character/{{ character.name}}"><img id="publishers" src="{{ character.image }}"></a></td>
+                {% else %}
+                <a id="inner" href="http://downing.rocks/character/{{ character.name}}"><img id="publishers" src="http://downing.rocks/static/img/image.gif"></a></td>
+                {% endif %}
+            <td>{{ character.name }} </td>
+            <td><a href="http://downing.rocks/publisher/{{ character.publisher_name }}">{{ character.publisher_name }}</a></td>
+            <td>{{ character.appear }}</td>
+            <!--Add to Apiary-->
+            <td>{{ character.num_appearances }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+
+      <!-- Publisher Table -->
+      <table id="table"  class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+        <thead>
+          <tr>
+            <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
+            <th>Name</th>        <!--Title Link should take them to Volume page-->
+            <th>Address</th>    <!--Publisher Link should take them to Publisher page-->
+            <th>City</th>
+            <th>State</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for publisher in publishers %}
+          <tr>
+            <td>
+                {% if publisher.image != None %}
+                <a id="inner" href="http://downing.rocks/publisher/{{ publisher.name}}"><img id="publishers" src="{{ publisher.image }}"></a></td>
+                {% else %}
+                <a id="inner" href="http://downing.rocks/publisher/{{ publisher.name}}"><img id="publishers" src="http://downing.rocks/static/img/image.gif"></a></td>
+                {% endif %}
+            <td>{{ publisher.name }} </td>
+            <td>{{ publisher.address }}</td>
+            <td>{{ publisher.city }}</td>
+            <td>{{ publisher.state }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+
+      <!-- Team Table -->
+      <table id="table"  class="display nowrap" cellspacing="0" width="100%" datatable="ng">
+        <thead>
+          <tr>
+            <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
+            <th>Title</th>        <!--Title Link should take them to Volume page-->
+            <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
+            <th>First Appearance</th>
+            <th># of Issues</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for team in teams %}
+          <tr>
+            <td>
+                {% if team.image != None %}
+                <a id="inner" href="http://downing.rocks/team/{{ team.name}}"><img id="teams" src="{{ team.image }}"></a></td>
+                {% else %}
+                <a id="inner" href="http://downing.rocks/team/{{ team.name}}"><img id="teams" src="http://downing.rocks/static/img/image.gif"></a></td>
+                {% endif %}
+            <td>{{ team.name }} </td>
+            <td><a href="http://downing.rocks/publisher/{{ team.publisher_name }}">{{ team.publisher_name }}</a></td>
+            <td>{{ team.appear }}</td>
+            <td>{{ team.num_appearances }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+{% endblock %}
+
+
