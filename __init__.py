@@ -279,11 +279,15 @@ class Publisher(db.Model):
         return ans
 
 @app.route("/search/<name>")
-def search():
-    characters += db.session.query(Character).filter_by(name=name)
-    publishers += db.session.query(Publishers).filter_by(name=name)
-    teams += db.session.query(Teams).filter_by(name=name)
-    volumes += db.session.query(Volumes).filter_by(name=name)
+def search(name):
+    characters = db.session.query(Character).filter_by(name=name).all()
+    publishers = db.session.query(Publisher).filter_by(name=name).all()
+    teams = db.session.query(Team).filter_by(name=name).all()
+    volumes = db.session.query(Volume).filter_by(name=name).all()
+    print(characters)
+    print(publishers)
+    print(teams)
+    print(volumes)
     return render_template("search_result_template.html", volumes=volumes, characters=characters, publishers=publishers, teams=teams)
 
 
