@@ -8,18 +8,17 @@
    <!-- Latest compiled and minified CSS -->
    <link rel="stylesheet" type="text/css" href="http://downing.rocks/static/styles.css">
    <link rel="stylesheet" type="text/css" href="http://downing.rocks/static/tables.css">
-   <link rel="stylesheet" type="text/css" href="../static/animate.css">
+   <link rel="stylesheet" type="text/css" href="http://downing.rocks/static/styles.css">
 
-   
    <!-- Bootstrap -->
    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
    <!-- jQuery library -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   
+
    <!-- Latest compiled JavaScript -->
    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-   
+
    <!-- Datatables -->
    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/rowreorder/1.1.2/css/rowReorder.dataTables.min.css">
@@ -28,7 +27,8 @@
    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/rowreorder/1.1.2/js/dataTables.rowReorder.min.js"></script>
    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
 
-   
+
+
    <!-- Navigation -->
    <style media="screen" type="text/css">
    img.resize{
@@ -41,6 +41,62 @@
 <script type="text/javascript" class="init">
 $(document).ready(function() {
    var table = $('#table').DataTable( {
+      rowReorder: {
+         selector: 'td:nth-child(2)'
+      },
+      responsive: true
+   } );
+} );
+$(document).ready(function() {
+   var table = $('#table2').DataTable( {
+      rowReorder: {
+         selector: 'td:nth-child(2)'
+      },
+      responsive: true
+   } );
+} );
+$(document).ready(function() {
+   var table = $('#table3').DataTable( {
+      rowReorder: {
+         selector: 'td:nth-child(2)'
+      },
+      responsive: true
+   } );
+} );
+$(document).ready(function() {
+   var table = $('#table4').DataTable( {
+      rowReorder: {
+         selector: 'td:nth-child(2)'
+      },
+      responsive: true
+   } );
+} );
+$(document).ready(function() {
+   var table = $('#table5').DataTable( {
+      rowReorder: {
+         selector: 'td:nth-child(2)'
+      },
+      responsive: true
+   } );
+} );
+$(document).ready(function() {
+   var table = $('#table6').DataTable( {
+      rowReorder: {
+         selector: 'td:nth-child(2)'
+      },
+      responsive: true
+   } );
+} );
+$(document).ready(function() {
+   var table = $('#table7').DataTable( {
+      rowReorder: {
+         selector: 'td:nth-child(2)'
+      },
+      responsive: true
+   } );
+} );
+$(document).ready(function() {
+   var table = $('#table8').DataTable( {
       rowReorder: {
          selector: 'td:nth-child(2)'
       },
@@ -76,6 +132,21 @@ $(document).ready(function() {
             </li>
             <li>
                <a href="http://downing.rocks/about">About</a>
+            </li>
+            <li>
+               <form action="javascript:changeText2()" class="form-inline" role="form" style="padding: 10px;">
+
+                  <input type="text" id="userInput" class="form-control" onSubmit="changeText2()" placeholder="Search">
+               </form>
+
+               <script type="text/javascript">
+               function changeText2(){
+                 var userInput = document.getElementById('userInput').value;
+                 var lnk = document.getElementById('lnk');
+                 console.log(lnk);
+                 window.location = "http://downing.rocks/search/" + userInput;
+              }
+              </script>
             </li>
          </ul>
       </div>

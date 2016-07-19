@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+       <title>Komixx</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" type="text/css" href="http://downing.rocks/static/styles.css">
+   <link rel="stylesheet" type="text/css" href="http://downing.rocks/static/tables.css">
+   <link rel="stylesheet" type="text/css" href="http://downing.rocks/static/styles.css">
+
+   <!-- Bootstrap -->
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+   <!-- jQuery library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+   <!-- Latest compiled JavaScript -->
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+   <!-- Datatables -->
+   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/rowreorder/1.1.2/css/rowReorder.dataTables.min.css">
+   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.1.0/css/responsive.dataTables.min.css">
+   <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+   <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/rowreorder/1.1.2/js/dataTables.rowReorder.min.js"></script>
+   <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+
+
+
+   <!-- Navigation -->
+   <style media="screen" type="text/css">
+   img.resize{
+     width:540px; /* you can use % */
+     height: auto;
+   }
+   </style>
+
+    <style>
+
+	.node {
+		cursor: pointer;
+	}
+
+	.node circle {
+	  fill: #fff;
+	  stroke: steelblue;
+	  stroke-width: 3px;
+	}
+
+	.node text {
+	  font: 12px sans-serif;
+	}
+
+	.link {
+	  fill: none;
+	  stroke: #ccc;
+	  stroke-width: 2px;
+	}
+
+    </style>
+    <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+     <div class="container">
+        <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="http://downing.rocks/">Komixx</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+           <ul class="nav navbar-nav navbar-right">
+              <li>
+                 <a href="http://downing.rocks/characters">Characters</a>
+              </li>
+              <li>
+                 <a href="http://downing.rocks/teams">Teams</a>
+              </li>
+              <li>
+                 <a href="http://downing.rocks/volumes">Volumes</a>
+              </li>
+              <li>
+                 <a href="http://downing.rocks/publishers">Publishers</a>
+              </li>
+              <li>
+                 <a href="http://downing.rocks/about">About</a>
+              </li>
+              <li>
+                 <form action="javascript:changeText2()" class="form-inline" role="form" style="padding: 10px;">
+
+                    <input type="text" id="userInput" class="form-control" onSubmit="changeText2()" placeholder="Search">
+                 </form>
+
+                 <script type="text/javascript">
+                 function changeText2(){
+                   var userInput = document.getElementById('userInput').value;
+                   var lnk = document.getElementById('lnk');
+                   console.log(lnk);
+                   window.location = "http://downing.rocks/search/" + userInput;
+                }
+                </script>
+              </li>
+           </ul>
+        </div>
+     </div>
+  </nav>  
+  </head>
+
+  <body id="content">
+
+<!-- load the d3.js library -->
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script>
+var treeData = [
+  {
+    "name": "Location",
+    "parent": "null",
+    "children": [
+      {
+        "name": "Canada",
+        "parent": "Location",
+        "children": [
+          {
+            "name": "Currency",
+            "parent": "Canada",
+            "children": [
+              {
+                "name": "CAN",
+                "parent": "Currency"
+              }]
+          },
+          {
+            "name": "Name",
+            "parent": "Canada",
+            "children": [
+              {
+                "name": "Canadian Dollar",
+                "parent": "Name"
+              }]
+          },
+          {
+            "name": "Exchanges",
+            "parent": "Canada",
+            "children": [
+              {
+                "name": "TOR",
+                "parent": "Exchanges"
+              }]
+          },{
+            "name": "Exchange Rate",
+            "parent": "Canada",
+            "children": [
+              {
+                "name": "0.76",
+                "parent": "Exchange Rate"
+              }]
+          },{
+            "name": "Capital",
+            "parent": "Canada",
+            "children": [
+              {
+                "name": "Ottowa",
+                "parent": "Capital"
+              }]
+          },{
+            'name': 'Exchange Location',
+            'parent': 'Canada',
+            'children': [
+              {
+                'name': 'Toronto Stock Exchange',
+                'parent': 'Exchange Location'
+              }]
+          },{
+            'name': 'GDP',
+            'parent': 'Canada',
+            'children':[
+              {
+                'name': '1.837 trillion USD',
+                'parent': 'GDP'
+              }]
+          }
+
+        ]
+      },
+      {
+        "name": "Great Britain",
+        "parent": "Location",
+        "children": [
+          {
+            "name": "Currency",
+            "parent": "Great Britain",
+            "children": [
+              {
+                "name": "GBp",
+                "parent": "Currency"
+              }]
+          },
+          {
+            "name": "Name",
+            "parent": "Great Britain",
+            "children": [
+              {
+                "name": "Sterling Pound",
+                "parent": "Name"
+              }]
+          },{
+            "name": "Exchanges",
+            "parent": "Great Britain",
+            "children": [
+              {
+                "name": "LSE",
+                "parent": "Exchanges"
+              }]
+          },{
+            "name": "Exchange Rate",
+            "parent": "Canada",
+            "children": [
+              {
+                "name": "1.3",
+                "parent": "Exchange Rate"
+              }]
+          },{
+            "name": "Capital",
+            "parent": "Great Britain",
+            "children": [
+              {
+                "name": "London",
+                "parent": "Capital"
+              }]
+          },{
+            "name": "Exchange Location",
+            "parent": "Great Britain",
+            "children": [
+              {
+                "name": "London Stock Exchange",
+                "parent": "Exchange Location"
+              }]
+          },{
+            "name": "GDP",
+            "parent": "Great Britain",
+            "children": [
+              {
+                "name": "2.678 trillion USD",
+                "parent": "GDP"
+              }]
+          }
+        ]
+      },
+      {
+        "name": "Greece",
+        "parent": "Location",
+        "children": [
+          {
+            "name": "Currency",
+            "parent": "Greece",
+            "children": [
+              {
+                "name": "EUR",
+                "parent": "Currency"
+              }]
+          },
+
+          {
+            "name": "Name",
+            "parent": "Greece",
+            "children": [
+              {
+                "name": "Euro",
+                "parent": "Name"
+              }]
+          },
+          {
+            "name": "Exchanges",
+            "parent": "Greece",
+            "children": [
+              {
+                "name": "ASE, FRA, MUN, BER, PAR",
+                "parent": "Exchanges"
+              }]
+          },{
+            "name": "Exchange Rate",
+            "parent": "Greece",
+            "children": [
+              {
+                "name": "1.1",
+                "parent": "Exchange Rate"
+              }]
+          },{
+            "name": "Capital",
+            "parent": 'Greece',
+            "children": [
+              {
+                "name": "Athens",
+                "parent": "Capital"
+              }]
+          },{
+            "name": "Exchange Location",
+            "parent": "Greece",
+            "children": [
+              {
+                "name": "Athens Stock Exchange",
+                "parent": "Exchange Location"
+              }]
+          },{
+            "name": "GDP",
+            "parent": "Greece",
+            "children": [
+              {
+                "name": "242.2 billion USD",
+                "parent": "GDP"
+              }]
+          }
+        ]
+      },
+      {
+        "name": "Germany",
+        "parent": "Location",
+        "children": [
+          {
+            "name": "Currency",
+            "parent": "Germany",
+            "children": [
+              {
+                "name": "EUR",
+                "parent": "Currency"
+              }]
+          },
+
+          {
+            "name": "Name",
+            "parent": "Germany",
+            "children": [
+              {
+                "name": "Euro",
+                "parent": "Name"
+              }]
+          },
+          {
+            "name": "Exchanges",
+            "parent": "Germany",
+            "children": [
+              {
+                "name": "ASE, FRA, MUN, BER, PAR",
+                "parent": "Exchanges"
+              }]
+          },{
+            "name": "Exchange Rate",
+            "parent": "Germany",
+            "children": [
+              {
+                "name": "1.1",
+                "parent": "Exchange Rate"
+              }]
+          },{
+            "name": "Capital",
+            "parent": 'Germany',
+            "children": [
+              {
+                "name": "Berlin",
+                "parent": "Capital"
+              }]
+          },{
+            "name": "Exchange Locations",
+            "parent": "Germany",
+            "children": [
+              {
+                "name": "Frankfurt Stock Exchange",
+                "parent": "Exchange Locations"
+              },
+              {
+                "name": "Berlin Stock Exchange",
+                "parent": "Exchange Locations"
+              },
+              {
+                "name": "Munich Stock Exchange",
+                "parent": "Exchange Locations"
+              }]
+          },{
+            "name": "GDP",
+            "parent": "Germany",
+            "children": [
+              {
+                "name": "3.355 trillion USD",
+                "parent": "GDP"
+              }]
+          }
+        ]
+      },
+      {
+        "name": "France",
+        "parent": "Location",
+        "children": [
+          {
+            "name": "Currency",
+            "parent": "France",
+            "children": [
+              {
+                "name": "EUR",
+                "parent": "Currency"
+              }]
+          },
+
+          {
+            "name": "Name",
+            "parent": "France",
+            "children": [
+              {
+                "name": "Euro",
+                "parent": "Name"
+              }]
+          },
+          {
+            "name": "Exchanges",
+            "parent": "France",
+            "children": [
+              {
+                "name": "ASE, FRA, MUN, BER, PAR",
+                "parent": "Exchanges"
+              }]
+          },{
+            "name": "Exchange Rate",
+            "parent": "France",
+            "children": [
+              {
+                "name": "1.1",
+                "parent": "Exchange Rate"
+              }]
+          },{
+            "name": "Capital",
+            "parent": 'France',
+            "children": [
+              {
+                "name": "London",
+                "parent": "Capital"
+              }]
+          },{
+            "name": "Exchange Location",
+            "parent": "France",
+            "children": [
+              {
+                "name": "London Stock Exchange",
+                "parent": "Exchange Location"
+              }]
+          },{
+            "name": "GDP",
+            "parent": "France",
+            "children": [
+              {
+                "name": "2.678 trillion USD",
+                "parent": "GDP"
+            }]
+          }
+        ]
+      },
+      {
+        "name": "United States",
+        "parent": "Location",
+        "children": [
+          {
+            "name": "Currency",
+            "parent": "United States",
+            "children": [
+              {
+                "name": "USD",
+                "parent": "Currency"
+              }]
+          },
+          {
+            "name": "Name",
+            "parent": "United States",
+            "children": [
+              {
+                "name": "US Dollars",
+                "parent": "Name"
+              }]
+          },
+          {
+            "name": "Exchanges",
+            "parent": "United States",
+            "children": [
+              {
+                "name": "NMS",
+                "parent": "Exchanges"
+              }]
+          },{
+            "name": "Exchange Rate",
+            "parent": "United States",
+            "children": [
+              {
+                "name": "1",
+                "parent": "Exchange Rate"
+              }]
+          },{
+            "name": "Capital",
+            "parent": 'United States',
+            "children": [
+              {
+                "name": "Washington DC",
+                "parent": "Capital"
+              }]
+          },{
+            "name": "Exchange Location",
+            "parent": "United States",
+            "children": [
+              {
+                "name": "National Market System",
+                "parent": "Exchange Location"
+              }]
+          },{
+            "name": "GDP",
+            "parent": "United States",
+            "children": [
+              {
+                "name": "16.77 trillion USD",
+                "parent": "GDP"
+            }]
+          }
+        ]
+      },
+      {
+        "name": "Mexico",
+        "parent": "Location",
+        "children": [
+          {
+            "name": "Currency",
+            "parent": "Mexico",
+            "children": [
+              {
+                "name": "MXN",
+                "parent": "Mexico"
+              }]
+          },
+          {
+            "name": "Name",
+            "parent": "Mexico",
+            "children": [
+              {
+                "name": "Peso",
+                "parent": "Name"
+              }]
+          },
+          {
+            "name": "Exchanges",
+            "parent": "Mexico",
+            "children": [
+              {
+                "name": "MEX",
+                "parent": "Exchanges"
+              }]
+          },{
+            "name": "Exchange Rate",
+            "parent": "Mexico",
+            "children": [
+              {
+                "name": "0.054",
+                "parent": "Exchange Rate"
+              }]
+          },{
+            "name": "Capital",
+            "parent": 'Mexico',
+            "children": [
+              {
+                "name": "Mexico City",
+                "parent": "Capital"
+              }]
+          },{
+            "name": "Exchange Location",
+            "parent": "Mexico",
+            "children": [
+              {
+                "name": "Mexico Stock Exchange",
+                "parent": "Exchange Location"
+              }]
+          },{
+            "name": "GDP",
+            "parent": "Mexico",
+            "children": [
+              {
+                "name": "1.261 trillion USD",
+                "parent": "GDP"
+            }]
+          }
+        ]
+      },
+      {
+        "name": "Taiwan",
+        "parent": "Location",
+        "children": [
+          {
+            "name": "Currency",
+            "parent": "Taiwan",
+            "children": [
+              {
+                "name": "TWD",
+                "parent": "Currency"
+              }]
+          },
+          {
+            "name": "Name",
+            "parent": "Taiwan",
+            "children": [
+              {
+                "name": "Taiwan New Dollar",
+                "parent": "Name"
+              }]
+          },
+          {
+            "name": "Exchanges",
+            "parent": "Taiwan",
+            "children": [
+              {
+                "name": "TAI",
+                "parent": "Exchanges"
+              }]
+          },{
+            "name": "Exchange Rate",
+            "parent": "Taiwan",
+            "children": [
+              {
+                "name": "0.031",
+                "parent": "Exchange Rate"
+              }]
+          },{
+            "name": "Capital",
+            "parent": 'Taiwan',
+            "children": [
+              {
+                "name": "Taipei",
+                "parent": "Capital"
+              }]
+          },{
+            "name": "Exchange Location",
+            "parent": "Taiwan",
+            "children": [
+              {
+                "name": "Taiwan Stock Exchange",
+                "parent": "Exchange Location"
+              }]
+          },{
+            "name": "GDP",
+            "parent": "France",
+            "children": [
+              {
+                "name": "474 billion USD",
+                "parent": "GDP"
+            }]
+          }
+        ]
+      },
+      {
+        "name": "Hong Kong",
+        "parent": "Location",
+        "children": [
+          {
+            "name": "Currency",
+            "parent": "Hong Kong",
+            "children": [
+              {
+                "name": "HKD",
+                "parent": "Currency"
+              }]
+          },
+          {
+            "name": "Name",
+            "parent": "Hong Kong",
+            "children": [
+              {
+                "name": "Hong Kong dollar",
+                "parent": "Name"
+              }]
+          },
+          {
+            "name": "Exchanges",
+            "parent": "Hong Kong",
+            "children": [
+              {
+                "name": "HKG",
+                "parent": "Exchanges"
+              }]
+          },{
+            "name": "Exchange Rate",
+            "parent": "Hong Kong",
+            "children": [
+              {
+                "name": "0.13",
+                "parent": "Exchange Rate"
+              }]
+          },{
+            "name": "Capital",
+            "parent": 'Hong Kong',
+            "children": [
+              {
+                "name": "none",
+                "parent": "Capital"
+              }]
+          },{
+            "name": "Exchange Location",
+            "parent": "Hong Kong",
+            "children": [
+              {
+                "name": "Hong Kong Stock Exchange",
+                "parent": "Exchange Location"
+              }]
+          },{
+            "name": "GDP",
+            "parent": "France",
+            "children": [
+              {
+                "name": "274 billion USD",
+                "parent": "GDP"
+            }]
+          }
+        ]
+      }
+    ]
+  }
+];
+//[{1: {'locations': 'Canada', 'currency': 'CAD', 'name': 'Canadian Dollar', 'exchanges': 'TOR', 'exchange_rate': 0.76, 'id': 1}, 2: {'locations': 'Great Britain', 'currency': 'GBp', 'name': 'Sterling Pound', 'exchanges': 'LSE', 'exchange_rate': 1.3, 'id': 2}, 3: {'locations': 'Greece,Germany,France', 'currency': 'EUR', 'name': 'Euro', 'exchanges': 'ASE, FRA, MUN, BER, PAR', 'exchange_rate': 1.1, 'id': 3}, 4: {'locations': 'United States', 'currency': 'USD', 'name': 'US Dollars', 'exchanges': 'NMS', 'exchange_rate': 1, 'id': 4}, 5: {'locations': 'Mexico', 'currency': 'MXN', 'name': 'Peso', 'exchanges': 'MEX', 'exchange_rate': 0.054, 'id': 5}, 6: {'locations': 'Taiwan', 'currency': 'TWD', 'name': 'Taiwan New Dollar', 'exchanges': 'TAI', 'exchange_rate': 0.031, 'id': 6}, 7: {'locations': 'Hong Kong', 'currency': 'HKD', 'name': 'Hong Kong dollar', 'exchanges': 'HKG', 'exchange_rate': 0.13, 'id': 7}}]
+
+
+
+// ************** Generate the tree diagram	 *****************
+var margin = {top: 20, right: 120, bottom: 20, left: 120},
+	width = 960 - margin.right - margin.left,
+	height = 500 - margin.top - margin.bottom;
+
+var i = 0,
+	duration = 750,
+	root;
+
+var tree = d3.layout.tree()
+	.size([height, width]);
+
+var diagonal = d3.svg.diagonal()
+	.projection(function(d) { return [d.y, d.x]; });
+
+var svg = d3.select("body").append("svg")
+	.attr("width", width + margin.right + margin.left)
+	.attr("height", height + margin.top + margin.bottom)
+  .append("g")
+	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+root = treeData[0];
+root.x0 = height / 2;
+root.y0 = 0;
+
+update(root);
+
+d3.select(self.frameElement).style("height", "500px");
+
+function update(source) {
+
+  // Compute the new tree layout.
+  var nodes = tree.nodes(root).reverse(),
+	  links = tree.links(nodes);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d) { d.y = d.depth * 180; });
+
+  // Update the nodes…
+  var node = svg.selectAll("g.node")
+	  .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  // Enter any new nodes at the parent's previous position.
+  var nodeEnter = node.enter().append("g")
+	  .attr("class", "node")
+	  .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+	  .on("click", click);
+
+  nodeEnter.append("circle")
+	  .attr("r", 1e-6)
+	  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeEnter.append("text")
+	  .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
+	  .attr("dy", ".35em")
+	  .attr("text-anchor", function(d) { return d.children || d.children ? "end" : "start"; })
+	  .text(function(d) { return d.name; })
+	  .style("fill-opacity", 1e-6);
+
+  // Transition nodes to their new position.
+  var nodeUpdate = node.transition()
+	  .duration(duration)
+	  .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+  nodeUpdate.select("circle")
+	  .attr("r", 10)
+	  .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeUpdate.select("text")
+	  .style("fill-opacity", 1);
+
+  // Transition exiting nodes to the parent's new position.
+  var nodeExit = node.exit().transition()
+	  .duration(duration)
+	  .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+	  .remove();
+
+  nodeExit.select("circle")
+	  .attr("r", 1e-6);
+
+  nodeExit.select("text")
+	  .style("fill-opacity", 1e-6);
+
+  // Update the links…
+  var link = svg.selectAll("path.link")
+	  .data(links, function(d) { return d.target.id; });
+
+  // Enter any new links at the parent's previous position.
+  link.enter().insert("path", "g")
+	  .attr("class", "link")
+	  .attr("d", function(d) {
+		var o = {x: source.x0, y: source.y0};
+		return diagonal({source: o, target: o});
+	  });
+
+  // Transition links to their new position.
+  link.transition()
+	  .duration(duration)
+	  .attr("d", diagonal);
+
+  // Transition exiting nodes to the parent's new position.
+  link.exit().transition()
+	  .duration(duration)
+	  .attr("d", function(d) {
+		var o = {x: source.x, y: source.y};
+		return diagonal({source: o, target: o});
+	  })
+	  .remove();
+
+  // Stash the old positions for transition.
+  nodes.forEach(function(d) {
+	d.x0 = d.x;
+	d.y0 = d.y;
+  });
+}
+
+// Toggle children on click.
+function click(d) {
+  if (d.children) {
+	d._children = d.children;
+	d.children = null;
+  } else {
+	d.children = d._children;
+	d._children = null;
+  }
+  update(d);
+}
+root.children.forEach(toggleAll)
+
+
+</script>
+
+  </body>
+</html>

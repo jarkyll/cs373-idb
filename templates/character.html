@@ -19,38 +19,52 @@
 		<link rel="stylesheet" type="text/css" href="http://downing.rocks/static/tables.css">
     <link rel="stylesheet" type="text/css" href="http://downing.rocks/static/styles.css">
 		<!-- Navigation -->
-		      <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
-		         <div class="container">
-		            <div class="navbar-header">
-		               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-		               <span class="icon-bar"></span>
-		               <span class="icon-bar"></span>
-		               <span class="icon-bar"></span>
-		               </button>
-		               <a class="navbar-brand" href="http://downing.rocks/">Komixx</a>
-		            </div>
-		            <div class="collapse navbar-collapse" id="myNavbar">
-		               <ul class="nav navbar-nav navbar-right">
-		                  <li>
-		                     <a href="http://downing.rocks/characters">Characters</a>
-		                  </li>
-		                  <li>
-		                     <a href="http://downing.rocks/teams">Teams</a>
-		                  </li>
-		                  <li>
-		                     <a href="http://downing.rocks/volumes">Volumes</a>
-		                  </li>
-		                  <li>
-		                     <a href="http://downing.rocks/publishers">Publishers</a>
-		                  </li>
-											<li>
-												 <a href="http://downing.rocks/about">About</a>
-											</li>
-		               </ul>
-		            </div>
-		         </div>
-		      </nav>
-	</head>
+		<nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+	   <div class="container">
+	      <div class="navbar-header">
+	         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	         </button>
+	         <a class="navbar-brand" href="http://downing.rocks/">Komixx</a>
+	      </div>
+	      <div class="collapse navbar-collapse" id="myNavbar">
+	         <ul class="nav navbar-nav navbar-right">
+	            <li>
+	               <a href="http://downing.rocks/characters">Characters</a>
+	            </li>
+	            <li>
+	               <a href="http://downing.rocks/teams">Teams</a>
+	            </li>
+	            <li>
+	               <a href="http://downing.rocks/volumes">Volumes</a>
+	            </li>
+	            <li>
+	               <a href="http://downing.rocks/publishers">Publishers</a>
+	            </li>
+	            <li>
+	               <a href="http://downing.rocks/about">About</a>
+	            </li>
+	            <li>
+	               <form action="javascript:changeText2()" class="form-inline" role="form" style="padding: 10px;">
+
+	                  <input type="text" id="userInput" class="form-control" onSubmit="changeText2()" placeholder="Search">
+	               </form>
+
+	               <script type="text/javascript">
+	               function changeText2(){
+	                 var userInput = document.getElementById('userInput').value;
+	                 var lnk = document.getElementById('lnk');
+	                 console.log(lnk);
+	                 window.location = "http://downing.rocks/search/" + userInput;
+	              }
+	              </script>
+	            </li>
+	         </ul>
+	      </div>
+	   </div>
+	</nav>	</head>
 	<body>
 		<div id="content" class="container">
 			<div class="row">

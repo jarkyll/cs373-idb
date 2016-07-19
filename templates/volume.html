@@ -3,7 +3,7 @@
 <head>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+  <title> {{volume.name}} </title>
   		<!-- jQuery library -->
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Optional theme -->
@@ -15,53 +15,63 @@
   <link rel="stylesheet" type="text/css" href="../static/styles.css">
 
   <!-- Navigation -->
-        <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
-           <div class="container">
-              <div class="navbar-header">
-                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-                 </button>
-                 <a class="navbar-brand" href="http://downing.rocks/">Komixx</a>
-              </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                       <a href="http://downing.rocks/characters">Characters</a>
-                    </li>
-                    <li>
-                       <a href="http://downing.rocks/teams">Teams</a>
-                    </li>
-                    <li>
-                       <a href="http://downing.rocks/volumes">Volumes</a>
-                    </li>
-                    <li>
-                       <a href="http://downing.rocks/publishers">Publishers</a>
-                    </li>
-                    <li>
-                       <a href="http://downing.rocks/about">About</a>
-                    </li>
-                 </ul>
-              </div>
-           </div>
-        </nav>
-</head>
+  <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+   <div class="container">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="http://downing.rocks/">Komixx</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+         <ul class="nav navbar-nav navbar-right">
+            <li>
+               <a href="http://downing.rocks/characters">Characters</a>
+            </li>
+            <li>
+               <a href="http://downing.rocks/teams">Teams</a>
+            </li>
+            <li>
+               <a href="http://downing.rocks/volumes">Volumes</a>
+            </li>
+            <li>
+               <a href="http://downing.rocks/publishers">Publishers</a>
+            </li>
+            <li>
+               <a href="http://downing.rocks/about">About</a>
+            </li>
+            <li>
+               <form action="javascript:changeText2()" class="form-inline" role="form" style="padding: 10px;">
+
+                  <input type="text" id="userInput" class="form-control" onSubmit="changeText2()" placeholder="Search">
+               </form>
+
+               <script type="text/javascript">
+               function changeText2(){
+                 var userInput = document.getElementById('userInput').value;
+                 var lnk = document.getElementById('lnk');
+                 console.log(lnk);
+                 window.location = "http://downing.rocks/search/" + userInput;
+              }
+              </script>
+            </li>
+         </ul>
+      </div>
+   </div>
+</nav></head>
 <body>
 
   <div id="content" class="container">
-
-    <div class="jumbotron">
-        <h1 id="title">{{volume.name}}</h1>
-    </div>
-
     <div class="row">
       <div class="col-md-6">
         <img id="inner" src={{volume.image}}>
       </div>
-      <h1 id="inner" class="character-header">{{ volume.name }}</h1><!-- http://comicvine.gamespot.com/batman/4005-1699/ -->
       <div class="col-md-6">
+        <h1 id="inner">{{ volume.name }}</h1>
         <table class="table">
+          <tbody>
           <tr>
             <th>Num Issues</th>
             <td>{{volume.num_issues}}</td>
@@ -74,15 +84,13 @@
             <th>Publisher</th>
             <td><a href="http://downing.rocks/publisher/{{volume.publisher_name}}">{{volume.publisher_name}}</a></td>
           </tr>
+        </tbody>
         </table>
       </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-        <br/>
-    	<!--some kind of table of the volumes batman has appeared in (1 volume per row? ) -->
 
-         <div class="row">
+    	<!--some kind of table of the volumes batman has appeared in (1 volume per row? ) -->
+     <div class="row">
             <div class="col-md-6" style="height: 200px;overflow-y: auto;">
                <h2 id="title"> Characters </h2>
                {% for character in volume.volume_characters %}
@@ -105,5 +113,5 @@
                         </br>
                 {% endfor %}
             </div>
-         </div>
+    </div>
 </body>

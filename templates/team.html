@@ -14,38 +14,52 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="../static/tables.css">
 　　　　<!-- Navigation -->
-  <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
-     <div class="container">
-        <div class="navbar-header">
-           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           </button>
-           <a class="navbar-brand" href="http://downing.rocks/">Komixx</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-           <ul class="nav navbar-nav navbar-right">
-              <li>
-                 <a href="http://downing.rocks/characters">Characters</a>
-              </li>
-              <li>
-                 <a href="http://downing.rocks/teams">Teams</a>
-              </li>
-              <li>
-                 <a href="http://downing.rocks/volumes">Volumes</a>
-              </li>
-              <li>
-                 <a href="http://downing.rocks/publishers">Publishers</a>
-              </li>
-              <li>
-                 <a href="http://downing.rocks/about">About</a>
-              </li>
-           </ul>
-        </div>
-     </div>
-  </nav>
-</head>
+<nav id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+ <div class="container">
+    <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+       </button>
+       <a class="navbar-brand" href="http://downing.rocks/">Komixx</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+       <ul class="nav navbar-nav navbar-right">
+          <li>
+             <a href="http://downing.rocks/characters">Characters</a>
+          </li>
+          <li>
+             <a href="http://downing.rocks/teams">Teams</a>
+          </li>
+          <li>
+             <a href="http://downing.rocks/volumes">Volumes</a>
+          </li>
+          <li>
+             <a href="http://downing.rocks/publishers">Publishers</a>
+          </li>
+          <li>
+             <a href="http://downing.rocks/about">About</a>
+          </li>
+          <li>
+             <form action="javascript:changeText2()" class="form-inline" role="form" style="padding: 10px;">
+
+                <input type="text" id="userInput" class="form-control" onSubmit="changeText2()" placeholder="Search">
+             </form>
+
+             <script type="text/javascript">
+             function changeText2(){
+               var userInput = document.getElementById('userInput').value;
+               var lnk = document.getElementById('lnk');
+               console.log(lnk);
+               window.location = "http://downing.rocks/search/" + userInput;
+            }
+            </script>
+          </li>
+       </ul>
+    </div>
+ </div>
+</nav></head>
 <body>
 
 
@@ -77,33 +91,30 @@
     <p id="inner">Description: {{team.description}}</p>
 
     <div class="row">
-		<div class="col-md-12">
-		    <div class="row">
-                 <div class="col-md-6" style="height: 200px;overflow-y: auto;">
-                       <h2 id="title"> Team Members </h2>
-                            {% for character in team.team_characters %}
-                                {% if character.image != None %}
-                                     <a id="inner" href="http://downing.rocks/character/{{character.name}}"><img id='publishers' src="{{character.image}}" class="img-rounded" alt="Teams"></a>
-                                {% else %}
-                                    <a id="inner" href="http://downing.rocks/character/{{character.name}}">{{character.name}}</a>
-                                {% endif %}
-                      </br>
-                            {% endfor %}
-                        </div>
-                        <div class="col-md-6" style="height: 200px;overflow-y: auto;">
-                            <h2 id="title"> Volumes </h2>
-                            {% for volume in team.team_volumes %}
-                                {% if volume.image != None %}
-                                    <a id="inner" href="http://downing.rocks/volume/{{volume.name}}"><img id='publishers' src="{{volume.image}}" class="img-rounded" alt="Teams"></a>
-                                {% else %}
-                                    <a id="inner" href="http://downing.rocks/volume/{{volume.name}}">{{volume.name}}</a>
-                                {% endif %}
-                                </br>
-                            {% endfor %}
-                        </div>
-                    </div>
-				</div>
-			</div>
+        <div class="col-md-6" style="height: 200px;overflow-y: auto;">
+           <h2 id="title"> Team Members </h2>
+           {% for character in team.team_characters %}
+           {% if character.image != None %}
+           <a id="inner" href="http://downing.rocks/character/{{character.name}}"><img id='publishers' src="{{character.image}}" class="img-rounded" alt="Teams"></a>
+           {% else %}
+           <a id="inner" href="http://downing.rocks/character/{{character.name}}">{{character.name}}</a>
+           {% endif %}
+           </br>
+           {% endfor %}
+        </div>
+        <div class="col-md-6" style="height: 200px;overflow-y: auto;">
+          <h2 id="title"> Volumes </h2>
+          {% for volume in team.team_volumes %}
+          {% if volume.image != None %}
+          <a id="inner" href="http://downing.rocks/volume/{{volume.name}}"><img id='publishers' src="{{volume.image}}" class="img-rounded" alt="Teams"></a>
+          {% else %}
+          <a id="inner" href="http://downing.rocks/volume/{{volume.name}}">{{volume.name}}</a>
+          {% endif %}
+          </br>
+          {% endfor %}
+        </div>
+    </div>
+
 
   </div>
 </body>
