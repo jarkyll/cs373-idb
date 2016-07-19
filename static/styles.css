@@ -2,10 +2,14 @@
  * Carousel
 */
 
+#content{
+  opacity: 0.4;
+}
 
 html,body{
   height:100%;
   text-align: center;
+  color: white;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-image: url('http://downing.rocks/static/img/city.jpg');
