@@ -8,6 +8,7 @@ Komixx provides an interactive experience in exploring the comic book world. Use
 
 ## Characters [/api/characters]
 ### List All Characters [GET]
+Return all characters available in our database.
 
 + Response 200 (application/json)
 
@@ -41,6 +42,7 @@ Komixx provides an interactive experience in exploring the comic book world. Use
         
 ## Characters [/api/character/name]
 ### List a Single Character [GET]
+Return a single character from our database by name. For example, to return the character named Lono, pass in 'Lono' for the 'name' parameter as follows: http://downing.rocks/api/character/Lono.
 
 + Response 200 (application/json)
 
@@ -59,6 +61,7 @@ Komixx provides an interactive experience in exploring the comic book world. Use
         }
 ## Teams [/api/teams]
 ### List All Teams [GET]
+Return all teams available in our database.
 
 + Response 200 (application/json)
 
@@ -86,6 +89,8 @@ Komixx provides an interactive experience in exploring the comic book world. Use
 
 ## Teams [/api/teams/nameOfTeam]
 ### List a Single Team [GET]
+Return a single team from our database by name. For example, to return the team named Adephi, pass in 'Adephi' for the 'nameOfTeam' parameter as follows: http://downing.rocks/api/team/Adephi.
+
 
 + Response 200 (application/json)
 
@@ -125,6 +130,7 @@ Komixx provides an interactive experience in exploring the comic book world. Use
 
 ## Volumes [/api/volumes]
 ### List All Volumes [GET]
+Return all volumes available in our database.
 
 + Response 200 (application/json)
 
@@ -150,6 +156,7 @@ Komixx provides an interactive experience in exploring the comic book world. Use
 
 ## Volumes [/api/volumes/volumeName]
 ### List a Single Volume [GET]
+Return a single team from our database by name. For example, to return the team named Lucifer, pass in 'Lucifer' for the 'volumeName' parameter as follows: http://downing.rocks/api/volume/Lucifer.
 
 + Response 200 (application/json)
 
@@ -196,6 +203,7 @@ Komixx provides an interactive experience in exploring the comic book world. Use
 
 ## Publishers Collection [/api/publishers]
 ### List All Publishers [GET]
+Return all publishers available in our database.
 
 + Response 200 (application/json)
 
@@ -219,6 +227,7 @@ Komixx provides an interactive experience in exploring the comic book world. Use
 
 ## Publishers Collection [/api/publishers/publisherName]
 ### List a Single Publisher [GET]
+Return a single team from our database by name. For example, to return the team named Vertigo, pass in 'Vertigo' for the 'publisherName' parameter as follows: http://downing.rocks/api/publisher/Vertigo.
 
 + Response 200 (application/json)
 
