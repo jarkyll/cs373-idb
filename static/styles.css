@@ -17,6 +17,10 @@ a:hover{
   color: #800000 !important;
 }
 
+tag {
+  color: blue !important;
+}
+
 .item,.active{
     height: 50%;
 }

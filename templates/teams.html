@@ -23,8 +23,8 @@
                                                                                    src="http://downing.rocks/static/img/image.gif"></a>
                 {% endif %}
             </td>
-            <td>{{ team.name }}</td>
-            <td><a href="http://downing.rocks/publisher/{{ team.publisher_name }}">{{ team.publisher_name }}</a></td>
+            <td><a id = 'tag' href="http://downing.rocks/team/{{ team.name }}">{{ team.name }}</td>
+            <td><a id = 'tag' href="http://downing.rocks/publisher/{{ team.publisher_name }}">{{ team.publisher_name }}</a></td>
             <td>{{ team.appear }}</td>
             <td>{{ team.num_appearances }}</td>
         </tr>
@@ -33,5 +33,3 @@
     </table>
 </div>
 {% endblock %}
-
-

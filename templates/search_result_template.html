@@ -31,8 +31,8 @@
                 <a id="inner" href="http://downing.rocks/character/{{ character.Character.name}}"><img id="publishers"
                                                                                                        src="http://downing.rocks/static/img/image.gif"></a></td>
                 {% endif %}
-                <td>{{character.hname | safe}}</td>
-                <td><a href="http://downing.rocks/publisher/{{ character.Character.publisher_name }}">{{ character.hpub |
+                <td><a id = 'tag' href="http://downing.rocks/character/{{ character.Character.name }}">{{character.hname | safe}}</a></td>
+                <td><a id = 'tag' href="http://downing.rocks/publisher/{{ character.Character.publisher_name }}">{{ character.hpub |
                     safe }}</a></td>
                 <td>{{ character.happear | safe }}</td>
                 <!--Add to Apiary-->
@@ -76,8 +76,8 @@
                 <a id="inner" href="http://downing.rocks/team/{{ team.Team.name}}"><img id="publishers"
                                                                                         src="http://downing.rocks/static/img/image.gif"></a></td>
                 {% endif %}
-                <td>{{ team.hname | safe }}</td>
-                <td><a href="http://downing.rocks/publisher/{{ team.publisher_name }}">{{ team.hpub | safe }}</a></td>
+                <td><a id='tag' href="http://downing.rocks/team/{{ team.Team.name }}">{{ team.hname | safe }}</a></td>
+                <td><a id='tag' href="http://downing.rocks/publisher/{{ team.publisher_name }}">{{ team.hpub | safe }}</a></td>
                 <td>{{ team.happear | safe }}</td>
                 <td>{{ team.Team.num_appearances }}</td>
             </tr>
@@ -116,8 +116,8 @@
                 <a id="inner" href="http://downing.rocks/volume/{{ volume.Volume.name}}"><img id="publishers"
                                                                                               src="http://downing.rocks/static/img/image.gif"></a></td>
                 {% endif %}
-                <td>{{ volume.hname | safe}}</td>
-                <td><a href="http://downing.rocks/publisher/{{ volume.publisher_name }}">{{ volume.hpub | safe}}</a></td>
+                <td><a id='tag' href="http://downing.rocks/volume/{{ volume.Volume.name }}">{{ volume.hname | safe}}</a></td>
+                <td><a id='tag' href="http://downing.rocks/publisher/{{ volume.publisher_name }}">{{ volume.hpub | safe}}</a></td>
                 <td>{{ volume.hstart | safe }}</td>
                 <td>{{ volume.Volume.num_issues }}</td>
             </tr>
@@ -156,7 +156,7 @@
                                                                                                            src="http://downing.rocks/static/img/image.gif"</a>
                     {% endif %}
                 </td>
-                <td>{{ publisher.hname | safe}}</td>
+                <td><a href="http://downing.rocks/publisher/{{ publisher.Publisher.name }}">{{ publisher.hname | safe}}</a></td>
                 <td>{{ publisher.haddress | safe}}</td>
                 <td>{{ publisher.hcity | safe}}</td>
                 <td>{{ publisher.hstate | safe}}</td>
@@ -202,8 +202,8 @@
                 <a id="inner" href="http://downing.rocks/character/{{ character.Character.name}}"><img id="publishers"
                                                                                                        src="http://downing.rocks/static/img/image.gif"></a></td>
                 {% endif %}
-                <td>{{character.hname | safe}}</td>
-                <td><a href="http://downing.rocks/publisher/{{ character.Character.publisher_name }}">{{ character.hpub |
+                <td><a id='tag' href="http://downing.rocks/character/{{ character.Character.name }}">{{character.hname | safe}}</a></td>
+                <td><a id='tag' href="http://downing.rocks/publisher/{{ character.Character.publisher_name }}">{{ character.hpub |
                     safe }}</a></td>
                 <td>{{ character.happear | safe }}</td>
                 <!--Add to Apiary-->
@@ -246,8 +246,8 @@
                 <a id="inner" href="http://downing.rocks/team/{{ team.Team.name}}"><img id="publishers"
                                                                                         src="http://downing.rocks/static/img/image.gif"></a></td>
                 {% endif %}
-                <td>{{ team.hname | safe }}</td>
-                <td><a href="http://downing.rocks/publisher/{{ team.publisher_name }}">{{ team.hpub | safe }}</a></td>
+                <td><a id='tag' href="http://downing.rocks/team/{{ team.Team.name }}">{{ team.hname | safe }}</a></td>
+                <td><a id='tag' href="http://downing.rocks/publisher/{{ team.publisher_name }}">{{ team.hpub | safe }}</a></td>
                 <td>{{ team.happear | safe }}</td>
                 <td>{{ team.Team.num_appearances }}</td>
             </tr>
@@ -285,8 +285,8 @@
                 <a id="inner" href="http://downing.rocks/volume/{{ volume.Volume.name}}"><img id="publishers"
                                                                                               src="http://downing.rocks/static/img/image.gif"></a></td>
                 {% endif %}
-                <td>{{ volume.hname | safe}}</td>
-                <td><a href="http://downing.rocks/publisher/{{ volume.publisher_name }}">{{ volume.hpub | safe}}</a></td>
+                <td><a id='tag' href="http://downing.rocks/volume/{{ volume.Volume.name }}">{{ volume.hname | safe}}</td>
+                <td><a id='tag' href="http://downing.rocks/publisher/{{ volume.publisher_name }}">{{ volume.hpub | safe}}</a></td>
                 <td>{{ volume.hstart | safe }}</td>
                 <td>{{ volume.Volume.num_issues }}</td>
             </tr>
@@ -324,7 +324,7 @@
                                                                                                            src="http://downing.rocks/static/img/image.gif"</a>
                     {% endif %}
                 </td>
-                <td>{{ publisher.hname | safe}}</td>
+                <td><a id ='tag' href="http://downing.rocks/publisher/{{ publisher.Publisher.name }}">{{ publisher.hname | safe}}</a></td>
                 <td>{{ publisher.haddress | safe}}</td>
                 <td>{{ publisher.hcity | safe}}</td>
                 <td>{{ publisher.hstate | safe}}</td>

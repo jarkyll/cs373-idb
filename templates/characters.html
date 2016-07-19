@@ -23,8 +23,8 @@
                                                                                    src="http://downing.rocks/static/img/image.gif"></a>
                 {% endif %}
             </td>
-            <td>{{ character.name }}</td>
-            <td><a href="http://downing.rocks/publisher/{{ character.publisher_name }}">{{ character.publisher_name }}</a></td>
+            <td><a id='tag' href="http://downing.rocks/character/{{ character.name }}">{{ character.name }}</a></td>
+            <td><a id='tag' href="http://downing.rocks/publisher/{{ character.publisher_name }}">{{ character.publisher_name }}</a></td>
             <td>{{ character.appear }}</td>
             <td>{{ character.num_appearances }}</td>
         </tr>
