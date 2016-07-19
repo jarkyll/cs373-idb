@@ -1,0 +1,72 @@
+/*
+ * Carousel
+*/
+
+
+
+html,body{
+  color: #800000 !important;
+  height:100%;
+  text-align: center;
+}
+a {
+  color: red !important;
+}
+a:hover{
+  color: #800000 !important;
+}
+
+
+.item,.active{
+    height: 50%;
+}
+
+#the-carousel {
+    padding-right: 0;
+    padding-left: 0;
+    height: inherit;
+}
+
+#myCarousel{
+    height: 100%;
+}
+.carousel-inner{
+    height: 100%;
+}
+.carousel{
+    padding-top: 50px;
+}
+
+/* for rows */
+tr {
+    height: 5%;
+}
+
+/* for about page */
+#abouts > div{
+   display: inline-block;
+}
+#abouts{
+  text-align: center;
+  margin: 0px auto;
+}
+#info{
+  text-align: center;
+}
+
+#top_ab_row{
+    animation-delay:1.2s;
+    -moz-animation-delay:1.2s;
+    -webkit-animation-delay:1.2s;
+    }
+
+#bot_ab_row{
+    animation-delay:1.2s;
+    -moz-animation-delay:1.2s;
+    -webkit-animation-delay:1.2s;
+    }
+#stats{
+    animation-delay:1.2s;
+    -moz-animation-delay:1.2s;
+    -webkit-animation-delay:1.2s;
+    }

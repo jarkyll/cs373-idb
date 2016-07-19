@@ -6,9 +6,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
    <!-- Latest compiled and minified CSS -->
-   <link rel="stylesheet" type="text/css" href="http://downing.rocks/static/styles.css">
+   <link rel="stylesheet" type="text/css" href="http://downing.rocks/static/visual.css">
    <link rel="stylesheet" type="text/css" href="http://downing.rocks/static/tables.css">
-   <link rel="stylesheet" type="text/css" href="http://downing.rocks/static/styles.css">
 
    <!-- Bootstrap -->
    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -780,6 +779,7 @@ function update(source) {
   nodeEnter.append("text")
 	  .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
 	  .attr("dy", ".35em")
+    .attr('color', 'white')
 	  .attr("text-anchor", function(d) { return d.children || d.children ? "end" : "start"; })
 	  .text(function(d) { return d.name; })
 	  .style("fill-opacity", 1e-6);
@@ -852,7 +852,6 @@ function click(d) {
   }
   update(d);
 }
-root.children.forEach(toggleAll)
 
 
 </script>
