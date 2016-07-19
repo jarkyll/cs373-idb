@@ -5,11 +5,10 @@
 
 
 html,body{
-  color: white;
   height:100%;
   text-align: center;
   background-repeat: no-repeat;
-  background-image: url('http://downing.rocks/static/img/city.jpg');
+  background-image: url('http://downing.rocks/static/img/image.jpg');
 }
 
 
