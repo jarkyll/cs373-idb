@@ -6,12 +6,12 @@
 html,body{
   height:100%;
   text-align: center;
-  background-image: url('http://downing.rocks/static/img/image.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url('http://downing.rocks/static/img/image2.jpg');
 }
 
-h2, h1{
-  background-color: red;
-}
+
 
 .item,.active{
     height: 50%;
