@@ -9,7 +9,7 @@ FILES :=                       \
 	app/tests.py 			   \
 	db_init.sql				   \
     manage.py                  \
-    IDB2.log                   \
+    IDB3.log                   \
     app/demo/__init__.py       \
     UML.pdf
 
@@ -28,8 +28,8 @@ endif
 models.html: app/models.py
 	pydoc3 -w app/models.py
 
-IDB2.log:
-	git log > IDB2.log
+IDB3.log:
+	git log > IDB3.log
 
 pylint_mtests: .pylintrc
 	-$(PYLINT) app/tests.py
@@ -83,7 +83,7 @@ status:
 	git remote -v
 	git status
 
-test: models.html IDB2.log format pylint_mtests check TestModels.tmp
+test: models.html IDB3.log format pylint_mtests check TestModels.tmp
 
 
 
