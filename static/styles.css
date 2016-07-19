@@ -11,8 +11,8 @@ html,body{
   background-image: url('http://downing.rocks/static/img/image.jpg');
 }
 a {
-color: #800000;
-text-decoration: underline;
+color: #800000 !important;
+text-decoration: underline !important;
 }
 
 .item,.active{
