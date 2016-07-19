@@ -11,10 +11,10 @@ html,body{
   background-image: url('http://downing.rocks/static/img/image.jpg');
 }
 a {
-  color: #800000 !important; 
+  color: red !important; 
 }
 a:hover{
-  color: #337ab7 !important;
+  color: #800000 !important;
 }
 
 
