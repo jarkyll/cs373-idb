@@ -5,10 +5,10 @@
         <thead>
         <tr>
             <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
-            <th>Name</th>        <!--Title Link should take them to Volume page-->
             <th>Address</th>    <!--Publisher Link should take them to Publisher page-->
             <th>City</th>
             <th>State</th>
+            <th>Name</th>        <!--Title Link should take them to Volume page-->
         </tr>
         </thead>
         <tbody>
@@ -23,10 +23,10 @@
                                                                                    src="http://downing.rocks/static/img/image.gif"</a>
                 {% endif %}
             </td>
-            <td><a id='tag' href="http://downing.rocks/publisher/{{ publisher.name }}">{{ publisher.name }}</a></td>
             <td>{{ publisher.address }}</td>
             <td>{{ publisher.city }}</td>
             <td>{{ publisher.state }}</td>
+            <td><a id='tag' href="http://downing.rocks/publisher/{{ publisher.name }}">{{ publisher.name }}</a></td>
         </tr>
         {% endfor %}
         </tbody>
