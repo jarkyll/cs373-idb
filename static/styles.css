@@ -11,15 +11,12 @@ html,body{
   background-image: url('http://downing.rocks/static/img/image.jpg');
 }
 a {
-  color: white !important;
+  color: #337ab7 !important;
 }
 a:hover{
   color: #800000 !important;
 }
 
-#tag {
-  color: blue !important;
-}
 
 .item,.active{
     height: 50%;
