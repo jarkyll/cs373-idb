@@ -1,0 +1,1283 @@
+commit 0db8db45aabdef4e788b5c744a8195365eaafd78
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Tue Jul 19 14:54:47 2016 -0500
+
+    updated UML and closes #87
+
+commit 6fe2cda93cc00c860de97c6f1365787fb06f033c
+Merge: 4b46365 c5fa802
+Author: Allen McClure <audiocipher@utexas.edu>
+Date:   Tue Jul 19 14:52:32 2016 -0500
+
+    Merge branch 'master' of https://github.com/jarkyll/cs373-idb
+
+commit 4b46365893cf7d9d51a330cabc1571c1b47a365e
+Author: Allen McClure <audiocipher@utexas.edu>
+Date:   Tue Jul 19 14:51:47 2016 -0500
+
+    updated Project Stats
+
+commit c5fa80261b8f85fdd91f99fbb612becf5ee2a23a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 14:45:48 2016 -0500
+
+    readded the color to the page
+
+commit 6500e5550f38b0ad4036ca1c5ec62fc980284742
+Merge: 082280b ccb0e31
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 14:42:32 2016 -0500
+
+    Merge branch 'master' of http://github.com/jarkyll/cs373-idb
+
+commit 082280b730dd2007507be123ed60e2e2da3b4250
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 14:42:23 2016 -0500
+
+    made visual html background white
+
+commit ccb0e31d4ee188516b048e965cbf25e87ede27f5
+Author: Allen McClure <audiocipher@utexas.edu>
+Date:   Tue Jul 19 14:41:12 2016 -0500
+
+    added link to Speaker Deck
+
+commit 3a1ac170a0464efc4ea4659643d01a3064b647c2
+Author: Allen McClure <audiocipher@utexas.edu>
+Date:   Tue Jul 19 14:37:45 2016 -0500
+
+    updated stats in the about page
+
+commit a1d0a66116c6e8a476ad8b3ad29756c6bf87842d
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 14:32:55 2016 -0500
+
+    changed color for top row
+
+commit a4a0710c587470fdb2644f108aa2891e19b856b9
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 14:30:53 2016 -0500
+
+    changed color for about page
+
+commit c37cea7d1ae85c194338ad109bd7cf821f7b54bb
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 14:26:26 2016 -0500
+
+    background image too harsh on eyes with text
+
+commit 203f2a818cb63739b1437770779efb901578e6e9
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 14:24:09 2016 -0500
+
+    background image too harsh on eyes with text
+
+commit 2fd8adf304093b048c188ca227b201659fb47b97
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 14:11:09 2016 -0500
+
+    can not distinguish between link and text
+
+commit 417f338ae1ffcb1e5c836c1d2072a2006567f5be
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 14:08:57 2016 -0500
+
+    reversed hover and static a tag colors
+
+commit 371d6af38371d7f32b98c781e1caf0d20d39f1f2
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 13:59:42 2016 -0500
+
+    changed color for tags again
+
+commit 5f52719fcda53ed6f71a4a9ceaa291a2f53ddac6
+Merge: 429ffca f83495b
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 13:57:46 2016 -0500
+
+    Merge branch 'master' of http://github.com/jarkyll/cs373-idb
+
+commit 429ffca35b2f4b528c103f15170ab1af7b7dff66
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 13:57:34 2016 -0500
+
+    did not add the # for tag
+
+commit f83495b4abf60e42595734956f3dd7d62337e57e
+Author: PradeepKumar-23 <pradeep.kumar@utexas.edu>
+Date:   Tue Jul 19 13:55:09 2016 -0500
+
+    Transferring API Description file from Apiary.io
+
+commit 18dbe0d6d3600f76d02c4b342c04d91270998126
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 13:53:02 2016 -0500
+
+    added name linking and changed color of certain a tags
+
+commit 8da5e4aabe1be5b743e3168881d2178d01acea5b
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 02:33:01 2016 -0500
+
+    added hover color for a tags
+
+commit b95154844dbc82f7485a27333d047430e767ddcd
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 02:31:15 2016 -0500
+
+    overriding bootstrap and removed underline
+
+commit dfcc28ea68754e4603eee1d0ea7b4afbbab90508
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 02:29:49 2016 -0500
+
+    overriding bootstrap
+
+commit d77fe9be3eacdc5f9ad9b3d8e2e717a2c2bd28d5
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 02:28:28 2016 -0500
+
+    changed font color to maroon for a tags and added underline
+
+commit c477eca18e4376f8f6ba7a2b9f180fc9d10531df
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 02:26:12 2016 -0500
+
+    changed font color to maroon
+
+commit 76372ed38531d5caacf76bb8c0adeb1201a3a8eb
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 02:23:08 2016 -0500
+
+    need repeating background bc of search
+
+commit adf5e4a0f61e128ba20b3096f89290b60f4d9bef
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 02:20:33 2016 -0500
+
+    updated css
+
+commit e51c70086baf4e3d6a9fa1a137bfe57e10d37b67
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 02:19:32 2016 -0500
+
+    found better image
+
+commit 1ee914d32b4872fb6e1d61876571f86a11a8dc32
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 02:12:54 2016 -0500
+
+    reverted opacity and added white font
+
+commit 8803fbb5092034d7e32dac5540740d477e68f39c
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 02:06:54 2016 -0500
+
+    making text readable with background and added transparency
+
+commit 4eed7f9e8943e4be1b54171da4b7382c53de4e03
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 02:01:50 2016 -0500
+
+    changed from cinemagraph to static img
+
+commit 212c809fd8ae54cdaccedb32151d5c4439ce1edf
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 01:55:39 2016 -0500
+
+    adding image to site
+
+commit c542580992573f1abc3bb59cc2c63ae78d2a736b
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 01:54:29 2016 -0500
+
+    altered background image
+
+commit 3473f4ea7a9722769e9f2a8d0e2115691733a7ad
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 01:34:52 2016 -0500
+
+    fixed css image and volume css
+
+commit 842309f1c0b6dd7135f88ec971d6458d3d039018
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 01:31:41 2016 -0500
+
+    added background image
+
+commit 98d3eeafd7f4de149f3dbcf8dfc535b24bd2dfb0
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 01:05:05 2016 -0500
+
+    working visual, search and added search to htmls
+
+commit 69ac6da171801af375871514b27f6d4957f88015
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 19 00:54:13 2016 -0500
+
+    added endpoints for search and visual
+
+commit 3df36fad50a962fcca8be9749cdeb2095bd53369
+Author: asb26 <adan_briones@outlook.com>
+Date:   Mon Jul 18 15:26:39 2016 -0500
+
+    Matched Apiary to api results from api URLs
+
+commit 84e04efd318bad93659d23512d9931f8087d11ec
+Author: asb26 <adidan26@yahoo.com>
+Date:   Thu Jul 14 13:35:12 2016 -0500
+
+    updated log file
+
+commit d481d40d20eedded6c605cab93d0aa5ce446c973
+Author: asb26 <adidan26@yahoo.com>
+Date:   Thu Jul 14 13:11:22 2016 -0500
+
+    Updated volume template following nabeel's instructions
+
+commit 9e416d382852cd7075b9078d2de40a283a423ab6
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 08:29:01 2016 -0500
+
+    added css for about page and changed navbar
+
+commit 389cfb94232aded9485826bc75406073b138679a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 07:00:30 2016 -0500
+
+    changed start year col to first appearance
+
+commit 2e4cfc7b0098517e2273b472ecd1083ab422e95a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 06:57:47 2016 -0500
+
+    if image is unavailable, another image is shown
+
+commit 09ae4296f43036812f4ff290fc8252cda6807da4
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 06:52:52 2016 -0500
+
+    clicking on character now leads to character
+
+commit ff843e7e571fc603ff2efc3265a1a9c6d31e776f
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 06:01:14 2016 -0500
+
+    updated about html
+
+commit 6aaee46bec1fc755e72e1d0f94e2f460287582b5
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 05:52:19 2016 -0500
+
+    changed image if image src is none
+
+commit d7e165cbba708fb430b4a7b49fbf86b7f6d5f950
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jul 14 05:45:37 2016 -0500
+
+    changed the templates, they work
+
+commit 743aaf2e40bc2236b8bd0b38863f5d2d34a89851
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Wed Jul 13 21:02:10 2016 -0500
+
+    update server templates
+
+commit cdd72f959085e5d3fa5060a43bccec1fbeec2fbd
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Wed Jul 13 20:56:18 2016 -0500
+
+    add to master
+
+commit c84e4b92d7c331173a312ae0cdfbbfadacb026bb
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Wed Jul 13 20:21:40 2016 -0500
+
+    remove unnecessary files
+
+commit 238b72e5be1ee7a9fd4bc913fe66a8ad9a532184
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Wed Jul 13 20:02:58 2016 -0500
+
+    add to master
+
+commit aaec086a814a17ea46c68e8da20c89d32a220688
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Wed Jul 13 20:00:23 2016 -0500
+
+    add to master
+
+commit 08736e4dc5307af1572181be4d1e35b9f821f03a
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Wed Jul 13 19:57:40 2016 -0500
+
+    add to master
+
+commit f7409d2e194c4c4ad252ae57f72cab871083adbd
+Author: asb26 <adan_briones@outlook.com>
+Date:   Wed Jul 13 19:36:26 2016 -0500
+
+    Transferring API Description file from Apiary.io
+
+commit dae360e72952297e6cec97256080b687ffcdf7b5
+Author: PradeepKumar-23 <pradeep.kumar@utexas.edu>
+Date:   Tue Jul 12 20:46:21 2016 -0500
+
+    updated api responses on Tuesday July 12
+
+commit 6aec1f68c9c80c2f84c67b549a1cbb0a83f3f4a5
+Author: asb26 <adan_briones@outlook.com>
+Date:   Tue Jul 12 15:46:30 2016 -0500
+
+    Updated Character team to be dictionary
+
+commit 43e18a372ce81ffcf6b10450bb9135dd495eb6be
+Author: asb26 <adan_briones@outlook.com>
+Date:   Tue Jul 12 15:21:33 2016 -0500
+
+    Updated gender to int
+
+commit 3fbe7a1b5a4a0738ab5adc0da4380c99f713a8bc
+Author: asb26 <adan_briones@outlook.com>
+Date:   Tue Jul 12 15:12:25 2016 -0500
+
+    Changed start year to string
+
+commit 8055853622baa4b13049df5fdf2196b0c07736d0
+Author: asb26 <adan_briones@outlook.com>
+Date:   Tue Jul 12 15:06:18 2016 -0500
+
+    Removed Powers
+
+commit 3e7894f02ed30e18d92e96a4528adf411cf15c62
+Author: asb26 <adan_briones@outlook.com>
+Date:   Tue Jul 12 14:27:39 2016 -0500
+
+    Fixed paths
+
+commit 6749bd207484d94b8539fdfc143fa2dadb822502
+Author: asb26 <adan_briones@outlook.com>
+Date:   Tue Jul 12 14:21:22 2016 -0500
+
+    Fixed Typos
+
+commit 9005d6949f6e3016b338f56c4cb2f20cd9be84a3
+Author: asb26 <adan_briones@outlook.com>
+Date:   Mon Jul 11 16:27:11 2016 -0500
+
+    Updated models to match current state in models.py
+
+commit 3732962c395d6b6fafb8cad02dee0d0dd693d7b3
+Author: Chuqi <cz4792@utexas.edu>
+Date:   Wed Jul 6 21:56:04 2016 -0500
+
+    Add files via upload
+
+commit 86a7adadf909ab078f70a97c7a8f83445c04a067
+Author: Chuqi <cz4792@utexas.edu>
+Date:   Wed Jul 6 21:52:39 2016 -0500
+
+    Add files via upload
+
+commit 247346daf42f52469a04559e922eb8f4029d889f
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 22:07:35 2016 -0400
+
+    new log
+
+commit 27ef172bc9981bf212578052c47eb95e1c4653b2
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 22:06:41 2016 -0400
+
+    removing wrong log
+
+commit 8029c27e74fb6129297e5d673726a5022c759090
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 22:04:37 2016 -0400
+
+    updated log
+
+commit 060395b1c6a0b6e75ea2e3a4220935f7f8b9a9f8
+Merge: 222d877 740ca53
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 21:59:40 2016 -0400
+
+    Merge branch 'master' of https://github.com/jarkyll/cs373-idb
+
+commit 222d877570c6e750ce7371c1fc70b3d7f90152bb
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 21:59:26 2016 -0400
+
+    moved models.html in master
+
+commit cdfdccac0bf9aaceccd4bc85b6d41d4977cbb85f
+Merge: f298ee6 4926e59
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 21:58:26 2016 -0400
+
+    Merge branch 'dev'
+
+commit 4926e59e3aa7ad389bb1d1c27139540063585688
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 21:54:38 2016 -0400
+
+    new models html
+
+commit 7fa9bc2533a029bae256752d12045375d1626ec4
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:53:35 2016 -0500
+
+    fixed format for models
+
+commit 5b4f900ae71d251d35ca2bc68fdc042e9fd731ea
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:51:28 2016 -0500
+
+    added comments to models.py
+
+commit be26aaa701221e70f88aaf7ceac48418ba57cd5a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 21:39:28 2016 -0400
+
+    pydoc3 does not work
+
+commit c1fcdc462c60bfc50696e1e63d80ff2917dc4f81
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:36:55 2016 -0500
+
+    added boolean
+
+commit 6d43d1c64f6916b9953fa85c9c5b9e7a3b14e2a4
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:33:59 2016 -0500
+
+    removed comma from models
+
+commit 7f299ffc38efc5039d398fe2acee16344508a7bb
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:31:20 2016 -0500
+
+    lowercase false
+
+commit e5caaa27a83b7c913c0d289322923f4c4e173f69
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:30:30 2016 -0500
+
+    added primary key
+
+commit 8b1593648cbb49405bcaced471907d88dd377aa2
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:28:21 2016 -0500
+
+    s removed from Characters
+
+commit a3c1c61ffbc34b7670a64f062f486e75f7a67724
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:27:32 2016 -0500
+
+    adding relationship function
+
+commit 39c728b12105b41c94aeed8278f2665e91fcbd58
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:25:09 2016 -0500
+
+    avoiding array
+
+commit e97d86730deb0e351fd67ff7649264f3ca1fb66e
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:23:16 2016 -0500
+
+    trying array again
+
+commit 38418272bf9b0d7fcc1358c2b4f7ccad71e6fc0a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:20:35 2016 -0500
+
+    updated import
+
+commit f624acc04fa0b6b51a5e1ed4a9324590054e5df6
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:14:01 2016 -0500
+
+    accidently add main not metadata
+
+commit 78636f260e11299a89253977c62cefe17440a551
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:11:09 2016 -0500
+
+    BASE not Base
+
+commit cc832148fcef4ac5cc37aca395d40a92ceaad180
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:09:08 2016 -0500
+
+    BASE has to be used not main
+
+commit 68e12c6f44d9e366bdec7a92a78c54a55aebcd95
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:07:34 2016 -0500
+
+    importing array
+
+commit cbe40063ac87801efadf2a859e5315bdfd8c7ff1
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 20:04:48 2016 -0500
+
+    trying to import array
+
+commit a8bebad82d323b88e618d21d589d8f40759af70c
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 19:59:01 2016 -0500
+
+    db was added in models
+
+commit 626944cd3cb847d9d878e53f2b60aa9911c5ebfc
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 19:55:06 2016 -0500
+
+    added table foreign key and array
+
+commit 42c36a0f70852e6addbc7d14a2b934e3a717732c
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 19:51:20 2016 -0500
+
+    fixed models
+
+commit 740ca5332ef04fd91ba271e0453390348db64375
+Author: asb26 <adan_briones@outlook.com>
+Date:   Wed Jul 6 19:15:10 2016 -0500
+
+    Removed the id attribute from models
+
+commit f298ee66c459a9803e5505edd52d11e19a8354ec
+Author: asb26 <adidan26@yahoo.com>
+Date:   Wed Jul 6 17:46:13 2016 -0500
+
+    Adding the forgotten log file
+
+commit d3bfca420c048e10dfd2eccb6807dc3f517310dc
+Merge: be2b6d7 10bfda7
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 17:34:00 2016 -0500
+
+    Merge branch 'dev'
+
+commit 10bfda78615f28dad78ca96f9c144ee4c8a16642
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 17:29:15 2016 -0500
+
+    fixed DARK HORSE HTML -.-
+
+commit bd1f7bf9b335979b95e3f711f74e9f9d6b596050
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 17:26:56 2016 -0500
+
+    testing
+
+commit 0956a6cfdb81ed8a57102a5a059f6012469a9418
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 17:24:12 2016 -0500
+
+    fiction house had two closing head tags
+
+commit 5b063b1db0702e0d47d9235004e45287fc16df04
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 17:22:59 2016 -0500
+
+    styles css was wrong in Jerry
+
+commit d5c61725153a9b806de80fc51b88daafc24caba9
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 17:19:10 2016 -0500
+
+    removed breaks
+
+commit bb6edb2b6de4911e4bd3bd64c8657720c63ad79d
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 17:15:40 2016 -0500
+
+    changed timer for carousel and adding padding for about rows
+
+commit 2a1412ddfcac40dee22ad78927e1be43b6695ccf
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 16:34:47 2016 -0500
+
+    fixed about page css
+
+commit be2b6d70d0bc4faf2bf4026c8ca719d98c435020
+Author: asb26 <adan_briones@outlook.com>
+Date:   Wed Jul 6 16:33:12 2016 -0500
+
+    Removed typo on publisher request
+
+commit 58d2a21a40de55c514e5f7a5f10ab38c29e11ee6
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 16:30:39 2016 -0500
+
+    wrong url for planet comics
+
+commit 1db92d977b2959092c65c614e717605d15d5f481
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 16:29:34 2016 -0500
+
+    wrong url for planet comics
+
+commit 6092336f01e429b232c52eeb99b30d71e9028647
+Author: asb26 <adan_briones@outlook.com>
+Date:   Wed Jul 6 16:28:14 2016 -0500
+
+    Fixed single publisher request to be in one set of curly braces
+
+commit 7f35ec999a0b6c0a94cc0c92a189b0db7624ce52
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 16:27:36 2016 -0500
+
+    wrong images in volumes
+
+commit 20fcfafdace6521f1766a398820b125711cee69f
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 16:19:30 2016 -0500
+
+    removed borders
+
+commit 3c0848d4ff285ae7fccdfa5b3ea54d138b64d999
+Author: asb26 <adan_briones@outlook.com>
+Date:   Wed Jul 6 16:18:40 2016 -0500
+
+    Fixed so that API shows in right window, Finished Publisher Calls.
+
+commit 42964ececc0a4267f60c7667e3f582506ba14c74
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 16:17:17 2016 -0500
+
+    fixed navbar and centered it
+
+commit cfbbca4f0ae3f175c1e3648931d12e997bac6753
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Wed Jul 6 15:50:04 2016 -0500
+
+    fixed about page, super smooth
+
+commit b329f263567be1b689ad5141080f691801f7a5d4
+Merge: 32b15c6 43a4d8d
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Tue Jul 5 21:58:15 2016 -0500
+
+    merge
+
+commit 43a4d8d0c040327a2eba40026c57dbf96b03a744
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Tue Jul 5 21:54:58 2016 -0500
+
+    another commit
+
+commit 32b15c614e98482d715ec2b3aa7ce2b553416cfd
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Tue Jul 5 21:39:03 2016 -0500
+
+    another commit
+
+commit a4edaa816e77fc2668d048edd1a5f1aa12d59279
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Tue Jul 5 21:28:19 2016 -0500
+
+    another commit
+
+commit 99c6766534b766c07d6f2ea060baf410d6a16319
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Tue Jul 5 21:19:42 2016 -0500
+
+    another commit
+
+commit a49f33d98edcf0576a2b9b535b2742262c464566
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 20:28:54 2016 -0500
+
+    sorting added using Datatables
+
+commit 989eac054ec955f6d013105332539cc1e950c708
+Author: PradeepKumar-23 <pradeep.kumar@utexas.edu>
+Date:   Tue Jul 5 20:11:46 2016 -0500
+
+    fixed apiary syntax concerns
+
+commit 83411e4380388146273f1224254f0a14ab619837
+Author: Chuqi <cz4792@utexas.edu>
+Date:   Tue Jul 5 20:10:01 2016 -0500
+
+    add UML.pdf
+
+commit 81d83d5faeaf99030272b8f4e344333c880cc789
+Author: PradeepKumar-23 <pradeep.kumar@utexas.edu>
+Date:   Tue Jul 5 20:07:13 2016 -0500
+
+    removed preformatted responses in apiary
+
+commit 89e8d3a24c5dff50c6a2adb31bc2234adcce7cfc
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 19:44:47 2016 -0500
+
+    checking sorting
+
+commit 2ee005bc1d7a958997ffe6070eb6d6a7df73120f
+Author: PradeepKumar-23 <pradeep.kumar@utexas.edu>
+Date:   Tue Jul 5 19:42:33 2016 -0500
+
+    Listed all 8 api calls
+
+commit 3ad98f7bcb46c96c1c761cb34838fbfe2329dd0a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 19:41:34 2016 -0500
+
+    testing sorting
+
+commit dbacf1f4d01e377e4591eb04bfb4be056a93f91e
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 19:21:55 2016 -0500
+
+    paragraph not in new line
+
+commit 6d8539500d4265cf6d708fbf25e401c2a132eaab
+Author: PradeepKumar-23 <pradeep.kumar@utexas.edu>
+Date:   Tue Jul 5 19:20:48 2016 -0500
+
+    Testing changing a line in the API from Apiary
+
+commit 538066986057cf147205ff739ca55b1c4be77fd8
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 19:18:21 2016 -0500
+
+    testing about page
+
+commit d38147bb487beb87d981182acf1163b642acb1c1
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 19:06:34 2016 -0500
+
+    forgot to change p to span
+
+commit fd106a3005fa5a56b067a1d6971d5322bd9c9564
+Author: Nabeel Virani <nabeelvirani@utexas.edu>
+Date:   Tue Jul 5 19:03:04 2016 -0500
+
+    Transferring API Description file from Apiary.io
+
+commit 87ce16839cc25619663a98709435c132fc407633
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 19:01:15 2016 -0500
+
+    testing span vs p
+
+commit 420c19c3d20d8c4f8e0c8dbc36e99ebdb2791b1a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:56:41 2016 -0500
+
+    adan's pic was huge
+
+commit 9fedca21bfb571fd77abfb377ba01d7a49a0a762
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:54:50 2016 -0500
+
+    images are right size, fixing about paragraph
+
+commit 4f41400df648275746b73d20d1cd0abec01e7e09
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:45:11 2016 -0500
+
+    followed inhtml css cnvention
+
+commit 370659d356f0b3e4c305f395e9ef359852c4d8b5
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:43:25 2016 -0500
+
+    changed image size and testing best size
+
+commit 6dfd54bd10d949ef78090f4da2d62c62fd011d0a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:41:18 2016 -0500
+
+    changed image size
+
+commit d016524690b8b9f09c858d1cb0deafb9a2528608
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:37:23 2016 -0500
+
+    changed image size
+
+commit 6be0dc6ef4b255ea8d4080fc735527216edc9163
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:31:56 2016 -0500
+
+    file type is png not jpg
+
+commit 25781de19dba349d6d527965d431ae1ed363a8de
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:30:00 2016 -0500
+
+    set width and height for about images
+
+commit 82b7b1013f9c17e200da6e0904351c084d771de8
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:25:00 2016 -0500
+
+    about not added to splash and pub
+
+commit f7428cb5e02f14480dcbcbc0a09333b31b27cb0b
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:22:55 2016 -0500
+
+    navbar has about option
+
+commit 1b59a040de589cf3675e3ae8f4ef9d66df0b41c3
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:10:53 2016 -0500
+
+    wrong url again for summer volume
+
+commit 4fe7fb6d97dfe63ea2764f38f2178d7b0e49ab03
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:09:10 2016 -0500
+
+    wrong url for summer volume
+
+commit 5d421415369fa666ed77a92d740ab00e6e000134
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 18:02:00 2016 -0500
+
+    jerry is too big
+
+commit a25c07dcb8d10dac78fcd0862063fd536da12112
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 17:55:59 2016 -0500
+
+    added N/A or Unknown when info not there
+
+commit 75c0c41aa0b8a430626050a000d3a20b392bee52
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 17:46:25 2016 -0500
+
+    changed image sizes
+
+commit ccc16c601fe0119168669853916e3f86923c3b72
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 17:37:29 2016 -0500
+
+    centered divs and added about page
+
+commit 11f2d3559cac1b44a8b15ffd9f02abf94a4e28d5
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 15:54:47 2016 -0500
+
+    missing some pics
+
+commit fea754656c3eeaa57c6990924eeec6c0196ad2fc
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 15:50:11 2016 -0500
+
+    centered comics
+
+commit b5cc99378219aada681a1714b844e65d126151df
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 15:48:19 2016 -0500
+
+    centered most things
+
+commit 060f55bb68c0c7f651e6f0a9a4d1a367a6d5e229
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 15:45:58 2016 -0500
+
+    fixing centering for fiction house
+
+commit b50c6b7dc10e5f387808a7377ae537501c9d21dc
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 15:43:54 2016 -0500
+
+    centering divs
+
+commit 142833320f9376fcb9fcbf7dbdf4188b7ed8d08b
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 15:38:23 2016 -0500
+
+    linking to pubishers
+
+commit 6aa5b8f4a5331822bc29d06b206ba08802fda6a2
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 11:21:11 2016 -0500
+
+    added css to make the tables mobile friendly, copy the format in volumes, teams, etc
+
+commit 1b7dfdeb805978d7417f525956460982f8a887a5
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 03:54:21 2016 -0500
+
+    fixed issue with hamburger in index
+
+commit 838c067cbcc7467a0c5f5740c7259315508a1db2
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 03:51:15 2016 -0500
+
+    space ranger team now routes to reef ryan
+
+commit 6fbd5cd1d6c1108c4cabf12888942c4d32d25d6b
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 03:49:20 2016 -0500
+
+    changed sheena img and routing to chief
+
+commit 8d91c55b658e551664dc96f9ee3f74779fc47a9e
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 03:46:30 2016 -0500
+
+    fixed pictures of reef and routing
+
+commit 8086d5bf9cadd659ba8dd88d65bc4a5d044441e3
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 03:40:14 2016 -0500
+
+    changed routes
+
+commit c5173fab085d1fbdbe617b4cdab3bc7188de78a3
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 03:38:42 2016 -0500
+
+    changed choices for Fiction House
+
+commit abcb143d58af6763336d5943493832c6fca09e08
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 03:12:04 2016 -0500
+
+    images were too big
+
+commit e82d6c39f72ee4932aabe7b3992199e06265505a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 03:09:55 2016 -0500
+
+    created static page for characters and routed it
+
+commit fa46824e4d946a27641668e14731c7f7975dc022
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 02:58:41 2016 -0500
+
+    C:/Program Files/Git/teams was going to team template
+
+commit a906e49231c5c269183e589b0b8c9a59f22f23d4
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 02:56:41 2016 -0500
+
+    duplicate routes
+
+commit dec2d7ff5c391c6e21f41d0501e527c39cba38eb
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 02:55:23 2016 -0500
+
+    added static teams with linking
+
+commit ed68f3bfe60dd9d93da0d08013aa0f9043cc783e
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 02:12:42 2016 -0500
+
+    placed jquery before the bootstrap css
+
+commit ab496b0aaaf187e1376037ce0bc67e20e78277f2
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 01:55:19 2016 -0500
+
+    forgot to change the css for publishers
+
+commit 8ddb7e5de74d82bb6d795ccba48d86afce143969
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 01:51:50 2016 -0500
+
+    added css pathing
+
+commit 28d76944dfd72027cd17660a4354a0f5cf5d21b6
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 01:47:26 2016 -0500
+
+    Dell and Fiction House were reversed
+
+commit bf0534d22482e1ff50dbe48c8b49637ddcf05bbe
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 01:43:22 2016 -0500
+
+    wrong volumes to characters and vice versa
+
+commit 1fee8f3dd0cdaf40ff764197fbeed36c47345ccf
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 01:39:14 2016 -0500
+
+    fixed pathing for hrefs
+
+commit 014670d811ef180796646a472cf6b5a3466b40c5
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Tue Jul 5 01:32:58 2016 -0500
+
+    added static pages for all but team
+
+commit dfb050643492ac38d1e443e8f2b6be50e4bf94ae
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 21:45:54 2016 -0500
+
+    forgot to add links in some static html pages
+
+commit 319c9a95f271bbc5e903a93cc69d58fd616d57e9
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 21:35:25 2016 -0500
+
+    nice splash, and table images are the same size
+
+commit 91c48e29fc2d62c5d7360edf36207a601e86471d
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 21:34:44 2016 -0500
+
+    templates for phase 1
+
+commit 9b1e248643c4b9f04006b09bfc3a2229fce694ea
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 21:34:20 2016 -0500
+
+    added some routes
+
+commit 7d26e267d4e7901ddcd2fe9db851bc03a449bab0
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 21:00:33 2016 -0500
+
+    carousel images fit for mobile and removed buttons for carousel
+
+commit 018ef9a318e50a5bb51ad8c5d9b09ee71255b834
+Merge: ef98ae8 506317d
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 18:34:32 2016 -0500
+
+    didn't need to delete the css file
+
+commit 506317d54d01899085f3f91b9dc4e6798eacf981
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 18:33:19 2016 -0500
+
+    formatted styles.css
+
+commit ef98ae88bed4a90f33abc90e8342dc3fb3359f8f
+Merge: 2f923e1 ffc5d96
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 18:30:05 2016 -0500
+
+    styles.css is causing merge conflict
+
+commit ffc5d962c9c8c1f566647776733d7fc7ddb5a621
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 18:28:11 2016 -0500
+
+    scroll bar css
+
+commit a252c65f628d93ba8e076e60b4f097ff289104c7
+Merge: b8a2a61 7f9da2f
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 18:26:03 2016 -0500
+
+    added UML to resolve merge
+
+commit b8a2a61e98dea45c15d540a74cfc6f66c5809931
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 18:24:09 2016 -0500
+
+    formatted the publisher templates and fixed scroll bar
+
+commit 7f9da2f76055d4b76444eefc9bcb14b29cd98a28
+Author: Chuqi Zhou <cz4792@utexas.edu>
+Date:   Mon Jul 4 18:22:46 2016 -0500
+
+    creates the UML and closes #20
+
+commit ec98e0954dfc4b6ce3c9eb1293e6864cbd9d753a
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 17:47:54 2016 -0500
+
+    static publisher templates
+
+commit 5f3245ad62b4e367b786778e151d89fa9b2183be
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 17:47:09 2016 -0500
+
+    description does not work, deck works as an attribute
+
+commit 2f923e1f683d4cee3e8cad348e754017378734f9
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 15:38:49 2016 -0500
+
+    added styles.css
+
+commit 06d4c0f6c53538fdfeaf09f2525ddd985e6d5012
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 15:13:35 2016 -0500
+
+    working index finally
+
+commit 6956490226eacf789bed01a37ecff919c74a76d6
+Merge: 8c0dac7 e2df211
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 15:10:48 2016 -0500
+
+    fixing merge with index file
+
+commit 8c0dac70a9aa1ad073efa1ee3b7f4834a5c298d6
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 15:05:58 2016 -0500
+
+    working index.html added
+
+commit e2df2110101b9f2fb75f5090649f198346fd244f
+Merge: 01234cf c5c9ba6
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 15:46:55 2016 -0400
+
+    resolve merge conflict
+
+commit 01234cff16d0330e092a84807520f872f73c2933
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 15:39:12 2016 -0400
+
+    changed index
+
+commit c5c9ba6129219ca34e345800e43cd7a854352411
+Author: asb26 <adidan26@utexas.edu>
+Date:   Mon Jul 4 14:37:20 2016 -0500
+
+    Added volume and team templates
+
+commit b98c64784b9f254d33c78347efae5a79904ad106
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 14:13:53 2016 -0400
+
+    fixed 404 errors with imgs
+
+commit 1022fc98bfafcc10cc1985a4a812c88b59ff6b4b
+Merge: 1d812d6 3f8a4a7
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 13:05:18 2016 -0500
+
+    moved index.html
+
+commit 3f8a4a7948df54e6d407614795eb40afbac3c3c6
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 12:54:44 2016 -0500
+
+    moved splash page, css and added scraper
+
+commit d79a4986eb680f78b455595c1d87146601c2cab6
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Mon Jul 4 12:53:17 2016 -0500
+
+    information about publishers
+
+commit e1f57233351fb914f13a9c8bde931ddaada0e7a1
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Sat Jul 2 17:18:19 2016 -0500
+
+    added SQLAlchemy and rendered html templates
+
+commit 5e3bbc26cedabb6e283e4da09e49244326b8b310
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Sat Jul 2 15:41:11 2016 -0500
+
+    fetched first 10 volumes and teams from each publisher(in json)
+
+commit ec1eaf1ee33124768cb2b5d4f9773afb55b95064
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Sat Jul 2 15:40:26 2016 -0500
+
+    fixed some issues with extracting publishers
+
+commit 7bb89ca934bd5907012f132a28e56bf1b28083b3
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Sat Jul 2 15:39:44 2016 -0500
+
+    moved front-end files to static and templates
+
+commit da5dc92866be1ac1789b5f93af57837990420aa9
+Merge: 5e59658 2911d91
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Sat Jul 2 12:19:36 2016 -0500
+
+    Merge remote-tracking branch 'origin/aj' into back-end
+    adding splash page
+
+commit 5e5965890a114b8243e4351474806de7db541b3f
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Sat Jul 2 12:14:49 2016 -0500
+
+    renaming testresults to DHC_volumes
+
+commit dc64436463b35489de2c25745df376134a8fa98d
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Sat Jul 2 12:12:56 2016 -0500
+
+    removed env from repo
+
+commit 603249c5a36e1013ea39adfdc124bd8b9ed81953
+Merge: 0a1c3a6 31811a2
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Sat Jul 2 12:11:19 2016 -0500
+
+    Merge branch 'back-end' of https://github.com/jarkyll/cs373-idb into back-end
+    adding publisher jsons
+
+commit 0a1c3a6fb9e1a0efa49df4375414c63bd2cf8745
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Sat Jul 2 12:10:17 2016 -0500
+
+    info about each publisher
+
+commit 1d812d62ed22a46c83471d5ad1bc5825747aaa8e
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Sat Jul 2 12:58:07 2016 -0400
+
+    removed virutalenv and moved html to templates
+
+commit 86670e8276dba07ff7a1bdb7370e827b85228d0d
+Merge: 31811a2 4e1504e
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Sat Jul 2 12:54:40 2016 -0400
+
+    Merge branch 'dev' of https://github.com/jarkyll/cs373-idb into dev
+
+commit 31811a2563da18d1e3626766d8d2b5fd21a0c8e8
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Fri Jul 1 19:43:34 2016 -0400
+
+    first push
+
+commit ee011c658f38a3fe14829c1b07b42918dd2d051e
+Author: Nabeel Virani <nabeelvirani@gmail.com>
+Date:   Thu Jun 30 22:22:12 2016 -0500
+
+    Create README.md
+
+commit 4e1504e41d96a6047be1261569e71d15a339c6ee
+Author: Haihan Yu <davidyu@cs.utexas.edu>
+Date:   Thu Jun 30 17:40:22 2016 -0500
+
+    travis ci file added
+
+commit 53074987063a11fb200cc604b21b4b652d32f465
+Author: Haihan Yu <davidyu@cs.utexas.edu>
+Date:   Thu Jun 30 17:38:41 2016 -0500
+
+    test travis ci
+
+commit b8fd2febc2399137db972f643b6122476ec1c15b
+Author: Haihan Yu <davidyu@cs.utexas.edu>
+Date:   Thu Jun 30 17:36:08 2016 -0500
+
+    first version model
+
+commit 2911d914725b41a8a934d1dd754aef5af80114e1
+Author: Allen McClure <audiocipher@utexas.edu>
+Date:   Thu Jun 30 17:14:54 2016 -0500
+
+    basic splash with carousel
+
+commit e7710afe97e439fdf793f2dc6de10d2a6f13731e
+Author: Pradeep Kumar <pradeep@cs.utexas.edu>
+Date:   Thu Jun 30 15:34:54 2016 -0500
+
+    added basic index page
