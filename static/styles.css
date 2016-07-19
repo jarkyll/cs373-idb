@@ -8,10 +8,10 @@ html,body{
   color: #800000 !important;
   height:100%;
   text-align: center;
-  background-image: url('http://downing.rocks/static/img/image.jpg');
+  background-image: url('http://downing.rocks/static/img/akira.jpg');
 }
 a {
-  color: red !important; 
+  color: red !important;
 }
 a:hover{
   color: #800000 !important;
