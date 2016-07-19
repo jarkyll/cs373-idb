@@ -5,9 +5,9 @@
         <thead>
         <tr>
             <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
+            <th>First Appearance</th>
             <th>Title</th>        <!--Title Link should take them to Volume page-->
             <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
-            <th>First Appearance</th>
             <th># of Issues</th>
         </tr>
         </thead>
@@ -23,9 +23,9 @@
                                                                                    src="http://downing.rocks/static/img/image.gif"></a>
                 {% endif %}
             </td>
+            <td>{{ team.appear }}</td>
             <td><a id = 'tag' href="http://downing.rocks/team/{{ team.name }}">{{ team.name }}</td>
             <td><a id = 'tag' href="http://downing.rocks/publisher/{{ team.publisher_name }}">{{ team.publisher_name }}</a></td>
-            <td>{{ team.appear }}</td>
             <td>{{ team.num_appearances }}</td>
         </tr>
         {% endfor %}

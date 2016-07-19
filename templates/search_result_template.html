@@ -11,6 +11,7 @@
             <tr>
                 <th>Thumbnail</th>
                 <!--Thumbnail Link should take them to Volume page-->
+                <th>First Appearance</th>
                 <th>Title</th>
                 <!--Title Link should take them to Volume page-->
                 <th>Publisher</th>
@@ -31,10 +32,10 @@
                 <a id="inner" href="http://downing.rocks/character/{{ character.Character.name}}"><img id="publishers"
                                                                                                        src="http://downing.rocks/static/img/image.gif"></a></td>
                 {% endif %}
+                <td>{{ character.happear | safe }}</td>
                 <td><a id = 'tag' href="http://downing.rocks/character/{{ character.Character.name }}">{{character.hname | safe}}</a></td>
                 <td><a id = 'tag' href="http://downing.rocks/publisher/{{ character.Character.publisher_name }}">{{ character.hpub |
                     safe }}</a></td>
-                <td>{{ character.happear | safe }}</td>
                 <!--Add to Apiary-->
                 <td>{{ character.Character.num_appearances }}</td>
             </tr>
@@ -56,11 +57,12 @@
             <tr>
                 <th>Thumbnail</th>
                 <!--Thumbnail Link should take them to Volume page-->
+                <th>First Appearance</th>
                 <th>Title</th>
                 <!--Title Link should take them to Volume page-->
                 <th>Publisher</th>
                 <!--Publisher Link should take them to Publisher page-->
-                <th>First Appearance</th>
+
                 <th># of Issues</th>
             </tr>
             </thead>
@@ -76,9 +78,9 @@
                 <a id="inner" href="http://downing.rocks/team/{{ team.Team.name}}"><img id="publishers"
                                                                                         src="http://downing.rocks/static/img/image.gif"></a></td>
                 {% endif %}
+                <td>{{ team.happear | safe }}</td>
                 <td><a id='tag' href="http://downing.rocks/team/{{ team.Team.name }}">{{ team.hname | safe }}</a></td>
                 <td><a id='tag' href="http://downing.rocks/publisher/{{ team.publisher_name }}">{{ team.hpub | safe }}</a></td>
-                <td>{{ team.happear | safe }}</td>
                 <td>{{ team.Team.num_appearances }}</td>
             </tr>
             {% endfor %}
@@ -98,10 +100,11 @@
             <thead>
             <tr>
                 <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
-                <th>Title</th>        <!--Title Link should take them to Volume page-->
-                <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
                 <th>Start Year</th>
                 <th># of Issues</th>
+                <th>Title</th>        <!--Title Link should take them to Volume page-->
+                <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
+
             </tr>
             </thead>
             <tbody>
@@ -116,10 +119,11 @@
                 <a id="inner" href="http://downing.rocks/volume/{{ volume.Volume.name}}"><img id="publishers"
                                                                                               src="http://downing.rocks/static/img/image.gif"></a></td>
                 {% endif %}
-                <td><a id='tag' href="http://downing.rocks/volume/{{ volume.Volume.name }}">{{ volume.hname | safe}}</a></td>
-                <td><a id='tag' href="http://downing.rocks/publisher/{{ volume.publisher_name }}">{{ volume.hpub | safe}}</a></td>
                 <td>{{ volume.hstart | safe }}</td>
                 <td>{{ volume.Volume.num_issues }}</td>
+                <td><a id='tag' href="http://downing.rocks/volume/{{ volume.Volume.name }}">{{ volume.hname | safe}}</a></td>
+                <td><a id='tag' href="http://downing.rocks/publisher/{{ volume.publisher_name }}">{{ volume.hpub | safe}}</a></td>
+
             </tr>
             {% endfor %}
             </tbody>
@@ -138,10 +142,10 @@
             <thead>
             <tr>
                 <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
-                <th>Name</th>        <!--Title Link should take them to Volume page-->
                 <th>Address</th>    <!--Publisher Link should take them to Publisher page-->
                 <th>City</th>
                 <th>State</th>
+                <th>Name</th>        <!--Title Link should take them to Volume page-->
             </tr>
             </thead>
             <tbody>
@@ -156,10 +160,11 @@
                                                                                                            src="http://downing.rocks/static/img/image.gif"</a>
                     {% endif %}
                 </td>
-                <td><a href="http://downing.rocks/publisher/{{ publisher.Publisher.name }}">{{ publisher.hname | safe}}</a></td>
                 <td>{{ publisher.haddress | safe}}</td>
                 <td>{{ publisher.hcity | safe}}</td>
                 <td>{{ publisher.hstate | safe}}</td>
+                <td><a href="http://downing.rocks/publisher/{{ publisher.Publisher.name }}">{{ publisher.hname | safe}}</a></td>
+
             </tr>
             {% endfor %}
             </tbody>
@@ -182,11 +187,11 @@
             <tr>
                 <th>Thumbnail</th>
                 <!--Thumbnail Link should take them to Volume page-->
+                <th>First Appearance</th>
                 <th>Title</th>
                 <!--Title Link should take them to Volume page-->
                 <th>Publisher</th>
                 <!--Publisher Link should take them to Publisher page-->
-                <th>First Appearance</th>
                 <th># of Issues</th>
             </tr>
             </thead>
@@ -202,10 +207,10 @@
                 <a id="inner" href="http://downing.rocks/character/{{ character.Character.name}}"><img id="publishers"
                                                                                                        src="http://downing.rocks/static/img/image.gif"></a></td>
                 {% endif %}
+                <td>{{ character.happear | safe }}</td>
                 <td><a id='tag' href="http://downing.rocks/character/{{ character.Character.name }}">{{character.hname | safe}}</a></td>
                 <td><a id='tag' href="http://downing.rocks/publisher/{{ character.Character.publisher_name }}">{{ character.hpub |
                     safe }}</a></td>
-                <td>{{ character.happear | safe }}</td>
                 <!--Add to Apiary-->
                 <td>{{ character.Character.num_appearances }}</td>
             </tr>
@@ -226,11 +231,11 @@
             <tr>
                 <th>Thumbnail</th>
                 <!--Thumbnail Link should take them to Volume page-->
+                <th>First Appearance</th>
                 <th>Title</th>
                 <!--Title Link should take them to Volume page-->
                 <th>Publisher</th>
                 <!--Publisher Link should take them to Publisher page-->
-                <th>First Appearance</th>
                 <th># of Issues</th>
             </tr>
             </thead>
@@ -246,9 +251,9 @@
                 <a id="inner" href="http://downing.rocks/team/{{ team.Team.name}}"><img id="publishers"
                                                                                         src="http://downing.rocks/static/img/image.gif"></a></td>
                 {% endif %}
+                <td>{{ team.happear | safe }}</td>
                 <td><a id='tag' href="http://downing.rocks/team/{{ team.Team.name }}">{{ team.hname | safe }}</a></td>
                 <td><a id='tag' href="http://downing.rocks/publisher/{{ team.publisher_name }}">{{ team.hpub | safe }}</a></td>
-                <td>{{ team.happear | safe }}</td>
                 <td>{{ team.Team.num_appearances }}</td>
             </tr>
             {% endfor %}
@@ -306,10 +311,11 @@
             <thead>
             <tr>
                 <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
-                <th>Name</th>        <!--Title Link should take them to Volume page-->
                 <th>Address</th>    <!--Publisher Link should take them to Publisher page-->
                 <th>City</th>
                 <th>State</th>
+                <th>Name</th>        <!--Title Link should take them to Volume page-->
+
             </tr>
             </thead>
             <tbody>
@@ -324,10 +330,10 @@
                                                                                                            src="http://downing.rocks/static/img/image.gif"</a>
                     {% endif %}
                 </td>
-                <td><a id ='tag' href="http://downing.rocks/publisher/{{ publisher.Publisher.name }}">{{ publisher.hname | safe}}</a></td>
                 <td>{{ publisher.haddress | safe}}</td>
                 <td>{{ publisher.hcity | safe}}</td>
                 <td>{{ publisher.hstate | safe}}</td>
+                <td><a id ='tag' href="http://downing.rocks/publisher/{{ publisher.Publisher.name }}">{{ publisher.hname | safe}}</a></td>
             </tr>
             {% endfor %}
             </tbody>

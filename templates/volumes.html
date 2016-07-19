@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
-                <div id="content" class="container" ng-controller="MainController">
+      <div id="content" class="container" ng-controller="MainController">
       <table id="table"  class="display nowrap" cellspacing="0" width="100%" datatable="ng">
         <thead>
           <tr>
             <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
-            <th>Title</th>        <!--Title Link should take them to Volume page-->
-            <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
             <th>Start Year</th>
             <th># of Issues</th>
+            <th>Title</th>        <!--Title Link should take them to Volume page-->
+            <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
           </tr>
         </thead>
         <tbody>
@@ -20,10 +20,10 @@
                 {% else %}
                 <a id="inner" href="http://downing.rocks/volume/{{ volume.name}}"><img id="publishers" src="http://downing.rocks/static/img/image.gif"></a></td>
                 {% endif %}
-            <td><a id='tag' href="http://downing.rocks/volume/{{ volume.name }}">{{ volume.name }}</a> </td>
-            <td><a id='tag' href="http://downing.rocks/publisher/{{ volume.publisher_name }}">{{ volume.publisher_name }}</a></td>
             <td>{{ volume.start_year }}</td>
             <td>{{ volume.num_issues }}</td>
+            <td><a id='tag' href="http://downing.rocks/volume/{{ volume.name }}">{{ volume.name }}</a> </td>
+            <td><a id='tag' href="http://downing.rocks/publisher/{{ volume.publisher_name }}">{{ volume.publisher_name }}</a></td>
           </tr>
         {% endfor %}
         </tbody>

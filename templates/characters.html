@@ -4,10 +4,10 @@
     <table id="table" class="display nowrap" cellspacing="0" width="100%" datatable="ng">
         <thead>
         <tr>
-            <th>Thumbnail</th>    <!--Thumbnail Link should take them to Volume page-->
+            <th>Thumbnail</th>
+            <th>First Appearance</th>   <!--Thumbnail Link should take them to Volume page-->
             <th>Title</th>        <!--Title Link should take them to Volume page-->
             <th>Publisher</th>    <!--Publisher Link should take them to Publisher page-->
-            <th>First Appearance</th>
             <th># of Issues</th>
         </tr>
         </thead>
@@ -23,9 +23,9 @@
                                                                                    src="http://downing.rocks/static/img/image.gif"></a>
                 {% endif %}
             </td>
+            <td>{{ character.appear }}</td>
             <td><a id='tag' href="http://downing.rocks/character/{{ character.name }}">{{ character.name }}</a></td>
             <td><a id='tag' href="http://downing.rocks/publisher/{{ character.publisher_name }}">{{ character.publisher_name }}</a></td>
-            <td>{{ character.appear }}</td>
             <td>{{ character.num_appearances }}</td>
         </tr>
         {% endfor %}
