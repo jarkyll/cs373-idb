@@ -8,14 +8,13 @@
 <td valign=bottom>&nbsp;<br>
 <font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>models</strong></big></big></font></td
 ><td align=right valign=bottom
-><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/nabeel/Documents/373/comi/cs373-idb/app/models.py">/home/nabeel/Documents/373/comi/cs373-idb/app/models.py</a></font></td></tr></table>
-    <p><tt>#&nbsp;from&nbsp;afsiodfajf.database&nbsp;import&nbsp;Base&nbsp;&nbsp;#&nbsp;afsafsf&nbsp;is&nbsp;going&nbsp;to&nbsp;be&nbsp;our&nbsp;database&nbsp;name</tt></p>
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/nabeel/Documents/cs373-idb/app/models.py">/home/nabeel/Documents/cs373-idb/app/models.py</a></font></td></tr></table>
 <p>
 <table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
 <tr bgcolor="#ee77aa">
 <td colspan=3 valign=bottom>&nbsp;<br>
 <font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
-    
+
 <tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
 <td width="100%"><dl>
 <dt><font face="helvetica, arial">flask_sqlalchemy.Model(<a href="flask_sqlalchemy.html#Model">flask_sqlalchemy.Model</a>)
@@ -27,13 +26,19 @@
 </font></dt><dt><font face="helvetica, arial"><a href="models.html#Volume">Volume</a>
 </font></dt></dl>
 </dd>
+<dt><font face="helvetica, arial"><a href="sqlalchemy.sql.type_api.html#UserDefinedType">sqlalchemy.sql.type_api.UserDefinedType</a>(<a href="sqlalchemy.sql.type_api.html#TypeEngine">sqlalchemy.sql.type_api.TypeEngine</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="models.html#TsVector">TsVector</a>
+</font></dt></dl>
+</dd>
 </dl>
  <p>
 <table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
 <tr bgcolor="#ffc8d8">
 <td colspan=3 valign=bottom>&nbsp;<br>
 <font color="#000000" face="helvetica, arial"><a name="Character">class <strong>Character</strong></a>(flask_sqlalchemy.Model)</font></td></tr>
-    
+
 <tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
 <td colspan=2><tt>name:&nbsp;name&nbsp;of&nbsp;characters<br>
 birth:&nbsp;when&nbsp;the&nbsp;character&nbsp;was&nbsp;born<br>
@@ -94,22 +99,23 @@ Data descriptors defined here:<br>
 </dl>
 <dl><dt><strong>real</strong></dt>
 </dl>
+<dl><dt><strong>tsvector_col</strong></dt>
+</dl>
 <hr>
 Data and other attributes defined here:<br>
-<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7fc506d38f98; Character&gt;</dl>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7f115e82f278; Character&gt;</dl>
 
-<dl><dt><strong>__table__</strong> = Table('Character', MetaData(bind=None), Column('...ublisher.name'), table=&lt;Character&gt;), schema=None)</dl>
+<dl><dt><strong>__table__</strong> = Table('Character', MetaData(bind=None), Column('...ol', TsVector(), table=&lt;Character&gt;), schema=None)</dl>
+
+<dl><dt><strong>__table_args__</strong> = (Index('character_tsvector_idx', Column('tsvector_col', TsVector(), table=&lt;Character&gt;)),)</dl>
 
 <dl><dt><strong>__tablename__</strong> = 'Character'</dl>
 
 <hr>
-Methods inherited from flask_sqlalchemy.Model:<br>
-<dl><dt><strong>query</strong></dt>
-</dl>
-
-<hr>
 Data and other attributes inherited from flask_sqlalchemy.Model:<br>
 <dl><dt><strong>metadata</strong> = MetaData(bind=None)</dl>
+
+<dl><dt><strong>query</strong> = &lt;flask_sqlalchemy.BaseQuery object&gt;</dl>
 
 <hr>
 Data descriptors inherited from <a href="flask_sqlalchemy.html#Model">flask_sqlalchemy.Model</a>:<br>
@@ -133,7 +139,7 @@ standard&nbsp;query&nbsp;as&nbsp;well.</tt></dl>
 <tr bgcolor="#ffc8d8">
 <td colspan=3 valign=bottom>&nbsp;<br>
 <font color="#000000" face="helvetica, arial"><a name="Publisher">class <strong>Publisher</strong></a>(flask_sqlalchemy.Model)</font></td></tr>
-    
+
 <tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
 <td colspan=2><tt>name:&nbsp;the&nbsp;name&nbsp;of&nbsp;the&nbsp;publisher<br>
 address:&nbsp;address&nbsp;of&nbsp;publisher&nbsp;if&nbsp;given<br>
@@ -186,22 +192,23 @@ Data descriptors defined here:<br>
 </dl>
 <dl><dt><strong>state</strong></dt>
 </dl>
+<dl><dt><strong>tsvector_col</strong></dt>
+</dl>
 <hr>
 Data and other attributes defined here:<br>
-<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7fc50643e390; Publisher&gt;</dl>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7f115e856c50; Publisher&gt;</dl>
 
-<dl><dt><strong>__table__</strong> = Table('Publisher', MetaData(bind=None), Column('...mage', String(), table=&lt;Publisher&gt;), schema=None)</dl>
+<dl><dt><strong>__table__</strong> = Table('Publisher', MetaData(bind=None), Column('...ol', TsVector(), table=&lt;Publisher&gt;), schema=None)</dl>
+
+<dl><dt><strong>__table_args__</strong> = (Index('publishers_tsvector_idx', Column('tsvector_col', TsVector(), table=&lt;Publisher&gt;)),)</dl>
 
 <dl><dt><strong>__tablename__</strong> = 'Publisher'</dl>
 
 <hr>
-Methods inherited from flask_sqlalchemy.Model:<br>
-<dl><dt><strong>query</strong></dt>
-</dl>
-
-<hr>
 Data and other attributes inherited from flask_sqlalchemy.Model:<br>
 <dl><dt><strong>metadata</strong> = MetaData(bind=None)</dl>
+
+<dl><dt><strong>query</strong> = &lt;flask_sqlalchemy.BaseQuery object&gt;</dl>
 
 <hr>
 Data descriptors inherited from <a href="flask_sqlalchemy.html#Model">flask_sqlalchemy.Model</a>:<br>
@@ -225,7 +232,7 @@ standard&nbsp;query&nbsp;as&nbsp;well.</tt></dl>
 <tr bgcolor="#ffc8d8">
 <td colspan=3 valign=bottom>&nbsp;<br>
 <font color="#000000" face="helvetica, arial"><a name="Team">class <strong>Team</strong></a>(flask_sqlalchemy.Model)</font></td></tr>
-    
+
 <tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
 <td colspan=2><tt>name:&nbsp;name&nbsp;of&nbsp;team<br>
 description:&nbsp;description&nbsp;of&nbsp;team<br>
@@ -275,22 +282,23 @@ Data descriptors defined here:<br>
 </dl>
 <dl><dt><strong>team_volumes</strong></dt>
 </dl>
+<dl><dt><strong>tsvector_col</strong></dt>
+</dl>
 <hr>
 Data and other attributes defined here:<br>
-<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7fc50649bcf8; Team&gt;</dl>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7f115e856400; Team&gt;</dl>
 
-<dl><dt><strong>__table__</strong> = Table('Team', MetaData(bind=None), Column('name'...ey('Publisher.name'), table=&lt;Team&gt;), schema=None)</dl>
+<dl><dt><strong>__table__</strong> = Table('Team', MetaData(bind=None), Column('name'...tor_col', TsVector(), table=&lt;Team&gt;), schema=None)</dl>
+
+<dl><dt><strong>__table_args__</strong> = (Index('team_tsvector_idx', Column('tsvector_col', TsVector(), table=&lt;Team&gt;)),)</dl>
 
 <dl><dt><strong>__tablename__</strong> = 'Team'</dl>
 
 <hr>
-Methods inherited from flask_sqlalchemy.Model:<br>
-<dl><dt><strong>query</strong></dt>
-</dl>
-
-<hr>
 Data and other attributes inherited from flask_sqlalchemy.Model:<br>
 <dl><dt><strong>metadata</strong> = MetaData(bind=None)</dl>
+
+<dl><dt><strong>query</strong> = &lt;flask_sqlalchemy.BaseQuery object&gt;</dl>
 
 <hr>
 Data descriptors inherited from <a href="flask_sqlalchemy.html#Model">flask_sqlalchemy.Model</a>:<br>
@@ -313,8 +321,238 @@ standard&nbsp;query&nbsp;as&nbsp;well.</tt></dl>
 <table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
 <tr bgcolor="#ffc8d8">
 <td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="TsVector">class <strong>TsVector</strong></a>(<a href="sqlalchemy.sql.type_api.html#UserDefinedType">sqlalchemy.sql.type_api.UserDefinedType</a>)</font></td></tr>
+
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Holds&nbsp;a&nbsp;<a href="#TsVector">TsVector</a>&nbsp;column&nbsp;which&nbsp;is&nbsp;the&nbsp;data&nbsp;type&nbsp;needed<br>
+for&nbsp;the&nbsp;texxt&nbsp;search<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="models.html#TsVector">TsVector</a></dd>
+<dd><a href="sqlalchemy.sql.type_api.html#UserDefinedType">sqlalchemy.sql.type_api.UserDefinedType</a></dd>
+<dd><a href="sqlalchemy.sql.type_api.html#TypeEngine">sqlalchemy.sql.type_api.TypeEngine</a></dd>
+<dd><a href="sqlalchemy.sql.visitors.html#Visitable">sqlalchemy.sql.visitors.Visitable</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="TsVector-get_col_spec"><strong>get_col_spec</strong></a>(self)</dt><dd><tt>we&nbsp;just&nbsp;return&nbsp;tsvector</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>name</strong> = 'TSVECTOR'</dl>
+
+<hr>
+Methods inherited from <a href="sqlalchemy.sql.type_api.html#UserDefinedType">sqlalchemy.sql.type_api.UserDefinedType</a>:<br>
+<dl><dt><a name="TsVector-coerce_compared_value"><strong>coerce_compared_value</strong></a>(self, op, value)</dt><dd><tt>Suggest&nbsp;a&nbsp;type&nbsp;for&nbsp;a&nbsp;'coerced'&nbsp;Python&nbsp;value&nbsp;in&nbsp;an&nbsp;expression.<br>
+&nbsp;<br>
+Default&nbsp;behavior&nbsp;for&nbsp;:class:`.<a href="sqlalchemy.sql.type_api.html#UserDefinedType">UserDefinedType</a>`&nbsp;is&nbsp;the<br>
+same&nbsp;as&nbsp;that&nbsp;of&nbsp;:class:`.TypeDecorator`;&nbsp;by&nbsp;default&nbsp;it&nbsp;returns<br>
+``self``,&nbsp;assuming&nbsp;the&nbsp;compared&nbsp;value&nbsp;should&nbsp;be&nbsp;coerced&nbsp;into<br>
+the&nbsp;same&nbsp;type&nbsp;as&nbsp;this&nbsp;one.&nbsp;&nbsp;See<br>
+:meth:`.TypeDecorator.coerce_compared_value`&nbsp;for&nbsp;more&nbsp;detail.<br>
+&nbsp;<br>
+..&nbsp;versionchanged::&nbsp;0.8&nbsp;:meth:`.<a href="sqlalchemy.sql.type_api.html#UserDefinedType">UserDefinedType</a>.coerce_compared_value`<br>
+&nbsp;&nbsp;&nbsp;now&nbsp;returns&nbsp;``self``&nbsp;by&nbsp;default,&nbsp;rather&nbsp;than&nbsp;falling&nbsp;onto&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;more&nbsp;fundamental&nbsp;behavior&nbsp;of<br>
+&nbsp;&nbsp;&nbsp;:meth:`.TypeEngine.coerce_compared_value`.</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="sqlalchemy.sql.type_api.html#UserDefinedType">sqlalchemy.sql.type_api.UserDefinedType</a>:<br>
+<dl><dt><strong>Comparator</strong> = &lt;class 'sqlalchemy.sql.type_api.UserDefinedType.Comparator'&gt;</dl>
+
+<dl><dt><strong>__visit_name__</strong> = 'user_defined'</dl>
+
+<dl><dt><strong>comparator_factory</strong> = &lt;class 'sqlalchemy.sql.type_api.UserDefinedType.Comparator'&gt;</dl>
+
+<dl><dt><strong>ensure_kwarg</strong> = 'get_col_spec'</dl>
+
+<hr>
+Methods inherited from <a href="sqlalchemy.sql.type_api.html#TypeEngine">sqlalchemy.sql.type_api.TypeEngine</a>:<br>
+<dl><dt><a name="TsVector-__repr__"><strong>__repr__</strong></a>(self)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="TsVector-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="TsVector-adapt"><strong>adapt</strong></a>(self, cls, **kw)</dt><dd><tt>Produce&nbsp;an&nbsp;"adapted"&nbsp;form&nbsp;of&nbsp;this&nbsp;type,&nbsp;given&nbsp;an&nbsp;"impl"&nbsp;class<br>
+to&nbsp;work&nbsp;with.<br>
+&nbsp;<br>
+This&nbsp;method&nbsp;is&nbsp;used&nbsp;internally&nbsp;to&nbsp;associate&nbsp;generic<br>
+types&nbsp;with&nbsp;"implementation"&nbsp;types&nbsp;that&nbsp;are&nbsp;specific&nbsp;to&nbsp;a&nbsp;particular<br>
+dialect.</tt></dd></dl>
+
+<dl><dt><a name="TsVector-bind_expression"><strong>bind_expression</strong></a>(self, bindvalue)</dt><dd><tt>"Given&nbsp;a&nbsp;bind&nbsp;value&nbsp;(i.e.&nbsp;a&nbsp;:class:`.BindParameter`&nbsp;instance),<br>
+return&nbsp;a&nbsp;SQL&nbsp;expression&nbsp;in&nbsp;its&nbsp;place.<br>
+&nbsp;<br>
+This&nbsp;is&nbsp;typically&nbsp;a&nbsp;SQL&nbsp;function&nbsp;that&nbsp;wraps&nbsp;the&nbsp;existing&nbsp;bound<br>
+parameter&nbsp;within&nbsp;the&nbsp;statement.&nbsp;&nbsp;It&nbsp;is&nbsp;used&nbsp;for&nbsp;special&nbsp;data&nbsp;types<br>
+that&nbsp;require&nbsp;literals&nbsp;being&nbsp;wrapped&nbsp;in&nbsp;some&nbsp;special&nbsp;database&nbsp;function<br>
+in&nbsp;order&nbsp;to&nbsp;coerce&nbsp;an&nbsp;application-level&nbsp;value&nbsp;into&nbsp;a&nbsp;database-specific<br>
+format.&nbsp;&nbsp;It&nbsp;is&nbsp;the&nbsp;SQL&nbsp;analogue&nbsp;of&nbsp;the<br>
+:meth:`.TypeEngine.bind_processor`&nbsp;method.<br>
+&nbsp;<br>
+The&nbsp;method&nbsp;is&nbsp;evaluated&nbsp;at&nbsp;statement&nbsp;compile&nbsp;time,&nbsp;as&nbsp;opposed<br>
+to&nbsp;statement&nbsp;construction&nbsp;time.<br>
+&nbsp;<br>
+Note&nbsp;that&nbsp;this&nbsp;method,&nbsp;when&nbsp;implemented,&nbsp;should&nbsp;always&nbsp;return<br>
+the&nbsp;exact&nbsp;same&nbsp;structure,&nbsp;without&nbsp;any&nbsp;conditional&nbsp;logic,&nbsp;as&nbsp;it<br>
+may&nbsp;be&nbsp;used&nbsp;in&nbsp;an&nbsp;executemany()&nbsp;call&nbsp;against&nbsp;an&nbsp;arbitrary&nbsp;number<br>
+of&nbsp;bound&nbsp;parameter&nbsp;sets.<br>
+&nbsp;<br>
+See&nbsp;also:<br>
+&nbsp;<br>
+:ref:`types_sql_value_processing`</tt></dd></dl>
+
+<dl><dt><a name="TsVector-bind_processor"><strong>bind_processor</strong></a>(self, dialect)</dt><dd><tt>Return&nbsp;a&nbsp;conversion&nbsp;function&nbsp;for&nbsp;processing&nbsp;bind&nbsp;values.<br>
+&nbsp;<br>
+Returns&nbsp;a&nbsp;callable&nbsp;which&nbsp;will&nbsp;receive&nbsp;a&nbsp;bind&nbsp;parameter&nbsp;value<br>
+as&nbsp;the&nbsp;sole&nbsp;positional&nbsp;argument&nbsp;and&nbsp;will&nbsp;return&nbsp;a&nbsp;value&nbsp;to<br>
+send&nbsp;to&nbsp;the&nbsp;DB-API.<br>
+&nbsp;<br>
+If&nbsp;processing&nbsp;is&nbsp;not&nbsp;necessary,&nbsp;the&nbsp;method&nbsp;should&nbsp;return&nbsp;``None``.<br>
+&nbsp;<br>
+:param&nbsp;dialect:&nbsp;Dialect&nbsp;instance&nbsp;in&nbsp;use.</tt></dd></dl>
+
+<dl><dt><a name="TsVector-column_expression"><strong>column_expression</strong></a>(self, colexpr)</dt><dd><tt>Given&nbsp;a&nbsp;SELECT&nbsp;column&nbsp;expression,&nbsp;return&nbsp;a&nbsp;wrapping&nbsp;SQL&nbsp;expression.<br>
+&nbsp;<br>
+This&nbsp;is&nbsp;typically&nbsp;a&nbsp;SQL&nbsp;function&nbsp;that&nbsp;wraps&nbsp;a&nbsp;column&nbsp;expression<br>
+as&nbsp;rendered&nbsp;in&nbsp;the&nbsp;columns&nbsp;clause&nbsp;of&nbsp;a&nbsp;SELECT&nbsp;statement.<br>
+It&nbsp;is&nbsp;used&nbsp;for&nbsp;special&nbsp;data&nbsp;types&nbsp;that&nbsp;require<br>
+columns&nbsp;to&nbsp;be&nbsp;wrapped&nbsp;in&nbsp;some&nbsp;special&nbsp;database&nbsp;function&nbsp;in&nbsp;order<br>
+to&nbsp;coerce&nbsp;the&nbsp;value&nbsp;before&nbsp;being&nbsp;sent&nbsp;back&nbsp;to&nbsp;the&nbsp;application.<br>
+It&nbsp;is&nbsp;the&nbsp;SQL&nbsp;analogue&nbsp;of&nbsp;the&nbsp;:meth:`.TypeEngine.result_processor`<br>
+method.<br>
+&nbsp;<br>
+The&nbsp;method&nbsp;is&nbsp;evaluated&nbsp;at&nbsp;statement&nbsp;compile&nbsp;time,&nbsp;as&nbsp;opposed<br>
+to&nbsp;statement&nbsp;construction&nbsp;time.<br>
+&nbsp;<br>
+See&nbsp;also:<br>
+&nbsp;<br>
+:ref:`types_sql_value_processing`</tt></dd></dl>
+
+<dl><dt><a name="TsVector-compare_against_backend"><strong>compare_against_backend</strong></a>(self, dialect, conn_type)</dt><dd><tt>Compare&nbsp;this&nbsp;type&nbsp;against&nbsp;the&nbsp;given&nbsp;backend&nbsp;type.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;is&nbsp;currently&nbsp;not&nbsp;implemented&nbsp;for&nbsp;SQLAlchemy<br>
+types,&nbsp;and&nbsp;for&nbsp;all&nbsp;built&nbsp;in&nbsp;types&nbsp;will&nbsp;return&nbsp;``None``.&nbsp;&nbsp;However,<br>
+it&nbsp;can&nbsp;be&nbsp;implemented&nbsp;by&nbsp;a&nbsp;user-defined&nbsp;type<br>
+where&nbsp;it&nbsp;can&nbsp;be&nbsp;consumed&nbsp;by&nbsp;schema&nbsp;comparison&nbsp;tools&nbsp;such&nbsp;as<br>
+Alembic&nbsp;autogenerate.<br>
+&nbsp;<br>
+A&nbsp;future&nbsp;release&nbsp;of&nbsp;SQLAlchemy&nbsp;will&nbsp;potentially&nbsp;impement&nbsp;this&nbsp;method<br>
+for&nbsp;builtin&nbsp;types&nbsp;as&nbsp;well.<br>
+&nbsp;<br>
+The&nbsp;function&nbsp;should&nbsp;return&nbsp;True&nbsp;if&nbsp;this&nbsp;type&nbsp;is&nbsp;equivalent&nbsp;to&nbsp;the<br>
+given&nbsp;type;&nbsp;the&nbsp;type&nbsp;is&nbsp;typically&nbsp;reflected&nbsp;from&nbsp;the&nbsp;database<br>
+so&nbsp;should&nbsp;be&nbsp;database&nbsp;specific.&nbsp;&nbsp;The&nbsp;dialect&nbsp;in&nbsp;use&nbsp;is&nbsp;also<br>
+passed.&nbsp;&nbsp;&nbsp;It&nbsp;can&nbsp;also&nbsp;return&nbsp;False&nbsp;to&nbsp;assert&nbsp;that&nbsp;the&nbsp;type&nbsp;is<br>
+not&nbsp;equivalent.<br>
+&nbsp;<br>
+:param&nbsp;dialect:&nbsp;a&nbsp;:class:`.Dialect`&nbsp;that&nbsp;is&nbsp;involved&nbsp;in&nbsp;the&nbsp;comparison.<br>
+&nbsp;<br>
+:param&nbsp;conn_type:&nbsp;the&nbsp;type&nbsp;object&nbsp;reflected&nbsp;from&nbsp;the&nbsp;backend.<br>
+&nbsp;<br>
+..&nbsp;versionadded::&nbsp;1.0.3</tt></dd></dl>
+
+<dl><dt><a name="TsVector-compare_values"><strong>compare_values</strong></a>(self, x, y)</dt><dd><tt>Compare&nbsp;two&nbsp;values&nbsp;for&nbsp;equality.</tt></dd></dl>
+
+<dl><dt><a name="TsVector-compile"><strong>compile</strong></a>(self, dialect=None)</dt><dd><tt>Produce&nbsp;a&nbsp;string-compiled&nbsp;form&nbsp;of&nbsp;this&nbsp;:class:`.TypeEngine`.<br>
+&nbsp;<br>
+When&nbsp;called&nbsp;with&nbsp;no&nbsp;arguments,&nbsp;uses&nbsp;a&nbsp;"default"&nbsp;dialect<br>
+to&nbsp;produce&nbsp;a&nbsp;string&nbsp;result.<br>
+&nbsp;<br>
+:param&nbsp;dialect:&nbsp;a&nbsp;:class:`.Dialect`&nbsp;instance.</tt></dd></dl>
+
+<dl><dt><a name="TsVector-copy_value"><strong>copy_value</strong></a>(self, value)</dt></dl>
+
+<dl><dt><a name="TsVector-dialect_impl"><strong>dialect_impl</strong></a>(self, dialect)</dt><dd><tt>Return&nbsp;a&nbsp;dialect-specific&nbsp;implementation&nbsp;for&nbsp;this<br>
+:class:`.TypeEngine`.</tt></dd></dl>
+
+<dl><dt><a name="TsVector-get_dbapi_type"><strong>get_dbapi_type</strong></a>(self, dbapi)</dt><dd><tt>Return&nbsp;the&nbsp;corresponding&nbsp;type&nbsp;object&nbsp;from&nbsp;the&nbsp;underlying&nbsp;DB-API,&nbsp;if<br>
+any.<br>
+&nbsp;<br>
+&nbsp;This&nbsp;can&nbsp;be&nbsp;useful&nbsp;for&nbsp;calling&nbsp;``setinputsizes()``,&nbsp;for&nbsp;example.</tt></dd></dl>
+
+<dl><dt><a name="TsVector-literal_processor"><strong>literal_processor</strong></a>(self, dialect)</dt><dd><tt>Return&nbsp;a&nbsp;conversion&nbsp;function&nbsp;for&nbsp;processing&nbsp;literal&nbsp;values&nbsp;that&nbsp;are<br>
+to&nbsp;be&nbsp;rendered&nbsp;directly&nbsp;without&nbsp;using&nbsp;binds.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;is&nbsp;used&nbsp;when&nbsp;the&nbsp;compiler&nbsp;makes&nbsp;use&nbsp;of&nbsp;the<br>
+"literal_binds"&nbsp;flag,&nbsp;typically&nbsp;used&nbsp;in&nbsp;DDL&nbsp;generation&nbsp;as&nbsp;well<br>
+as&nbsp;in&nbsp;certain&nbsp;scenarios&nbsp;where&nbsp;backends&nbsp;don't&nbsp;accept&nbsp;bound&nbsp;parameters.<br>
+&nbsp;<br>
+..&nbsp;versionadded::&nbsp;0.9.0</tt></dd></dl>
+
+<dl><dt><a name="TsVector-result_processor"><strong>result_processor</strong></a>(self, dialect, coltype)</dt><dd><tt>Return&nbsp;a&nbsp;conversion&nbsp;function&nbsp;for&nbsp;processing&nbsp;result&nbsp;row&nbsp;values.<br>
+&nbsp;<br>
+Returns&nbsp;a&nbsp;callable&nbsp;which&nbsp;will&nbsp;receive&nbsp;a&nbsp;result&nbsp;row&nbsp;column<br>
+value&nbsp;as&nbsp;the&nbsp;sole&nbsp;positional&nbsp;argument&nbsp;and&nbsp;will&nbsp;return&nbsp;a&nbsp;value<br>
+to&nbsp;return&nbsp;to&nbsp;the&nbsp;user.<br>
+&nbsp;<br>
+If&nbsp;processing&nbsp;is&nbsp;not&nbsp;necessary,&nbsp;the&nbsp;method&nbsp;should&nbsp;return&nbsp;``None``.<br>
+&nbsp;<br>
+:param&nbsp;dialect:&nbsp;Dialect&nbsp;instance&nbsp;in&nbsp;use.<br>
+&nbsp;<br>
+:param&nbsp;coltype:&nbsp;DBAPI&nbsp;coltype&nbsp;argument&nbsp;received&nbsp;in&nbsp;cursor.description.</tt></dd></dl>
+
+<dl><dt><a name="TsVector-with_variant"><strong>with_variant</strong></a>(self, type_, dialect_name)</dt><dd><tt>Produce&nbsp;a&nbsp;new&nbsp;type&nbsp;object&nbsp;that&nbsp;will&nbsp;utilize&nbsp;the&nbsp;given<br>
+type&nbsp;when&nbsp;applied&nbsp;to&nbsp;the&nbsp;dialect&nbsp;of&nbsp;the&nbsp;given&nbsp;name.<br>
+&nbsp;<br>
+e.g.::<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;from&nbsp;sqlalchemy.types&nbsp;import&nbsp;String<br>
+&nbsp;&nbsp;&nbsp;&nbsp;from&nbsp;sqlalchemy.dialects&nbsp;import&nbsp;mysql<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;s&nbsp;=&nbsp;String()<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;s&nbsp;=&nbsp;s.<a href="#TsVector-with_variant">with_variant</a>(mysql.VARCHAR(collation='foo'),&nbsp;'mysql')<br>
+&nbsp;<br>
+The&nbsp;construction&nbsp;of&nbsp;:meth:`.TypeEngine.with_variant`&nbsp;is&nbsp;always<br>
+from&nbsp;the&nbsp;"fallback"&nbsp;type&nbsp;to&nbsp;that&nbsp;which&nbsp;is&nbsp;dialect&nbsp;specific.<br>
+The&nbsp;returned&nbsp;type&nbsp;is&nbsp;an&nbsp;instance&nbsp;of&nbsp;:class:`.Variant`,&nbsp;which<br>
+itself&nbsp;provides&nbsp;a&nbsp;:meth:`.Variant.with_variant`<br>
+that&nbsp;can&nbsp;be&nbsp;called&nbsp;repeatedly.<br>
+&nbsp;<br>
+:param&nbsp;type_:&nbsp;a&nbsp;:class:`.TypeEngine`&nbsp;that&nbsp;will&nbsp;be&nbsp;selected<br>
+&nbsp;as&nbsp;a&nbsp;variant&nbsp;from&nbsp;the&nbsp;originating&nbsp;type,&nbsp;when&nbsp;a&nbsp;dialect<br>
+&nbsp;of&nbsp;the&nbsp;given&nbsp;name&nbsp;is&nbsp;in&nbsp;use.<br>
+:param&nbsp;dialect_name:&nbsp;base&nbsp;name&nbsp;of&nbsp;the&nbsp;dialect&nbsp;which&nbsp;uses<br>
+&nbsp;this&nbsp;type.&nbsp;(i.e.&nbsp;``'postgresql'``,&nbsp;``'mysql'``,&nbsp;etc.)<br>
+&nbsp;<br>
+..&nbsp;versionadded::&nbsp;0.7.2</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="sqlalchemy.sql.type_api.html#TypeEngine">sqlalchemy.sql.type_api.TypeEngine</a>:<br>
+<dl><dt><strong>python_type</strong></dt>
+<dd><tt>Return&nbsp;the&nbsp;Python&nbsp;type&nbsp;object&nbsp;expected&nbsp;to&nbsp;be&nbsp;returned<br>
+by&nbsp;instances&nbsp;of&nbsp;this&nbsp;type,&nbsp;if&nbsp;known.<br>
+&nbsp;<br>
+Basically,&nbsp;for&nbsp;those&nbsp;types&nbsp;which&nbsp;enforce&nbsp;a&nbsp;return&nbsp;type,<br>
+or&nbsp;are&nbsp;known&nbsp;across&nbsp;the&nbsp;board&nbsp;to&nbsp;do&nbsp;such&nbsp;for&nbsp;all&nbsp;common<br>
+DBAPIs&nbsp;(like&nbsp;``int``&nbsp;for&nbsp;example),&nbsp;will&nbsp;return&nbsp;that&nbsp;type.<br>
+&nbsp;<br>
+If&nbsp;a&nbsp;return&nbsp;type&nbsp;is&nbsp;not&nbsp;defined,&nbsp;raises<br>
+``NotImplementedError``.<br>
+&nbsp;<br>
+Note&nbsp;that&nbsp;any&nbsp;type&nbsp;also&nbsp;accommodates&nbsp;NULL&nbsp;in&nbsp;SQL&nbsp;which<br>
+means&nbsp;you&nbsp;can&nbsp;also&nbsp;get&nbsp;back&nbsp;``None``&nbsp;from&nbsp;any&nbsp;type<br>
+in&nbsp;practice.</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="sqlalchemy.sql.type_api.html#TypeEngine">sqlalchemy.sql.type_api.TypeEngine</a>:<br>
+<dl><dt><strong>hashable</strong> = True</dl>
+
+<hr>
+Data descriptors inherited from <a href="sqlalchemy.sql.visitors.html#Visitable">sqlalchemy.sql.visitors.Visitable</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
 <font color="#000000" face="helvetica, arial"><a name="Volume">class <strong>Volume</strong></a>(flask_sqlalchemy.Model)</font></td></tr>
-    
+
 <tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
 <td colspan=2><tt>image:&nbsp;image&nbsp;url<br>
 description:&nbsp;info&nbsp;on&nbsp;volume<br>
@@ -360,6 +598,8 @@ Data descriptors defined here:<br>
 </dl>
 <dl><dt><strong>start_year</strong></dt>
 </dl>
+<dl><dt><strong>tsvector_col</strong></dt>
+</dl>
 <dl><dt><strong>volume_characters</strong></dt>
 </dl>
 <dl><dt><strong>volume_publisher</strong></dt>
@@ -368,20 +608,19 @@ Data descriptors defined here:<br>
 </dl>
 <hr>
 Data and other attributes defined here:<br>
-<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7fc50649b668; Volume&gt;</dl>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x7f115e82fb38; Volume&gt;</dl>
 
-<dl><dt><strong>__table__</strong> = Table('Volume', MetaData(bind=None), Column('ima...('Publisher.name'), table=&lt;Volume&gt;), schema=None)</dl>
+<dl><dt><strong>__table__</strong> = Table('Volume', MetaData(bind=None), Column('ima...r_col', TsVector(), table=&lt;Volume&gt;), schema=None)</dl>
+
+<dl><dt><strong>__table_args__</strong> = (Index('volume_tsvector_idx', Column('tsvector_col', TsVector(), table=&lt;Volume&gt;)),)</dl>
 
 <dl><dt><strong>__tablename__</strong> = 'Volume'</dl>
 
 <hr>
-Methods inherited from flask_sqlalchemy.Model:<br>
-<dl><dt><strong>query</strong></dt>
-</dl>
-
-<hr>
 Data and other attributes inherited from flask_sqlalchemy.Model:<br>
 <dl><dt><strong>metadata</strong> = MetaData(bind=None)</dl>
+
+<dl><dt><strong>query</strong> = &lt;flask_sqlalchemy.BaseQuery object&gt;</dl>
 
 <hr>
 Data descriptors inherited from <a href="flask_sqlalchemy.html#Model">flask_sqlalchemy.Model</a>:<br>
@@ -405,10 +644,15 @@ standard&nbsp;query&nbsp;as&nbsp;well.</tt></dl>
 <tr bgcolor="#55aa55">
 <td colspan=3 valign=bottom>&nbsp;<br>
 <font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
-    
+
 <tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
-<td width="100%"><strong>CHARACTERS_TEAMS</strong> = Table('characters_teams', MetaData(bind=None), C...m.name'), table=&lt;characters_teams&gt;), schema=None)<br>
-<strong>CHARACTERS_VOLUMES</strong> = Table('characters_volumes', MetaData(bind=None),...name'), table=&lt;characters_volumes&gt;), schema=None)<br>
-<strong>VOLUME_TEAMS</strong> = Table('volumes_teams', MetaData(bind=None), Colu...Team.name'), table=&lt;volumes_teams&gt;), schema=None)<br>
-<strong>db</strong> = &lt;SQLAlchemy engine='postgresql://postgres:batman@localhost/donn'&gt;</td></tr></table>
+<td width="100%"><strong>CHARACTER_VECTOR_TRIGGER</strong> = &lt;DDL@139712716047024; '\n    CREATE TRIGGER char...'name\', \'publisher_name\', \'appear\' )\n    '&gt;<br>
+<strong>PUBLISHER_VECTOR_TRIGGER</strong> = &lt;DDL@139712659012016; '\n    CREATE TRIGGER publ...name\', \'city\', \'state\', \'address\')\n    '&gt;<br>
+<strong>TEAM_VECTOR_TRIGGER</strong> = &lt;DDL@139712576971328; '\n    CREATE TRIGGER team...\'name\', \'publisher_name\', \'appear\')\n    '&gt;<br>
+<strong>VOLUME_VECTOR_TRIGGER</strong> = &lt;DDL@139712576813376; '\n    CREATE TRIGGER volu...e\', \'start_year\', \'publisher_name\' )\n    '&gt;<br>
+<strong>characters_teams</strong> = Table('characters_teams', MetaData(bind=None), C...m.name'), table=&lt;characters_teams&gt;), schema=None)<br>
+<strong>characters_volumes</strong> = Table('characters_volumes', MetaData(bind=None),...name'), table=&lt;characters_volumes&gt;), schema=None)<br>
+<strong>db</strong> = &lt;SQLAlchemy engine='postgresql://postgres:batman@localhost/donn'&gt;<br>
+<strong>func</strong> = &lt;sqlalchemy.sql.functions._FunctionGenerator object&gt;<br>
+<strong>volumes_teams</strong> = Table('volumes_teams', MetaData(bind=None), Colu...Team.name'), table=&lt;volumes_teams&gt;), schema=None)</td></tr></table>
 </body></html>

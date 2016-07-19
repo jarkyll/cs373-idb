@@ -1,17 +1,40 @@
 # from afsiodfajf.database import Base  # afsafsf is going to be our database name
 from demo import db
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import func
+from sqlalchemy import and_, or_
+from sqlalchemy.engine.url import URL
+from sqlalchemy.types import UserDefinedType
+
+class TsVector(UserDefinedType):
+    """Holds a TsVector column which is the data type needed
+        for the texxt search"""
+
+    name = "TSVECTOR"
+
+    def get_col_spec(self):
+        ''' we just return tsvector
+        '''
+        return self.name
+
+
+
 
 characters_volumes = db.Table('characters_volumes',
-                              db.Column('character_name', db.String(150), db.ForeignKey('Character.name')),
-                              db.Column('volume_name', db.String(100), db.ForeignKey('Volume.name')))
+    db.Column('character_name', db.String(150), db.ForeignKey('Character.name')),
+    db.Column('volume_name', db.String(100), db.ForeignKey('Volume.name'))
+)
+
 
 characters_teams = db.Table('characters_teams',
-                            db.Column('character_name', db.String(200), db.ForeignKey('Character.name')),
-                            db.Column('team_name', db.String(250), db.ForeignKey('Team.name')))
+    db.Column('character_name', db.String(200), db.ForeignKey('Character.name')),
+    db.Column('team_name', db.String(250), db.ForeignKey('Team.name'))
+)
 
 volumes_teams = db.Table('volumes_teams',
-                         db.Column('volume_name', db.String(200), db.ForeignKey('Volume.name')),
-                         db.Column('team_name', db.String(150), db.ForeignKey('Team.name')))
+    db.Column('volume_name', db.String(200), db.ForeignKey('Volume.name')),
+    db.Column('team_name', db.String(150), db.ForeignKey('Team.name'))
+)
 
 
 class Character(db.Model):
@@ -45,6 +68,14 @@ class Character(db.Model):
     character_volumes = db.relationship("Volume", secondary=characters_volumes, back_populates="volume_characters")
 
     character_teams = db.relationship("Team", secondary=characters_teams, back_populates="team_characters")
+
+
+     # TsVector column used for searching.
+    tsvector_col = db.Column(TsVector)
+
+    # Create an index for the tsvector column
+    __table_args__ = (
+        db.Index('character_tsvector_idx', 'tsvector_col', postgresql_using='gin'),)
 
     def json_it(self):
         t = []
@@ -80,7 +111,16 @@ class Character(db.Model):
             self.appear,
             self.real,
             self.num_appearances
-        ) + ")"
+            ) + ")"
+
+
+# Trigger that updates Characters and their triggers
+CHARACTER_VECTOR_TRIGGER = db.DDL("""
+    CREATE TRIGGER character_tsvector_update BEFORE INSERT OR UPDATE ON "Character" FOR EACH ROW EXECUTE PROCEDURE
+    tsvector_update_trigger(tsvector_col, 'pg_catalog.english', 'name', 'publisher_name', 'appear' )
+    """)
+db.event.listen(Character.__table__, 'after_create',
+             CHARACTER_VECTOR_TRIGGER.execute_if(dialect='postgresql'))
 
 
 class Volume(db.Model):
@@ -97,7 +137,7 @@ class Volume(db.Model):
     __tablename__ = "Volume"
     image = db.Column(db.String)  # image url
     description = db.Column(db.String(200), unique=False)
-    start_year = db.Column(db.Integer, unique=False)
+    start_year = db.Column(db.String(100), unique=False)
     name = db.Column(db.String, unique=True, primary_key=True)
     num_issues = db.Column(db.String)
 
@@ -107,6 +147,13 @@ class Volume(db.Model):
     volume_characters = db.relationship("Character", secondary='characters_volumes', back_populates="character_volumes")
 
     volume_teams = db.relationship("Team", secondary=volumes_teams, back_populates='team_volumes')
+
+    # TsVector column used for searching.
+    tsvector_col = db.Column(TsVector)
+
+    # Create an index for the tsvector column
+    __table_args__ = (
+        db.Index('volume_tsvector_idx', 'tsvector_col', postgresql_using='gin'),)
 
     def json_it(self):
         t = []
@@ -138,8 +185,15 @@ class Volume(db.Model):
             self.publisher_name,
             self.name,
             self.num_issues
-        ) + ")"
+            ) + ")"
 
+# Trigger that updates Volumes and their triggers
+VOLUME_VECTOR_TRIGGER = db.DDL("""
+    CREATE TRIGGER volume_tsvector_update BEFORE INSERT OR UPDATE ON "Volume" FOR EACH ROW EXECUTE PROCEDURE
+    tsvector_update_trigger(tsvector_col, 'pg_catalog.english', 'name', 'start_year', 'publisher_name' )
+    """)
+db.event.listen(Volume.__table__, 'after_create',
+             VOLUME_VECTOR_TRIGGER.execute_if(dialect='postgresql'))
 
 class Team(db.Model):
     """
@@ -163,6 +217,13 @@ class Team(db.Model):
     team_characters = db.relationship("Character", secondary=characters_teams, back_populates='character_teams')
     team_volumes = db.relationship("Volume", secondary=volumes_teams, back_populates='volume_teams')
 
+    # TsVector column used for searching.
+    tsvector_col = db.Column(TsVector)
+
+    # Create an index for the tsvector column
+    __table_args__ = (
+        db.Index('team_tsvector_idx', 'tsvector_col', postgresql_using='gin'),)
+
     def __repr__(self):
         return 'Team(name={}, description={}, image={}, publisher={}, appear={}, num_appearances={}'.format(
             self.name,
@@ -171,7 +232,7 @@ class Team(db.Model):
             self.team_publisher,
             self.appear,
             self.num_appearances,
-        ) + ")"
+            ) + ")"
 
     def json_it(self):
         c = []
@@ -195,7 +256,13 @@ class Team(db.Model):
             'team_volumes': v
         }
         return ans
-
+# Trigger that updates Teams and their triggers
+TEAM_VECTOR_TRIGGER = db.DDL("""
+    CREATE TRIGGER team_tsvector_update BEFORE INSERT OR UPDATE ON "Team" FOR EACH ROW EXECUTE PROCEDURE
+    tsvector_update_trigger(tsvector_col, 'pg_catalog.english', 'name', 'publisher_name', 'appear')
+    """)
+db.event.listen(Team.__table__, 'after_create',
+             TEAM_VECTOR_TRIGGER.execute_if(dialect='postgresql'))
 
 class Publisher(db.Model):
     """
@@ -223,6 +290,14 @@ class Publisher(db.Model):
 
     publisher_teams = db.relationship("Team", back_populates="team_publisher")
 
+
+    # TsVector column used for searching.
+    tsvector_col = db.Column(TsVector)
+
+    # Create an index for the tsvector column
+    __table_args__ = (
+        db.Index('publishers_tsvector_idx', 'tsvector_col', postgresql_using='gin'),)
+
     def __repr__(self):
         return 'Publisher(name={}, address={}, city={}, state={}, deck={}, image={}, publisher_characters={},publisher_volumes={}, publisher_teams={}'.format(
             self.name,
@@ -234,7 +309,7 @@ class Publisher(db.Model):
             self.publisher_characters,
             self.publisher_volumes,
             self.publisher_teams,
-        ) + ")"
+            ) + ")"
 
     def json_it(self):
         list_t = []
@@ -261,3 +336,12 @@ class Publisher(db.Model):
             'publisher_volumes': list_vol
         }
         return ans
+
+
+# Trigger that updates Teams and their triggers
+PUBLISHER_VECTOR_TRIGGER = db.DDL("""
+    CREATE TRIGGER publisher_tsvector_update BEFORE INSERT OR UPDATE ON "Publisher" FOR EACH ROW EXECUTE PROCEDURE
+    tsvector_update_trigger(tsvector_col, 'pg_catalog.english', 'name', 'city', 'state', 'address')
+    """)
+db.event.listen(Publisher.__table__, 'after_create',
+             PUBLISHER_VECTOR_TRIGGER.execute_if(dialect='postgresql'))
