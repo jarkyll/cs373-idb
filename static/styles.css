@@ -5,6 +5,7 @@
 
 
 html,body{
+  color: #800000 !important;
   height:100%;
   text-align: center;
   background-image: url('http://downing.rocks/static/img/image.jpg');
