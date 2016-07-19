@@ -2,17 +2,37 @@ from flask import Flask, render_template, jsonify, abort
 import subprocess
 import jinja2
 import unittest, sys
+import json
+import urllib
+import pprint
+import glob, os
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import func
+from sqlalchemy import and_, or_
 from sqlalchemy.engine.url import URL
+from sqlalchemy.types import UserDefinedType
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:batman@localhost/donn"
 db = SQLAlchemy(app)
 db.create_all()
 
 
+
+
+class TsVector(UserDefinedType):
+    """Holds a TsVector column which is the data type needed
+        for the texxt search"""
+
+    name = "TSVECTOR"
+
+    def get_col_spec(self):
+        ''' we just return tsvector
+        '''
+        return self.name
+
 PublisherName = ['Vertigo', 'IDW Publishing', 'Dark Horse Comics', 'Top Cow', 'Valiant', 'Dell', 'Aftershock Comics',
                  'Image', 'Fiction House', 'Boom! Studios']
-#dir = os.getcwd() + '/'
+dir = os.getcwd() + '/'
 
 
 characters_volumes = db.Table('characters_volumes',
@@ -64,6 +84,14 @@ class Character(db.Model):
 
     character_teams = db.relationship("Team", secondary=characters_teams, back_populates="team_characters")
 
+
+     # TsVector column used for searching.
+    tsvector_col = db.Column(TsVector)
+
+    # Create an index for the tsvector column
+    __table_args__ = (
+        db.Index('character_tsvector_idx', 'tsvector_col', postgresql_using='gin'),)
+
     def json_it(self):
         t = []
         for team in self.character_teams:
@@ -100,6 +128,16 @@ class Character(db.Model):
             self.num_appearances
             ) + ")"
 
+
+# Trigger that updates Characters and their triggers
+CHARACTER_VECTOR_TRIGGER = db.DDL("""
+    CREATE TRIGGER character_tsvector_update BEFORE INSERT OR UPDATE ON "Character" FOR EACH ROW EXECUTE PROCEDURE
+    tsvector_update_trigger(tsvector_col, 'pg_catalog.english', 'name', 'publisher_name', 'appear' )
+    """)
+db.event.listen(Character.__table__, 'after_create',
+             CHARACTER_VECTOR_TRIGGER.execute_if(dialect='postgresql'))
+
+
 class Volume(db.Model):
     """
     image: image url
@@ -114,7 +152,7 @@ class Volume(db.Model):
     __tablename__ = "Volume"
     image = db.Column(db.String)  # image url
     description = db.Column(db.String(200), unique=False)
-    start_year = db.Column(db.Integer, unique=False)
+    start_year = db.Column(db.String(100), unique=False)
     name = db.Column(db.String, unique=True, primary_key=True)
     num_issues = db.Column(db.String)
 
@@ -124,6 +162,13 @@ class Volume(db.Model):
     volume_characters = db.relationship("Character", secondary='characters_volumes', back_populates="character_volumes")
 
     volume_teams = db.relationship("Team", secondary=volumes_teams, back_populates='team_volumes')
+
+    # TsVector column used for searching.
+    tsvector_col = db.Column(TsVector)
+
+    # Create an index for the tsvector column
+    __table_args__ = (
+        db.Index('volume_tsvector_idx', 'tsvector_col', postgresql_using='gin'),)
 
     def json_it(self):
         t = []
@@ -157,6 +202,13 @@ class Volume(db.Model):
             self.num_issues
             ) + ")"
 
+# Trigger that updates Volumes and their triggers
+VOLUME_VECTOR_TRIGGER = db.DDL("""
+    CREATE TRIGGER volume_tsvector_update BEFORE INSERT OR UPDATE ON "Volume" FOR EACH ROW EXECUTE PROCEDURE
+    tsvector_update_trigger(tsvector_col, 'pg_catalog.english', 'name', 'start_year', 'publisher_name' )
+    """)
+db.event.listen(Volume.__table__, 'after_create',
+             VOLUME_VECTOR_TRIGGER.execute_if(dialect='postgresql'))
 
 class Team(db.Model):
     """
@@ -179,6 +231,13 @@ class Team(db.Model):
 
     team_characters = db.relationship("Character", secondary=characters_teams, back_populates='character_teams')
     team_volumes = db.relationship("Volume", secondary=volumes_teams, back_populates='volume_teams')
+
+    # TsVector column used for searching.
+    tsvector_col = db.Column(TsVector)
+
+    # Create an index for the tsvector column
+    __table_args__ = (
+        db.Index('team_tsvector_idx', 'tsvector_col', postgresql_using='gin'),)
 
     def __repr__(self):
         return 'Team(name={}, description={}, image={}, publisher={}, appear={}, num_appearances={}'.format(
@@ -212,6 +271,13 @@ class Team(db.Model):
             'team_volumes': v
         }
         return ans
+# Trigger that updates Teams and their triggers
+TEAM_VECTOR_TRIGGER = db.DDL("""
+    CREATE TRIGGER team_tsvector_update BEFORE INSERT OR UPDATE ON "Team" FOR EACH ROW EXECUTE PROCEDURE
+    tsvector_update_trigger(tsvector_col, 'pg_catalog.english', 'name', 'publisher_name', 'appear')
+    """)
+db.event.listen(Team.__table__, 'after_create',
+             TEAM_VECTOR_TRIGGER.execute_if(dialect='postgresql'))
 
 class Publisher(db.Model):
     """
@@ -238,6 +304,14 @@ class Publisher(db.Model):
     publisher_volumes = db.relationship("Volume", back_populates="volume_publisher")
 
     publisher_teams = db.relationship("Team", back_populates="team_publisher")
+
+
+    # TsVector column used for searching.
+    tsvector_col = db.Column(TsVector)
+
+    # Create an index for the tsvector column
+    __table_args__ = (
+        db.Index('publishers_tsvector_idx', 'tsvector_col', postgresql_using='gin'),)
 
     def __repr__(self):
         return 'Publisher(name={}, address={}, city={}, state={}, deck={}, image={}, publisher_characters={},publisher_volumes={}, publisher_teams={}'.format(
@@ -277,6 +351,15 @@ class Publisher(db.Model):
             'publisher_volumes': list_vol
         }
         return ans
+
+
+# Trigger that updates Teams and their triggers
+PUBLISHER_VECTOR_TRIGGER = db.DDL("""
+    CREATE TRIGGER publisher_tsvector_update BEFORE INSERT OR UPDATE ON "Publisher" FOR EACH ROW EXECUTE PROCEDURE
+    tsvector_update_trigger(tsvector_col, 'pg_catalog.english', 'name', 'city', 'state', 'address')
+    """)
+db.event.listen(Publisher.__table__, 'after_create',
+             PUBLISHER_VECTOR_TRIGGER.execute_if(dialect='postgresql'))
 
 
 
@@ -553,9 +636,55 @@ def team_api(name):
     return jsonify({'result': team.json_it()})
 
 
+
+@app.route('/search/<name>')
+def search(name):
+    name = name.lower()
+    queries = name.split() # makes an array
+    print(queries)
+    tup = ()
+
+    a = and_(Character.tsvector_col.match(q) for q in queries)
+    o = or_(Character.tsvector_col.match(q) for q in queries)
+    #achar = and_(*tup)
+    #ochar = or_(tup)
+    a_string = ''
+    for index in range(0, len(queries)):
+        a_string += queries[index]
+        if index + 1 is not len(queries):
+            a_string += ' & '
+    print(a_string)
+    o_string = ''
+    for index in range(0, len(queries)):
+        o_string += queries[index]
+        if index + 1 is not len(queries):
+            o_string += ' | '
+    print(o_string)
+
+    acharacters = db.session.query(Character, func.ts_headline('english', Character.name, func.to_tsquery(a_string)).label('hname'), func.ts_headline('english', Character.publisher_name, func.plainto_tsquery(a_string)).label('hpub'), func.ts_headline('english', Character.appear, func.plainto_tsquery(a_string)).label('happear')).filter(and_(Character.tsvector_col.match(q) for q in queries)).all()
+
+    ocharacters = db.session.query(Character, func.ts_headline('english', Character.name, func.to_tsquery(o_string)).label('hname'), func.ts_headline('english', Character.publisher_name, func.plainto_tsquery(o_string)).label('hpub'), func.ts_headline('english', Character.appear, func.plainto_tsquery(o_string)).label('happear')).filter(or_(Character.tsvector_col.match(q) for q in queries)).all()
+
+    apublishers = db.session.query(Publisher, func.ts_headline('english', Publisher.state, func.to_tsquery(a_string)).label('hstate'), func.ts_headline('english', Publisher.name, func.to_tsquery(a_string)).label('hname'), func.ts_headline('english', Publisher.address, func.plainto_tsquery(a_string)).label('haddress'), func.ts_headline('english', Publisher.city, func.plainto_tsquery(name)).label('hcity')).filter(and_(Publisher.tsvector_col.match(q) for q in queries)).all()
+    opublishers = db.session.query(Publisher, func.ts_headline('english', Publisher.state, func.to_tsquery(o_string)).label('hstate'), func.ts_headline('english', Publisher.name, func.to_tsquery(o_string)).label('hname'), func.ts_headline('english', Publisher.address, func.plainto_tsquery(o_string)).label('haddress'), func.ts_headline('english', Publisher.city, func.plainto_tsquery(name)).label('hcity')).filter(or_(Publisher.tsvector_col.match(q) for q in queries)).all()
+    ateams = db.session.query(Team, func.ts_headline('english', Team.name, func.to_tsquery(a_string)).label('hname'), func.ts_headline('english', Team.publisher_name, func.plainto_tsquery(a_string)).label('hpub'), func.ts_headline('english', Team.appear, func.plainto_tsquery(a_string)).label('happear')).filter(and_(Team.tsvector_col.match(q) for q in queries)).all()
+    oteams = db.session.query(Team, func.ts_headline('english', Team.name, func.to_tsquery(o_string)).label('hname'), func.ts_headline('english', Team.publisher_name, func.plainto_tsquery(o_string)).label('hpub'), func.ts_headline('english', Team.appear, func.plainto_tsquery(o_string)).label('happear')).filter(or_(Team.tsvector_col.match(q) for q in queries)).all()
+    avolumes = db.session.query(Volume, func.ts_headline('english', Volume.name, func.to_tsquery(a_string)).label('hname'), func.ts_headline('english', Volume.publisher_name, func.plainto_tsquery(a_string)).label('hpub'), func.ts_headline('english', Volume.start_year, func.plainto_tsquery(a_string)).label('hstart')).filter(and_(Volume.tsvector_col.match(q) for q in queries)).all()
+    ovolumes = db.session.query(Volume, func.ts_headline('english', Volume.name, func.to_tsquery(o_string)).label('hname'), func.ts_headline('english', Volume.publisher_name, func.plainto_tsquery(o_string)).label('hpub'), func.ts_headline('english', Volume.start_year, func.plainto_tsquery(o_string)).label('hstart')).filter(or_(Volume.tsvector_col.match(q) for q in queries)).all()
+
+    #print(publishers)
+    #print(teams)
+    #print(volumes)
+    return render_template('search_result_template.html',  acharacters=acharacters, ocharacters=ocharacters, opublishers=opublishers, apublishers=apublishers, avolumes=avolumes, ovolumes=ovolumes, ateams=ateams, oteams=oteams)
+
+@app.route('/visual')
+def visual():
+    return render_template('visual.html')
 def add_publishers():
     db.create_all()
     for publisher in PublisherName:
+        print(publisher)
+        print(dir + "/database/publishers/" + publisher)
         os.chdir(dir + "/database/publishers/" + publisher)
         for data in glob.glob('*.json'):
             f = open(dir + 'database/publishers/' + publisher + '/' + publisher + '.json', 'r')
@@ -592,7 +721,7 @@ def add_teams():
                 test = json.load(f)
                 if 'appear' not in test.keys():
                     test['appear'] = 'Unknown'
-                pprint(test)
+                #pprint(test)
                 pub = {
                     'name': test['name'],
                     'num_appearances': test['num_appearances'],
@@ -665,7 +794,7 @@ def assign_volume_publisherandteams(volume, publisher, team):
     result = {
         'image': temp['results']['image']['small_url'],
         'description': volume['description'],
-        'start_year': int(volume['start_year']),
+        'start_year': str(volume['start_year']),
         'name': volume['name'],
         'num_issues': str(volume['count_of_issues']),
         'publisher_name': publisher,
@@ -746,8 +875,12 @@ def assign_character_publisherteamsandvolumes(character, publisher, team, volume
 
 def fetch_json(url):
     assert isinstance(url, str), "the URL must be a string"
-    response = urllib.request.urlopen(url).read().decode("utf8")
-    data = json.loads(response)
+    try:
+        response = urllib.request.urlopen(url)
+    except urllib.error.HTTPError:
+        return None
+    content = response.read().decode("utf8")
+    data = json.loads(content)
     assert isinstance(data, dict), "response was not a json"
     return data
 
